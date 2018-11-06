@@ -1,0 +1,40 @@
+{
+    "successFlag": true,
+    "message": "success",
+    "errorCode": 200,
+    "data": [
+        {
+            "id": "350205",
+            "name": "海沧区",
+            "list": [
+                {
+                    "id": "C000005",
+                    "name": "海沧街道",
+                    "count": 17
+                }
+            ]
+        },
+        {
+            "list": [
+                {
+                    "name": "金山街道",
+                    "id": "C000002",
+                    "count": 19
+                }
+            ],
+            "id": "350202",
+            "name": "湖里区"
+        },
+        {
+            "name": "思明区",
+            "id": "350203",
+            "list": [
+                {
+                    "count": 19,
+                    "name": "开元街道",
+                    "id": "C000001"
+                }
+            ]
+        }
+    ]
+}

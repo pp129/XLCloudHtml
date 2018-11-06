@@ -1,0 +1,449 @@
+@base-blue: #3aa0ff;
+a {
+    text-decoration: none;
+}
+
+a:active, a:focus {
+    text-decoration: none;
+}
+
+/***map**/
+.ol-scale-line {
+    display: none;
+}
+
+.usermap {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    left: 0;
+}
+
+.upper-panel {
+    z-index: 1;
+    position: absolute;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.title-image {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -164px;
+    width: 327px;
+    height: 110px;
+    background: url("../../images/custody/screen/title_img.png") no-repeat center;
+    background-size: cover;
+}
+
+.datetime {
+    top: 1.9vh;
+    left: 1.6vw;
+}
+
+.datetime-time, .datetime-date {
+    color: #b6dcfd;
+}
+
+.data-board {
+    width: 83.3%;
+    height: 7.9vh;
+    top: 12%;
+    left: 50%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-left: -41.7vw;
+}
+
+.data-text {
+    font-size: 0.32rem;
+    line-height: 0.37rem;
+    margin-bottom: 0.7vh;
+}
+
+.data-number {
+    background: rgba(73, 49, 255, 0.76);
+    height: 4.2vh;
+    min-width: 9.4vw;
+}
+
+.data-number span {
+    display: inline-block;
+    font-size: 0.64rem;
+    line-height: 0.6rem;
+}
+
+.datetime .datetime-time {
+    font-size: 0.40rem;
+}
+
+.datetime .datetime-date {
+    font-size: 0.24rem;
+}
+
+.map-state-switch {
+    width: 12vw;
+    bottom: 4.7vh;
+    left: 2.1vw;
+}
+
+.heat-map-legend {
+    width: 1.7vw;
+    height: 7.6vh;
+    background: url("../../images/custody/screen/heatmaplegend.png") no-repeat center;
+    background-size: 100%;
+    bottom: 10.6vh;
+    right: 2.6vw;
+}
+
+/***element**/
+.el-switch__label, .el-switch__label.is-active {
+    color: #fff;
+}
+
+.el-switch__label {
+    height: 0.27rem;
+    font-size: 0.19rem;
+}
+
+.el-switch__label * {
+    line-height: 1;
+    font-size: 0.19rem;
+}
+
+.el-switch__label--left {
+    margin-right: 0.13rem;
+}
+
+.el-switch__core {
+    width: 0.53rem !important;
+    height: 0.27rem !important;
+    border-radius: 0.13rem;
+}
+
+.el-switch__core:after {
+    width: 0.21rem;
+    height: 0.21rem;
+}
+
+/***pop**/
+.alarminfoMapCls .faceImageImg {
+    cursor: pointer;
+    position: relative;
+    width: 4.00rem;
+    height: 1.5rem;
+    margin: 0 3px;
+}
+
+.faceImageImg .facecls1 {
+    width: 1.08rem;
+    height: 1.43rem;
+    display: inline-block;
+    border: 2px solid;
+    border-image: url('/src/images/custody/screen/face-image-border.png') fill 2% repeat;
+    /*background-size: 100%;*/
+}
+
+.faceImageImg .capcls {
+    padding: 2px;
+    background-size: 100% 100%;
+    width: 1.08rem;
+    height: 1.43rem;
+    margin-left: 0.80rem;
+    display: inline-block;
+    border: 1px solid #d84745;
+}
+
+.alarminfoMapCls .faceImageTitle {
+    position: relative;
+    width: 100%;
+    height: 0.32rem;
+    margin: 1px auto;
+}
+
+.faceImageTitle .faceImageTitleLeftCls {
+    position: absolute;
+    left: 0.16rem;
+    top: 0;
+    text-align: center;
+    line-height: 0.32rem;
+    font-size: 0.19rem;
+    font-weight: 500;
+}
+
+.faceImageTitle .faceImageTitleRightCls {
+    position: absolute;
+    right: 26px;
+    top: 0;
+    text-align: center;
+    line-height: 0.32rem;
+    font-size: 0.19rem;
+    font-weight: 500;
+}
+
+.faceImageImg .similarity {
+    position: absolute;
+    left: 1.11rem;
+    top: 0.03rem;
+    width: 0.91rem;
+    height: 1.60rem;
+    background: url("/public/image/showrealalarm/img_similarity-blue.png") no-repeat 0.13rem 0.67rem;
+    background-size: auto;
+}
+
+.similarity .similarityTitle {
+    margin-top: 0.40rem;
+    position: relative;
+    font-weight: 600;
+    font-style: normal;
+    color: #d84949;
+    font-size: 0.19rem;
+    text-align: center;
+    width: 100%;
+}
+
+.similarity .similarityValue {
+    position: relative;
+    margin-top: 0.35rem;
+    font-weight: 600;
+    font-style: normal;
+    color: #d84949;
+    font-size: 0.19rem;
+    text-align: center;
+    width: 100%;
+}
+
+.personInfoCls .personNameCls1 {
+    width: auto;
+    height: 0.27rem;
+    margin-top: 0.13rem;
+    padding: 0;
+    color: #fff;
+    font-size: 0.21rem;
+    font-weight: 500;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.alarminfoMapCls .personLabelsCls {
+    position: relative;
+    width: 70%;
+    height: 0.33rem;
+    margin-top: 2px;
+}
+
+.alarminfoMapCls .personLabelsCls .taskCls {
+    position: relative;
+    width: 93%;
+    height: 0.32rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.overflowhidden {
+    width: 2.67rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.alarminfoMapCls .personLabelsCls {
+    position: relative;
+    width: 70%;
+    height: 0.33rem;
+    margin-top: 0.03rem;
+}
+
+.alarminfoMapCls .personInfoCls {
+    position: relative;
+}
+
+.alarminfoMapCls .personLabelsCls .personIDCardCls {
+    position: absolute;
+    bottom: 0.08rem;
+    border: 1px solid @base-blue;
+    color: @base-blue;
+    padding: 1px 3px;
+    font-size: 0.19rem;
+    cursor: pointer;
+    border-radius: 0.33rem;
+}
+
+.alarminfoMapCls .alarmTimeCls {
+    position: relative;
+    width: 100%;
+    height: 0.40rem;
+    color: #fff;
+    margin-top: 2px;
+}
+
+.alarminfoMapCls .personLabelsCls {
+    position: relative;
+    width: 70%;
+    height: 0.33rem;
+    margin-top: 2px;
+}
+
+.ensure_span {
+    cursor: pointer;
+    position: absolute;
+    top: 0.67rem;
+    right: 0.13rem;
+    border-radius: 0.67rem;
+    width: 0.73rem;
+    text-align: center;
+    color: #ffffff;
+    height: 0.27rem;
+}
+
+.ol-popup {
+    display: none;
+    position: absolute;
+    -moz-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    bottom: 0.13rem;
+    left: -3.33rem;
+}
+
+.alarmCls:after {
+    border-top-color: #162237;
+    border-width: 0.13rem;
+    left: 6.67rem;
+    margin-left: -0.13rem;
+    top: 3.57rem;
+    transform: rotate(-90deg);
+}
+
+.alarmCls {
+    border: 1px solid @base-blue;
+}
+
+.alarmInfoTitleCnt {
+    line-height: 0.48rem;
+    text-indent: 0.13rem;
+    color: @base-blue;
+}
+
+.alarmInfoTitleCls {
+    background: #162237;
+}
+
+.alarminfoMapCls {
+    overflow: hidden;
+    background: #162237;
+    width: 6.53rem;
+}
+
+.alarmVideo {
+    width: 6.33rem;
+    height: 3.31rem;
+}
+
+.alarmCompare {
+    float: left;
+    width: 3.27rem;
+    padding-left: 0.07rem;
+    padding-top: 0.07rem
+}
+
+.faceImageImg {
+    width: 3.33rem;
+}
+
+.ol-popup-closer {
+    top: 0.11rem;
+    right: 0.11rem;
+}
+
+.ol-popup-closer:after {
+    background: url(../../images/custody/screen/close-t.png) no-repeat;
+    display: block;
+    background-size: cover;
+    width: 0.21rem;
+    height: 0.21rem;
+}
+
+.ol-zoom {
+    top: 6.5em;
+    left: 0.5em;
+}
+
+.ol-zoomslider {
+    top: 10.5em;
+    left: .5em;
+}
+
+.ol-touch .ol-zoomslider {
+    top: 11.5em;
+}
+
+@media screen and (width: 9600px) {
+    .title-image {
+        position: absolute;
+        left: 50%;
+        top: 2%;
+        margin-left: -328px;
+        width: 654px;
+        height: 220px;
+        background: url("../../images/custody/screen/title_img.png") no-repeat center;
+        background-size: 100%;
+    }
+
+    .data-board {
+        margin-left: -16.6vw; /*20.8*/
+    }
+
+    .data-number {
+        min-width: 3.8vw;
+    }
+
+    .data-number span {
+        line-height: .64rem;
+    }
+
+    .heat-map-legend {
+        width: 0.6vw;
+        height: 6.6vh;
+        bottom: 10.6vh;
+        right: 1vw;
+    }
+
+    .el-switch.is-checked .el-switch__core:after {
+        margin-left: -31px;
+    }
+
+    .alarminfoMapCls .alarmTimeCls {
+        height: 0.7rem;
+    }
+
+    .ensure_span {
+        right: -1.37rem;
+    }
+
+    .faceImageImg .similarity {
+        background: url("/public/image/showrealalarm/img_similarity-blue.png") no-repeat 0 0.67rem;
+        background-size: 100%;
+    }
+
+    .ol-popup {
+        bottom: -1.15rem;
+        left: -5rem;
+    }
+
+    .faceImageImg .facecls1 {
+        border-image: url(../../images/custody/screen/face-image-border.png) fill 1% repeat;
+    }
+}

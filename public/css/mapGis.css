@@ -1,0 +1,91 @@
+@charset "UTF-8";
+/************************************************弹框样式**********************************************/
+
+.ol-popup {
+    position: relative;
+    background-color: white;
+    -webkit-filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    filter: drop-shadow(0 1px 4px rgba(0, 0, 0, 0.2));
+    border-radius: 4px;
+    border: 1px solid #cccccc;
+    bottom: 12px;
+}
+
+.ol-popup:after,
+.ol-popup:before {
+    top: 100%;
+    border: solid transparent;
+    content: " ";
+    height: 0;
+    width: 0;
+    position: absolute;
+    pointer-events: none;
+}
+
+.ol-popup:after {
+    border-top-color: white;
+    border-width: 10px;
+    left: 50%;
+    margin-left: -10px;
+}
+
+.ol-popup:before {
+    border-top-color: #cccccc;
+    border-width: 11px;
+    left: 50%;
+    margin-left: -11px;
+}
+
+.ol-popup-closer {
+    text-decoration: none;
+    position: absolute;
+    top: 6px;
+    right: 6px;
+}
+
+.ol-popup-closer:after {
+    /*content: url(../../public/image/showrealalarm/close_t.png);*/
+    cursor: pointer;
+    content: '';
+}
+
+/************************************************鹰眼样式**********************************************/
+
+.ol-custom-overviewmap,
+.ol-custom-overviewmap.ol-uncollapsible {
+    bottom: auto;
+    left: auto;
+    right: 0;
+    top: 0;
+}
+
+.ol-custom-overviewmap:not (.ol-collapsed) {
+    border: 1px solid black;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-map {
+    border: none;
+    width: 300px;
+}
+
+.ol-custom-overviewmap .ol-overviewmap-box {
+    border: 2px solid red;
+}
+
+.ol-custom-overviewmap:not (.ol-collapsed) button {
+    bottom: auto;
+    left: auto;
+    right: 1px;
+    top: 1px;
+}
+
+.ol-rotate {
+    top: 170px;
+    right: 0;
+}
+
+/************************************************拖动框选样式**********************************************/
+
+.dragBox_cls {
+    border: #3399cc solid 2px;
+}

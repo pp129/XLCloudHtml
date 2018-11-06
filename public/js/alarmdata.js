@@ -1,0 +1,20287 @@
+var alarmData = [{
+    "latitude": "24.49782",
+    "count": 0,
+    "Id": "68ed14e1ec544083980918b6d6c1ae87",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.183751"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "6b7552efdc2043a79fba2d5fd1b5043b",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "6f09ee74c1f045c489908c11ae30d40e",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "70deaa8b6f7d4c339efdd8ab949f0971",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182408"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "7c14eff91c0946f39ee545bae4775b54",
+    "type": 1,
+    "Name": "快乐雅居",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "7d0b1b26f9ab498ca286b16b077e5331",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.435806",
+    "count": 0,
+    "Id": "D00T019R20170512115345035421",
+    "type": 1,
+    "Name": "仓里社89号",
+    "longitude": "118.115652"
+}, {
+    "latitude": "24.477656",
+    "count": 0,
+    "Id": "D00T019R20170512115345035429",
+    "type": 1,
+    "Name": "洪文一里140号",
+    "longitude": "118.148726"
+}, {
+    "latitude": "24.479354",
+    "count": 0,
+    "Id": "D00T019R20170512115345035431",
+    "type": 1,
+    "Name": "墩仔家园2104门",
+    "longitude": "118.142224"
+}, {
+    "latitude": "24.672489",
+    "count": 0,
+    "Id": "D00T019R20170615101445035455",
+    "type": 1,
+    "Name": "值班室入口",
+    "longitude": "118.284804"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "83904639de7448caa5f2987decfd5601",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.469328",
+    "count": 0,
+    "Id": "85629bf03ffa4fd5bbaafb929e5e6748",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173534"
+}, {
+    "latitude": "24.591692",
+    "count": 0,
+    "Id": "D00T019R20170412161029000014",
+    "type": 1,
+    "Name": "乐安南里83号",
+    "longitude": "118.105306"
+}, {
+    "latitude": "24.64012",
+    "count": 0,
+    "Id": "D00T019R20170412161029000016",
+    "type": 1,
+    "Name": "曾厝47号",
+    "longitude": "118.22509"
+}, {
+    "latitude": "24.481904",
+    "count": 0,
+    "Id": "D00T019R20170412161029000024",
+    "type": 1,
+    "Name": "岭兜北区11号",
+    "longitude": "118.17774"
+}, {
+    "latitude": "24.531118",
+    "count": 0,
+    "Id": "D00T019R20170412161029000046",
+    "type": 1,
+    "Name": "围里16号",
+    "longitude": "118.140827"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "adefee3352ab4af8a04028f76017ac3a",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "af7c8fbfc09a4e9cb3db2497a128207b",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "b89e63158d814f7a8cb3f84ab331f6a9",
+    "type": 1,
+    "Name": "后宅社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.53523",
+    "count": 0,
+    "Id": "bf4f18682c0b44a980b7397976e72fcc",
+    "type": 1,
+    "Name": "霞阳社区",
+    "longitude": "118.01062"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "bf60d7f1cc7645259ba57046f0c48471",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.672489",
+    "count": 0,
+    "Id": "D00T019R20170615172405035456",
+    "type": 1,
+    "Name": "值班室二楼",
+    "longitude": "118.284804"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "eb6843fc0f2d4f1b9838978b4aea76c9",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.469131",
+    "count": 0,
+    "Id": "ef9dafb475c9464db34d457550830b5a",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173607"
+}, {
+    "latitude": "24.661879",
+    "count": 0,
+    "Id": "f06426af467d4c8ba3d431d24ad50a0b",
+    "type": 1,
+    "Name": "鹭林食品",
+    "longitude": "118.141555"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "f2fe558931a2407ab16a1e8fb89a9d42",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.483492",
+    "count": 0,
+    "Id": "f68c0b8f7c7340289d815924deb1e572",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.114982"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "fafcc43397b04b4b9aef02c59fb6ff2f",
+    "type": 1,
+    "Name": "后宅社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.442226",
+    "count": 0,
+    "Id": "fdfd3abf5db241a8b42cf689a16b4530",
+    "type": 1,
+    "Name": "厦门大学校友总会",
+    "longitude": "118.093729"
+}, {
+    "latitude": "24.496944",
+    "count": 0,
+    "Id": "fe233a726001467092e13a36bf7999d7",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.138200"
+}, {
+    "latitude": "24.462458",
+    "count": 0,
+    "Id": "185a085cc2e248d1b8630c5c73098d59",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175017"
+}, {
+    "latitude": "24.525018",
+    "count": 0,
+    "Id": "1be3e518f224435bac4445f07f421de5",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.130442"
+}, {
+    "latitude": "24.526118",
+    "count": 0,
+    "Id": "206b620fba0d44689c8af35be71d296a",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129802"
+}, {
+    "latitude": "24.528715",
+    "count": 0,
+    "Id": "365d8d284e2a4016b2deeab06ba71898",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.127810"
+}, {
+    "latitude": "24.529445",
+    "count": 0,
+    "Id": "3f2b7d09e42e4bf282b17a1563bfea64",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134915"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "ca15cb461a874e3785580fb703fa5de5",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.471514",
+    "count": 0,
+    "Id": "ca6abe29437148eb8b267a556f97cce2",
+    "type": 1,
+    "Name": "前埔村",
+    "longitude": "118.169908"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "d386e2d380864a2d90a56ee0f13b0503",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.478732",
+    "count": 0,
+    "Id": "d6c368bb54ab413bb0749118a4d20789",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186081"
+}, {
+    "latitude": "24.466824",
+    "count": 0,
+    "Id": "d746d5d0851942b0bdf738503d47d14b",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174167"
+}, {
+    "latitude": "24.435806",
+    "count": 0,
+    "Id": "d8818bc2ea304fbc9572129c7820c3f7",
+    "type": 1,
+    "Name": "曾厝垵村",
+    "longitude": "118.115652"
+}, {
+    "latitude": "24.498612",
+    "count": 0,
+    "Id": "8b5195cb218e455b9c332afb7d354fc7",
+    "type": 1,
+    "Name": "金山社区",
+    "longitude": "118.148126"
+}, {
+    "latitude": "24.497546",
+    "count": 0,
+    "Id": "929d45a056834ab8865ccee6e35d8f42",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.184962"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "976b2064965a489da9fc87908168edda",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.478733",
+    "count": 0,
+    "Id": "9baea7ec4c8a4562b1c64c12249578df",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186178"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "9cee97a216c04d948e7facfb06cc9488",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.478731",
+    "count": 0,
+    "Id": "9f740d7aadc5409cb256cdfb6844d9f9",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186082"
+}, {
+    "latitude": "30.234591",
+    "count": 0,
+    "Id": "a7d4f5bc73c940ec871f8b2a3b5fe43a",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "120.054245"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "aa2056ad65464cb1b89cef642c9d9692",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "07d1bc77071e452582d2852f92ff6560",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "08227ad54ca648bd9ecb9ea06090e849",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.573531",
+    "count": 0,
+    "Id": "0ab74d08d9af4f2088ce9d452b1db9c0",
+    "type": 1,
+    "Name": "杏林社区",
+    "longitude": "118.054759"
+}, {
+    "latitude": "24.483561",
+    "count": 0,
+    "Id": "0ccbba44c1454bf186e409770ac7190c",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.177279"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "0fde61073fd6408b94c99c0b3395c20a",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "11783c1c71bb4264ba38afd0c6fcc7a7",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182730"
+}, {
+    "latitude": "24.471097",
+    "count": 0,
+    "Id": "140f5eb5c8504d4396e173bbb4d1d294",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.17541"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "166f92d231f245ea971031793878b8e7",
+    "type": 1,
+    "Name": "安居慧云办公区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.478708",
+    "count": 0,
+    "Id": "1684c0f18f554f47aaf01df40687df47",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.18618"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "17c4eab6e1654f53bf65a7bfe4718a3d",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.483602",
+    "count": 0,
+    "Id": "1b3bc82a012245d0b6cca5087c43da62",
+    "type": 1,
+    "Name": "洪文社区",
+    "longitude": "118.153496"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "239da139084748879deab726fce8654e",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.475469",
+    "count": 0,
+    "Id": "264afce8bc5b47b081c234c830bf6aa2",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.180122"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "28589a8d9a874d08b3ffd66a9b77c399",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.474916",
+    "count": 0,
+    "Id": "294744aa2b1f44c1b367ab15986739a2",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.180631"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "2cf5d885c4254a2d869dc6ef5f5f6103",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "30c15d25a3cb457ab38b0efb4d1fb36e",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "310541de96a34eda8c911d24560382d7",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "32288047369143e1bd4f5ec3f6712b60",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.475464",
+    "count": 0,
+    "Id": "34dcd64119f648b7a212655297a1d868",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179918"
+}, {
+    "latitude": "24.467811",
+    "count": 0,
+    "Id": "37706d1fea8f47b18db6e0c924694b98",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.175396"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "399e195b933549eea5311196d038201f",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "3d8acf53bda94a46b64a5f59dab5b42f",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "4a8401a826444cf385f8e8c68152d6fc",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "4d5d1eba97cb47ea9606f311c6342ebb",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "4f7caa5f03954741a64c833a14cab9ad",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "5421515fc8c544fa8b41fe65a5ce66f2",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.467447",
+    "count": 0,
+    "Id": "54dc75450d4b4e42a1ad52ac1d0d9f92",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174462"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "57d8d7667fa541c2bb658bc2b88f5d51",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "5903a06c88d34315b17e447fc09571fb",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.484754",
+    "count": 0,
+    "Id": "5e8edf0c1baf4b36b0695ac0deddbb1f",
+    "type": 1,
+    "Name": "洪文社区",
+    "longitude": "118.156777"
+}, {
+    "latitude": "24.470351",
+    "count": 0,
+    "Id": "61d023cab17b4d3495ab88a6b179a95f",
+    "type": 1,
+    "Name": "开元社区",
+    "longitude": "118.095432"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "638cff24de8c488bb38a4581ede6de81",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.515103",
+    "count": 0,
+    "Id": "d0d08d28c817466587be722405bb6b4e",
+    "type": 1,
+    "Name": "测试",
+    "longitude": "118.13736"
+}, {
+    "latitude": "24.475235",
+    "count": 0,
+    "Id": "411408290f64459a9c4961c91da3ffb6",
+    "type": 1,
+    "Name": "金祥社区",
+    "longitude": "118.107389"
+}, {
+    "latitude": "24.498192",
+    "count": 0,
+    "Id": "429b292663994f2fb81c9798a34e42f2",
+    "type": 1,
+    "Name": "金尚小区",
+    "longitude": "118.144262"
+}, {
+    "latitude": "24.592288",
+    "count": 0,
+    "Id": "466e1bfc8abb4e9e92e436d74c301b53",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095121"
+}, {
+    "latitude": "24.470737",
+    "count": 0,
+    "Id": "61b05e8eb2cf48919f914d6174f1973c",
+    "type": 1,
+    "Name": "世贸大厦一楼",
+    "longitude": "118.108717"
+}, {
+    "latitude": "24.719622",
+    "count": 0,
+    "Id": "7b5350474df44a5099c5465b5107bef9",
+    "type": 1,
+    "Name": "杜桥社区",
+    "longitude": "118.134675"
+}, {
+    "latitude": "24.461227",
+    "count": 0,
+    "Id": "7fe70bb0db47450ca9a534d559042725",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175646"
+}, {
+    "latitude": "24.462592",
+    "count": 0,
+    "Id": "86f06ac02a8443fe94a94a128ef8ad09",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174636"
+}, {
+    "latitude": "24.630888",
+    "count": 0,
+    "Id": "883c196e70cc4322b6a8b0d4bd58daa9",
+    "type": 1,
+    "Name": "城场村",
+    "longitude": "118.209689"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "94e8349a521b41c9a40963e12866c418",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.472360",
+    "count": 0,
+    "Id": "963759db5b3b429aa8459da28e23d230",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106384"
+}, {
+    "latitude": "24.49765",
+    "count": 0,
+    "Id": "972f9d816b3647f7988606e0b4ac9614",
+    "type": 1,
+    "Name": "泉水湾三期",
+    "longitude": "118.187964"
+}, {
+    "latitude": "24.528841",
+    "count": 0,
+    "Id": "9bffe85be2124db28a8eb9d0869ad9e1",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134739"
+}, {
+    "latitude": "24.488004",
+    "count": 0,
+    "Id": "a04136c9da02425a8c0dfd98a990c902",
+    "type": 1,
+    "Name": "厦门整点广告公司",
+    "longitude": "118.134603"
+}, {
+    "latitude": "24.592145",
+    "count": 0,
+    "Id": "ad6fd32ca36d4a27be8b3ba50e0db2bc",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094733"
+}, {
+    "latitude": "24.59255",
+    "count": 0,
+    "Id": "b34916f75dc147ec841143432b92b353",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094831"
+}, {
+    "latitude": "24.526833",
+    "count": 0,
+    "Id": "b7df088fa22a4d45bc86b675e89fc5b0",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129698"
+}, {
+    "latitude": "24.526102",
+    "count": 0,
+    "Id": "c4709f5dd2124316b9abef026c65e4d5",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129754"
+}, {
+    "latitude": "24.526681",
+    "count": 0,
+    "Id": "d337214f3480475c980f31794bbddf64",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129326"
+}, {
+    "latitude": "24.495134",
+    "count": 0,
+    "Id": "e572102026074cc8a419973d9a9df927",
+    "type": 1,
+    "Name": "泰和大厦",
+    "longitude": "118.134468"
+}, {
+    "latitude": "24.675098",
+    "count": 0,
+    "Id": "66104cc6c13143a0913eb17b0788d949",
+    "type": 1,
+    "Name": "鹭林食品",
+    "longitude": "118.165146"
+}, {
+    "latitude": "24.467297",
+    "count": 0,
+    "Id": "6b7f0d52e0364734b81af65e287357c6",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174163"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "770e893799d04b4da05b0927bbd2d451",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.676882",
+    "count": 0,
+    "Id": "778bfa568bfb43d3b67b3b3cfe49292c",
+    "type": 1,
+    "Name": "湖安社区",
+    "longitude": "118.120734"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "7c884cec93cf4c4894fb5085198481ea",
+    "type": 1,
+    "Name": "BGFiber",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.46992",
+    "count": 0,
+    "Id": "7e81964a13014c2b89e232e78dc1e326",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174173"
+}, {
+    "latitude": "24.498078",
+    "count": 0,
+    "Id": "D00T019R20170512115345035423",
+    "type": 1,
+    "Name": "金泰里97号",
+    "longitude": "118.146576"
+}, {
+    "latitude": "24.566990",
+    "count": 0,
+    "Id": "D00T019R20170512115345035436",
+    "type": 1,
+    "Name": "杏林东路6号",
+    "longitude": "118.037810"
+}, {
+    "latitude": "24.676882",
+    "count": 0,
+    "Id": "D00T019R20170512115345035437",
+    "type": 1,
+    "Name": "石丹里1号",
+    "longitude": "118.120734"
+}, {
+    "latitude": "24.666406",
+    "count": 0,
+    "Id": "D00T019R20170512115345035441",
+    "type": 1,
+    "Name": "西炉里82号2门",
+    "longitude": "118.195278"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "80d05930c98d4ceda0c533ee26c464ec",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.478742",
+    "count": 0,
+    "Id": "84f5e0b5611841b8bdf63e42f726e96f",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186049"
+}, {
+    "latitude": "24.489722",
+    "count": 0,
+    "Id": "D00T019R20170412161029000035",
+    "type": 1,
+    "Name": "长青路58号",
+    "longitude": "118.116914"
+}, {
+    "latitude": "24.495846",
+    "count": 0,
+    "Id": "D00T019R20170412161029000031",
+    "type": 1,
+    "Name": "维多利亚15号前门",
+    "longitude": "118.050432"
+}, {
+    "latitude": "24.435806",
+    "count": 0,
+    "Id": "D00T019R20170412161029000011",
+    "type": 1,
+    "Name": "仓里社89号",
+    "longitude": "118.115652"
+}, {
+    "latitude": "24.52725",
+    "count": 0,
+    "Id": "ae545d56c81a48e5b068acbd798546eb",
+    "type": 1,
+    "Name": "安兜村",
+    "longitude": "118.13444"
+}, {
+    "latitude": "24.494416",
+    "count": 0,
+    "Id": "b276ca63a838483c84f1bd2a2497b2d5",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.126783"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "ba8b55ee8c694759a69f95a95300693c",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "ba92fe327e4a4c998996502a4dc67ffa",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "c140d57c37ca4bcaaa7a737d33563440",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "c1885343f88942559beb4dcc3d1531c0",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.626241",
+    "count": 0,
+    "Id": "df137cd297ee4751af99d0f57f961025",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.051896"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "df823b13530b42d0b7dbc7191a7c8e30",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.480190",
+    "count": 0,
+    "Id": "e5a2ca196be24b1c86355b011e39ed27",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.114920"
+}, {
+    "latitude": "24.475462",
+    "count": 0,
+    "Id": "e86ff3169da9461e94d2f981ce77c7dd",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179962"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "f341ad683b8a49a4a06f4c150acc5a09",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "f4893f111bef4b368255cf72149ce4af",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "f48f30b8c6dd42b483d1bcf9db48247c",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.52103",
+    "count": 0,
+    "Id": "fb597208d25c471699ac9cbeb0d41ea8",
+    "type": 1,
+    "Name": "光彩悦舍",
+    "longitude": "118.145572"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "feaba2f12f934a1898b5780d1a13e406",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.462458",
+    "count": 0,
+    "Id": "04a56821c26a44bb800e74f2a7919ae4",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175017"
+}, {
+    "latitude": "24.472226",
+    "count": 0,
+    "Id": "13ef55d71f5243fa918b4095cf1dea7c",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106474"
+}, {
+    "latitude": "24.481641",
+    "count": 0,
+    "Id": "16678795e06840b0b9c3a937fb2b4fae",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.144101"
+}, {
+    "latitude": "24.591004",
+    "count": 0,
+    "Id": "32cf65c4b0e940889df7a04d403801dd",
+    "type": 1,
+    "Name": "乐海北里泉水湾一期",
+    "longitude": "118.104037"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "d76e46e7f61d4015b1466a831d6a4b46",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "da1efcaefe6547e2afbb0e731668aa1d",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.47872",
+    "count": 0,
+    "Id": "9079af07fb5a4d21bbf660fd50a24f6a",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186176"
+}, {
+    "latitude": "24.466825",
+    "count": 0,
+    "Id": "95074c044f0445cc96b0a8fa70cb049f",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174202"
+}, {
+    "latitude": "24.626241",
+    "count": 0,
+    "Id": "98940e05bf90433eb8e307fc997789eb",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.051896"
+}, {
+    "latitude": "24.478084",
+    "count": 0,
+    "Id": "9bdbd0205bcc456ba33f083d40d5e1eb",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181693"
+}, {
+    "latitude": "24.528324",
+    "count": 0,
+    "Id": "06f704fb24ce4708a08abb30a42bdfee",
+    "type": 1,
+    "Name": "县后村",
+    "longitude": "118.146965"
+}, {
+    "latitude": "24.566990",
+    "count": 0,
+    "Id": "0dd82bb59c91413b8cf6efd259421575",
+    "type": 1,
+    "Name": "杏林东路6号",
+    "longitude": "118.037810"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "15420b893f2c48ac865567d291c69aaf",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.462064",
+    "count": 0,
+    "Id": "1a610c37b889401b95725e1cc414896a",
+    "type": 1,
+    "Name": "鹭江社区",
+    "longitude": "118.070038"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "278905c3fe6f45e6a70ad911eba4fe6b",
+    "type": 1,
+    "Name": "骐俊众创",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.662772",
+    "count": 0,
+    "Id": "28495fa0806d478d82a796445da2604f",
+    "type": 1,
+    "Name": "西炉村",
+    "longitude": "118.196492"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "307ac41022414dc7a5a8fc49781d883e",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "18bc18782bc24adfbea2b07484d4fdaa",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.469048",
+    "count": 0,
+    "Id": "395dcc91c1ba4df4bc678fa001ba05b3",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174203"
+}, {
+    "latitude": "24.531602",
+    "count": 0,
+    "Id": "3ccf63e548404e0baa7facf526668e8b",
+    "type": 1,
+    "Name": "殿前社区",
+    "longitude": "118.108016"
+}, {
+    "latitude": "24.529607",
+    "count": 0,
+    "Id": "49e325a5664e4fb2b0d375f66576a401",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.161456"
+}, {
+    "latitude": "24.441866",
+    "count": 0,
+    "Id": "5da97f8d73484e9cac3cdc08a17200b3",
+    "type": 1,
+    "Name": "碧山社区",
+    "longitude": "118.086204"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "5e07b44e75ab4322af875ab8378a464c",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.571700",
+    "count": 0,
+    "Id": "5e21533f2de04ae28ef1a602f3a04773",
+    "type": 1,
+    "Name": "岑东社区",
+    "longitude": "118.091760"
+}, {
+    "latitude": "24.623724",
+    "count": 0,
+    "Id": "63736d7f18e346278d5d50ea0dfb19d6",
+    "type": 1,
+    "Name": "洪塘头社区",
+    "longitude": "118.134084"
+}, {
+    "latitude": "24.489349",
+    "count": 0,
+    "Id": "651b8508d17c4ba696c46b010fed062a",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.189901"
+}, {
+    "latitude": "24.512176",
+    "count": 0,
+    "Id": "fce1bd34f5d24efab99e870c04a78893",
+    "type": 1,
+    "Name": "厦门联通大厦",
+    "longitude": "118.143082"
+}, {
+    "latitude": "24.466444",
+    "count": 0,
+    "Id": "13a2c4f0f4264fde8734e8b2cf67e9a1",
+    "type": 1,
+    "Name": "新家园",
+    "longitude": "118.078784"
+}, {
+    "latitude": "24.462641",
+    "count": 0,
+    "Id": "7f4919e5a44641268d29fa84d7a3740f",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175689"
+}, {
+    "latitude": "24.471972",
+    "count": 0,
+    "Id": "82e7e2a4966a409abf59559ee622e16f",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.107135"
+}, {
+    "latitude": "24.464485",
+    "count": 0,
+    "Id": "8641c87444c7468b9f6b1961e6b30249",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174312"
+}, {
+    "latitude": "24.472627",
+    "count": 0,
+    "Id": "8d6f18096fa6414fbeaafa1db43e79e9",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.107790"
+}, {
+    "latitude": "24.600826",
+    "count": 0,
+    "Id": "8dfd87f820404b7787cf18562d881cbb",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114447"
+}, {
+    "latitude": "24.52876",
+    "count": 0,
+    "Id": "9d0782ec7ee94aecba051d30de1c3805",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134398"
+}, {
+    "latitude": "24.645824",
+    "count": 0,
+    "Id": "a0548cf6c0e04bd7b6af8c2f1cc47dfb",
+    "type": 1,
+    "Name": "郑坂北里224号",
+    "longitude": "118.231241"
+}, {
+    "latitude": "24.461351",
+    "count": 0,
+    "Id": "a5302a7df6e348c3ac395a914095b6cd",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174563"
+}, {
+    "latitude": "24.443243",
+    "count": 0,
+    "Id": "a710f4e323c54e6a94e7492949e35057",
+    "type": 1,
+    "Name": "大学路派出所",
+    "longitude": "118.094431"
+}, {
+    "latitude": "24.497471",
+    "count": 0,
+    "Id": "a93b7370e55645a79cb0ffe4713dbf97",
+    "type": 1,
+    "Name": "屿后里小区",
+    "longitude": "118.119791"
+}, {
+    "latitude": "24.602616",
+    "count": 0,
+    "Id": "b69debf1f50b4c5082e028c9b58542b1",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114182"
+}, {
+    "latitude": "24.528733",
+    "count": 0,
+    "Id": "bd4c0c21a5f24064bd270b3a295ead70",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134333"
+}, {
+    "latitude": "24.472264",
+    "count": 0,
+    "Id": "cdafe27d13e54c5f969130767e924921",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106866"
+}, {
+    "latitude": "24.529285",
+    "count": 0,
+    "Id": "d6fffa3a281743d090a8245d00199109",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134777"
+}, {
+    "latitude": "24.500427",
+    "count": 0,
+    "Id": "e92732a42e8145e083a4f101184ffe7a",
+    "type": 1,
+    "Name": "裕兴大厦",
+    "longitude": "118.123003"
+}, {
+    "latitude": "24.53619",
+    "count": 0,
+    "Id": "6ac82549cb7f41b8933a4a482b7ba0a2",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "117.983956"
+}, {
+    "latitude": "24.488846",
+    "count": 0,
+    "Id": "70573f2648154663ad5b6607258bbdcb",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.189279"
+}, {
+    "latitude": "24.476299",
+    "count": 0,
+    "Id": "719ab00a1c87468ab095ca18db5f0ad1",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181198"
+}, {
+    "latitude": "24.494240",
+    "count": 0,
+    "Id": "7669b0af2d1e49fd975da5abff7b08ef",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182726"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "7f18cc09b2c743328466f37e8bb0e5bb",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.486746",
+    "count": 0,
+    "Id": "D00T019R20170512115345035416",
+    "type": 1,
+    "Name": "嘉禾路104号",
+    "longitude": "118.119076"
+}, {
+    "latitude": "24.51147",
+    "count": 0,
+    "Id": "D00T019R20170512115345035422",
+    "type": 1,
+    "Name": "高林社333号",
+    "longitude": "118.172464"
+}, {
+    "latitude": "24.495846",
+    "count": 0,
+    "Id": "D00T019R20170512115345035424",
+    "type": 1,
+    "Name": "维多利亚15号后门",
+    "longitude": "118.050432"
+}, {
+    "latitude": "24.51919",
+    "count": 0,
+    "Id": "D00T019R20170512115345035428",
+    "type": 1,
+    "Name": "卢厝32号",
+    "longitude": "118.144644"
+}, {
+    "latitude": "24.53523",
+    "count": 0,
+    "Id": "D00T019R20170512115345035439",
+    "type": 1,
+    "Name": "霞阳西路195号",
+    "longitude": "118.01062"
+}, {
+    "latitude": "24.666406",
+    "count": 0,
+    "Id": "D00T019R20170512115345035440",
+    "type": 1,
+    "Name": "西炉里82号1门",
+    "longitude": "118.195278"
+}, {
+    "latitude": "24.672489",
+    "count": 0,
+    "Id": "D00T019R20170616093942035457",
+    "type": 1,
+    "Name": "值班室后门",
+    "longitude": "118.284804"
+}, {
+    "latitude": "24.494244",
+    "count": 0,
+    "Id": "81a8ee1e5b5b49c0bbd5a007e20fc6bc",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182413"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "81ddd74e415b4e0ba1c7500d948f7695",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.530074",
+    "count": 0,
+    "Id": "D00T019R20170412161029000042",
+    "type": 1,
+    "Name": "钟宅5042号",
+    "longitude": "118.165166"
+}, {
+    "latitude": "24.64012",
+    "count": 0,
+    "Id": "af89fa49508d4920b9bedcaec1bea5bd",
+    "type": 1,
+    "Name": "后莲村",
+    "longitude": "118.22509"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "b1a1de888605409d9b92ba617ac9a197",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "b43bbeccce16477e9cf9004463830836",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "b4ae25b4c70f42079f090e653cdac134",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.52499",
+    "count": 0,
+    "Id": "bf027089831e40fa83e94fb2c80fca32",
+    "type": 1,
+    "Name": "金玺彩印智慧园",
+    "longitude": "118.138564"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "c1ad50afc23f4a43b464fd44290d5285",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.488215",
+    "count": 0,
+    "Id": "c200cde92c284a2fbe3505c3ba7a09c0",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "118.190001"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "dd9591d931f44a86b5596bccc6bd75a8",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "ea7badbbedf9408c856cbd6d5da2b1e2",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "eabc3c4cd29c4bdc8460af552e42ba67",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "ec69474f5cc14d34ab8693ee4a5c4fe1",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "daadbb88f08346b58030133bea7480c9",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.513845",
+    "count": 0,
+    "Id": "002d35c7a0114041a4882b78bfc2f6eb",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150087"
+}, {
+    "latitude": "24.475359",
+    "count": 0,
+    "Id": "0716b387363f45729900386d8879fc5a",
+    "type": 1,
+    "Name": "新垵村",
+    "longitude": "118.11416"
+}, {
+    "latitude": "24.654001",
+    "count": 0,
+    "Id": "0e4b9cf30f504f238222a11adff39c9e",
+    "type": 1,
+    "Name": "官浔村",
+    "longitude": "118.140834"
+}, {
+    "latitude": "24.513722",
+    "count": 0,
+    "Id": "19027fe4ee224b1f8ac678342c6468af",
+    "type": 1,
+    "Name": "雪梨星光",
+    "longitude": "118.123645"
+}, {
+    "latitude": "24.472226",
+    "count": 0,
+    "Id": "1d5fdef2fe40472590a6d11286d4dd02",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106474"
+}, {
+    "latitude": "24.499568",
+    "count": 0,
+    "Id": "217e9f06560640b2ad603cf020ed1f94",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.130712"
+}, {
+    "latitude": "24.500378",
+    "count": 0,
+    "Id": "24eecc6173e445a48d5d2b0f06ace1ea",
+    "type": 1,
+    "Name": "裕兴大厦",
+    "longitude": "118.122919"
+}, {
+    "latitude": "24.526709",
+    "count": 0,
+    "Id": "2597d6c50dfc458ba2cf22f0d8018fbe",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129221"
+}, {
+    "latitude": "24.461694",
+    "count": 0,
+    "Id": "261e56831ee343899e9b1f66e77c7e88",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174868"
+}, {
+    "latitude": "24.671000",
+    "count": 0,
+    "Id": "3484d99515eb42009f0121b98a5f3520",
+    "type": 1,
+    "Name": "翔安同美同美里39-2",
+    "longitude": "118.211931"
+}, {
+    "latitude": "24.615607",
+    "count": 0,
+    "Id": "c7778605875c42f5b35289eab28d646d",
+    "type": 1,
+    "Name": "三叶草教育",
+    "longitude": "117.997433"
+}, {
+    "latitude": "24.478714",
+    "count": 0,
+    "Id": "c8b0b656ce8d461299f26fe5b2f3248e",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186174"
+}, {
+    "latitude": "24.645334",
+    "count": 0,
+    "Id": "ce092b7d597b468db39dde744e08c136",
+    "type": 1,
+    "Name": "郑坂村",
+    "longitude": "118.231872"
+}, {
+    "latitude": "24.476293",
+    "count": 0,
+    "Id": "d1714a3417bd436286c44d081842d826",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181399"
+}, {
+    "latitude": "24.475853",
+    "count": 0,
+    "Id": "d18f2bb85dfb4a73adbe2155eb1363d0",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.179384"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "d3d528a6492d47beb908fabf8b811318",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "d61d42feacae4758a257f244f506d031",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "39.985585",
+    "count": 0,
+    "Id": "8cccc5413a784675ab3a775ef3f0aa86",
+    "type": 1,
+    "Name": "中兴浩森科技",
+    "longitude": "116.375759"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "9452fff07c2b45fd91180faed526ad6e",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.488528",
+    "count": 0,
+    "Id": "9bf47b455c0e4f6a8bca7acfbecd7cc5",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.189647"
+}, {
+    "latitude": "24.478514",
+    "count": 0,
+    "Id": "9fa680989d1a46b787b1dd494831611b",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181952"
+}, {
+    "latitude": "24.478712",
+    "count": 0,
+    "Id": "a4fdbc8ffd994fbb8cf372621e8c7c9f",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186208"
+}, {
+    "latitude": "24.52867461881921",
+    "count": 0,
+    "Id": "a5fb814d8ca64adf9c494db38306e54e",
+    "type": 1,
+    "Name": "钟宅村",
+    "longitude": "118.16160023660309"
+}, {
+    "latitude": "24.498078",
+    "count": 0,
+    "Id": "a72b04a1a7f94b788c22a1b4690e5c48",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.146576"
+}, {
+    "latitude": "24.475762",
+    "count": 0,
+    "Id": "a9565ae3e1bc49c681688efd73ab88f4",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.1784"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "00ba9456fe7247768d9a47a9923f63cc",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182408"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "07baf2b50b6047b4b6a6fe5553e87150",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "0d33b2c5804f4b55b5141424dbff1f33",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.475875",
+    "count": 0,
+    "Id": "110838041fc247cfb19aaee3585c9f5f",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.179062"
+}, {
+    "latitude": "24.47357",
+    "count": 0,
+    "Id": "14cc2304ee0d42aea237643f138694e4",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.1135"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "1b65a61ea76c49dc9b2b8dc8a24a84e1",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "1de2efb0172943149767c5cf874ded47",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.470391",
+    "count": 0,
+    "Id": "1e86bea3511e4b498bf3fb9570dccb4c",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174052"
+}, {
+    "latitude": "24.477656",
+    "count": 0,
+    "Id": "1f725f716900482fae08c7822aadab1c",
+    "type": 1,
+    "Name": "莲前社区",
+    "longitude": "118.148726"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "23a0ceb4824c47e882ecef690c8a9857",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.494640",
+    "count": 0,
+    "Id": "298fdd1cd7214a4ba5b56c006f3fed84",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182181"
+}, {
+    "latitude": "24.492471",
+    "count": 0,
+    "Id": "2ead95ffc6ab498798351a51655b05fb",
+    "type": 1,
+    "Name": "名仕御园55号",
+    "longitude": "118.170504"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "35c7e4b038074443a0cf4764406c894f",
+    "type": 1,
+    "Name": "内厝派出所",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3909fbeb1c7a4f7aa0a4e68065782018",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.52499",
+    "count": 0,
+    "Id": "340edcde8c7b4139a6eff70f82a7ff9a",
+    "type": 1,
+    "Name": "金玺彩印智慧园",
+    "longitude": "118.138564"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "42bf6cc5eb464ba686d3e1ba929feb8c",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "49738987c7394be08bcee9ffa98833af",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.469168",
+    "count": 0,
+    "Id": "4a33a082359f4336a203cd7a1be38974",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173348"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "4b2a8b5b11d1490b823ccfe52b1d715d",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "4e482d23fecd41db97aa83c46988623a",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.708126",
+    "count": 0,
+    "Id": "50df83d56aea4e43837c2b7666eba264",
+    "type": 1,
+    "Name": "西洪塘社区",
+    "longitude": "118.101516"
+}, {
+    "latitude": "24.469445",
+    "count": 0,
+    "Id": "5203f107c7c0445ca3d5f47d437a9d3f",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174425"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "60316cd4d0cd49048aa07c0309a36cd0",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182730"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "60d0eead20ed453ea347ba2272b1b2e5",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.471978",
+    "count": 0,
+    "Id": "eda6069bd904412ab844080f5582b627",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106201"
+}, {
+    "latitude": "24.488722",
+    "count": 0,
+    "Id": "461f8aaa140c45ccb53cd3daa3d94aab",
+    "type": 1,
+    "Name": "乐天游网络科技",
+    "longitude": "118.189921"
+}, {
+    "latitude": "24.542714",
+    "count": 0,
+    "Id": "5a89b409aa0441919f56d694ccff2717",
+    "type": 1,
+    "Name": "源昌宝墅湾",
+    "longitude": "118.152765"
+}, {
+    "latitude": "24.496949",
+    "count": 0,
+    "Id": "866bdf74e21547fdb62fe4d72bfeac92",
+    "type": 1,
+    "Name": "屿后里小区",
+    "longitude": "118.119067"
+}, {
+    "latitude": "24.659997",
+    "count": 0,
+    "Id": "91db0977173143e89b31ccda1a5aca82",
+    "type": 1,
+    "Name": "翔安西炉李厝里82-1",
+    "longitude": "118.198955"
+}, {
+    "latitude": "24.592145",
+    "count": 0,
+    "Id": "942f60a862264bb1b20a6d6fb547a9a7",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094689"
+}, {
+    "latitude": "24.592582",
+    "count": 0,
+    "Id": "9464ab14305446e6b3ebd1c809154b01",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095166"
+}, {
+    "latitude": "24.526447",
+    "count": 0,
+    "Id": "94ea10d02e9c470ba97efc96bf2978fe",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129522"
+}, {
+    "latitude": "24.514104",
+    "count": 0,
+    "Id": "95506d0e1dae4853b27a8ccde9499c85",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150499"
+}, {
+    "latitude": "24.526024",
+    "count": 0,
+    "Id": "9b63147226e44a7c8e8c81d7f292255b",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129365"
+}, {
+    "latitude": "24.488712",
+    "count": 0,
+    "Id": "9d1f45ff272d49a7894537c044a94c70",
+    "type": 1,
+    "Name": "围里村",
+    "longitude": "118.18957"
+}, {
+    "latitude": "24.482004",
+    "count": 0,
+    "Id": "ab985ee2f0d5404483b0cd5a82222d47",
+    "type": 1,
+    "Name": "下何船管站",
+    "longitude": "118.1906"
+}, {
+    "latitude": "24.608026",
+    "count": 0,
+    "Id": "b56193ccc79d4f3792c28a4b86574618",
+    "type": 1,
+    "Name": "洪琳湖一里4号703",
+    "longitude": "118.235308"
+}, {
+    "latitude": "24.495639",
+    "count": 0,
+    "Id": "b89e3a810a4445b0b798d5095bc40958",
+    "type": 1,
+    "Name": "泰和大厦",
+    "longitude": "118.134374"
+}, {
+    "latitude": "24.526244",
+    "count": 0,
+    "Id": "c356f5ecd9ab40eb89322c34e31a1cbc",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129110"
+}, {
+    "latitude": "24.468936",
+    "count": 0,
+    "Id": "6ca8293208d94bdcb1ea86ef1e041bc0",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174305"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "6cf1edbeac394980bdd981e57615e61c",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.488833",
+    "count": 0,
+    "Id": "708d68f8389742e09372ceca1fc3f210",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.189284"
+}, {
+    "latitude": "24.49782",
+    "count": 0,
+    "Id": "70d2d4c63e0544d0bdc3f99795a90e8e",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.183751"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "76dda47825414807b5484aed5e64d933",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.495846",
+    "count": 0,
+    "Id": "7729ff2e386642358d6d24f0f04f2c7c",
+    "type": 1,
+    "Name": "维多利亚",
+    "longitude": "118.050432"
+}, {
+    "latitude": "24.478715",
+    "count": 0,
+    "Id": "7c853a7f27f1481292fc07c73d3a8721",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186186"
+}, {
+    "latitude": "24.488734",
+    "count": 0,
+    "Id": "7ee490ce74a94496a1e9c974b0b45220",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.18955"
+}, {
+    "latitude": "24.48019",
+    "count": 0,
+    "Id": "D00T019R20170512115345035417",
+    "type": 1,
+    "Name": "能群大厦825号",
+    "longitude": "118.11492"
+}, {
+    "latitude": "24.662772",
+    "count": 0,
+    "Id": "D00T019R20170512115345035419",
+    "type": 1,
+    "Name": "西炉村44号",
+    "longitude": "118.196492"
+}, {
+    "latitude": "24.483492",
+    "count": 0,
+    "Id": "D00T019R20170512115345035433",
+    "type": 1,
+    "Name": "莲兴路45号",
+    "longitude": "118.114982"
+}, {
+    "latitude": "24.481364",
+    "count": 0,
+    "Id": "D00T019R20170512115345035434",
+    "type": 1,
+    "Name": "骏景园",
+    "longitude": "118.111418"
+}, {
+    "latitude": "24.590964",
+    "count": 0,
+    "Id": "D00T019R20170512115345035435",
+    "type": 1,
+    "Name": "锦东路164号",
+    "longitude": "118.02985"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "82117f5d78fc43fe8461ee765f183f91",
+    "type": 1,
+    "Name": "智能门锁区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.495846",
+    "count": 0,
+    "Id": "8506f057e25846fdbadd7adeef37afc2",
+    "type": 1,
+    "Name": "维多利亚",
+    "longitude": "118.050432"
+}, {
+    "latitude": "24.530074",
+    "count": 0,
+    "Id": "8869e1cc57634cf8b435b8d67b6fb04f",
+    "type": 1,
+    "Name": "钟宅村",
+    "longitude": "118.165166"
+}, {
+    "latitude": "24.4938",
+    "count": 0,
+    "Id": "D00T019R20170412161029000017",
+    "type": 1,
+    "Name": "福隆国际3001门",
+    "longitude": "118.125"
+}, {
+    "latitude": "24.496944",
+    "count": 0,
+    "Id": "D00T019R20170412161029000020",
+    "type": 1,
+    "Name": "后埔社337号",
+    "longitude": "118.1382"
+}, {
+    "latitude": "24.52266",
+    "count": 0,
+    "Id": "D00T019R20170412161029000004",
+    "type": 1,
+    "Name": "尚忠社66号",
+    "longitude": "118.145181"
+}, {
+    "latitude": "24.472080",
+    "count": 0,
+    "Id": "D00T019R20170617204934035458",
+    "type": 1,
+    "Name": "罗宾森二期85号",
+    "longitude": "118.106270"
+}, {
+    "latitude": "24.440254",
+    "count": 0,
+    "Id": "D00T019R20170412161029000034",
+    "type": 1,
+    "Name": "沙坡尾129号",
+    "longitude": "118.087002"
+}, {
+    "latitude": "24.48248",
+    "count": 0,
+    "Id": "D00T019R20170412161029000037",
+    "type": 1,
+    "Name": "安尼美玉",
+    "longitude": "118.15962"
+}, {
+    "latitude": "24.517070",
+    "count": 0,
+    "Id": "ac20ad7b726040208bbbe53077e49af5",
+    "type": 1,
+    "Name": "湖里社区",
+    "longitude": "118.109760"
+}, {
+    "latitude": "24.475877",
+    "count": 0,
+    "Id": "bdbd78f54f834140b75ffb1a86c7a18a",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181426"
+}, {
+    "latitude": "24.520342",
+    "count": 0,
+    "Id": "be8f5343cd3d4b5b8e341add837b4c99",
+    "type": 1,
+    "Name": "殿前社区",
+    "longitude": "118.11696"
+}, {
+    "latitude": "24.474802",
+    "count": 0,
+    "Id": "c0e66227ca1f46e7b0b27f2bb77c24fd",
+    "type": 1,
+    "Name": "前埔村前埔社357号",
+    "longitude": "118.181596"
+}, {
+    "latitude": "24.475469",
+    "count": 0,
+    "Id": "dc13038cca3b41c38031033f50a5ec06",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.180122"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "dffdbf3ba4af453b97319fb30fd02c19",
+    "type": 1,
+    "Name": "安居慧云办公区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "eeb1cef0b25a4e6ab6612e6e29abcc79",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "f3bab676c9184108bd30382e148ff6f6",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "f774f9e8ef084cc790febbaef648b012",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182408"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "fd744fa801c44de9b4ae2d1be68a017c",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.472026",
+    "count": 0,
+    "Id": "0948ef22c61a43f28831fdb2b59df38e",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.107258"
+}, {
+    "latitude": "24.592884",
+    "count": 0,
+    "Id": "0e05679d16014043b76ab2fe04b4b844",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095068"
+}, {
+    "latitude": "24.437117",
+    "count": 0,
+    "Id": "194de2d6da2e443c8967863927d4d629",
+    "type": 1,
+    "Name": "黄厝塔头31号",
+    "longitude": "118.137650"
+}, {
+    "latitude": "24.591951",
+    "count": 0,
+    "Id": "19e343dd78dd4fc2a9d8a6c91c6aee1d",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095488"
+}, {
+    "latitude": "24.483031",
+    "count": 0,
+    "Id": "227a3be1bbc548e2b5732a1241effe47",
+    "type": 1,
+    "Name": "鱼旨寿司",
+    "longitude": "118.152475"
+}, {
+    "latitude": "24.487727",
+    "count": 0,
+    "Id": "22f78c73429643009265746280987b17",
+    "type": 1,
+    "Name": "米兰春天",
+    "longitude": "118.097509"
+}, {
+    "latitude": "24.462252",
+    "count": 0,
+    "Id": "30a2e50fd0c8440891f14b6973e78827",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175016"
+}, {
+    "latitude": "24.496638",
+    "count": 0,
+    "Id": "3711e10ee24c45bba924541851260912",
+    "type": 1,
+    "Name": "屿后里小区",
+    "longitude": "118.118809"
+}, {
+    "latitude": "24.543851",
+    "count": 0,
+    "Id": "3878659d0794484294ff988541d0ad70",
+    "type": 1,
+    "Name": "源昌宝墅湾",
+    "longitude": "118.154869"
+}, {
+    "latitude": "24.5275",
+    "count": 0,
+    "Id": "397e5ced35564017b0fe9b88bb79756b",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.1355"
+}, {
+    "latitude": "24.475716",
+    "count": 0,
+    "Id": "cbca76eb23d145b993d3818e495c4e1e",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179716"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "cda7d8e5ff1147e48c1294c113a1fa02",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.440254",
+    "count": 0,
+    "Id": "cdf6d1db3c874174ad665ff8bc7ab22a",
+    "type": 1,
+    "Name": "碧山社区",
+    "longitude": "118.087002"
+}, {
+    "latitude": "24.498294",
+    "count": 0,
+    "Id": "ceaa83eae6fa475db0b01b5648e3cdac",
+    "type": 1,
+    "Name": "塔埔社区东区",
+    "longitude": "118.188115"
+}, {
+    "latitude": "24.514942",
+    "count": 0,
+    "Id": "d2b4a2889e4e464cb1ed948004550fed",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "118.188332"
+}, {
+    "latitude": "24.466776",
+    "count": 0,
+    "Id": "da0f6bd29efe4d198ae816c9096e1be3",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.109602"
+}, {
+    "latitude": "24.499080",
+    "count": 0,
+    "Id": "97a48ace32be486d83f7183cc8ae7c11",
+    "type": 1,
+    "Name": "石塘社区",
+    "longitude": "118.036934"
+}, {
+    "latitude": "24.486154",
+    "count": 0,
+    "Id": "a0e5ca699bdd49118992a129f474e330",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.118602"
+}, {
+    "latitude": "24.478747",
+    "count": 0,
+    "Id": "a1e84e4cee8a44a5bf5ab1a623db6141",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186079"
+}, {
+    "latitude": "24.488712",
+    "count": 0,
+    "Id": "a59fecc3e36e4eeebc4830a2edca2a67",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.189556"
+}, {
+    "latitude": "24.475712",
+    "count": 0,
+    "Id": "aadb5e40cbd34c49891b010be9a2d303",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179787"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "009bb4dc0a224c86955c09865f9969a2",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0352ce08eaa74baf865f95fc35220c84",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.467708",
+    "count": 0,
+    "Id": "091e65b94c4a4eaba8ccecb9657d7a7d",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174614"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "0bf23f7dba6b4714b741d7603540edef",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182408"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0e94029c94f142029f619fda47fe1e72",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "10058a99189b42f2a4f7b15abecc92a4",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475467",
+    "count": 0,
+    "Id": "19e6c21f0ffb4d7aadee60f1172e4862",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.180224"
+}, {
+    "latitude": "24.469546",
+    "count": 0,
+    "Id": "1fda6f51d14340ac971baa27226eeda0",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173678"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "35b75570bb1747dc8268b5f0d218f30c",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.463788",
+    "count": 0,
+    "Id": "365b9a99d56843719b96646f8a5833a5",
+    "type": 1,
+    "Name": "中华派出所",
+    "longitude": "118.089583"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3b145ff9bb514383b4faa55e07ea9ea9",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "4b0ec61bac8243c59820ee171f223dbb",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.507146",
+    "count": 0,
+    "Id": "4b5fcb29457b4347ae304aa06981077b",
+    "type": 1,
+    "Name": "康乐新村二期",
+    "longitude": "118.103554"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "50d61af08e2a4a17bf5eef9525657599",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.590964",
+    "count": 0,
+    "Id": "5590d0b699094f70b4ad75955398b34a",
+    "type": 1,
+    "Name": "杏滨社区",
+    "longitude": "118.02985"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "55b69359a3604a3f92e9617a355bc531",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "56c9a383c8764b3e8e8601a0750d797e",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.594806",
+    "count": 0,
+    "Id": "58714d765d9d43499388ec5291981844",
+    "type": 1,
+    "Name": "锦园社区",
+    "longitude": "118.034055"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "60c97bd9927947648e89ba0698b411b1",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "64dec5810d1d41828d67297c81346559",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.720922",
+    "count": 0,
+    "Id": "4a8503a8d8144f769379490c82604128",
+    "type": 1,
+    "Name": "中央天悦",
+    "longitude": "118.135989"
+}, {
+    "latitude": "24.514095",
+    "count": 0,
+    "Id": "4ee3f4b3f49a49ffb2e3ac56a84232fd",
+    "type": 1,
+    "Name": "中央美地",
+    "longitude": "118.139662"
+}, {
+    "latitude": "24.511796",
+    "count": 0,
+    "Id": "8fb5475c441247bfb398bedcf41e93fb",
+    "type": 1,
+    "Name": "中央美地",
+    "longitude": "118.139756"
+}, {
+    "latitude": "24.721234",
+    "count": 0,
+    "Id": "73b6251f4baf4093bd2985a5e262a812",
+    "type": 1,
+    "Name": "中央天悦",
+    "longitude": "118.135085"
+}, {
+    "latitude": "24.461819",
+    "count": 0,
+    "Id": "47e24509172d4dc88a56d86bf3d58cb3",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175266"
+}, {
+    "latitude": "24.526195",
+    "count": 0,
+    "Id": "4b178ed4939b40719ee2bc5738c681f9",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129702"
+}, {
+    "latitude": "24.508470",
+    "count": 0,
+    "Id": "4c43ca2daf0046258832691dbf3647a4",
+    "type": 1,
+    "Name": "善工机电",
+    "longitude": "118.126069"
+}, {
+    "latitude": "24.526574",
+    "count": 0,
+    "Id": "4e2ad9f1a4254eae8b0420e398615491",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129398"
+}, {
+    "latitude": "24.462387",
+    "count": 0,
+    "Id": "4fb7f0a3e2a94ca98f514b32ab28c905",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174874"
+}, {
+    "latitude": "24.592524",
+    "count": 0,
+    "Id": "55b95d4c5cd14b94ab91671ecaae431c",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094548"
+}, {
+    "latitude": "24.476230",
+    "count": 0,
+    "Id": "65827400f2914b6390d82beefadfa582",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.113857"
+}, {
+    "latitude": "24.499595",
+    "count": 0,
+    "Id": "797126dfdd3c4f40b679bf98d678f796",
+    "type": 1,
+    "Name": "裕兴大厦",
+    "longitude": "118.123061"
+}, {
+    "latitude": "24.542775",
+    "count": 0,
+    "Id": "7dbffc75dd924462aab9c0e19487f133",
+    "type": 1,
+    "Name": "源昌宝墅湾",
+    "longitude": "118.151944"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "8b5123114fc24950892e2f985b348721",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.507013",
+    "count": 0,
+    "Id": "9a996ee3185540e9a144cae2182c9701",
+    "type": 1,
+    "Name": "裕兴花园",
+    "longitude": "118.125906"
+}, {
+    "latitude": "24.506867",
+    "count": 0,
+    "Id": "a3e21a827d374ffda144bbde633d2f87",
+    "type": 1,
+    "Name": "裕兴花园",
+    "longitude": "118.12595"
+}, {
+    "latitude": "24.592097",
+    "count": 0,
+    "Id": "a9708e0c3fe04ba5bd7edff42793091b",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.09469"
+}, {
+    "latitude": "24.506991",
+    "count": 0,
+    "Id": "af4eac47c3f14cd5898ef36f2fe2ac95",
+    "type": 1,
+    "Name": "裕兴花园",
+    "longitude": "118.126074"
+}, {
+    "latitude": "24.601028",
+    "count": 0,
+    "Id": "bccbe65281494d2daeeebcea19f37028",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.115876"
+}, {
+    "latitude": "24.508902",
+    "count": 0,
+    "Id": "cdd447dff9f34ed2b85027f18da367f9",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.131593"
+}, {
+    "latitude": "24.461351",
+    "count": 0,
+    "Id": "cfbbf917414a44d582c5c3ce99cf7939",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174563"
+}, {
+    "latitude": "24.592069",
+    "count": 0,
+    "Id": "d4fa8f5731214e0aa5cc571385bf55b1",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094707"
+}, {
+    "latitude": "24.499590",
+    "count": 0,
+    "Id": "d9a72e1ee4d94a81bea3645e6fa408b3",
+    "type": 1,
+    "Name": "裕兴大厦",
+    "longitude": "118.123079"
+}, {
+    "latitude": "24.472225",
+    "count": 0,
+    "Id": "db9d7ea7c3614f668c9fe422fdf35776",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106475"
+}, {"count": 0, "Id": "de00aaa0a11f4c9092c9fbdd3d484e28", "type": 1, "Name": "安居慧云办公区"}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "65973b35eafc4f87a34cf5055853f28e",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "678b9e4a19fd48e2b7f12859c3970062",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "69e9a7fede114b1fb350628f26fea5d9",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "6afcbd1d58be4af3814c2b538e567979",
+    "type": 1,
+    "Name": "滨海派出所",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.57354",
+    "count": 0,
+    "Id": "6b4a5ae92a8742e8831e803c538fb620",
+    "type": 1,
+    "Name": "莲坂新村小区",
+    "longitude": "118.054762"
+}, {
+    "latitude": "24.666406",
+    "count": 0,
+    "Id": "6d32f2d8684048afa8aa7139c8b3ebba",
+    "type": 1,
+    "Name": "西炉村",
+    "longitude": "118.195278"
+}, {
+    "latitude": "24.478738",
+    "count": 0,
+    "Id": "73d3c7381ecc4d3697ee7b313e57d32d",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186089"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "7786fd6de1444fdb9e4f62cca41ca5a6",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "23",
+    "count": 0,
+    "Id": "D00T019R20170526142944035450",
+    "type": 1,
+    "Name": "湖滨东路40号之三",
+    "longitude": "117"
+}, {
+    "latitude": "24.476166",
+    "count": 0,
+    "Id": "D00T019R20170512115345035425",
+    "type": 1,
+    "Name": " ",
+    "longitude": "118.117642"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "D00T019R20170610011256035453",
+    "type": 1,
+    "Name": "北区一里83号",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "8542a14cff8b4887b2a3de105a6824f9",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "87f501d76b3a401688ecc6d1ac7ee5c2",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.591598",
+    "count": 0,
+    "Id": "D00T019R20170412161029000028",
+    "type": 1,
+    "Name": "乐安西里77号",
+    "longitude": "118.090222"
+}, {
+    "latitude": "24.624684",
+    "count": 0,
+    "Id": "D00T019R20170412161029000007",
+    "type": 1,
+    "Name": "李林社437号",
+    "longitude": "117.989932"
+}, {
+    "latitude": "24.52725",
+    "count": 0,
+    "Id": "D00T019R20170412161029000008",
+    "type": 1,
+    "Name": "林后社440号",
+    "longitude": "118.13444"
+}, {
+    "latitude": "24.720833",
+    "count": 0,
+    "Id": "D00T019R20170412161029000010",
+    "type": 1,
+    "Name": "阳翟土楼里32号",
+    "longitude": "118.16054"
+}, {
+    "latitude": "24.64525",
+    "count": 0,
+    "Id": "D00T019R20170412161029000026",
+    "type": 1,
+    "Name": "村南2号",
+    "longitude": "118.231906"
+}, {
+    "latitude": "24.462062",
+    "count": 0,
+    "Id": "D00T019R20170412161029000036",
+    "type": 1,
+    "Name": "源通中心10A03",
+    "longitude": "118.07403"
+}, {
+    "latitude": "24.49908",
+    "count": 0,
+    "Id": "D00T019R20170412161029000012",
+    "type": 1,
+    "Name": "石塘村南片181号",
+    "longitude": "118.036934"
+}, {
+    "latitude": "24.528324",
+    "count": 0,
+    "Id": "D00T019R20170412161029000043",
+    "type": 1,
+    "Name": "县后60号",
+    "longitude": "118.146965"
+}, {
+    "latitude": "24.530341",
+    "count": 0,
+    "Id": "D00T019R20170412161029000045",
+    "type": 1,
+    "Name": "围里社793号",
+    "longitude": "118.139239"
+}, {
+    "latitude": "24.476",
+    "count": 0,
+    "Id": "20170419141830004279",
+    "type": 1,
+    "Name": "东浦路109号112门",
+    "longitude": "118.124422"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "af3fafbd6e024735aaf7d7a915603fb4",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.52499",
+    "count": 0,
+    "Id": "b0dacd694eb94a2ea417c89178556342",
+    "type": 1,
+    "Name": "金玺彩印智慧园",
+    "longitude": "118.138564"
+}, {
+    "latitude": "24.475603",
+    "count": 0,
+    "Id": "b70ae279a67b42da911652b370356ad2",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179257"
+}, {
+    "latitude": "24.498984",
+    "count": 0,
+    "Id": "b82a50ffb98044b98ca88802b546a5c5",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.139808"
+}, {
+    "latitude": "24.472921",
+    "count": 0,
+    "Id": "b8cc621eee084b04b567dbb4dc97bc88",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.177365"
+}, {
+    "latitude": "24.488812",
+    "count": 0,
+    "Id": "bed46aa5ebd94e6686f98362684ef6c8",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "118.189652"
+}, {
+    "latitude": "24.661584",
+    "count": 0,
+    "Id": "c381202c6abe4fd983539e3b4b2b8b23",
+    "type": 1,
+    "Name": "鹭林食品",
+    "longitude": "118.13294"
+}, {
+    "latitude": "24.480190",
+    "count": 0,
+    "Id": "D00T019R20170530193928035452",
+    "type": 1,
+    "Name": "能群大厦825号",
+    "longitude": "118.114920"
+}, {
+    "latitude": "24.503886",
+    "count": 0,
+    "Id": "db80f7668ed94899b63b0db5c4806368",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.126064"
+}, {
+    "latitude": "24.497736",
+    "count": 0,
+    "Id": "df95de64378c45f08b7468de83b578cb",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.183226"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "dfdae1b5e5ef445fa9538cda7f3bb0ca",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.470607",
+    "count": 0,
+    "Id": "e01ae3bf58554727a92da10e2092422f",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174416"
+}, {
+    "latitude": "24.468325",
+    "count": 0,
+    "Id": "f34444b0430e44fda2c50a57f8000406",
+    "type": 1,
+    "Name": "铁路小区",
+    "longitude": "118.10997"
+}, {
+    "latitude": "24.466447",
+    "count": 0,
+    "Id": "f3a36e2b3786493f9a408c93bb58c581",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174218"
+}, {
+    "latitude": "24.494416",
+    "count": 0,
+    "Id": "f3d1ae12518d494393cab9f6abec2e11",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.126783"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "c47f7b4e205146aab90fc03712942a9a",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.474896",
+    "count": 0,
+    "Id": "f73bb43abff84654b40e56c4ee627f0a",
+    "type": 1,
+    "Name": "源昌广场",
+    "longitude": "118.110574"
+}, {
+    "latitude": "24.485515",
+    "count": 0,
+    "Id": "f7ebe68203b74dc7b81c36693ff01975",
+    "type": 1,
+    "Name": "盘古社区",
+    "longitude": "118.165696"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "f8fbf404abde4b939716f051b6c00e80",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "f919d2d96f5e4964aa9307c7482d4613",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.529586",
+    "count": 0,
+    "Id": "0e804a94f20540358c70bc08746af961",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.134900"
+}, {
+    "latitude": "24.52876",
+    "count": 0,
+    "Id": "0f552989165340e59a83a96d042fe39b",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134398"
+}, {
+    "latitude": "24.514326",
+    "count": 0,
+    "Id": "220bfb25ede540d7b1ff23b78932a7eb",
+    "type": 1,
+    "Name": "雪梨星光",
+    "longitude": "118.124605"
+}, {
+    "latitude": "24.514014",
+    "count": 0,
+    "Id": "38a3f641ff30451a9fc9b244e76f42aa",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150749"
+}, {
+    "latitude": "24.527081",
+    "count": 0,
+    "Id": "408eff4e96d449dd9b5bf271151dfd2c",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.124316"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "cc2cddcb3ce94b0ca5d4c8e466ab5894",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "cc5b5fa2421b411481beacd9b4b6ccec",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.481690",
+    "count": 0,
+    "Id": "d06bdbb2ff674f36aa8062c95d449892",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.131040"
+}, {
+    "latitude": "24.58888",
+    "count": 0,
+    "Id": "d7f9b07ab0ce4083a7f457853a92f4bc",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.167129"
+}, {
+    "latitude": "24.470897",
+    "count": 0,
+    "Id": "8cffba89329a4c259bbec2219ca0ab69",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174724"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "948e4f42d44246eaa82dcc4d488bc710",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.478738",
+    "count": 0,
+    "Id": "9587e0aaab9f49b38614335c18f4510a",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186071"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "95feb1e3d5b0445ba3990479384be1b5",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.470039",
+    "count": 0,
+    "Id": "9aedbdcadff44b63ba19a1548a7b2955",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173811"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "9c5d71686f5f48ad963797d4370f004c",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182730"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "ab36372c386c4e828d1db228b0038de8",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "036066a8e6094088b45c03abf36589fc",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0489e396b1b7439e98659624b164f63b",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0be2a4b24bdf48778a99bf1364caaa01",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "0c40fe18f3ba449288aa7e4267bea7cd",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0eb89c9498dc42a586260d37d76c6428",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "139055ffd1274e46a3c3137103734cd5",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "1631fb77d98b469f9ede7329197a46d1",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475445",
+    "count": 0,
+    "Id": "17ce051e1d724cb19a95db82f66c3992",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.180259"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "1b5791e67dd74e70a309014263ef372b",
+    "type": 1,
+    "Name": "快乐小屋442号",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "207b4a64e90b4264b4e5ecab96f2de94",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.466447",
+    "count": 0,
+    "Id": "2407cee5a38d444eb8dc027e82469ec9",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174218"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "2adce0ac515940e3ab93ead210e0a09e",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.737115",
+    "count": 0,
+    "Id": "18c36b45de9d46caaab37c1bb4f8267e",
+    "type": 1,
+    "Name": "三秀南里",
+    "longitude": "118.158521"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "39c53b509eff4ad9bb3cc24ebb21731a",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.494416",
+    "count": 0,
+    "Id": "45c1059f1ee844aba2794dbbf42d6637",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.126783"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "57841fe43b554b129bd4a4fd5b78f819",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.527044",
+    "count": 0,
+    "Id": "5d3a3e6ba09a49cf9d0dc5d1f022e9bd",
+    "type": 1,
+    "Name": "新垵村",
+    "longitude": "117.995744"
+}, {
+    "latitude": "24.478791",
+    "count": 0,
+    "Id": "6026872963aa42fe8d6b4747981a7658",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186028"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "614ef57e86c6444da89f730bf19652fd",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.44074",
+    "count": 0,
+    "Id": "61a8f36776104cf3afba387a10055c5d",
+    "type": 1,
+    "Name": "曾厝垵村",
+    "longitude": "118.114344"
+}, {
+    "latitude": "24.443547",
+    "count": 0,
+    "Id": "ed01a5d55ee841a68b6d6ded7607eaab",
+    "type": 1,
+    "Name": "大学路派出所",
+    "longitude": "118.093889"
+}, {
+    "latitude": "24.603716",
+    "count": 0,
+    "Id": "f3fc3e09232d4bd7a3b05a2c28d57148",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.118362"
+}, {
+    "latitude": "27.330885",
+    "count": 0,
+    "Id": "42918245e06749009014346a7abc7e39",
+    "type": 1,
+    "Name": "中央天悦",
+    "longitude": "118.099911"
+}, {
+    "latitude": "24.659752",
+    "count": 0,
+    "Id": "57413d4a64cc4f50b9a424716727f42a",
+    "type": 1,
+    "Name": "同安工业园1号",
+    "longitude": "118.151534"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "4a1729fee6274f87a65d0ec5df2ec91c",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {"count": 0, "Id": "696fab5f266b4120b9d972e7218bf30a", "type": 1, "Name": "安居慧云办公区"}, {
+    "latitude": "24.462655",
+    "count": 0,
+    "Id": "6ebb70b062cf4095ae6fbfd07094a95d",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174565"
+}, {
+    "latitude": "24.592770",
+    "count": 0,
+    "Id": "79a2b79992cc4b838abdd2622e34ae6c",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094540"
+}, {
+    "latitude": "24.53092",
+    "count": 0,
+    "Id": "7f7dda4c620a4e4a85b9c0c84d6bd4b7",
+    "type": 1,
+    "Name": "林后村",
+    "longitude": "118.132117"
+}, {
+    "latitude": "24.471832",
+    "count": 0,
+    "Id": "8a44124128e64234bc3254a73f91c17e",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106718"
+}, {
+    "latitude": "24.591861",
+    "count": 0,
+    "Id": "8cc953e38c444c2bb64834fe093b14fa",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095454"
+}, {
+    "latitude": "24.515093",
+    "count": 0,
+    "Id": "8d0918312ca34753a6c027b7e74279ec",
+    "type": 1,
+    "Name": "湖里社区",
+    "longitude": "118.109116"
+}, {
+    "latitude": "24.494906",
+    "count": 0,
+    "Id": "8e6359b695d94365a1e0ac0f3f3f707e",
+    "type": 1,
+    "Name": "厦门群贤艺术学校",
+    "longitude": "118.129138"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "9b702445cb254dd1a0dbbeb77c80307c",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.491460",
+    "count": 0,
+    "Id": "9e40bfa8cb844ab0a0ddd904edf5b5b2",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.178024"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "9e7733d499e7458781a1a4f4fad98919",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.592098",
+    "count": 0,
+    "Id": "c1ff31d1c32c41d3b2ff509ec15b3fd7",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.09512"
+}, {
+    "latitude": "24.528453",
+    "count": 0,
+    "Id": "cb73d275edfd49deb2bdc57b77667799",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.127867"
+}, {
+    "latitude": "24.461819",
+    "count": 0,
+    "Id": "cd3132d5974d4b0cb645dae1038f2ff7",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175266"
+}, {
+    "latitude": "24.438686",
+    "count": 0,
+    "Id": "d4e6f2178b694c44965f8f1f3e3fc756",
+    "type": 1,
+    "Name": "曾厝垵村",
+    "longitude": "118.113123"
+}, {
+    "latitude": "24.525269",
+    "count": 0,
+    "Id": "d54693f73ae146a189236ac3fa23c44d",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.125752"
+}, {
+    "latitude": "24.499861",
+    "count": 0,
+    "Id": "e1611626186b49bdbb467e11eeb2a745",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.131931"
+}, {
+    "latitude": "24.45921",
+    "count": 0,
+    "Id": "6ae6500980944be5a3de865d0bdbe9a4",
+    "type": 1,
+    "Name": "中华派出所",
+    "longitude": "118.079649"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "736682b42841419297f021561a34034c",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "786ccc65e5a14c8a81beb731090d0596",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.465851",
+    "count": 0,
+    "Id": "7d0bd2ff813844be8343b41c04dfbccd",
+    "type": 1,
+    "Name": "假日香港广场",
+    "longitude": "118.086849"
+}, {
+    "latitude": "24.623724",
+    "count": 0,
+    "Id": "D00T019R20170512115345035415",
+    "type": 1,
+    "Name": "刘山里212号",
+    "longitude": "118.134084"
+}, {
+    "latitude": "24.498612",
+    "count": 0,
+    "Id": "D00T019R20170512115345035418",
+    "type": 1,
+    "Name": "后坑前社272号",
+    "longitude": "118.148126"
+}, {
+    "latitude": "24.500094",
+    "count": 0,
+    "Id": "D00T019R20170512115345035420",
+    "type": 1,
+    "Name": "塔埔社302号",
+    "longitude": "118.185222"
+}, {
+    "latitude": "24.489305",
+    "count": 0,
+    "Id": "D00T019R20170613170807035454",
+    "type": 1,
+    "Name": "龙源里8号",
+    "longitude": "118.134669"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "8003424ff64e44259f42c40ef149c4c7",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "8166e434bc9a4f63a9adc181ce56ccda",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "81cacb359f6f4457990e9435a13f3f8a",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.469131",
+    "count": 0,
+    "Id": "831ebef5fc374f40a245901ccee54c18",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173607"
+}, {
+    "latitude": "24.675516",
+    "count": 0,
+    "Id": "83e6c20e2a324455a3c858252dbf032b",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.220897"
+}, {
+    "latitude": "24.4760",
+    "count": 0,
+    "Id": "8667556a3de14fc98f41f238d999ff8a",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.124422"
+}, {
+    "latitude": "24.462064",
+    "count": 0,
+    "Id": "D00T019R20170412161029000013",
+    "type": 1,
+    "Name": "九条巷46号",
+    "longitude": "118.070038"
+}, {
+    "latitude": "24.531602",
+    "count": 0,
+    "Id": "D00T019R20170412161029000009",
+    "type": 1,
+    "Name": "殿前六组6070号",
+    "longitude": "118.108016"
+}, {
+    "latitude": "24.47357",
+    "count": 0,
+    "Id": "D00T019R20170412161029000025",
+    "type": 1,
+    "Name": "益泰大厦",
+    "longitude": "118.1135"
+}, {
+    "latitude": "24.475984",
+    "count": 0,
+    "Id": "20170419201902004281",
+    "type": 1,
+    "Name": "东浦路109号113门",
+    "longitude": "118.124062"
+}, {
+    "latitude": "24.520342",
+    "count": 0,
+    "Id": "20170420144935004282",
+    "type": 1,
+    "Name": "马垄路10号",
+    "longitude": "118.11696"
+}, {
+    "latitude": "24.478084",
+    "count": 0,
+    "Id": "8962130f6764412190f4f039445cadbe",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181693"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "b5e01826e79d43c9999f6341e144c1af",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "bc0bc65a8318455084c52280d9154785",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "bc21fc3780754b26bb3cc2b499e894dd",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "bd391952850f4022b7f697171f219cf6",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "bf017a63e5df4546800f6021e04ce86f",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.494635",
+    "count": 0,
+    "Id": "c290fde87b8f4611ac37056a747e3faa",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182185"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "c3d28e63ee4c461daf65bc4847ea218b",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.488592",
+    "count": 0,
+    "Id": "de9433038e0945cea07d3ce090180ecc",
+    "type": 1,
+    "Name": "莲前社区",
+    "longitude": "118.189694"
+}, {
+    "latitude": "24.478093",
+    "count": 0,
+    "Id": "df819aa363f54054b887617e17eeaefd",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181681"
+}, {
+    "latitude": "24.485515",
+    "count": 0,
+    "Id": "e3e3cf12bb9c4d79ac0b0cf6ff0a185d",
+    "type": 1,
+    "Name": "盘古社区",
+    "longitude": "118.165696"
+}, {
+    "latitude": "24.493717",
+    "count": 0,
+    "Id": "e70603592be3434089f670b40a8ca3f2",
+    "type": 1,
+    "Name": "香莲里小区",
+    "longitude": "118.136804"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "e90d3b04449c4e7181858e181dc75313",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.482",
+    "count": 0,
+    "Id": "ea27c6d08fc24bb688a9a340e90f0910",
+    "type": 1,
+    "Name": "岭兜一里",
+    "longitude": "118.184578"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "ecf2aa8aaff74bc3874925b9ff38c45d",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.488833",
+    "count": 0,
+    "Id": "f0c6251dc2c848b0b1e1d1ba5dd7d05b",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.189284"
+}, {
+    "latitude": "24.463101",
+    "count": 0,
+    "Id": "f5681b0674bc41afa3b731974acaca6a",
+    "type": 1,
+    "Name": "厦门市公安局办案中心",
+    "longitude": "118.092782"
+}, {
+    "latitude": "24.703516",
+    "count": 0,
+    "Id": "f6a16f756f5a4b35b2d881fb82d9a9fc",
+    "type": 1,
+    "Name": "西洪塘社区",
+    "longitude": "118.130000"
+}, {
+    "latitude": "24.466447",
+    "count": 0,
+    "Id": "fbdbfbc302894df3a7de7cece897f163",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174218"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "fc9b131cab324e97b4bd302988ba0638",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "39.899422",
+    "count": 0,
+    "Id": "fe8bce8436774a6099f772c9bda40b7a",
+    "type": 1,
+    "Name": "假日香港广场",
+    "longitude": "116.411173"
+}, {
+    "latitude": "24.56285",
+    "count": 0,
+    "Id": "02eeee24dbd445e09c234fc78e1c2882",
+    "type": 1,
+    "Name": "杏林海仔尾路168号",
+    "longitude": "118.05425"
+}, {
+    "latitude": "24.513851",
+    "count": 0,
+    "Id": "04310e2bbb2244468eb11dd895e58d8d",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150112"
+}, {
+    "latitude": "24.480249",
+    "count": 0,
+    "Id": "102285272a2f45bbbdd9469c2b4f6d49",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.120543"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "16c277bd53c942f185f9808886d8fbd7",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "196ac3ebb11840e690980b2a6ff984f4",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "1bd8378b57774bad942d87ba287af834",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "1d7012fe60ed4428b023abcb59eb37ae",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.53017",
+    "count": 0,
+    "Id": "1f7626cc42ea4d38821dec50374fe01a",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.13569"
+}, {
+    "latitude": "24.592699",
+    "count": 0,
+    "Id": "20d1565b102e4a26a056078b32d3c6d6",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.095265"
+}, {
+    "latitude": "24.45471",
+    "count": 0,
+    "Id": "23623ac352934db2947aa7fffd98da6c",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.081752"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "282e29028e0342f7b0208b8904a34a56",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.514106",
+    "count": 0,
+    "Id": "35ae255593994070b14c4b742c23151c",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150496"
+}, {
+    "latitude": "24.514104",
+    "count": 0,
+    "Id": "3c4ae1a4bd2b4491bb74150fba0c6257",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150499"
+}, {
+    "latitude": "24.466447",
+    "count": 0,
+    "Id": "c66feebe925c488084fc347e04e66873",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174218"
+}, {
+    "latitude": "24.610824",
+    "count": 0,
+    "Id": "c7bc166b2a78456680795bdefa309a3e",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.078017"
+}, {
+    "latitude": "24.484754",
+    "count": 0,
+    "Id": "c91b7fa59ab54e6bb07c9258bc2caad5",
+    "type": 1,
+    "Name": "洪文社区",
+    "longitude": "118.156777"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "c9866bac717e498a91eb8b216597c895",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "39.899422",
+    "count": 0,
+    "Id": "caaf666ae9ce4819acadc9b4eb19750c",
+    "type": 1,
+    "Name": "假日香港广场",
+    "longitude": "116.411173"
+}, {
+    "latitude": "24.489722",
+    "count": 0,
+    "Id": "cc1f5ca23d114a1293cd8eee1749aff0",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.116914"
+}, {
+    "latitude": "24.478093",
+    "count": 0,
+    "Id": "cc4f2446780e44f6bc4d00dd35bb2456",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181681"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "cc8870ec1a044ebf852b231dbb71f589",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.470648",
+    "count": 0,
+    "Id": "cecf86b5093649c1b77dcbab529e0890",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174858"
+}, {
+    "latitude": "39.899422",
+    "count": 0,
+    "Id": "d13bfdd993cc43db8a17834344b626a6",
+    "type": 1,
+    "Name": "假日香港广场",
+    "longitude": "116.411173"
+}, {
+    "latitude": "24.499299",
+    "count": 0,
+    "Id": "d784c0858a2b46eab448fdce6bcd14e1",
+    "type": 1,
+    "Name": "江头社区",
+    "longitude": "118.124984"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "8bbfaf593cb949819e935b1aa4d51576",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.624684",
+    "count": 0,
+    "Id": "aa17df5f416548f19964c3a0ee56f2a7",
+    "type": 1,
+    "Name": "李林村",
+    "longitude": "117.989932"
+}, {
+    "latitude": "24.591598",
+    "count": 0,
+    "Id": "aad47edb17a042649ef5ff34b5c56699",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.090222"
+}, {
+    "latitude": "24.478721",
+    "count": 0,
+    "Id": "04df59c5742946c68d3b2511aafa7eba",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186178"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "0d096849e74e45b2b0ec0ed82dbc0eec",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182730"
+}, {
+    "latitude": "24.483505",
+    "count": 0,
+    "Id": "0e4c6b248e6148e3837210e8794af1aa",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.177266"
+}, {
+    "latitude": "24.483561",
+    "count": 0,
+    "Id": "0f23ffdf62c7408a9115d92e50701bc3",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.177279"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "0fa062a3c6194a088b37a77292decbbb",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "181c3b08bd13454789dbea00c0e32435",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.46683",
+    "count": 0,
+    "Id": "1b5dcb0464444a4f9640046ef4631f49",
+    "type": 1,
+    "Name": "三叶草教育",
+    "longitude": "118.174207"
+}, {
+    "latitude": "24.470928",
+    "count": 0,
+    "Id": "1bd6a95915f84899a16aa91b6c41c423",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174584"
+}, {
+    "latitude": "24.478715",
+    "count": 0,
+    "Id": "2022acaa36f44403867a96452004f1ab",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186186"
+}, {
+    "latitude": "24.488593",
+    "count": 0,
+    "Id": "2aa8a815ac764759a44eaaf84be63bd9",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.189623"
+}, {
+    "latitude": "24.475086",
+    "count": 0,
+    "Id": "35cc35bd2a894e19a7d7131dfe7eb679",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.180429"
+}, {
+    "latitude": "24.469131",
+    "count": 0,
+    "Id": "3a0d85d18dd747de8bb04d0ba73c6947",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173607"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3bb43507e036452285ce84abbaee876c",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3d9057199bec4216959ea15cfa928531",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.472080",
+    "count": 0,
+    "Id": "462ee95a01974f2b8b02c5fe60ac6d93",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.106270"
+}, {
+    "latitude": "24.494241",
+    "count": 0,
+    "Id": "4cb49c70e2be49b6a39e953f7380160e",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.182408"
+}, {
+    "latitude": "24.478093",
+    "count": 0,
+    "Id": "4ec109a96e1e44c89c26c3cdba35400f",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.181681"
+}, {
+    "latitude": "24.522665110678133",
+    "count": 0,
+    "Id": "54b62d72b974446390d1012d5268ab11",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.14518082836857"
+}, {
+    "latitude": "24.531380977960573",
+    "count": 0,
+    "Id": "555361361bae40aaae74d80fb6ca2532",
+    "type": 1,
+    "Name": "围里村",
+    "longitude": "118.14289306701386"
+}, {
+    "latitude": "24.457821",
+    "count": 0,
+    "Id": "5c2f2c62ad14487bb2642d938924017b",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.092621"
+}, {
+    "latitude": "24.483822",
+    "count": 0,
+    "Id": "62bb64515a1a4875be2b122db488eba7",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.193171"
+}, {
+    "latitude": "24.636858",
+    "count": 0,
+    "Id": "ea5d24eed4364d39924b85ef278580f9",
+    "type": 1,
+    "Name": "泰和大厦",
+    "longitude": "118.074173"
+}, {
+    "latitude": "24.483082",
+    "count": 0,
+    "Id": "f2ad5b91ba3b44d6a52faba727e00a98",
+    "type": 1,
+    "Name": "鱼旨寿司",
+    "longitude": "118.152458"
+}, {
+    "latitude": "24.512701",
+    "count": 0,
+    "Id": "45339f3781aa4174bc4abcf7224432ef",
+    "type": 1,
+    "Name": "中央美地",
+    "longitude": "118.138845"
+}, {
+    "latitude": "24.454185",
+    "count": 0,
+    "Id": "51d16d1a806e4d5bbfa3365456e69a90",
+    "type": 1,
+    "Name": "相公宫",
+    "longitude": "118.076361"
+}, {
+    "latitude": "24.491460",
+    "count": 0,
+    "Id": "54dc5fe23573455da2d5fa87ac625965",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.178024"
+}, {
+    "latitude": "24.591820",
+    "count": 0,
+    "Id": "56bed55f94594b9280b4a6d632ada0eb",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094874"
+}, {
+    "latitude": "24.529082",
+    "count": 0,
+    "Id": "581a1d2db5bc4c3db02278b17e22beed",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134958"
+}, {
+    "latitude": "24.61337",
+    "count": 0,
+    "Id": "68ba24e708d84f168a97eee46dfbf378",
+    "type": 1,
+    "Name": "厦大翔安校区",
+    "longitude": "118.305483"
+}, {
+    "latitude": "24.483816",
+    "count": 0,
+    "Id": "68ffb7f14f994675a0d53d72d10777c5",
+    "type": 1,
+    "Name": "莲前社区",
+    "longitude": "118.148201"
+}, {
+    "latitude": "24.640983",
+    "count": 0,
+    "Id": "80556a1ef63c452caafed4f7ddf28d86",
+    "type": 1,
+    "Name": "天合信远",
+    "longitude": "118.239907"
+}, {
+    "latitude": "24.529463",
+    "count": 0,
+    "Id": "94fea562c1744ac09a66ef20ea659c88",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134582"
+}, {
+    "latitude": "24.462922",
+    "count": 0,
+    "Id": "9ce79859d3ba451c8f21da28b85af2aa",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174582"
+}, {
+    "latitude": "24.526511",
+    "count": 0,
+    "Id": "afa15127397143ddb1d9685c15022010",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129533"
+}, {
+    "latitude": "24.603638",
+    "count": 0,
+    "Id": "ba7a8dea9c8840719bc4c0305559fa78",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.118385"
+}, {
+    "latitude": "24.614254",
+    "count": 0,
+    "Id": "bbe7a996b6d442e281d0cc8459c6a6ae",
+    "type": 1,
+    "Name": "厦门亿实软件科技有限公司",
+    "longitude": "118.042594"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "67526c6df88f4de59ae7ffeccc9d7642",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.494416",
+    "count": 0,
+    "Id": "675c4f2f7a964bce9c20e9b71acc23cd",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.126783"
+}, {
+    "latitude": "24.504878",
+    "count": 0,
+    "Id": "67d88f8c1bca40608e4526a5ac2cfd86",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.126508"
+}, {
+    "latitude": "24.538406",
+    "count": 0,
+    "Id": "698234d0d1464ba2985c3db533398d90",
+    "type": 1,
+    "Name": "仑后社56号",
+    "longitude": "118.182754"
+}, {
+    "latitude": "24.532892",
+    "count": 0,
+    "Id": "6a5e70fd58ab4ce5a0e28c75341b4192",
+    "type": 1,
+    "Name": "殿前",
+    "longitude": "118.117882"
+}, {
+    "latitude": "24.670697",
+    "count": 0,
+    "Id": "6d17401f9ff54e42ab91fb4e7d958827",
+    "type": 1,
+    "Name": "内厝派出所",
+    "longitude": "118.284319"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "70ba3a77112347b19fce60407c72151c",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.670697",
+    "count": 0,
+    "Id": "7568d34c0a45452db614903fd1b462d1",
+    "type": 1,
+    "Name": "内厝派出所",
+    "longitude": "118.284319"
+}, {
+    "latitude": "24.468566",
+    "count": 0,
+    "Id": "7c69650884434688b9862ffbaac0fe25",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173856"
+}, {
+    "latitude": "24.486154",
+    "count": 0,
+    "Id": "D00T019R20170512115345035432",
+    "type": 1,
+    "Name": "嘉禾路106号",
+    "longitude": "118.118602"
+}, {
+    "latitude": "24.666406",
+    "count": 0,
+    "Id": "7f934658a31d4fa6a9668afa52fb4b13",
+    "type": 1,
+    "Name": "西炉村",
+    "longitude": "118.195278"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "8943fac9d9ed4134bd2b5564bff38f0e",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.669046",
+    "count": 0,
+    "Id": "D00T019R20170412161029000018",
+    "type": 1,
+    "Name": "后垵商贸区62号",
+    "longitude": "118.133112"
+}, {
+    "latitude": "24.440254",
+    "count": 0,
+    "Id": "D00T019R20170412161029000019",
+    "type": 1,
+    "Name": "沙坡尾129号",
+    "longitude": "118.087002"
+}, {
+    "latitude": "24.517070",
+    "count": 0,
+    "Id": "D00T019R20170412161029000022",
+    "type": 1,
+    "Name": "后浦村12号",
+    "longitude": "118.109760"
+}, {
+    "latitude": "24.53339",
+    "count": 0,
+    "Id": "D00T019R20170412161029000040",
+    "type": 1,
+    "Name": "枋钟路350号",
+    "longitude": "118.132182"
+}, {
+    "latitude": "24.513082",
+    "count": 0,
+    "Id": "D00T019R20170412161029000044",
+    "type": 1,
+    "Name": "穆厝村326号之一",
+    "longitude": "118.151882"
+}, {
+    "latitude": "24.531381",
+    "count": 0,
+    "Id": "D00T019R20170412161029000002",
+    "type": 1,
+    "Name": "围里社118号",
+    "longitude": "118.142893"
+}, {
+    "latitude": "24.441581",
+    "count": 0,
+    "Id": "D00T019R20170412161029000003",
+    "type": 1,
+    "Name": "同美塔埔前厝56号之一",
+    "longitude": "118.124646"
+}, {
+    "latitude": "24.703516",
+    "count": 0,
+    "Id": "D00T019R20170412161029000030",
+    "type": 1,
+    "Name": "四房里251号",
+    "longitude": "118.13"
+}, {
+    "latitude": "24.44074",
+    "count": 0,
+    "Id": "D00T019R20170412161029000033",
+    "type": 1,
+    "Name": "东宅53号",
+    "longitude": "118.114344"
+}, {
+    "latitude": "24.531602",
+    "count": 0,
+    "Id": "20170419201901004280",
+    "type": 1,
+    "Name": "殿前六组6070号",
+    "longitude": "118.108016"
+}, {
+    "latitude": "24.571700",
+    "count": 0,
+    "Id": "20170423161243007153",
+    "type": 1,
+    "Name": "岑东路26号",
+    "longitude": "118.091760"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "b025520516aa4ae684f203c239e373e9",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "b1375a026d2b4a099c4d9eb9a3a7a3ca",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "b5047354cbbd44f8a5bd966e35ce542d",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "bc59c7c680dd491d8d708047a1cd13ac",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "bdb2da2d17674b7e84075441a2211015",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "30.259244",
+    "count": 0,
+    "Id": "c2d26b84db294298980c32d53503a52c",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "120.219375"
+}, {
+    "latitude": "24.676498",
+    "count": 0,
+    "Id": "de71576c153a4ec7bb97ea8df1b2f818",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.197234"
+}, {
+    "latitude": "24.466494",
+    "count": 0,
+    "Id": "e3bd88b394624b93a49352f66e225af8",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174673"
+}, {
+    "latitude": "24.483825",
+    "count": 0,
+    "Id": "e634b80dd172429e93cea42d4f660ada",
+    "type": 1,
+    "Name": "洪文社区",
+    "longitude": "118.145868"
+}, {
+    "latitude": "24.51919",
+    "count": 0,
+    "Id": "e66f3d49b6d34fd6a830281a7ee6a628",
+    "type": 1,
+    "Name": "卢厝社区",
+    "longitude": "118.144644"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "e8e535eadff4448d910dbe503dd10d6b",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.476166",
+    "count": 0,
+    "Id": "f3ae26baf6104bb3b755103b1528e3e9",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.117642"
+}, {
+    "latitude": "24.470789",
+    "count": 0,
+    "Id": "f6e9da315ee24447a7ad7c7f85a3d58d",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.174504"
+}, {
+    "latitude": "24.478047",
+    "count": 0,
+    "Id": "fb59c27a117540cfab0d1ec14281bc14",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.182085"
+}, {
+    "latitude": "24.478721",
+    "count": 0,
+    "Id": "fd9197e98f6d41e599b0453bfe7d7863",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186182"
+}, {
+    "latitude": "24.529744",
+    "count": 0,
+    "Id": "064b72d8b43d4f908115e74997246428",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.135635"
+}, {
+    "latitude": "24.621032",
+    "count": 0,
+    "Id": "11b22ba337324641a285d5f194fdb475",
+    "type": 1,
+    "Name": "祥吴村",
+    "longitude": "118.250222"
+}, {
+    "latitude": "24.495718",
+    "count": 0,
+    "Id": "14703cee9b78477ba007cc520bf24cd6",
+    "type": 1,
+    "Name": "屿后里小区",
+    "longitude": "118.118598"
+}, {
+    "latitude": "24.48887",
+    "count": 0,
+    "Id": "181f43d89de24113b7d22bf3c38d7e1d",
+    "type": 1,
+    "Name": "育秀中心",
+    "longitude": "118.107121"
+}, {
+    "latitude": "24.473241",
+    "count": 0,
+    "Id": "209cc736fec6474baeb90b58f84d6d22",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.107511"
+}, {
+    "latitude": "24.592568",
+    "count": 0,
+    "Id": "2ab0ea1e778c495ab22ea1d508a59c09",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094745"
+}, {
+    "latitude": "24.461046",
+    "count": 0,
+    "Id": "30182bcce0b64226b28a24a338ea5403",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174392"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "cc94e64b14ca40c5a583b0502849ab71",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.479354",
+    "count": 0,
+    "Id": "cc959525778943708af3dfa816f554a2",
+    "type": 1,
+    "Name": "墩仔家园",
+    "longitude": "118.142224"
+}, {
+    "latitude": "24.478736",
+    "count": 0,
+    "Id": "cca17287a7f54809b8e280cacd6375ef",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186079"
+}, {
+    "latitude": "24.737115",
+    "count": 0,
+    "Id": "cde98409a7844d5bbedf950f8a4ca5e5",
+    "type": 1,
+    "Name": "三秀南里",
+    "longitude": "118.158521"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "cf9f155cd00d4ec6ac9a5ffd4567f45e",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.467612",
+    "count": 0,
+    "Id": "d373416f444e41fa9858ec07057fddc3",
+    "type": 1,
+    "Name": "何厝派出所",
+    "longitude": "118.169454"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "d5213acfa37b47dd93abcd8780722807",
+    "type": 1,
+    "Name": "安居慧云办公区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.488170",
+    "count": 0,
+    "Id": "8d114d7fb11148bf8d2c75a796370440",
+    "type": 1,
+    "Name": "嘉莲社区",
+    "longitude": "118.116510"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "8eb2c8bb08104122a8e57e0c1fc8717f",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.476709",
+    "count": 0,
+    "Id": "9961e913a111422aaee5c30d656ebe94",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.178836"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "9b7ec9895fe14c388128c416e9649b7f",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "a2392026ecbc45f7b2f19639058f93ce",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "a497300897864c3aa97179ac32f797f8",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.477378",
+    "count": 0,
+    "Id": "00407a06e131433e9f39a42a9e2fc61a",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.183567"
+}, {
+    "latitude": "24.47004",
+    "count": 0,
+    "Id": "0067812cc13d4b09a0804ee8bb003908",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.106952"
+}, {
+    "latitude": "24.478831",
+    "count": 0,
+    "Id": "0775128fca884a68ade7fdda45b72903",
+    "type": 1,
+    "Name": "裕康花园",
+    "longitude": "118.124222"
+}, {
+    "latitude": "24.466447",
+    "count": 0,
+    "Id": "0cbd2c714f6a4b9292c712d2b3c82c4e",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174218"
+}, {
+    "latitude": "24.669046",
+    "count": 0,
+    "Id": "178158d52a8342a7b814a9ef53f1f43d",
+    "type": 1,
+    "Name": "湖安社区",
+    "longitude": "118.133112"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "1aeb26954a954b2ca44a72e01c8ceb10",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "1d8be0f5b1484239a4426c66c78c233a",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "210c93d863e2447f86c367e859ed1590",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "21dd0040d2554bb38e2d40fa1b1c2412",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.463788",
+    "count": 0,
+    "Id": "23933cab8e314c03b4a86877fd4a1c35",
+    "type": 1,
+    "Name": "中华派出所",
+    "longitude": "118.089583"
+}, {
+    "latitude": "26.270835",
+    "count": 0,
+    "Id": "2606c8aad2b04b3dabb8bcb5e69b2933",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "117.642194"
+}, {
+    "latitude": "24.491564",
+    "count": 0,
+    "Id": "28ca39bf8d6a49f6974e71cc4ca0ac42",
+    "type": 1,
+    "Name": "石塘村",
+    "longitude": "118.027256"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "2c3e1ba418d34261b48d469f5cd8872a",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "2ee8ec268b6d4d1b914e8184936586f9",
+    "type": 1,
+    "Name": "体验小区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.482480",
+    "count": 0,
+    "Id": "3418ce5d003244ef8802052c20e55108",
+    "type": 1,
+    "Name": "莲前社区",
+    "longitude": "118.159620"
+}, {
+    "latitude": "24.469131",
+    "count": 0,
+    "Id": "37ced40ade5645769fc047997522feb1",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173607"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "39a38258a383462e82eddeb5435288c4",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.527420",
+    "count": 0,
+    "Id": "325a1c9c97d94890ae5eb9fd2361936b",
+    "type": 1,
+    "Name": "安兜村",
+    "longitude": "118.127625"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3da3daecb47847519a7762c0a1b1ef54",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475571",
+    "count": 0,
+    "Id": "3e5e96ebeb574374858f1a429e400256",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179659"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "3fea2dcd51354305aab73a1c27a5e9bc",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "4104f40f1b674b78a72c5f9b7e825650",
+    "type": 1,
+    "Name": "YOUNG创客",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "4139e5d589b44d2faad0c489f876afe7",
+    "type": 1,
+    "Name": "安居慧云办公区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "44c2f0890fd04645ab09681c8ab786e8",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.494507",
+    "count": 0,
+    "Id": "507d81acdda04eccafd91fade0adaca9",
+    "type": 1,
+    "Name": "塔埔社区东区",
+    "longitude": "118.139575"
+}, {
+    "latitude": "24.4760",
+    "count": 0,
+    "Id": "559ac7571cae46d9834d1c940c6bef5e",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.124422"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "5d19813fe743422bbac19f6811fd2e89",
+    "type": 1,
+    "Name": "安居慧云办公区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "5e258e556c5f473f8fb429623c4eebf4",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.476246",
+    "count": 0,
+    "Id": "5f213215ad344ce6b5b0b9e412c15d8f",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.178781"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "6464eedc614c465b8edced0712784fd9",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.529312",
+    "count": 0,
+    "Id": "ea1ab7e6d68a4e79bbce584e4eb04f60",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134861"
+}, {
+    "latitude": "24.603278",
+    "count": 0,
+    "Id": "ea5f98fbb8094735a739722eb81fcbb7",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.117848"
+}, {
+    "latitude": "24.530373",
+    "count": 0,
+    "Id": "f5cd34d33db34313bd093d561c936a9b",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.135402"
+}, {
+    "latitude": "24.542698",
+    "count": 0,
+    "Id": "f9a0f882a21f4e1684ea52f0b17757d6",
+    "type": 1,
+    "Name": "源昌宝墅湾",
+    "longitude": "118.152745"
+}, {"count": 0, "Id": "fb2db7270fb242da86265258ff34592b", "type": 1, "Name": "智能门锁区"}, {
+    "latitude": "24.462641",
+    "count": 0,
+    "Id": "553b3cec0f6e408eb68fb17ca96f62bb",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175689"
+}, {
+    "latitude": "24.529892",
+    "count": 0,
+    "Id": "5ec82823efac432fb05d828022bd4fa7",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.128494"
+}, {
+    "latitude": "24.529351",
+    "count": 0,
+    "Id": "6418289ccd38480ab90609d36d022803",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134851"
+}, {
+    "latitude": "24.506916",
+    "count": 0,
+    "Id": "7409f03c0ff14a58b8a5c69ff53d8693",
+    "type": 1,
+    "Name": "裕兴花园",
+    "longitude": "118.125947"
+}, {
+    "latitude": "24.602577",
+    "count": 0,
+    "Id": "8b9917e5807248eda488276091db9c7d",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.113685"
+}, {
+    "latitude": "24.461227",
+    "count": 0,
+    "Id": "8fe58c80a3c24587b15d6c0733d54ff9",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175646"
+}, {
+    "latitude": "24.526693",
+    "count": 0,
+    "Id": "9a66bde117714f589ee191039667f9f4",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129591"
+}, {
+    "latitude": "24.515986",
+    "count": 0,
+    "Id": "9ccfee46d31b469b934750a2920e590d",
+    "type": 1,
+    "Name": "卢厝社区",
+    "longitude": "118.145264"
+}, {
+    "latitude": "24.441777",
+    "count": 0,
+    "Id": "9ef6bc736f73442ba58562a06323e551",
+    "type": 1,
+    "Name": "曾厝垵村",
+    "longitude": "118.116414"
+}, {
+    "latitude": "24.531382",
+    "count": 0,
+    "Id": "a1cb89f430164b47947532dbe215019d",
+    "type": 1,
+    "Name": "围里村",
+    "longitude": "118.138624"
+}, {
+    "latitude": "24.592152",
+    "count": 0,
+    "Id": "bec8c1c513374decab3596fb0f5ef925",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094851"
+}, {
+    "latitude": "24.480294",
+    "count": 0,
+    "Id": "c0cd15498b4844a9aa905882f4d14f77",
+    "type": 1,
+    "Name": "莲前社区",
+    "longitude": "118.147896"
+}, {
+    "latitude": "24.601164",
+    "count": 0,
+    "Id": "c708a17784614a44904ae6155149b6e5",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.115681"
+}, {
+    "latitude": "24.528679",
+    "count": 0,
+    "Id": "cc92ec037a3d4379874944f7b3147f71",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.127839"
+}, {
+    "latitude": "24.472767",
+    "count": 0,
+    "Id": "d24806562efc4544b94cb31314f35e69",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106755"
+}, {
+    "latitude": "24.522129",
+    "count": 0,
+    "Id": "d4f1872de2c54c10944625d0214ca327",
+    "type": 1,
+    "Name": "马垄路361号",
+    "longitude": "118.124257"
+}, {
+    "latitude": "24.482903",
+    "count": 0,
+    "Id": "e2a093d5f44240f8b88df1734b37bdeb",
+    "type": 1,
+    "Name": "鱼旨寿司",
+    "longitude": "118.151931"
+}, {
+    "latitude": "24.506997",
+    "count": 0,
+    "Id": "e598fd2cb38048adb29f68d2aa043f73",
+    "type": 1,
+    "Name": "裕兴花园",
+    "longitude": "118.126117"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "7cf1feee21004af783bd9d3f52762b24",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.47004",
+    "count": 0,
+    "Id": "D00T019R20170512115345035426",
+    "type": 1,
+    "Name": "金榜铁路家园52号",
+    "longitude": "118.106952"
+}, {
+    "latitude": "24.441866",
+    "count": 0,
+    "Id": "D00T019R20170512115345035427",
+    "type": 1,
+    "Name": "顶澳仔9号",
+    "longitude": "118.086204"
+}, {
+    "latitude": "24.488170",
+    "count": 0,
+    "Id": "D00T019R20170512115345035430",
+    "type": 1,
+    "Name": "洪莲西路37号",
+    "longitude": "118.116510"
+}, {
+    "latitude": "24.708126",
+    "count": 0,
+    "Id": "D00T019R20170512115345035438",
+    "type": 1,
+    "Name": "大厝里238号",
+    "longitude": "118.101516"
+}, {
+    "latitude": "24.481904",
+    "count": 0,
+    "Id": "817292352a8545659e576b74131cbd76",
+    "type": 1,
+    "Name": "岭兜村",
+    "longitude": "118.17774"
+}, {
+    "latitude": "24.513082",
+    "count": 0,
+    "Id": "8480568a52654542aa5441fb6b11868f",
+    "type": 1,
+    "Name": "穆厝村",
+    "longitude": "118.151882"
+}, {
+    "latitude": "24.499299",
+    "count": 0,
+    "Id": "D00T019R20170412161029000015",
+    "type": 1,
+    "Name": "台湾街171号",
+    "longitude": "118.124984"
+}, {
+    "latitude": "24.527044",
+    "count": 0,
+    "Id": "D00T019R20170412161029000021",
+    "type": 1,
+    "Name": "北片区492号",
+    "longitude": "117.995744"
+}, {
+    "latitude": "24.474896",
+    "count": 0,
+    "Id": "D00T019R20170412161029000027",
+    "type": 1,
+    "Name": "源昌广场",
+    "longitude": "118.110574"
+}, {
+    "latitude": "24.498984",
+    "count": 0,
+    "Id": "D00T019R20170412161029000006",
+    "type": 1,
+    "Name": "后埔社359号之三",
+    "longitude": "118.139808"
+}, {
+    "latitude": "23.587",
+    "count": 0,
+    "Id": "D00T019R20170412161029000023",
+    "type": 1,
+    "Name": "前埔428-1号",
+    "longitude": "117.3658"
+}, {
+    "latitude": "24.534142",
+    "count": 0,
+    "Id": "D00T019R20170412161029000029",
+    "type": 1,
+    "Name": "霞阳中路258号",
+    "longitude": "118.014868"
+}, {
+    "latitude": "24.52742",
+    "count": 0,
+    "Id": "D00T019R20170412161029000001",
+    "type": 1,
+    "Name": "安兜1126",
+    "longitude": "118.127625"
+}, {
+    "latitude": "24.52867",
+    "count": 0,
+    "Id": "D00T019R20170412161029000041",
+    "type": 1,
+    "Name": "钟宅2001号",
+    "longitude": "118.1616"
+}, {
+    "latitude": "24.503886",
+    "count": 0,
+    "Id": "D00T019R20170412161029000005",
+    "type": 1,
+    "Name": "乌石浦南路106号1703室",
+    "longitude": "118.126064"
+}, {
+    "latitude": "24.506532",
+    "count": 0,
+    "Id": "b4dc6a2307de456fa5bccce7cabdc297",
+    "type": 1,
+    "Name": "银龙公寓",
+    "longitude": "118.153546"
+}, {
+    "latitude": "24.473752",
+    "count": 0,
+    "Id": "b4f0cd5afc304ce6be0048d329851b18",
+    "type": 1,
+    "Name": "梧村社区",
+    "longitude": "118.110018"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "b71f07eea2ea412996792a4a410e483f",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.469434",
+    "count": 0,
+    "Id": "bbf68bbf57ac40d6b5badda3d42261c9",
+    "type": 1,
+    "Name": "明发国际新城",
+    "longitude": "118.173562"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "bd899715fa034bc18f7d9d962fc4c75b",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.463101",
+    "count": 0,
+    "Id": "dc059786e2404bcf87c14a86cfc474c3",
+    "type": 1,
+    "Name": "厦门市公安局办案中心",
+    "longitude": "118.092782"
+}, {
+    "latitude": "24.484754",
+    "count": 0,
+    "Id": "dc223f18e1da46a5a15c517a056650ed",
+    "type": 1,
+    "Name": "洪文社区",
+    "longitude": "118.156777"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "df676c55668d4c03a3f6dfb72fa30ec5",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.483822",
+    "count": 0,
+    "Id": "e4bf68b82f7d4e2e815cefbdcede20fa",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.193171"
+}, {
+    "latitude": "24.47875",
+    "count": 0,
+    "Id": "f01f7f9bc815443686a659f115218334",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.186087"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "f57593f553934ea3b18572995d89e079",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.469759",
+    "count": 0,
+    "Id": "f61ab29339d142e28fe21bb25c456a4d",
+    "type": 1,
+    "Name": "乔永康大厦",
+    "longitude": "118.088631"
+}, {
+    "latitude": "24.49782",
+    "count": 0,
+    "Id": "f720bacf8fac426e9009bc7502947e10",
+    "type": 1,
+    "Name": "鑫塔水尚",
+    "longitude": "118.183751"
+}, {
+    "latitude": "24.48837",
+    "count": 0,
+    "Id": "fb5057fca1444250bba27c0f6b02911c",
+    "type": 1,
+    "Name": "演示小区",
+    "longitude": "118.189492"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "fb9d033428d247e2a3e144a765d9cbec",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.513694",
+    "count": 0,
+    "Id": "0ee36b78e0fd4721bc67364b3293b21e",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150442"
+}, {
+    "latitude": "24.526426",
+    "count": 0,
+    "Id": "145b663cdaba438f8cfbcfe54ba03ef7",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129527"
+}, {
+    "latitude": "24.514104",
+    "count": 0,
+    "Id": "159971b3e23b44df8dc717a2e2506ab5",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150489"
+}, {
+    "latitude": "24.472276",
+    "count": 0,
+    "Id": "1bfe816c01624e538721c78391c0e154",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106648"
+}, {
+    "latitude": "24.51399",
+    "count": 0,
+    "Id": "219402ba69194b2cb53cda5ecf5c96b3",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150727"
+}, {
+    "latitude": "24.514109",
+    "count": 0,
+    "Id": "2886ea69ed614c8d8d9c6d039b3b04c3",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150496"
+}, {
+    "latitude": "24.472257",
+    "count": 0,
+    "Id": "2b6e73984746434a943bf3302f209fab",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106669"
+}, {
+    "latitude": "24.495420",
+    "count": 0,
+    "Id": "303f7a2577e64e5db73e62a5149e39fd",
+    "type": 1,
+    "Name": "泰和大厦",
+    "longitude": "118.134160"
+}, {
+    "latitude": "24.521320",
+    "count": 0,
+    "Id": "394956547ece410b91778e3797f17887",
+    "type": 1,
+    "Name": "禾山派出所",
+    "longitude": "118.146830"
+}, {
+    "latitude": "39.831969",
+    "count": 0,
+    "Id": "c62b3f84f5cf4e1d99dc6431a1ae9a1b",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "116.535444"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "cdedf7ae01fd4b3bad6890ac392f8f65",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.47034",
+    "count": 0,
+    "Id": "cfa593a9af614321a4cf232bc767ced5",
+    "type": 1,
+    "Name": "禹道集团",
+    "longitude": "118.098757"
+}, {
+    "latitude": "24.475451",
+    "count": 0,
+    "Id": "d08ebeb170ab4b5d97a997e25abc3e96",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179864"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "d1f6b80243ce4989a937d2ef06c4a3b1",
+    "type": 1,
+    "Name": "坂尚社区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "8aa5ed3b66344983bbf0932520f7b4a1",
+    "type": 1,
+    "Name": "同美村",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.489231",
+    "count": 0,
+    "Id": "8d2823ff19ee4fb3901efc3a7ad24ce3",
+    "type": 1,
+    "Name": "测试小区",
+    "longitude": "118.103886"
+}, {
+    "latitude": "24.534142",
+    "count": 0,
+    "Id": "96adf420eaef461db7f8873153ec6727",
+    "type": 1,
+    "Name": "霞阳社区",
+    "longitude": "118.014868"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "9b2100a08ecc41d4966b134135679d2a",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.475885",
+    "count": 0,
+    "Id": "a702442e33574fdc9a901ce1b55da75b",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.178735"
+}, {
+    "latitude": "24.508081",
+    "count": 0,
+    "Id": "0caafab4ec184d71ab020ca64e826cd2",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.137313"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "0d6c06bf99124542b04bb76f3a9cbd25",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "0df1c8e40ab148fd96cb778d5ca11a3e",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.530341",
+    "count": 0,
+    "Id": "12815d42e3604c5ba7309d68c79bc18d",
+    "type": 1,
+    "Name": "围里村",
+    "longitude": "118.139239"
+}, {
+    "latitude": "24.475363",
+    "count": 0,
+    "Id": "179e71fa773d4791ae5d107b95c0607f",
+    "type": 1,
+    "Name": "海峡国际社区二期",
+    "longitude": "118.114168"
+}, {
+    "latitude": "24.483822",
+    "count": 0,
+    "Id": "1970ff1ebbcc48af87e88e55a988181f",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.193171"
+}, {
+    "latitude": "24.470638",
+    "count": 0,
+    "Id": "1c519c094db342af848e11ccc31d1c4e",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.18603"
+}, {
+    "latitude": "24.466255",
+    "count": 0,
+    "Id": "204fc3223da9472383342577a880e1a8",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.175139"
+}, {
+    "latitude": "24.466914",
+    "count": 0,
+    "Id": "28dcf414b75f4ee4874ab16f1ca9eb35",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.174681"
+}, {
+    "latitude": "24.463788",
+    "count": 0,
+    "Id": "2ca78dd418404fcabbe198b9a1d261b3",
+    "type": 1,
+    "Name": "中华派出所",
+    "longitude": "118.089583"
+}, {
+    "latitude": "24.457821",
+    "count": 0,
+    "Id": "31385085470949c384ef2d0f70fddee8",
+    "type": 1,
+    "Name": "镇海社区",
+    "longitude": "118.092621"
+}, {
+    "latitude": "24.478734",
+    "count": 0,
+    "Id": "3497b72ef1a94406af5bbe3f48a0e5dc",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.18619"
+}, {
+    "latitude": "24.478708",
+    "count": 0,
+    "Id": "3a9805ee118847e589c65e76b8fe04ad",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.18618"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3f22a561872a415884ad9442e88bb386",
+    "type": 1,
+    "Name": "天安工业园",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "3f30b40bda0e443692039e6bfd377a7b",
+    "type": 1,
+    "Name": "开发测试小区",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.483006",
+    "count": 0,
+    "Id": "3f91a3b9a22840f4a67ded4c82ff91fd",
+    "type": 1,
+    "Name": "莲前街道办",
+    "longitude": "118.155832"
+}, {
+    "latitude": "24.529665",
+    "count": 0,
+    "Id": "4160453ccd32443bac4cd995ca4dc7fb",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.161512"
+}, {
+    "latitude": "24.476307",
+    "count": 0,
+    "Id": "42e372faf2ea4abbab542a279256f016",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.178543"
+}, {
+    "latitude": "24.478738",
+    "count": 0,
+    "Id": "42f1aeae72514e829bfe913999a003c3",
+    "type": 1,
+    "Name": "滨海名居",
+    "longitude": "118.186071"
+}, {
+    "latitude": "24.504765",
+    "count": 0,
+    "Id": "44840a871c894068bf6f130e90122bb8",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.126409"
+}, {
+    "latitude": "24.494416",
+    "count": 0,
+    "Id": "489b50ce40eb438cbdf6c127165959e5",
+    "type": 1,
+    "Name": "新景海韵园",
+    "longitude": "118.126783"
+}, {
+    "latitude": "24.475229",
+    "count": 0,
+    "Id": "508d400891214a1f83b9a5adc19d14f0",
+    "type": 1,
+    "Name": "海峡国际社区四期",
+    "longitude": "118.179721"
+}, {
+    "latitude": "24.582406",
+    "count": 0,
+    "Id": "54ae70a94fa54dbf9bd5bf25cb55393f",
+    "type": 1,
+    "Name": "海景明珠",
+    "longitude": "118.109867"
+}, {
+    "latitude": "24.475551",
+    "count": 0,
+    "Id": "6057c13fb81b4bc68906ac0d4b3f2c9a",
+    "type": 1,
+    "Name": "海峡国际社区三期",
+    "longitude": "118.180544"
+}, {
+    "latitude": "24.458251",
+    "count": 0,
+    "Id": "61262929689b455ab258d49aa8fcc6ed",
+    "type": 1,
+    "Name": "汇景雅苑",
+    "longitude": "118.042639"
+}, {
+    "latitude": "24.472064",
+    "count": 0,
+    "Id": "ede33fff5cb84422995aa9b4b5daea5f",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.106555"
+}, {
+    "latitude": "24.526905",
+    "count": 0,
+    "Id": "f51f7fd4e2ef49d29f3e26d90aa0febf",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.128878"
+}, {
+    "latitude": "24.511016",
+    "count": 0,
+    "Id": "4963f8c3b8ae43b987809fe99f5399c1",
+    "type": 1,
+    "Name": "围里村",
+    "longitude": "118.085676"
+}, {
+    "latitude": "24.608551",
+    "count": 0,
+    "Id": "50ddd6f614f54db383594f93c8bc67ce",
+    "type": 1,
+    "Name": "后田村",
+    "longitude": "118.126204"
+}, {
+    "latitude": "24.485668",
+    "count": 0,
+    "Id": "5875faa181114346a2de38e584fbfef0",
+    "type": 1,
+    "Name": "槟榔东里",
+    "longitude": "118.109679"
+}, {
+    "latitude": "24.529392",
+    "count": 0,
+    "Id": "592e16d7c23a458a8394cf2ff20a5b68",
+    "type": 1,
+    "Name": "金丰办公区",
+    "longitude": "118.134875"
+}, {
+    "latitude": "24.472260",
+    "count": 0,
+    "Id": "63c68f1ee4324b19895ddece59b5da16",
+    "type": 1,
+    "Name": "罗宾森二期",
+    "longitude": "118.107483"
+}, {
+    "latitude": "24.462415",
+    "count": 0,
+    "Id": "68de6a75fcce40a59fcfd1cd4f5cec1a",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.175051"
+}, {
+    "latitude": "24.527002",
+    "count": 0,
+    "Id": "6c9dc164c6fe44f7bd6b0f453c22dc3b",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129117"
+}, {
+    "latitude": "24.526675",
+    "count": 0,
+    "Id": "73308f8960884f3a8010d9fc67d5f2a2",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129637"
+}, {
+    "latitude": "24.462407",
+    "count": 0,
+    "Id": "74a4317ab400474f9fb136b7cc2b8bb4",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174837"
+}, {
+    "latitude": "24.513709",
+    "count": 0,
+    "Id": "83baaeb4a3af4bf6aa49695615acd793",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150453"
+}, {
+    "latitude": "24.592771",
+    "count": 0,
+    "Id": "841b45f6e85e4c8e8d5296ad59aac891",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094685"
+}, {
+    "latitude": "24.602404",
+    "count": 0,
+    "Id": "897245b30a44486ea39ee9dd7db9fe33",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114372"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "8f383b214ef9413d94eee983d8ba12a2",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.600605",
+    "count": 0,
+    "Id": "935c0fc1a46c48f1a3da951eb78f6688",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114295"
+}, {
+    "latitude": "24.471070",
+    "count": 0,
+    "Id": "a0bf227ca0ed45f096173b9d74102ef2",
+    "type": 1,
+    "Name": "前埔村",
+    "longitude": "118.169243"
+}, {
+    "latitude": "24.505134",
+    "count": 0,
+    "Id": "a752362ce94144f584ac2064eccdd2d1",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.125558"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000080",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口2",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4733",
+    "count": 0,
+    "Id": "D00T003R20170411203954000031",
+    "type": 2,
+    "Name": "思明区梧村汽车站进口4",
+    "longitude": "118.1110"
+}, {
+    "latitude": "24.5115",
+    "count": 3,
+    "Id": "D00T003R20170411203954000040",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口6",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000042",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口8",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5885",
+    "count": 5,
+    "Id": "D00T003R20170411203954000046",
+    "type": 2,
+    "Name": "集美区BRT集美大桥南站东侧入口",
+    "longitude": "118.1036"
+}, {
+    "latitude": "24.5485",
+    "count": 0,
+    "Id": "D00T003R20170713164248001048",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥206",
+    "longitude": "118.1392"
+}, {
+    "latitude": "24.475941",
+    "count": 0,
+    "Id": "D00T003R20170725105939000461",
+    "type": 2,
+    "Name": "后埭溪与禾祥东路交叉路口人像识别北（农业发展银行）1",
+    "longitude": "118.112973"
+}, {
+    "latitude": "24.506306",
+    "count": 0,
+    "Id": "D00T003R20170804094840000532",
+    "type": 2,
+    "Name": "云顶北路西潘村口31",
+    "longitude": "118.155227"
+}, {
+    "latitude": "24.524917",
+    "count": 0,
+    "Id": "D00T003R20170804094840000516",
+    "type": 2,
+    "Name": "安兜社611号博爱门诊K21",
+    "longitude": "118.14338"
+}, {
+    "latitude": "24.531679",
+    "count": 0,
+    "Id": "D00T003R20170804094840000523",
+    "type": 2,
+    "Name": "金尚路林后社850号（公厕）21",
+    "longitude": "118.140685"
+}, {
+    "latitude": "24.47339",
+    "count": 0,
+    "Id": "D00T003R20180326153143002603",
+    "type": 2,
+    "Name": "思明区禾祥东路汉庭酒店路口2",
+    "longitude": "118.104706"
+}, {
+    "latitude": "24.473438",
+    "count": 0,
+    "Id": "D00T003R20170725105939000480",
+    "type": 2,
+    "Name": "临泰宾馆路口人像识别东1",
+    "longitude": "118.11519"
+}, {
+    "latitude": "24.473898",
+    "count": 0,
+    "Id": "D00T003R20170725105939000489",
+    "type": 2,
+    "Name": "厦禾路金榜路口人像识别西1",
+    "longitude": "118.117144"
+}, {
+    "latitude": "24.5248",
+    "count": 2,
+    "Id": "D00T003R20170411203954000051",
+    "type": 2,
+    "Name": "湖里区BRT双十中学入口1",
+    "longitude": "118.1516"
+}, {
+    "latitude": "24.5903",
+    "count": 0,
+    "Id": "D00T003R20170411203954000054",
+    "type": 2,
+    "Name": "集美区BRT集美嘉庚体育馆站出口2",
+    "longitude": "118.1009"
+}, {
+    "latitude": "24.4713",
+    "count": 1,
+    "Id": "D00T003R20170411203954000007",
+    "type": 2,
+    "Name": "厦门南站_站垂2路人行通道1",
+    "longitude": "118.1091"
+}, {
+    "latitude": "24.4742",
+    "count": 0,
+    "Id": "D00T003R20170411203954000017",
+    "type": 2,
+    "Name": "思明区BRT前埔站入口2",
+    "longitude": "118.1677"
+}, {
+    "latitude": "24.4742",
+    "count": 3,
+    "Id": "D00T003R20170411203954000018",
+    "type": 2,
+    "Name": "思明区BRT前埔站出口1",
+    "longitude": "118.1677"
+}, {
+    "latitude": "24.4742",
+    "count": 11,
+    "Id": "D00T003R20170411203954000019",
+    "type": 2,
+    "Name": "思明区BRT前埔站出口2",
+    "longitude": "118.1677"
+}, {
+    "latitude": "24.4723",
+    "count": 0,
+    "Id": "D00T003R20170411203954000027",
+    "type": 2,
+    "Name": "思明区BRT火车站北侧入口",
+    "longitude": "118.1103"
+}, {
+    "latitude": "24.4732",
+    "count": 0,
+    "Id": "D00T003R20170411203954000028",
+    "type": 2,
+    "Name": "思明区梧村汽车站进口1",
+    "longitude": "118.1110"
+}, {
+    "latitude": "24.6383",
+    "count": 2,
+    "Id": "D00T003R20170411203954000120",
+    "type": 2,
+    "Name": "厦门北站2号出站口1-4",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20170627143822000332",
+    "type": 2,
+    "Name": "嵩屿码头（瑞为）",
+    "longitude": "117"
+}, {
+    "latitude": "24.573051",
+    "count": 0,
+    "Id": "D00T003R20170712100202000393",
+    "type": 2,
+    "Name": "杏林大桥（杏锦）公安检查站人脸微卡口",
+    "longitude": "118.0638"
+}, {
+    "latitude": "24.5363",
+    "count": 0,
+    "Id": "D00T003R20170713164248001023",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内出口接机#1",
+    "longitude": "118.1258"
+}, {
+    "latitude": "24.4698",
+    "count": 0,
+    "Id": "D00T003R20170411203954000095",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台3",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000101",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口3",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000108",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口10",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000001",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口1",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.6390",
+    "count": 0,
+    "Id": "D00T003R20170411203954000065",
+    "type": 2,
+    "Name": "厦门北站7号检票口1-1",
+    "longitude": "118.0678"
+}, {
+    "latitude": "24.6387",
+    "count": 0,
+    "Id": "D00T003R20170411203954000068",
+    "type": 2,
+    "Name": "厦门北站6号检票口1-1",
+    "longitude": "118.0703"
+}, {
+    "latitude": "24.6383",
+    "count": 0,
+    "Id": "D00T003R20170411203954000072",
+    "type": 2,
+    "Name": "厦门北站1号出站口1-1",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000059",
+    "type": 2,
+    "Name": "厦门北站进站验证口5",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.482701",
+    "count": 0,
+    "Id": "D00T003R20170810114050000577",
+    "type": 2,
+    "Name": "莲前西路立新游乐场路口11",
+    "longitude": "118.131109"
+}, {
+    "latitude": "24.666734",
+    "count": 0,
+    "Id": "D00T003R20170810114057000650",
+    "type": 2,
+    "Name": "书院路63号1",
+    "longitude": "118.247214"
+}, {
+    "latitude": "24.448431",
+    "count": 0,
+    "Id": "D00T003R20170810114050000581",
+    "type": 2,
+    "Name": "民族路与成功大道桥下21",
+    "longitude": "118.091575"
+}, {
+    "latitude": "24.484132",
+    "count": 0,
+    "Id": "D00T003R20170810114050000588",
+    "type": 2,
+    "Name": "明发广场北区30号11",
+    "longitude": "118.127822"
+}, {
+    "latitude": "24.482664",
+    "count": 0,
+    "Id": "D00T003R20170810114050000592",
+    "type": 2,
+    "Name": "明发南区80号周边21",
+    "longitude": "118.130534"
+}, {
+    "latitude": "24.482664",
+    "count": 0,
+    "Id": "D00T003R20170810114050000593",
+    "type": 2,
+    "Name": "明发南区80号周边31",
+    "longitude": "118.130534"
+}, {
+    "latitude": "24.439244",
+    "count": 0,
+    "Id": "D00T003R20170810114050000599",
+    "type": 2,
+    "Name": "塔头路农盛超市21",
+    "longitude": "118.147358"
+}, {
+    "latitude": "24.712718",
+    "count": 0,
+    "Id": "D00T003R20170810114050000600",
+    "type": 2,
+    "Name": "乌涂商业街爱心购物广场11",
+    "longitude": "118.130556"
+}, {
+    "latitude": "24.712718",
+    "count": 0,
+    "Id": "D00T003R20170810114050000601",
+    "type": 2,
+    "Name": "乌涂商业街爱心购物广场21",
+    "longitude": "118.130556"
+}, {
+    "latitude": "24.486636",
+    "count": 0,
+    "Id": "D00T003R20170810114050000608",
+    "type": 2,
+    "Name": "新中林酒店旁十字口31",
+    "longitude": "118.131604"
+}, {
+    "latitude": "24.532172",
+    "count": 0,
+    "Id": "D00T003R20170810114050000613",
+    "type": 2,
+    "Name": "坂上路围里社区路口K11",
+    "longitude": "118.151398"
+}, {
+    "latitude": "24.533706",
+    "count": 0,
+    "Id": "D00T003R20170810114050000617",
+    "type": 2,
+    "Name": "岐山北路林后社539号K21",
+    "longitude": "118.144748"
+}, {
+    "latitude": "24.430633",
+    "count": 1,
+    "Id": "D00T003R20170902155441000835",
+    "type": 2,
+    "Name": "思明区环岛路鲤鱼门木栈道人脸西",
+    "longitude": "118.108904"
+}, {
+    "latitude": "24.46614",
+    "count": 3,
+    "Id": "D00T003R20170902155441000839",
+    "type": 2,
+    "Name": "思明区BRT二市站出口1",
+    "longitude": "118.088979"
+}, {
+    "latitude": "24.4862",
+    "count": 0,
+    "Id": "D00T003R20170902155441000844",
+    "type": 2,
+    "Name": "湖里区0964-蔡塘路蔡岭路路口K2",
+    "longitude": "118.1549"
+}, {
+    "latitude": "24.468361",
+    "count": 0,
+    "Id": "D00T003R20170823100549000758",
+    "type": 2,
+    "Name": "BRT第一码头站出站11",
+    "longitude": "118.078766"
+}, {
+    "latitude": "24.508217",
+    "count": 0,
+    "Id": "D00T003R20170815112636000680",
+    "type": 2,
+    "Name": "竹坑路华昌路路口K31",
+    "longitude": "118.09232"
+}, {
+    "latitude": "24.527556",
+    "count": 0,
+    "Id": "D00T003R20170815112641000692",
+    "type": 2,
+    "Name": "海霞幼儿园路口11",
+    "longitude": "118.002129"
+}, {
+    "latitude": "24.44612",
+    "count": 0,
+    "Id": "D00T003R20170815112641000701",
+    "type": 2,
+    "Name": "南普陀地下通道口21",
+    "longitude": "118.101314"
+}, {
+    "latitude": "24.523061",
+    "count": 0,
+    "Id": "D00T003R20170815112641000707",
+    "type": 2,
+    "Name": "新垵警务工作站路口21",
+    "longitude": "117.993153"
+}, {
+    "latitude": "24.513284",
+    "count": 0,
+    "Id": "D00T003R20170817152504000719",
+    "type": 2,
+    "Name": "塘边清洁楼21",
+    "longitude": "118.124094"
+}, {
+    "latitude": "24.526529",
+    "count": 0,
+    "Id": "D00T003R20170817152504000720",
+    "type": 2,
+    "Name": "正顺宫路口11",
+    "longitude": "117.996714"
+}, {
+    "latitude": "24.528553",
+    "count": 0,
+    "Id": "D00T003R20170817152504000722",
+    "type": 2,
+    "Name": "枋湖北二路县后社186号K31",
+    "longitude": "118.16149"
+}, {
+    "latitude": "24.492016",
+    "count": 0,
+    "Id": "D00T003R20170817152504000725",
+    "type": 2,
+    "Name": "吕岭路蔡塘段人行道东向西1",
+    "longitude": "118.162421"
+}, {
+    "latitude": "24.483489",
+    "count": 0,
+    "Id": "D00T003R20170823100549000774",
+    "type": 2,
+    "Name": "BRT卧龙晓城站出站1",
+    "longitude": "118.148978"
+}, {
+    "latitude": "24.432021",
+    "count": 0,
+    "Id": "D00T003R20170823100549000787",
+    "type": 2,
+    "Name": "曾厝垵佳福园路口（西向东）1",
+    "longitude": "118.130006"
+}, {
+    "latitude": "24.510813",
+    "count": 2,
+    "Id": "D00T003R20170914175956000924",
+    "type": 2,
+    "Name": "湖里区0522-兴隆路中国邮政路口K3",
+    "longitude": "118.10925"
+}, {
+    "latitude": "24.478859",
+    "count": 1,
+    "Id": "D00T003R20170914175956000940",
+    "type": 2,
+    "Name": "思明区BRT洪文站出口2",
+    "longitude": "118.154162"
+}, {
+    "latitude": "24.503513",
+    "count": 0,
+    "Id": "D00T003R20170914175956000943",
+    "type": 2,
+    "Name": "湖里区BRT金山站出口2",
+    "longitude": "118.154866"
+}, {
+    "latitude": "24.479065",
+    "count": 0,
+    "Id": "D00T003R20170914175956000948",
+    "type": 2,
+    "Name": "思明区BRT龙山桥站出口1",
+    "longitude": "118.126043"
+}, {
+    "latitude": "24.514606",
+    "count": 3,
+    "Id": "D00T003R20170914175956000951",
+    "type": 2,
+    "Name": "湖里区BRT市政务服务中心站出口2",
+    "longitude": "118.154174"
+}, {
+    "latitude": "24.594512",
+    "count": 0,
+    "Id": "D00T003R20170920151410001279",
+    "type": 2,
+    "Name": "集美区桐林一路与立德路广场西2_3",
+    "longitude": "118.056454"
+}, {
+    "latitude": "24.440639",
+    "count": 1,
+    "Id": "D00T003R20170902155536000851",
+    "type": 2,
+    "Name": "思明区老虎山路与龙虎西二里交叉口旧海洋路口人脸东",
+    "longitude": "118.115357"
+}, {
+    "latitude": "24.581333",
+    "count": 0,
+    "Id": "D00T003R20170920151410001284",
+    "type": 2,
+    "Name": "集美区杏北二路与苑亭路路口2_2",
+    "longitude": "118.052002"
+}, {
+    "latitude": "24.572398",
+    "count": 0,
+    "Id": "D00T003R20170920151410001287",
+    "type": 2,
+    "Name": "集美区杏林北路建昌建材城路口_3",
+    "longitude": "118.037807"
+}, {
+    "latitude": "24.565785",
+    "count": 0,
+    "Id": "D00T003R20170920151410001288",
+    "type": 2,
+    "Name": "集美区杏林东路洪埭路路口_1",
+    "longitude": "118.042302"
+}, {
+    "latitude": "24.567407",
+    "count": 1,
+    "Id": "D00T003R20170920151410001290",
+    "type": 2,
+    "Name": "集美区杏林东路三秀巷路口_1",
+    "longitude": "118.038307"
+}, {
+    "latitude": "24.565333",
+    "count": 0,
+    "Id": "D00T003R20170920151410001296",
+    "type": 2,
+    "Name": "集美区杏林东路文化宫门口_2",
+    "longitude": "118.046398"
+}, {
+    "latitude": "24.572514",
+    "count": 0,
+    "Id": "D00T003R20170920151410001299",
+    "type": 2,
+    "Name": "集美区杏前路建昌花园_3_1",
+    "longitude": "118.037826"
+}, {
+    "latitude": "24.669267",
+    "count": 0,
+    "Id": "D00T003R20170914175956000965",
+    "type": 2,
+    "Name": "翔安区XA083-同美山头里49号斜对面-01",
+    "longitude": "118.212426"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170914175956000969",
+    "type": 2,
+    "Name": "翔安区舫山西路XA087-同美万家春里1号3",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170914175956000970",
+    "type": 2,
+    "Name": "翔安区舫山西路XA087-同美万家春里1号4",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170914175956000976",
+    "type": 2,
+    "Name": "翔安区XA110同美塘尾仔同美里5号101旁1",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.673264",
+    "count": 0,
+    "Id": "D00T003R20170914175956000984",
+    "type": 2,
+    "Name": "翔安区XA124-同美下枫路井冈山饭店前-02",
+    "longitude": "118.209134"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170914175956000989",
+    "type": 2,
+    "Name": "翔安区春光路与舫山东二路交叉口XA141-郑坂村佳味美食城前3",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.442892",
+    "count": 0,
+    "Id": "D00T003R20170914175956001110",
+    "type": 2,
+    "Name": "思明区演武西路南普陀山门西侧2",
+    "longitude": "118.090025"
+}, {
+    "latitude": "24.446146",
+    "count": 0,
+    "Id": "D00T003R20170914175956001113",
+    "type": 2,
+    "Name": "思明区黄厝中路十八路公交总站",
+    "longitude": "118.154033"
+}, {
+    "latitude": "24.666734",
+    "count": 7,
+    "Id": "D00T003R20170914175956001114",
+    "type": 2,
+    "Name": "翔安区书院路63号",
+    "longitude": "118.247214"
+}, {
+    "latitude": "24.470374",
+    "count": 0,
+    "Id": "D00T003R20170914175956001132",
+    "type": 2,
+    "Name": "思明区厦禾路千禧园三枪门口人像识别西",
+    "longitude": "118.105066"
+}, {
+    "latitude": "24.471037",
+    "count": 0,
+    "Id": "D00T003R20170914175956001134",
+    "type": 2,
+    "Name": "思明区厦禾路世贸广场大门口人像识别西",
+    "longitude": "118.108598"
+}, {
+    "latitude": "24.522",
+    "count": 0,
+    "Id": "D00T003R20170914175956001007",
+    "type": 2,
+    "Name": "湖里区安兜社成功大道天桥下K1",
+    "longitude": "118.1305"
+}, {
+    "latitude": "24.4889",
+    "count": 2,
+    "Id": "D00T003R20170914175956001013",
+    "type": 2,
+    "Name": "湖里区吕岭路蔡塘人行天桥北侧1",
+    "longitude": "118.1552"
+}, {
+    "latitude": "24.464604",
+    "count": 0,
+    "Id": "D00T003R20180403143849002692",
+    "type": 2,
+    "Name": "思明区湖滨西路思北站天桥1",
+    "longitude": "118.074332"
+}, {
+    "latitude": "24.441328",
+    "count": 0,
+    "Id": "D00T003R20170914175956001019",
+    "type": 2,
+    "Name": "思明区大学路84号2",
+    "longitude": "118.083431"
+}, {
+    "latitude": "24.474702",
+    "count": 0,
+    "Id": "D00T003R20170914175956001025",
+    "type": 2,
+    "Name": "思明区东浦路兴鹭峰洒店路口人像识别西",
+    "longitude": "118.122712"
+}, {
+    "latitude": "24.538093",
+    "count": 0,
+    "Id": "D00T003R20170914175956001030",
+    "type": 2,
+    "Name": "海沧区新景路与新阳北路交叉口海沧中学体育场外十字路口2",
+    "longitude": "118.001864"
+}, {
+    "latitude": "24.537249",
+    "count": 0,
+    "Id": "D00T003R20170914175956001031",
+    "type": 2,
+    "Name": "海霞幼儿园路口1",
+    "longitude": "118.022476"
+}, {
+    "latitude": "24.472723",
+    "count": 0,
+    "Id": "D00T003R20170914175956001034",
+    "type": 2,
+    "Name": "思明区禾祥东路倍顺超市门口人像识别西",
+    "longitude": "118.102755"
+}, {
+    "latitude": "24.473473",
+    "count": 0,
+    "Id": "D00T003R20170914175956001036",
+    "type": 2,
+    "Name": "思明区禾祥东路与金榜路交叉口人像识别西",
+    "longitude": "118.105406"
+}, {
+    "latitude": "24.472511",
+    "count": 0,
+    "Id": "D00T003R20170914175956001041",
+    "type": 2,
+    "Name": "思明区后埭溪与禾祥东路交叉路口人像识别北（农业发展银行）",
+    "longitude": "118.101579"
+}, {
+    "latitude": "24.472462",
+    "count": 0,
+    "Id": "D00T003R20170914175956001042",
+    "type": 2,
+    "Name": "思明区后埭溪与禾祥东路交叉路口人像识别东（益城广场）",
+    "longitude": "118.101668"
+}, {
+    "latitude": "24.5095",
+    "count": 0,
+    "Id": "D00T003R20170914175956001049",
+    "type": 2,
+    "Name": "湖里区湖里街道42号K2",
+    "longitude": "118.0916"
+}, {
+    "latitude": "24.469716",
+    "count": 0,
+    "Id": "D00T003R20170914175956001056",
+    "type": 2,
+    "Name": "思明区汇文路湖滨中路路口人像识别北",
+    "longitude": "118.099147"
+}, {
+    "latitude": "24.46942",
+    "count": 3,
+    "Id": "D00T003R20170914175956001061",
+    "type": 2,
+    "Name": "思明区厦禾路金榜大厦厦禾路拐角人像识别东",
+    "longitude": "118.102794"
+}, {
+    "latitude": "24.478317",
+    "count": 0,
+    "Id": "D00T003R20180329181211002623",
+    "type": 2,
+    "Name": "厦门第一看守所门口2",
+    "longitude": "118.10851"
+}, {
+    "latitude": "24.48961",
+    "count": 0,
+    "Id": "D00T003R20170914175956001079",
+    "type": 2,
+    "Name": "思明区谊爱路莲花邮局3",
+    "longitude": "118.128201"
+}, {
+    "latitude": "24.479613",
+    "count": 0,
+    "Id": "D00T003R20170914175956001082",
+    "type": 2,
+    "Name": "思明区莲前西路立新游乐场路口2",
+    "longitude": "118.119597"
+}, {
+    "latitude": "24.44842",
+    "count": 0,
+    "Id": "D00T003R20170914175956001095",
+    "type": 2,
+    "Name": "思明区民族路与寿山路1",
+    "longitude": "118.077092"
+}, {
+    "latitude": "24.481018",
+    "count": 0,
+    "Id": "D00T003R20170914175956001101",
+    "type": 2,
+    "Name": "思明区嘉禾路辅路明发广场北区30号2",
+    "longitude": "118.116563"
+}, {
+    "latitude": "24.479612",
+    "count": 0,
+    "Id": "D00T003R20170914175956001103",
+    "type": 2,
+    "Name": "思明区明发南区80号周边1",
+    "longitude": "118.118875"
+}, {
+    "latitude": "24.442008",
+    "count": 0,
+    "Id": "D00T003R20170914175956001108",
+    "type": 2,
+    "Name": "思明区思明南路南普陀地下通道口2",
+    "longitude": "118.092154"
+}, {
+    "latitude": "24.483529",
+    "count": 0,
+    "Id": "D00T003R20170914175956001148",
+    "type": 2,
+    "Name": "思明区玉荷路与映碧北路交叉口新中林酒店旁十字口1",
+    "longitude": "118.119996"
+}, {
+    "latitude": "24.440763",
+    "count": 0,
+    "Id": "D00T003R20170914175956001152",
+    "type": 2,
+    "Name": "思明区演武大桥木栈道3K1",
+    "longitude": "118.080658"
+}, {
+    "latitude": "24.428066",
+    "count": 0,
+    "Id": "D00T003R20170914175956001161",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵阿川海鲜西向东",
+    "longitude": "118.119452"
+}, {
+    "latitude": "24.427608",
+    "count": 0,
+    "Id": "D00T003R20170914175956001163",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵海外海北向南K2",
+    "longitude": "118.119992"
+}, {
+    "latitude": "24.427288",
+    "count": 0,
+    "Id": "D00T003R20170914175956001171",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵加油站出口西向东",
+    "longitude": "118.121019"
+}, {
+    "latitude": "24.430422",
+    "count": 0,
+    "Id": "D00T003R20170914175956001174",
+    "type": 2,
+    "Name": "思明区曾厝社美食街曾厝垵街道40号东向西",
+    "longitude": "118.118867"
+}, {
+    "latitude": "24.430422",
+    "count": 0,
+    "Id": "D00T003R20170914175956001175",
+    "type": 2,
+    "Name": "思明区曾厝社美食街曾厝垵街道40号南向北",
+    "longitude": "118.118867"
+}, {
+    "latitude": "24.430422",
+    "count": 0,
+    "Id": "D00T003R20170914175956001176",
+    "type": 2,
+    "Name": "思明区曾厝社美食街曾厝垵街道40号西向东",
+    "longitude": "118.118867"
+}, {
+    "latitude": "24.528287",
+    "count": 6,
+    "Id": "D00T003R20170914175956001178",
+    "type": 2,
+    "Name": "海沧区新景路正顺花园路口2",
+    "longitude": "117.990117"
+}, {
+    "latitude": "24.5083",
+    "count": 1,
+    "Id": "D00T003R20170914175956001189",
+    "type": 2,
+    "Name": "湖里区竹坑路华昌路路口K3",
+    "longitude": "118.0925"
+}, {
+    "latitude": "24.610514",
+    "count": 0,
+    "Id": "D00T003R20180320175111002589",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼负一层仓库通道入口",
+    "longitude": "118.240515"
+}, {
+    "latitude": "24.594781",
+    "count": 0,
+    "Id": "D00T003R20170918175138001243",
+    "type": 2,
+    "Name": "集美区同集南路叶厝村3",
+    "longitude": "118.101519"
+}, {
+    "latitude": "24.586936",
+    "count": 3,
+    "Id": "D00T003R20170918175138001250",
+    "type": 2,
+    "Name": "集美区同集南路孙厝公交站厦门方向",
+    "longitude": "118.096367"
+}, {
+    "latitude": "24.595616",
+    "count": 0,
+    "Id": "D00T003R20170918104444001204",
+    "type": 2,
+    "Name": "集美区海凤路与乐天路1",
+    "longitude": "118.107507"
+}, {
+    "latitude": "24.43929",
+    "count": 1,
+    "Id": "D00T003R20170918104444001206",
+    "type": 2,
+    "Name": "思明区后厝路口人脸南",
+    "longitude": "118.113712"
+}, {
+    "latitude": "24.5096",
+    "count": 0,
+    "Id": "D00T003R20170918104444001208",
+    "type": 2,
+    "Name": "湖里区湖里街9号K3",
+    "longitude": "118.0898"
+}, {
+    "latitude": "24.59717",
+    "count": 1,
+    "Id": "D00T003R20170918104444001216",
+    "type": 2,
+    "Name": "集美区天安路渡田路口霞梧广场1",
+    "longitude": "118.099117"
+}, {
+    "latitude": "24.596348",
+    "count": 1,
+    "Id": "D00T003R20170918104444001222",
+    "type": 2,
+    "Name": "集美区天凤路霞浯公交站2-1",
+    "longitude": "118.1070077"
+}, {
+    "latitude": "24.59681",
+    "count": 5,
+    "Id": "D00T003R20170918104444001229",
+    "type": 2,
+    "Name": "集美区同集南路凤林中路1",
+    "longitude": "118.103608"
+}, {
+    "latitude": "24.529587",
+    "count": 0,
+    "Id": "D00T003R20170921143621001324",
+    "type": 2,
+    "Name": "海沧区新景路苏埭路口1",
+    "longitude": "117.990033"
+}, {
+    "latitude": "24.432308",
+    "count": 0,
+    "Id": "D00T003R20170921143621001327",
+    "type": 2,
+    "Name": "思明区环岛南路进明寺门口2",
+    "longitude": "118.136043"
+}, {
+    "latitude": "24.432308",
+    "count": 0,
+    "Id": "D00T003R20170921143621001329",
+    "type": 2,
+    "Name": "思明区环岛南路进明寺门口3",
+    "longitude": "118.136043"
+}, {
+    "latitude": "24.5690161",
+    "count": 0,
+    "Id": "D00T003R20171229172743002151",
+    "type": 2,
+    "Name": "海沧区贞岱村主入口东北侧2",
+    "longitude": "117.9725651"
+}, {
+    "latitude": "24.4652",
+    "count": 0,
+    "Id": "D00T003R20171025154713001472",
+    "type": 2,
+    "Name": "海沧区水云湾东屿社区门口入口",
+    "longitude": "118.0297"
+}, {
+    "latitude": "24.5000",
+    "count": 67,
+    "Id": "D00T003R20171031180625001489",
+    "type": 2,
+    "Name": "湖里区裕兴大厦南门出口",
+    "longitude": "118.1231"
+}, {
+    "latitude": "24.5000",
+    "count": 1,
+    "Id": "D00T003R20171031184123001493",
+    "type": 2,
+    "Name": "湖里区裕兴大厦地下南出口",
+    "longitude": "118.1233"
+}, {
+    "latitude": "24.5324",
+    "count": 0,
+    "Id": "D00T003R20171106101030001510",
+    "type": 2,
+    "Name": "湖里区0227B-坂尚路安墩路路口K2",
+    "longitude": "118.1377"
+}, {
+    "latitude": "24.5286",
+    "count": 0,
+    "Id": "D00T003R20171106101030001512",
+    "type": 2,
+    "Name": "湖里区金尚路与林后天桥K3",
+    "longitude": "118.1339"
+}, {
+    "latitude": "24.483336",
+    "count": 1,
+    "Id": "D00T003R20171106101030001514",
+    "type": 2,
+    "Name": "思明区厦禾路坂尾路玉荷酒店旁2",
+    "longitude": "118.121471"
+}, {
+    "latitude": "24.6119",
+    "count": 0,
+    "Id": "D00T003R20170927165917001372",
+    "type": 2,
+    "Name": "灌口凤泉广场(安仁大道与凤泉中路交汇处)",
+    "longitude": "117.9862"
+}, {
+    "latitude": "24.5742",
+    "count": 0,
+    "Id": "D00T003R20170927165917001375",
+    "type": 2,
+    "Name": "集美长途汽车站大门口",
+    "longitude": "118.0347"
+}, {
+    "latitude": "24.5249861",
+    "count": 0,
+    "Id": "D00T003R20171229172743002090",
+    "type": 2,
+    "Name": "海沧区惠佐路口南面4",
+    "longitude": "117.9902111"
+}, {
+    "latitude": "24.4733221",
+    "count": 1,
+    "Id": "D00T003R20171229172743002096",
+    "type": 2,
+    "Name": "海沧区锦里村入口东南面1",
+    "longitude": "117.9901121"
+}, {
+    "latitude": "24.5608641",
+    "count": 1,
+    "Id": "D00T003R20171229172743002099",
+    "type": 2,
+    "Name": "海沧区莲花村主入口南面2",
+    "longitude": "117.9301841"
+}, {
+    "latitude": "24.5490061",
+    "count": 0,
+    "Id": "D00T003R20171229172743002102",
+    "type": 2,
+    "Name": "海沧区茂林村主入口东面2",
+    "longitude": "117.9392551"
+}, {
+    "latitude": "24.5018851",
+    "count": 0,
+    "Id": "D00T003R20171229172743002109",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面1",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.5065",
+    "count": 0,
+    "Id": "D00T003R20170922143520001344",
+    "type": 2,
+    "Name": "湖里区0326-云顶北路金山西路路口K2",
+    "longitude": "118.1552"
+}, {
+    "latitude": "24.5296",
+    "count": 0,
+    "Id": "D00T003R20170922143520001345",
+    "type": 2,
+    "Name": "湖里区0219-枋钟路林后路路口K1",
+    "longitude": "118.1262"
+}, {
+    "latitude": "24.431724",
+    "count": 0,
+    "Id": "D00T003R20170922143520001349",
+    "type": 2,
+    "Name": "思明区黄厝溪头下24号1",
+    "longitude": "118.136709"
+}, {
+    "latitude": "24.5325",
+    "count": 1,
+    "Id": "D00T003R20170922143520001352",
+    "type": 2,
+    "Name": "湖里区0227A-坂尚路安墩路路口K1",
+    "longitude": "118.1377"
+}, {
+    "latitude": "24.589813",
+    "count": 1,
+    "Id": "D00T003R20170922143520001357",
+    "type": 2,
+    "Name": "集美区新华都凤田路路路口1",
+    "longitude": "118.102904"
+}, {
+    "latitude": "24.603055",
+    "count": 0,
+    "Id": "D00T003R20170922143520001365",
+    "type": 2,
+    "Name": "集美区侨英路04-2",
+    "longitude": "118.108408"
+}, {
+    "latitude": "24.607956",
+    "count": 2,
+    "Id": "D00T003R20170922143520001366",
+    "type": 2,
+    "Name": "集美区英瑶路井泉路3",
+    "longitude": "118.107751"
+}, {
+    "latitude": "24.5296",
+    "count": 0,
+    "Id": "D00T003R20170922143520001367",
+    "type": 2,
+    "Name": "湖里区0219-枋钟路林后路路口K2",
+    "longitude": "118.1262"
+}, {
+    "latitude": "24.5346051",
+    "count": 0,
+    "Id": "D00T003R20171229172743002123",
+    "type": 2,
+    "Name": "霞阳大榕树西南面7",
+    "longitude": "118.0144881"
+}, {
+    "latitude": "24.5222871",
+    "count": 3,
+    "Id": "D00T003R20171229172743002131",
+    "type": 2,
+    "Name": "海沧区夏商购物中心西南面",
+    "longitude": "117.9931791"
+}, {
+    "latitude": "24.5272181",
+    "count": 26,
+    "Id": "D00T003R20171229172743002139",
+    "type": 2,
+    "Name": "海沧区新垵中路西面6",
+    "longitude": "117.9937211"
+}, {
+    "latitude": "24.610683",
+    "count": 0,
+    "Id": "D00T003R20171113144227001608",
+    "type": 2,
+    "Name": "集美区东林路莲塘路交叉口1-1",
+    "longitude": "118.103933"
+}, {
+    "latitude": "24.640937",
+    "count": 1,
+    "Id": "D00T003R20171113144227001617",
+    "type": 2,
+    "Name": "同安区BRT潘涂站东入口",
+    "longitude": "118.146281"
+}, {
+    "latitude": "24.604561",
+    "count": 0,
+    "Id": "D00T003R20171113144227001627",
+    "type": 2,
+    "Name": "集美区BRT大学城西出口",
+    "longitude": "118.074457"
+}, {
+    "latitude": "24.49706",
+    "count": 0,
+    "Id": "D00T003R20171228100006002021",
+    "type": 2,
+    "Name": "0957-金尚路西侧祥店站-朝3",
+    "longitude": "118.14794"
+}, {
+    "latitude": "24.608563",
+    "count": 0,
+    "Id": "D00T003R20180109175024002193",
+    "type": 2,
+    "Name": "东林路井泉路口2",
+    "longitude": "118.104223"
+}, {
+    "latitude": "24.5930",
+    "count": 22,
+    "Id": "D00T003R20171115160214001632",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口人行天桥入口",
+    "longitude": "118.0956"
+}, {
+    "latitude": "24.5930",
+    "count": 25,
+    "Id": "D00T003R20171115160551001633",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口人行天桥出口",
+    "longitude": "118.0956"
+}, {
+    "latitude": "24.5926",
+    "count": 42,
+    "Id": "D00T003R20171115161041001635",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口东侧灯杆出口",
+    "longitude": "118.0958"
+}, {
+    "latitude": "24.475252",
+    "count": 3,
+    "Id": "D00T003R20171128184431001658",
+    "type": 2,
+    "Name": "思明区后江埭路2",
+    "longitude": "118.099432"
+}, {
+    "latitude": "24.63125",
+    "count": 1,
+    "Id": "D00T003R20171129162434001670",
+    "type": 2,
+    "Name": "同安区BRT蔡店站东入口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.62944",
+    "count": 0,
+    "Id": "D00T003R20171113144057001574",
+    "type": 2,
+    "Name": "集美区BRT田厝站东出口",
+    "longitude": "118.066033"
+}, {
+    "latitude": "24.607443",
+    "count": 0,
+    "Id": "D00T003R20171113144057001576",
+    "type": 2,
+    "Name": "集美区BRT产业研究院西入口",
+    "longitude": "118.069374"
+}, {
+    "latitude": "24.636907",
+    "count": 7,
+    "Id": "D00T003R20171113144057001580",
+    "type": 2,
+    "Name": "集美区BRT厦门北站入口1",
+    "longitude": "118.068224"
+}, {
+    "latitude": "24.600503",
+    "count": 1,
+    "Id": "D00T003R20171113144057001594",
+    "type": 2,
+    "Name": "集美区BRT华侨大学站西出口",
+    "longitude": "118.081576"
+}, {
+    "latitude": "24.663836",
+    "count": 0,
+    "Id": "D00T003R20171113144227001605",
+    "type": 2,
+    "Name": "同安区BRT轻工食品园站出口",
+    "longitude": "118.132405"
+}, {
+    "latitude": "24.485814",
+    "count": 1,
+    "Id": "D00T003R20171214174425001841",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头南出口3",
+    "longitude": "118.070649"
+}, {
+    "latitude": "24.486884",
+    "count": 0,
+    "Id": "D00T003R20171214174425001844",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码人行天桥1",
+    "longitude": "118.071017"
+}, {
+    "latitude": "24.486311",
+    "count": 0,
+    "Id": "D00T003R20171214174425001849",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头3号电梯",
+    "longitude": "118.071631"
+}, {
+    "latitude": "24.5001598",
+    "count": 0,
+    "Id": "D00T003R20171214174425001752",
+    "type": 2,
+    "Name": "R003-湖里区SM一期莱雅百货员工通道",
+    "longitude": "118.1266522"
+}, {
+    "latitude": "24.5010808",
+    "count": 1,
+    "Id": "D00T003R20171214174425001753",
+    "type": 2,
+    "Name": "R003-湖里区SM一期负一层东门1 ",
+    "longitude": "118.127346"
+}, {
+    "latitude": "24.5010254",
+    "count": 1,
+    "Id": "D00T003R20171214174425001760",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场西门2（莱雅百货）",
+    "longitude": "118.1265754"
+}, {
+    "latitude": "24.4851584",
+    "count": 0,
+    "Id": "D00T003R20171214174425001766",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场二楼D南门",
+    "longitude": "118.1558543"
+}, {
+    "latitude": "24.4854822",
+    "count": 0,
+    "Id": "D00T003R20171214174425001770",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场B北门2（星巴克）",
+    "longitude": "118.1562728"
+}, {
+    "latitude": "24.4853536",
+    "count": 1,
+    "Id": "D00T003R20171214174425001773",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场大润发入口",
+    "longitude": "118.1572688"
+}, {
+    "latitude": "24.502689",
+    "count": 0,
+    "Id": "D00T003R20171214174425001775",
+    "type": 2,
+    "Name": "R036-湖里区BRT蔡塘站人行天桥1",
+    "longitude": "118.130016"
+}, {
+    "latitude": "24.646165",
+    "count": 2,
+    "Id": "D00T003R20171129162434001675",
+    "type": 2,
+    "Name": "同安区BRT滨海新城站出口",
+    "longitude": "118.154866"
+}, {
+    "latitude": "24.500957",
+    "count": 0,
+    "Id": "D00T003R20171205144846001708",
+    "type": 2,
+    "Name": "R017-湖里区江头街道办事处正门人行道2",
+    "longitude": "118.126948"
+}, {
+    "latitude": "24.514921",
+    "count": 0,
+    "Id": "D00T003R20171205144846001713",
+    "type": 2,
+    "Name": "R018-湖里区湖里街道办事处正门人行道1",
+    "longitude": "118.098465"
+}, {
+    "latitude": "24.505179",
+    "count": 0,
+    "Id": "D00T003R20171214174425001789",
+    "type": 2,
+    "Name": "R004-湖里万达广场5号门2",
+    "longitude": "118.171453"
+}, {
+    "latitude": "24.499765",
+    "count": 9,
+    "Id": "D00T003R20171214174425001796",
+    "type": 2,
+    "Name": "R034-湖里区江头东路江头小学旁人行道1",
+    "longitude": "118.1302"
+}, {
+    "latitude": "24.5126165",
+    "count": 0,
+    "Id": "D00T003R20171214174425001802",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇北门1（万家超市入口）",
+    "longitude": "118.160162"
+}, {
+    "latitude": "24.502379",
+    "count": 5,
+    "Id": "D00T003R20171214174425001824",
+    "type": 2,
+    "Name": "R013-湖里区仙岳路SM天桥2",
+    "longitude": "118.123204"
+}, {
+    "latitude": "24.502647",
+    "count": 0,
+    "Id": "D00T003R20171214174425001825",
+    "type": 2,
+    "Name": "R031-湖里区仙岳路禾山路路口人行道1",
+    "longitude": "118.12852"
+}, {
+    "latitude": "24.502001",
+    "count": 7,
+    "Id": "D00T003R20171214174425001829",
+    "type": 2,
+    "Name": "R035-湖里区仙岳路中医院分院旧货市场出入口2",
+    "longitude": "118.131597"
+}, {
+    "latitude": "24.5226558",
+    "count": 3,
+    "Id": "D00T003R20171214174425001875",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK出站口2",
+    "longitude": "118.133287"
+}, {
+    "latitude": "24.51599",
+    "count": 0,
+    "Id": "D00T003R20171218125920001881",
+    "type": 2,
+    "Name": "0830-仙岳路北侧浦东社出口-朝1",
+    "longitude": "118.18555"
+}, {
+    "latitude": "24.285406",
+    "count": 0,
+    "Id": "D00T003R20171218125920001886",
+    "type": 2,
+    "Name": "0876-东渡路东侧东渡狐尾山站东2-朝南人行道",
+    "longitude": "118.042329"
+}, {
+    "latitude": "24.488896",
+    "count": 1,
+    "Id": "D00T003R20180403143849002639",
+    "type": 2,
+    "Name": "湖里区东渡路东渡商检人行天桥半球2",
+    "longitude": "118.075485"
+}, {
+    "latitude": "24.48083",
+    "count": 0,
+    "Id": "D00T003R20180403143849002646",
+    "type": 2,
+    "Name": "思明区湖滨北路市政府人行天桥1",
+    "longitude": "118.083151"
+}, {
+    "latitude": "24.50918",
+    "count": 0,
+    "Id": "D00T003R20171218125920001915",
+    "type": 2,
+    "Name": "0948-金山路东侧田里村站-朝北",
+    "longitude": "118.17339"
+}, {
+    "latitude": "24.50918",
+    "count": 0,
+    "Id": "D00T003R20171218125920001916",
+    "type": 2,
+    "Name": "0948-湖里区金山路东侧田里村站-朝南",
+    "longitude": "118.17339"
+}, {
+    "latitude": "24.50909",
+    "count": 2,
+    "Id": "D00T003R20171218125920001917",
+    "type": 2,
+    "Name": "0949-湖里区金山路西侧田里村站-朝北",
+    "longitude": "118.17308"
+}, {
+    "latitude": "25.5190781",
+    "count": 0,
+    "Id": "D00T003R20171218125920001920",
+    "type": 2,
+    "Name": "1124-湖里区虎屿路象屿警务队大院-RK1",
+    "longitude": "119.140343"
+}, {
+    "latitude": "24.503653",
+    "count": 4,
+    "Id": "D00T003R20171218125920001922",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥2",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.596131",
+    "count": 0,
+    "Id": "D00T003R20171222093757001961",
+    "type": 2,
+    "Name": "集美区BRT诚毅学院站东入口",
+    "longitude": "118.08957"
+}, {
+    "latitude": "24.5792941",
+    "count": 0,
+    "Id": "D00T003R20171229172743002069",
+    "type": 2,
+    "Name": "海沧区凤山村主入口东南侧2",
+    "longitude": "117.9648671"
+}, {
+    "latitude": "24.5345591",
+    "count": 0,
+    "Id": "D00T003R20171229172743002050",
+    "type": 2,
+    "Name": "安井路口北面3",
+    "longitude": "118.0105741"
+}, {
+    "latitude": "24.517853",
+    "count": 0,
+    "Id": "D00T003R20180403143849002657",
+    "type": 2,
+    "Name": "湖里区嘉禾路马垅人行天桥半球2",
+    "longitude": "118.113456"
+}, {
+    "latitude": "24.496196",
+    "count": 0,
+    "Id": "D00T003R20180403143849002661",
+    "type": 2,
+    "Name": "湖里区金尚路金尚小区人行天桥半球2",
+    "longitude": "118.142088"
+}, {
+    "latitude": "24.50194",
+    "count": 0,
+    "Id": "D00T003R20180403143849002665",
+    "type": 2,
+    "Name": "湖里区仙岳路江头医院人行天桥海沧方向半球2",
+    "longitude": "118.13164"
+}, {
+    "latitude": "24.521039",
+    "count": 0,
+    "Id": "D00T003R20180403143849002666",
+    "type": 2,
+    "Name": "湖里区兴湖路华荣路口人行天桥半球1",
+    "longitude": "118.101954"
+}, {
+    "latitude": "24.521039",
+    "count": 0,
+    "Id": "D00T003R20180403143849002668",
+    "type": 2,
+    "Name": "湖里区兴湖路麦德隆人行天桥半球1",
+    "longitude": "118.101954"
+}, {
+    "latitude": "24.482127",
+    "count": 0,
+    "Id": "D00T003R20180403143849002676",
+    "type": 2,
+    "Name": "思明区湖滨东路南湖公园人行天桥1",
+    "longitude": "118.103392"
+}, {
+    "latitude": "24.776657",
+    "count": 0,
+    "Id": "D00T003R20180201171812002359",
+    "type": 2,
+    "Name": "翔安区新圩金柄村文化广场",
+    "longitude": "118.281962"
+}, {
+    "latitude": "24.666614",
+    "count": 0,
+    "Id": "D00T003R20180201171812002360",
+    "type": 2,
+    "Name": "翔安区马巷五星停车场右入口",
+    "longitude": "118.250703"
+}, {
+    "latitude": "24.740733",
+    "count": 0,
+    "Id": "D00T003R20180201171812002363",
+    "type": 2,
+    "Name": "翔安区新圩菜市场内",
+    "longitude": "118.250585"
+}, {
+    "latitude": "24.666793",
+    "count": 3,
+    "Id": "D00T003R20180201171812002365",
+    "type": 2,
+    "Name": "翔安区马巷书院路85号",
+    "longitude": "118.247509"
+}, {
+    "latitude": "24.711769",
+    "count": 0,
+    "Id": "D00T003R20180124145513002245",
+    "type": 2,
+    "Name": "同安区白里宫60号2",
+    "longitude": "118.121666"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002254",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站A端出口闸机04",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002264",
+    "type": 2,
+    "Name": "集美区官任地铁站A端出口闸机04",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002287",
+    "type": 2,
+    "Name": "集美区岩内地铁站A端入口闸机02",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002290",
+    "type": 2,
+    "Name": "集美区岩内地铁站A端出口闸机11",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002293",
+    "type": 2,
+    "Name": "集美区岩内地铁站B端出口闸机06",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002302",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站B端出口闸机08",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.463483",
+    "count": 0,
+    "Id": "D00T003R20180125170611002305",
+    "type": 2,
+    "Name": "思明区将军祠地铁站B端出口闸机01",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.463483",
+    "count": 1,
+    "Id": "D00T003R20180125170611002308",
+    "type": 2,
+    "Name": "思明区将军祠地铁站B端入口闸机10",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.463483",
+    "count": 0,
+    "Id": "D00T003R20180125170611002312",
+    "type": 2,
+    "Name": "思明区将军祠地铁站A端入口闸机08",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002327",
+    "type": 2,
+    "Name": "思明区文灶地铁站A端入口闸机06",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002330",
+    "type": 2,
+    "Name": "思明区文灶地铁站B端出口闸机11",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.459032",
+    "count": 1,
+    "Id": "D00T003R20180125170611002332",
+    "type": 2,
+    "Name": "思明区中山公园地铁站A端入口闸机01",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.459032",
+    "count": 4,
+    "Id": "D00T003R20180125170611002338",
+    "type": 2,
+    "Name": "思明区中山公园地铁站B端入口闸机06",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.488896",
+    "count": 2,
+    "Id": "D00T003R20180403143849002638",
+    "type": 2,
+    "Name": "湖里区东渡路东渡商检人行天桥半球1",
+    "longitude": "118.075485"
+}, {
+    "latitude": "24.49607",
+    "count": 0,
+    "Id": "D00T003R20180627172027003092",
+    "type": 2,
+    "Name": "湖里区0142R-江头东路江浦路南路口1-朝南",
+    "longitude": "118.12946"
+}, {
+    "latitude": "24.50447",
+    "count": 0,
+    "Id": "D00T003R20180627172027003101",
+    "type": 2,
+    "Name": "湖里区0156R-嘉禾路SM一期公交站-朝南",
+    "longitude": "118.12114"
+}, {
+    "latitude": "24.473394",
+    "count": 0,
+    "Id": "D00T003R20180403143849002697",
+    "type": 2,
+    "Name": "思明区湖滨中路人民银行人行天桥半球2",
+    "longitude": "118.096384"
+}, {
+    "latitude": "24.437037",
+    "count": 0,
+    "Id": "D00T003R20180403143849002698",
+    "type": 2,
+    "Name": "思明区环岛干道白城隧道口人行天桥半球1",
+    "longitude": "118.113629"
+}, {
+    "latitude": "24.52278",
+    "count": 0,
+    "Id": "D00T003R20180403143849002703",
+    "type": 2,
+    "Name": "思明区环岛干道湿地公园人行天桥机场方向半球2",
+    "longitude": "118.176298"
+}, {
+    "latitude": "24.5",
+    "count": 0,
+    "Id": "D00T003R20180426161808002775",
+    "type": 2,
+    "Name": "集美龙舟测试",
+    "longitude": "117.25"
+}, {
+    "latitude": "24.592485",
+    "count": 0,
+    "Id": "D00T003R20180601102222002884",
+    "type": 2,
+    "Name": "测试集美活动临时人脸2",
+    "longitude": "118.042893"
+}, {
+    "latitude": "24.51496",
+    "count": 0,
+    "Id": "D00T003R20180627172027003106",
+    "type": 2,
+    "Name": "湖里区0160R-新丰路火炬二路路口2-朝北",
+    "longitude": "118.12047"
+}, {
+    "latitude": "24.48616",
+    "count": 0,
+    "Id": "D00T003R20180627172027003108",
+    "type": 2,
+    "Name": "湖里区0162R-新丰路创新三路路口-朝北",
+    "longitude": "118.15938"
+}, {
+    "latitude": "24.51142",
+    "count": 0,
+    "Id": "D00T003R20180627172027003132",
+    "type": 2,
+    "Name": "湖里区0248R-云顶北路金湖路路口3-朝东",
+    "longitude": "118.1588"
+}, {
+    "latitude": "24.245",
+    "count": 0,
+    "Id": "D00T003R20180428155826002783",
+    "type": 2,
+    "Name": "集美五一活动临时人脸1",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.245",
+    "count": 0,
+    "Id": "D00T003R20180428155826002784",
+    "type": 2,
+    "Name": "集美五一活动临时人脸3",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.50583",
+    "count": 0,
+    "Id": "D00T003R20180627172027003141",
+    "type": 2,
+    "Name": "湖里区0314R-仙岳南侧下湖社西出口-朝西",
+    "longitude": "118.164756"
+}, {
+    "latitude": "24.52407",
+    "count": 0,
+    "Id": "D00T003R20180627172027003054",
+    "type": 2,
+    "Name": "湖里区0003R-嘉禾路殿前车站出岛方向下穿通道-朝西",
+    "longitude": "118.11611"
+}, {
+    "latitude": "24.52478",
+    "count": 0,
+    "Id": "D00T003R20180627172027003060",
+    "type": 2,
+    "Name": "湖里区0017R-殿前一路殿前村口2-朝南",
+    "longitude": "118.10925"
+}, {
+    "latitude": "24.54865",
+    "count": 0,
+    "Id": "D00T003R20180627172027003065",
+    "type": 2,
+    "Name": "湖里区0040R-海堤路高崎小学路口-朝南",
+    "longitude": "118.10635"
+}, {
+    "latitude": "24.50732",
+    "count": 0,
+    "Id": "D00T003R20180627172027003068",
+    "type": 2,
+    "Name": "湖里区0061R-海天路华嘉路路口1-朝西",
+    "longitude": "118.09582"
+}, {
+    "latitude": "24.49489",
+    "count": 0,
+    "Id": "D00T003R20180627172027003086",
+    "type": 2,
+    "Name": "湖里区0140R-吕厝路冠宏花园后门路口-朝东",
+    "longitude": "118.12404"
+}, {
+    "latitude": "24.49682",
+    "count": 0,
+    "Id": "D00T003R20180627172027003088",
+    "type": 2,
+    "Name": "湖里区0141R-台湾街江头南路路口2-朝东",
+    "longitude": "118.12751"
+}, {
+    "latitude": "24.50638",
+    "count": 0,
+    "Id": "D00T003R20180627172027003143",
+    "type": 2,
+    "Name": "湖里区0315R-仙岳路南侧下湖社东出口-朝西",
+    "longitude": "118.16567"
+}, {
+    "latitude": "24.49081",
+    "count": 0,
+    "Id": "D00T003R20180627172027003204",
+    "type": 2,
+    "Name": "湖里区0703R-金盛路金安里东门路口-朝南",
+    "longitude": "118.15057"
+}, {
+    "latitude": "24.50931",
+    "count": 0,
+    "Id": "D00T003R20180627172027003209",
+    "type": 2,
+    "Name": "湖里区0762R-泥金社1号路口-朝西",
+    "longitude": "118.19289"
+}, {
+    "latitude": "24.52226",
+    "count": 0,
+    "Id": "D00T003R20180627172027003221",
+    "type": 2,
+    "Name": "湖里区0839R-长虹路西侧寨上村口公交站-朝南",
+    "longitude": "118.09644"
+}, {
+    "latitude": "24.51137",
+    "count": 0,
+    "Id": "D00T003R20180627172027003231",
+    "type": 2,
+    "Name": "湖里区0896R-湖里大道南侧石头皮山站-朝南",
+    "longitude": "118.11527"
+}, {
+    "latitude": "24.50726",
+    "count": 0,
+    "Id": "D00T003R20180627172027003234",
+    "type": 2,
+    "Name": "湖里区0925R-海天路北侧湖里建行站-朝北",
+    "longitude": "118.09068"
+}, {
+    "latitude": "24.50717",
+    "count": 0,
+    "Id": "D00T003R20180627172027003235",
+    "type": 2,
+    "Name": "湖里区0927R-海天路南侧百乐园公交站-朝东",
+    "longitude": "118.09328"
+}, {
+    "latitude": "24.50511",
+    "count": 0,
+    "Id": "D00T003R20180627172027003239",
+    "type": 2,
+    "Name": "湖里区0951R-仙岳北侧湖边站-朝东",
+    "longitude": "118.16264"
+}, {
+    "latitude": "24.605398",
+    "count": 0,
+    "Id": "D00T003R20180704095557003289",
+    "type": 2,
+    "Name": "集美区景湖北路实验小学旁路口_2",
+    "longitude": "117.989734"
+}, {
+    "latitude": "24.604476",
+    "count": 0,
+    "Id": "D00T003R20180704095557003295",
+    "type": 2,
+    "Name": "集美区景湖南路金龙路路口_8",
+    "longitude": "117.981137"
+}, {
+    "latitude": "24.571677",
+    "count": 0,
+    "Id": "D00T003R20180704095557003298",
+    "type": 2,
+    "Name": "集美区航海学院东门＿4B",
+    "longitude": "118.091607"
+}, {
+    "latitude": "24.602024",
+    "count": 0,
+    "Id": "D00T003R20180704095557003301",
+    "type": 2,
+    "Name": "集美区黄庄路黄鹤楼店旁路口",
+    "longitude": "117.982063"
+}, {
+    "latitude": "24.53181",
+    "count": 0,
+    "Id": "D00T003R20180627172027003171",
+    "type": 2,
+    "Name": "湖里区0599R-环岛干道西侧钟宅人行天桥-朝东",
+    "longitude": "118.16448"
+}, {
+    "latitude": "24.49907",
+    "count": 0,
+    "Id": "D00T003R20180627172027003176",
+    "type": 2,
+    "Name": "湖里区0626R-台湾街东方威尼斯出口-朝东",
+    "longitude": "118.12763"
+}, {
+    "latitude": "24.49831",
+    "count": 2,
+    "Id": "D00T003R20180627172027003189",
+    "type": 2,
+    "Name": "湖里区0676R-云顶中路侯卿路路口-朝南",
+    "longitude": "118.15241"
+}, {
+    "latitude": "24.50159",
+    "count": 0,
+    "Id": "D00T003R20180627172027003197",
+    "type": 2,
+    "Name": "湖里区0693R-仙岳路后坑后社路口-朝东",
+    "longitude": "118.15293"
+}, {
+    "latitude": "24.2871",
+    "count": 0,
+    "Id": "D00T003R20180926111636003579",
+    "type": 2,
+    "Name": "厦门南站_站垂4人行通道1",
+    "longitude": "118.6381"
+}, {
+    "latitude": "24.565991",
+    "count": 0,
+    "Id": "D00T003R20181012152312003844",
+    "type": 2,
+    "Name": "(金海湾)文达二里117号一楼",
+    "longitude": "118.05369"
+}, {
+    "latitude": "24.4646",
+    "count": 0,
+    "Id": "D00T003R20180822185800003471",
+    "type": 2,
+    "Name": "水云湾西门出口02",
+    "longitude": "118.0226"
+}, {
+    "latitude": "24.450363",
+    "count": 0,
+    "Id": "D00T003R20180802153821003409",
+    "type": 2,
+    "Name": "思明区黄厝茂后村320号2",
+    "longitude": "118.15092"
+}, {
+    "latitude": "24.42579",
+    "count": 0,
+    "Id": "D00T003R20180802153821003413",
+    "type": 2,
+    "Name": "思明区佳丽后木栈道人脸东",
+    "longitude": "118.120586"
+}, {
+    "latitude": "24.5294",
+    "count": 0,
+    "Id": "D00T003R20180802153821003414",
+    "type": 2,
+    "Name": "湖里区R026-金尚路林后路口K1",
+    "longitude": "118.1333"
+}, {
+    "latitude": "24.566973",
+    "count": 0,
+    "Id": "D00T003R20181012152312003783",
+    "type": 2,
+    "Name": "(金海湾)文达二里135号一楼",
+    "longitude": "118.053347"
+}, {
+    "latitude": "24.565117",
+    "count": 0,
+    "Id": "D00T003R20181012152312003789",
+    "type": 2,
+    "Name": "(金海湾)文达二里66号一楼",
+    "longitude": "118.052043"
+}, {
+    "latitude": "24.566138",
+    "count": 0,
+    "Id": "D00T003R20181012152312003794",
+    "type": 2,
+    "Name": "(金海湾)文达二里103号一楼",
+    "longitude": "118.051922"
+}, {
+    "latitude": "24.565432",
+    "count": 0,
+    "Id": "D00T003R20181012152312003822",
+    "type": 2,
+    "Name": "(金海湾)文达二里112号一楼",
+    "longitude": "118.053743"
+}, {
+    "latitude": "24.564889",
+    "count": 0,
+    "Id": "D00T003R20181012152312003825",
+    "type": 2,
+    "Name": "(金海湾)文达二里41号一楼",
+    "longitude": "118.05324"
+}, {
+    "latitude": "24.565119",
+    "count": 0,
+    "Id": "D00T003R20181012152312003832",
+    "type": 2,
+    "Name": "(金海湾)文达二里22号一楼",
+    "longitude": "118.051957"
+}, {
+    "latitude": "24.565579",
+    "count": 0,
+    "Id": "D00T003R20181012152312003835",
+    "type": 2,
+    "Name": "(金海湾)文达二里70号一楼",
+    "longitude": "118.052346"
+}, {
+    "latitude": "24.565647",
+    "count": 0,
+    "Id": "D00T003R20181012152312003836",
+    "type": 2,
+    "Name": "(金海湾)文达二里127号一楼",
+    "longitude": "118.054133"
+}, {
+    "latitude": "24.566164",
+    "count": 0,
+    "Id": "D00T003R20181012152312003839",
+    "type": 2,
+    "Name": "(金海湾)文达二里104号一楼",
+    "longitude": "118.051991"
+}, {
+    "latitude": "24.494838",
+    "count": 0,
+    "Id": "D00T003R20180724151521003372",
+    "type": 2,
+    "Name": "湖里区0179R-江头西路21-2号电信大厦2",
+    "longitude": "118.125624"
+}, {
+    "latitude": "24.49479",
+    "count": 0,
+    "Id": "D00T003R20180724151521003375",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路1号OPPO手机店3",
+    "longitude": "118.125439"
+}, {
+    "latitude": "24.4939",
+    "count": 0,
+    "Id": "D00T003R20180724151521003379",
+    "type": 2,
+    "Name": "湖里区0136R-吕岭路中闽百汇商场2",
+    "longitude": "118.125165"
+}, {
+    "latitude": "24.49471",
+    "count": 0,
+    "Id": "D00T003R20180724151521003383",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-2号佳佳乐超市1",
+    "longitude": "118.124711"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000038",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口4",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5881",
+    "count": 5,
+    "Id": "D00T003R20170411203954000047",
+    "type": 2,
+    "Name": "集美区BRT集美大桥南站西侧入口",
+    "longitude": "118.1033"
+}, {
+    "latitude": "24.5248",
+    "count": 3,
+    "Id": "D00T003R20170411203954000049",
+    "type": 2,
+    "Name": "湖里区BRT双十中学出口1",
+    "longitude": "118.1516"
+}, {
+    "latitude": "24.5489",
+    "count": 0,
+    "Id": "D00T003R20170713164248001053",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥207",
+    "longitude": "118.1401"
+}, {
+    "latitude": "24.610675",
+    "count": 0,
+    "Id": "D00T003R20180320175111002591",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼负二层楼梯口",
+    "longitude": "118.240652"
+}, {
+    "latitude": "24.477384",
+    "count": 0,
+    "Id": "D00T003R20170725105939000451",
+    "type": 2,
+    "Name": "东浦路18号路口人像识别东1",
+    "longitude": "118.130807"
+}, {
+    "latitude": "24.478079",
+    "count": 0,
+    "Id": "D00T003R20170725105939000465",
+    "type": 2,
+    "Name": "湖滨东路嘉隆商业城楼下人像识别北1",
+    "longitude": "118.119274"
+}, {
+    "latitude": "24.506",
+    "count": 0,
+    "Id": "D00T003R20170727095039000501",
+    "type": 2,
+    "Name": "美亚机器人摄像机",
+    "longitude": "118.1749"
+}, {
+    "latitude": "24.526915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000539",
+    "type": 2,
+    "Name": "0566-枋湖北二路板上路口K21",
+    "longitude": "118.15566"
+}, {
+    "latitude": "24.441547",
+    "count": 0,
+    "Id": "D00T003R20170804094840000519",
+    "type": 2,
+    "Name": "环岛南路母子铜像11",
+    "longitude": "118.150637"
+}, {
+    "latitude": "24.492113",
+    "count": 0,
+    "Id": "D00T003R20170804094840000526",
+    "type": 2,
+    "Name": "吕岭路口腔医院11",
+    "longitude": "118.171839"
+}, {
+    "latitude": "24.671405",
+    "count": 0,
+    "Id": "D00T003R20170714142852000441",
+    "type": 2,
+    "Name": "沈海高速同安市际公安检查站人脸微卡口",
+    "longitude": "118.144274"
+}, {
+    "latitude": "24.473438",
+    "count": 0,
+    "Id": "D00T003R20170725105939000481",
+    "type": 2,
+    "Name": "临泰宾馆路口人像识别西1",
+    "longitude": "118.11519"
+}, {
+    "latitude": "24.473668",
+    "count": 0,
+    "Id": "D00T003R20170725105939000491",
+    "type": 2,
+    "Name": "厦禾路千禧园三枪门口人像识别西1",
+    "longitude": "118.116304"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000005",
+    "type": 2,
+    "Name": "厦门北站进站验证口4",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000006",
+    "type": 2,
+    "Name": "厦门北站进站验证口3",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.4908",
+    "count": 1,
+    "Id": "D00T003R20170411203954000014",
+    "type": 2,
+    "Name": "湖里区BRT蔡塘站出口2",
+    "longitude": "118.149"
+}, {
+    "latitude": "24.4723",
+    "count": 0,
+    "Id": "D00T003R20170411203954000026",
+    "type": 2,
+    "Name": "思明区BRT火车站北侧出口",
+    "longitude": "118.1103"
+}, {
+    "latitude": "24.4571",
+    "count": 2,
+    "Id": "D00T003R20170411203954000124",
+    "type": 2,
+    "Name": "思明区轮渡码头入口1",
+    "longitude": "118.0683"
+}, {
+    "latitude": "24.5477",
+    "count": 0,
+    "Id": "D00T003R20170713164248001038",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥211",
+    "longitude": "118.1411"
+}, {
+    "latitude": "24.62606",
+    "count": 0,
+    "Id": "D00T003R20170712100202000385",
+    "type": 2,
+    "Name": "沈海高速厦门市际公安检查站人脸微卡口",
+    "longitude": "118.08904"
+}, {
+    "latitude": "24.680542",
+    "count": 0,
+    "Id": "D00T003R20170712100202000386",
+    "type": 2,
+    "Name": "沈海高速翔安市际公安检查站人脸微卡口",
+    "longitude": "118.24346"
+}, {
+    "latitude": "24.604306",
+    "count": 0,
+    "Id": "D00T003R20170712100202000387",
+    "type": 2,
+    "Name": "沈海高速杏林市际公安检查站人脸微卡口",
+    "longitude": "118.022396"
+}, {
+    "latitude": "24.58839",
+    "count": 0,
+    "Id": "D00T003R20170712100202000391",
+    "type": 2,
+    "Name": "集美大桥（乐海）公安检查站人脸微卡口",
+    "longitude": "118.1142233"
+}, {
+    "latitude": "24.5377",
+    "count": 0,
+    "Id": "D00T003R20170713164248001021",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国际卫检门口#2",
+    "longitude": "118.1275"
+}, {
+    "latitude": "24.5365",
+    "count": 0,
+    "Id": "D00T003R20170713164248001029",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#3",
+    "longitude": "118.1243"
+}, {
+    "latitude": "24.5375",
+    "count": 0,
+    "Id": "D00T003R20170713164248001032",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#7",
+    "longitude": "118.1255"
+}, {
+    "latitude": "24.548",
+    "count": 0,
+    "Id": "D00T003R20170713164248001036",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥205",
+    "longitude": "118.1396"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000092",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口14",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4698",
+    "count": 1,
+    "Id": "D00T003R20170411203954000096",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台4",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000062",
+    "type": 2,
+    "Name": "厦门北站3号检票口1-2",
+    "longitude": "118.0684"
+}, {
+    "latitude": "24.6390",
+    "count": 0,
+    "Id": "D00T003R20170411203954000066",
+    "type": 2,
+    "Name": "厦门北站7号检票口1-2",
+    "longitude": "118.0678"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000071",
+    "type": 2,
+    "Name": "厦门北站4号检票口1-2",
+    "longitude": "118.0684"
+}, {
+    "latitude": "24.441657",
+    "count": 0,
+    "Id": "D00T003R20170810114050000572",
+    "type": 2,
+    "Name": "黄厝塔头125号1",
+    "longitude": "118.150459"
+}, {
+    "latitude": "24.486955",
+    "count": 0,
+    "Id": "D00T003R20170810114050000576",
+    "type": 2,
+    "Name": "莲景路嘉禾路十字口21",
+    "longitude": "118.127999"
+}, {
+    "latitude": "24.643852",
+    "count": 0,
+    "Id": "D00T003R20170810114057000633",
+    "type": 2,
+    "Name": "XA147-郑坂南里155号对面-盛远11",
+    "longitude": "118.232656"
+}, {
+    "latitude": "24.643852",
+    "count": 0,
+    "Id": "D00T003R20170810114057000634",
+    "type": 2,
+    "Name": "XA147-郑坂南里155号对面-盛远21",
+    "longitude": "118.232656"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170810114057000636",
+    "type": 2,
+    "Name": "XA166-郑坂南里181号前两幢21",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.643272",
+    "count": 0,
+    "Id": "D00T003R20170810114057000639",
+    "type": 2,
+    "Name": "XA179-西坂西亭里214号前11",
+    "longitude": "118.242345"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170810114057000641",
+    "type": 2,
+    "Name": "XA191-下坂村聚星隆购物对面11",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170810114057000643",
+    "type": 2,
+    "Name": "XA191-下坂村聚星隆购物对面31",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.647732",
+    "count": 0,
+    "Id": "D00T003R20170810114057000644",
+    "type": 2,
+    "Name": "XA196-西坂下坂里1号旁11",
+    "longitude": "118.246208"
+}, {
+    "latitude": "24.438377",
+    "count": 0,
+    "Id": "D00T003R20170810114057000647",
+    "type": 2,
+    "Name": "白城沙滩警务室21",
+    "longitude": "118.109125"
+}, {
+    "latitude": "24.472694",
+    "count": 1,
+    "Id": "D00T003R20170814115027000656",
+    "type": 2,
+    "Name": "思明区妈祖庙人脸卡口",
+    "longitude": "118.185822"
+}, {
+    "latitude": "24.4909",
+    "count": 1,
+    "Id": "D00T003R20170914175956000931",
+    "type": 2,
+    "Name": "湖里区云顶中路BRT蔡塘站东侧2",
+    "longitude": "118.1492"
+}, {
+    "latitude": "24.446515",
+    "count": 0,
+    "Id": "D00T003R20170810114050000596",
+    "type": 2,
+    "Name": "沙坡尾水闸21",
+    "longitude": "118.092433"
+}, {
+    "latitude": "24.530572",
+    "count": 0,
+    "Id": "D00T003R20170810114050000603",
+    "type": 2,
+    "Name": "县后社48号对面K21",
+    "longitude": "118.157232"
+}, {
+    "latitude": "24.488565",
+    "count": 0,
+    "Id": "D00T003R20170810114050000621",
+    "type": 2,
+    "Name": "鑫林滨餐厅旁拐角处11",
+    "longitude": "118.131298"
+}, {
+    "latitude": "24.667005",
+    "count": 0,
+    "Id": "D00T003R20170810114057000624",
+    "type": 2,
+    "Name": "XA032-马巷街80号外墙21",
+    "longitude": "118.245882"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170810114057000626",
+    "type": 2,
+    "Name": "XA110同美塘尾仔同美里5号101旁21",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170810114057000627",
+    "type": 2,
+    "Name": "XA110同美塘尾仔同美里5号101旁31",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170810114057000630",
+    "type": 2,
+    "Name": "XA141-郑坂村佳味美食城前11",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170810114057000631",
+    "type": 2,
+    "Name": "XA141-郑坂村佳味美食城前21",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.526915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000543",
+    "type": 2,
+    "Name": "BRT斗西站出站21",
+    "longitude": "118.15566"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170810114050000549",
+    "type": 2,
+    "Name": "XA087-同美万家春里1号11",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.672123",
+    "count": 0,
+    "Id": "D00T003R20170810114050000559",
+    "type": 2,
+    "Name": "XA119-同美村委11",
+    "longitude": "118.212275"
+}, {
+    "latitude": "24.5237",
+    "count": 0,
+    "Id": "D00T003R20170914175956000914",
+    "type": 2,
+    "Name": "湖里区0023-长虹路健民医院K1",
+    "longitude": "118.0963"
+}, {
+    "latitude": "24.4978",
+    "count": 1,
+    "Id": "D00T003R20170914175956000918",
+    "type": 2,
+    "Name": "湖里区0359-虎仔山西路宝龙御景东北角路口K3",
+    "longitude": "118.1662"
+}, {
+    "latitude": "24.430633",
+    "count": 0,
+    "Id": "D00T003R20170902155441000836",
+    "type": 2,
+    "Name": "思明区环岛路鲤鱼门木栈道人脸东",
+    "longitude": "118.108904"
+}, {
+    "latitude": "24.42603",
+    "count": 0,
+    "Id": "D00T003R20170902155441000840",
+    "type": 2,
+    "Name": "思明区环岛南路海上运动学校后门木栈道人脸东",
+    "longitude": "118.122202"
+}, {
+    "latitude": "24.4862",
+    "count": 1,
+    "Id": "D00T003R20170902155441000842",
+    "type": 2,
+    "Name": "湖里区0964-蔡塘路蔡岭路路口K1",
+    "longitude": "118.1549"
+}, {
+    "latitude": "24.482365",
+    "count": 0,
+    "Id": "D00T003R20170821095104000743",
+    "type": 2,
+    "Name": "BRT莲坂站出站1",
+    "longitude": "118.128827"
+}, {
+    "latitude": "24.468361",
+    "count": 0,
+    "Id": "D00T003R20170823100549000760",
+    "type": 2,
+    "Name": "BRT第一码头站进站11",
+    "longitude": "118.078766"
+}, {
+    "latitude": "24.506435",
+    "count": 0,
+    "Id": "D00T003R20170823100549000763",
+    "type": 2,
+    "Name": "BRT金山站出站21",
+    "longitude": "118.166056"
+}, {
+    "latitude": "24.512596",
+    "count": 0,
+    "Id": "D00T003R20180403143849002634",
+    "type": 2,
+    "Name": "湖里区长岸路湖里大道人行天桥半球1",
+    "longitude": "118.088763"
+}, {
+    "latitude": "24.511414",
+    "count": 0,
+    "Id": "D00T003R20170815112641000682",
+    "type": 2,
+    "Name": "2958华泰路湖里公园K11",
+    "longitude": "118.111653"
+}, {
+    "latitude": "24.491622",
+    "count": 0,
+    "Id": "D00T003R20170815112641000684",
+    "type": 2,
+    "Name": "蔡塘南侧学校11",
+    "longitude": "118.166464"
+}, {
+    "latitude": "24.491914",
+    "count": 0,
+    "Id": "D00T003R20170815112641000688",
+    "type": 2,
+    "Name": "蔡塘人行天桥北侧31",
+    "longitude": "118.16654"
+}, {
+    "latitude": "24.522991",
+    "count": 0,
+    "Id": "D00T003R20170815112641000700",
+    "type": 2,
+    "Name": "名仕阁小区路口41",
+    "longitude": "117.993882"
+}, {
+    "latitude": "24.456695",
+    "count": 0,
+    "Id": "D00T003R20170817152504000717",
+    "type": 2,
+    "Name": "局口街31",
+    "longitude": "118.075707"
+}, {
+    "latitude": "24.50135",
+    "count": 0,
+    "Id": "D00T003R20180403143849002631",
+    "type": 2,
+    "Name": "湖里区长岸路海天路口人行天桥东侧半球2",
+    "longitude": "118.081414"
+}, {
+    "latitude": "24.513284",
+    "count": 0,
+    "Id": "D00T003R20170817152504000724",
+    "type": 2,
+    "Name": "塘边清洁楼11",
+    "longitude": "118.124094"
+}, {
+    "latitude": "24.430236",
+    "count": 0,
+    "Id": "D00T003R20170823100549000790",
+    "type": 2,
+    "Name": "曾厝垵加油站路口（南向北）人脸1",
+    "longitude": "118.133006"
+}, {
+    "latitude": "24.5298",
+    "count": 2,
+    "Id": "D00T003R20170914175956000925",
+    "type": 2,
+    "Name": "湖里区0560-金尚路小林后青龙宫庙路口K1",
+    "longitude": "118.1333"
+}, {
+    "latitude": "24.46165",
+    "count": 0,
+    "Id": "D00T003R20170914175956000933",
+    "type": 2,
+    "Name": "思明区BRT第一码头站出口2",
+    "longitude": "118.066653"
+}, {
+    "latitude": "24.464541",
+    "count": 1,
+    "Id": "D00T003R20170914175956000936",
+    "type": 2,
+    "Name": "思明区BRT斗西站出口1",
+    "longitude": "118.082562"
+}, {
+    "latitude": "24.479112",
+    "count": 4,
+    "Id": "D00T003R20170914175956000946",
+    "type": 2,
+    "Name": "思明区BRT莲坂站入口",
+    "longitude": "118.117486"
+}, {
+    "latitude": "24.479065",
+    "count": 1,
+    "Id": "D00T003R20170914175956000947",
+    "type": 2,
+    "Name": "思明区BRT龙山桥站入口",
+    "longitude": "118.126043"
+}, {
+    "latitude": "24.479065",
+    "count": 1,
+    "Id": "D00T003R20170914175956000949",
+    "type": 2,
+    "Name": "思明区BRT龙山桥站出口2",
+    "longitude": "118.126043"
+}, {
+    "latitude": "24.559981",
+    "count": 0,
+    "Id": "D00T003R20170920151410001264",
+    "type": 2,
+    "Name": "集美区高浦路豪友大排档路口_3",
+    "longitude": "118.046555"
+}, {
+    "latitude": "24.594951",
+    "count": 0,
+    "Id": "D00T003R20170920151410001273",
+    "type": 2,
+    "Name": "集美区立德路与通林二路2_2",
+    "longitude": "118.058684"
+}, {
+    "latitude": "24.441793",
+    "count": 0,
+    "Id": "D00T003R20170902155536000850",
+    "type": 2,
+    "Name": "思明区龙虎上里上李部队路口人脸东",
+    "longitude": "118.119628"
+}, {
+    "latitude": "24.478317",
+    "count": 0,
+    "Id": "D00T003R20180329181211002622",
+    "type": 2,
+    "Name": "厦门第一看守所门口1",
+    "longitude": "118.10851"
+}, {
+    "latitude": "24.567407",
+    "count": 0,
+    "Id": "D00T003R20170920151410001292",
+    "type": 2,
+    "Name": "集美区杏林东路三秀巷路口_3",
+    "longitude": "118.038307"
+}, {
+    "latitude": "24.566276",
+    "count": 0,
+    "Id": "D00T003R20170920151410001293",
+    "type": 2,
+    "Name": "集美区杏林东路时代广场天桥路口2_1",
+    "longitude": "118.042109"
+}, {
+    "latitude": "24.572514",
+    "count": 2,
+    "Id": "D00T003R20170920151410001298",
+    "type": 2,
+    "Name": "集美区杏前路建昌花园_2_1",
+    "longitude": "118.037826"
+}, {
+    "latitude": "24.57418",
+    "count": 2,
+    "Id": "D00T003R20170920151410001302",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口3_1",
+    "longitude": "118.038259"
+}, {
+    "latitude": "24.574143",
+    "count": 0,
+    "Id": "D00T003R20170920151410001306",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口5_2",
+    "longitude": "118.038465"
+}, {
+    "latitude": "24.514606",
+    "count": 6,
+    "Id": "D00T003R20170914175956000952",
+    "type": 2,
+    "Name": "湖里区BRT市政务服务中心站入口",
+    "longitude": "118.154174"
+}, {
+    "latitude": "24.46979",
+    "count": 0,
+    "Id": "D00T003R20170914175956000957",
+    "type": 2,
+    "Name": "思明区BRT文灶站出口2",
+    "longitude": "118.103306"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170914175956000968",
+    "type": 2,
+    "Name": "翔安区舫山西路XA087-同美万家春里1号2",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.474658",
+    "count": 0,
+    "Id": "D00T003R20180403143849002688",
+    "type": 2,
+    "Name": "思明区湖滨南路闽南人行天桥半球1",
+    "longitude": "118.098107"
+}, {
+    "latitude": "24.643852",
+    "count": 2,
+    "Id": "D00T003R20170914175956000991",
+    "type": 2,
+    "Name": "翔安区XA147-郑坂南里155号对面-盛远1",
+    "longitude": "118.232656"
+}, {
+    "latitude": "24.473241",
+    "count": 1,
+    "Id": "D00T003R20170914175956001111",
+    "type": 2,
+    "Name": "思明区莲前东路前埔幼儿园2",
+    "longitude": "118.170563"
+}, {
+    "latitude": "24.436343",
+    "count": 0,
+    "Id": "D00T003R20170914175956001115",
+    "type": 2,
+    "Name": "思明区塔头路农盛超市1",
+    "longitude": "118.135882"
+}, {
+    "latitude": "24.436343",
+    "count": 0,
+    "Id": "D00T003R20170914175956001116",
+    "type": 2,
+    "Name": "思明区塔头路农盛超市2",
+    "longitude": "118.135882"
+}, {
+    "latitude": "24.5104",
+    "count": 5,
+    "Id": "D00T003R20170914175956001120",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边社328号K2",
+    "longitude": "118.1146"
+}, {
+    "latitude": "24.66667",
+    "count": 0,
+    "Id": "D00T003R20170914175956001142",
+    "type": 2,
+    "Name": "翔安内厝市际公安检查站（固定点）人脸微卡口1",
+    "longitude": "118.31667"
+}, {
+    "latitude": "24.523061",
+    "count": 0,
+    "Id": "D00T003R20170914175956001143",
+    "type": 2,
+    "Name": "海沧区翁角路新垵警务工作站路口2",
+    "longitude": "117.993153"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170914175956001002",
+    "type": 2,
+    "Name": "翔安区春波路与翔星路交叉口XA191-下坂村聚星隆购物对面3",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.531143",
+    "count": 2,
+    "Id": "D00T003R20170914175956001010",
+    "type": 2,
+    "Name": "湖里区编号556金尚路林后村1",
+    "longitude": "118.131885"
+}, {
+    "latitude": "24.484841",
+    "count": 5,
+    "Id": "D00T003R20170914175956001020",
+    "type": 2,
+    "Name": "思明区莲花南里已映碧北路交叉口第二实验小学旁1",
+    "longitude": "118.122064"
+}, {
+    "latitude": "24.523727",
+    "count": 0,
+    "Id": "D00T003R20170914175956001026",
+    "type": 2,
+    "Name": "海沧区新美路与翁角路交叉口福隆驾校旁辅路1",
+    "longitude": "117.998433"
+}, {
+    "latitude": "24.480916",
+    "count": 0,
+    "Id": "D00T003R20170914175956001028",
+    "type": 2,
+    "Name": "思明区莲景路与莲兴路交叉口复兴肯德基旁2",
+    "longitude": "118.114736"
+}, {
+    "latitude": "24.53524",
+    "count": 0,
+    "Id": "D00T003R20170914175956001029",
+    "type": 2,
+    "Name": "海沧区新景路高炳煌口腔医院路口1",
+    "longitude": "118.001613"
+}, {
+    "latitude": "24.472723",
+    "count": 0,
+    "Id": "D00T003R20170914175956001033",
+    "type": 2,
+    "Name": "思明区禾祥东路倍顺超市门口人像识别东",
+    "longitude": "118.102755"
+}, {
+    "latitude": "24.5096",
+    "count": 3,
+    "Id": "D00T003R20170914175956001047",
+    "type": 2,
+    "Name": "湖里区湖里街9号K1",
+    "longitude": "118.0898"
+}, {
+    "latitude": "24.474956",
+    "count": 4,
+    "Id": "D00T003R20170914175956001058",
+    "type": 2,
+    "Name": "思明区厦禾路与东坪山路假日商城门口人像识别东",
+    "longitude": "118.114286"
+}, {
+    "latitude": "24.46942",
+    "count": 0,
+    "Id": "D00T003R20170914175956001062",
+    "type": 2,
+    "Name": "思明区厦禾路金榜大厦厦禾路拐角人像识别南",
+    "longitude": "118.102794"
+}, {
+    "latitude": "24.46277",
+    "count": 4,
+    "Id": "D00T003R20170914175956001076",
+    "type": 2,
+    "Name": "思明区BRT开禾路口站入口",
+    "longitude": "118.070698"
+}, {
+    "latitude": "24.483872",
+    "count": 0,
+    "Id": "D00T003R20170914175956001080",
+    "type": 2,
+    "Name": "思明区莲景路嘉禾路十字口2",
+    "longitude": "118.116458"
+}, {
+    "latitude": "24.534633",
+    "count": 3,
+    "Id": "D00T003R20170914175956001083",
+    "type": 2,
+    "Name": "海沧区霞阳南路良丰百货路口1",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.534633",
+    "count": 0,
+    "Id": "D00T003R20170914175956001084",
+    "type": 2,
+    "Name": "海沧区霞阳南路良丰百货路口2",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.470019",
+    "count": 0,
+    "Id": "D00T003R20170914175956001087",
+    "type": 2,
+    "Name": "思明区厦禾路与金榜西三路交叉口临泰宾馆路口人像识别北",
+    "longitude": "118.103614"
+}, {
+    "latitude": "24.470019",
+    "count": 0,
+    "Id": "D00T003R20170914175956001088",
+    "type": 2,
+    "Name": "思明区厦禾路与金榜西三路交叉口临泰宾馆路口人像识别东",
+    "longitude": "118.103614"
+}, {
+    "latitude": "24.479544",
+    "count": 1,
+    "Id": "D00T003R20170914175956001098",
+    "type": 2,
+    "Name": "思明区莲前西路辅路明发BRT旁2",
+    "longitude": "118.117776"
+}, {
+    "latitude": "24.479612",
+    "count": 0,
+    "Id": "D00T003R20170914175956001104",
+    "type": 2,
+    "Name": "思明区明发南区80号周边2",
+    "longitude": "118.118875"
+}, {
+    "latitude": "24.522991",
+    "count": 1,
+    "Id": "D00T003R20170914175956001106",
+    "type": 2,
+    "Name": "海沧区翁角路名仕阁小区路口3",
+    "longitude": "117.993882"
+}, {
+    "latitude": "24.483529",
+    "count": 2,
+    "Id": "D00T003R20170914175956001149",
+    "type": 2,
+    "Name": "思明区玉荷路与映碧北路交叉口新中林酒店旁十字口3",
+    "longitude": "118.119996"
+}, {
+    "latitude": "24.440763",
+    "count": 0,
+    "Id": "D00T003R20170914175956001153",
+    "type": 2,
+    "Name": "思明区演武大桥木栈道3K2",
+    "longitude": "118.080658"
+}, {
+    "latitude": "24.449206",
+    "count": 1,
+    "Id": "D00T003R20170914175956001158",
+    "type": 2,
+    "Name": "思明区云顶南路茂新路口2",
+    "longitude": "118.147874"
+}, {
+    "latitude": "24.428225",
+    "count": 1,
+    "Id": "D00T003R20170914175956001168",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵佳福园路口东向西",
+    "longitude": "118.119161"
+}, {
+    "latitude": "24.428225",
+    "count": 0,
+    "Id": "D00T003R20170914175956001170",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵佳福园路口西向东",
+    "longitude": "118.119161"
+}, {
+    "latitude": "24.64378",
+    "count": 0,
+    "Id": "D00T003R20170914175956001179",
+    "type": 2,
+    "Name": "翔安区郑坂亿丰超市1",
+    "longitude": "118.232067"
+}, {
+    "latitude": "24.5083",
+    "count": 3,
+    "Id": "D00T003R20170914175956001184",
+    "type": 2,
+    "Name": "湖里区竹坑路10号K2",
+    "longitude": "118.0889"
+}, {
+    "latitude": "24.5083",
+    "count": 4,
+    "Id": "D00T003R20170914175956001190",
+    "type": 2,
+    "Name": "湖里区竹坑路华昌路路口K4",
+    "longitude": "118.0925"
+}, {
+    "latitude": "24.44069",
+    "count": 0,
+    "Id": "D00T003R20170918104444001236",
+    "type": 2,
+    "Name": "思明区曾厝垵二路学生公寓往东宅人脸西",
+    "longitude": "118.112599"
+}, {
+    "latitude": "24.435746",
+    "count": 0,
+    "Id": "D00T003R20170918104444001238",
+    "type": 2,
+    "Name": "思明区龙虎西路演武第二小学门口人脸南",
+    "longitude": "118.113319"
+}, {
+    "latitude": "24.602984",
+    "count": 1,
+    "Id": "D00T003R20170918104444001240",
+    "type": 2,
+    "Name": "集美区英瑶路02东江医院2",
+    "longitude": "118.102054"
+}, {
+    "latitude": "24.5103",
+    "count": 0,
+    "Id": "D00T003R20170918175138001244",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边社331号K1",
+    "longitude": "118.1119"
+}, {
+    "latitude": "24.488385",
+    "count": 0,
+    "Id": "D00T003R20170921143621001314",
+    "type": 2,
+    "Name": "湖里区吕岭路口腔医院3",
+    "longitude": "118.159977"
+}, {
+    "latitude": "24.537675",
+    "count": 0,
+    "Id": "D00T003R20170919165836001251",
+    "type": 2,
+    "Name": "湖里区云顶北路县后段断面人行道南向北2",
+    "longitude": "118.146318"
+}, {
+    "latitude": "24.4965",
+    "count": 0,
+    "Id": "D00T003R20170919165836001255",
+    "type": 2,
+    "Name": "湖里区0325-枋湖东路金山西路路口K1",
+    "longitude": "118.17"
+}, {
+    "latitude": "24.604173",
+    "count": 4,
+    "Id": "D00T003R20170918104444001213",
+    "type": 2,
+    "Name": "集美区侨英路09-2",
+    "longitude": "118.093528"
+}, {
+    "latitude": "24.603099",
+    "count": 2,
+    "Id": "D00T003R20170918104444001215",
+    "type": 2,
+    "Name": "集美区侨英路与天安路永峰超市3",
+    "longitude": "118.101606"
+}, {
+    "latitude": "24.59681",
+    "count": 3,
+    "Id": "D00T003R20170918104444001230",
+    "type": 2,
+    "Name": "集美区同集南路凤林中路2",
+    "longitude": "118.103608"
+}, {
+    "latitude": "24.713432",
+    "count": 0,
+    "Id": "D00T003R20170921143621001326",
+    "type": 2,
+    "Name": "同安区五缘湾道23号田里村口1",
+    "longitude": "118.123643"
+}, {
+    "latitude": "24.5297831",
+    "count": 0,
+    "Id": "D00T003R20171229172743002147",
+    "type": 2,
+    "Name": "海沧区许厝大榕树西面4",
+    "longitude": "118.0092161"
+}, {
+    "latitude": "24.4950071",
+    "count": 0,
+    "Id": "D00T003R20171229172743002153",
+    "type": 2,
+    "Name": "海沧区钟山村入口东南面4",
+    "longitude": "118.0196911"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025154421001468",
+    "type": 2,
+    "Name": "海沧区水云湾北门西侧入口",
+    "longitude": "118.0289"
+}, {
+    "latitude": "24.610514",
+    "count": 0,
+    "Id": "D00T003R20180320175111002585",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼负二层停车场入口",
+    "longitude": "118.240515"
+}, {
+    "latitude": "24.4813",
+    "count": 0,
+    "Id": "D00T003R20171031180205001485",
+    "type": 2,
+    "Name": "思明区新景东门出口",
+    "longitude": "118.1145"
+}, {
+    "latitude": "24.4813",
+    "count": 0,
+    "Id": "D00T003R20171031183932001490",
+    "type": 2,
+    "Name": "思明区新景东门车辆出口",
+    "longitude": "118.1145"
+}, {
+    "latitude": "24.5869",
+    "count": 32,
+    "Id": "D00T003R20171031184643001500",
+    "type": 2,
+    "Name": "集美区孙厝同集路口",
+    "longitude": "118.0959"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171102115524001503",
+    "type": 2,
+    "Name": "127路公交车DY9058",
+    "longitude": "118"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171103161806001508",
+    "type": 2,
+    "Name": "37路公交车DZ3728",
+    "longitude": "118"
+}, {
+    "latitude": "24.4911191",
+    "count": 3,
+    "Id": "D00T003R20171229172743002097",
+    "type": 2,
+    "Name": "海沧区乐海百货西南面1",
+    "longitude": "118.0434751"
+}, {
+    "latitude": "24.5018851",
+    "count": 5,
+    "Id": "D00T003R20171229172743002111",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面2",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.5018851",
+    "count": 0,
+    "Id": "D00T003R20171229172743002113",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面8",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.5065",
+    "count": 1,
+    "Id": "D00T003R20170922143520001342",
+    "type": 2,
+    "Name": "湖里区0326-云顶北路金山西路路口K1",
+    "longitude": "118.1552"
+}, {
+    "latitude": "24.636798",
+    "count": 0,
+    "Id": "D00T003R20170922143520001346",
+    "type": 2,
+    "Name": "XA309厦门天马微电子有限公司宿舍出口1",
+    "longitude": "118.204516"
+}, {
+    "latitude": "24.616332",
+    "count": 0,
+    "Id": "D00T003R20170922143520001354",
+    "type": 2,
+    "Name": "集美区同集南路后郑村口2",
+    "longitude": "118.117828"
+}, {
+    "latitude": "24.611096",
+    "count": 0,
+    "Id": "D00T003R20180320175111002587",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区1号楼负一层停车场台阶",
+    "longitude": "118.240394"
+}, {
+    "latitude": "24.488875",
+    "count": 0,
+    "Id": "D00T003R20170922143520001359",
+    "type": 2,
+    "Name": "思明区吕岭路蔡塘段人行道西向东",
+    "longitude": "118.153736"
+}, {
+    "latitude": "24.603055",
+    "count": 1,
+    "Id": "D00T003R20170922143520001361",
+    "type": 2,
+    "Name": "集美区侨英路04-1",
+    "longitude": "118.108408"
+}, {
+    "latitude": "24.5324251",
+    "count": 0,
+    "Id": "D00T003R20171229172743002133",
+    "type": 2,
+    "Name": "祥露村口西南面4",
+    "longitude": "117.9819341"
+}, {
+    "latitude": "24.614498",
+    "count": 1,
+    "Id": "D00T003R20171113144227001609",
+    "type": 2,
+    "Name": "同安区BRT东亭站东入口",
+    "longitude": "118.130658"
+}, {
+    "latitude": "24.607644",
+    "count": 0,
+    "Id": "D00T003R20171113144227001619",
+    "type": 2,
+    "Name": "集美区BRT产业研究院东出口",
+    "longitude": "118.069497"
+}, {
+    "latitude": "24.61828",
+    "count": 0,
+    "Id": "D00T003R20171113144227001620",
+    "type": 2,
+    "Name": "同安区BRT美峰站东出口",
+    "longitude": "118.13712"
+}, {
+    "latitude": "24.49748",
+    "count": 0,
+    "Id": "D00T003R20171228100006002017",
+    "type": 2,
+    "Name": "0804-江头北路江顺二路路口-朝东",
+    "longitude": "118.13107"
+}, {
+    "latitude": "24.51623",
+    "count": 1,
+    "Id": "D00T003R20171228100006002023",
+    "type": 2,
+    "Name": "0819-湖里区嘉禾路西侧马垅站1-朝南",
+    "longitude": "118.11806"
+}, {
+    "latitude": "24.453148",
+    "count": 7,
+    "Id": "D00T003R20180106134748002171",
+    "type": 2,
+    "Name": "思明区镇海路地铁站B端入口闸机04",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.453148",
+    "count": 8,
+    "Id": "D00T003R20180106134748002173",
+    "type": 2,
+    "Name": "思明区镇海路地铁站B端出口闸机01",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.4758",
+    "count": 0,
+    "Id": "D00T003R20180122184718002227",
+    "type": 2,
+    "Name": "思明区阿达西饭庄（厦禾路1126号）",
+    "longitude": "118.1152"
+}, {
+    "latitude": "24.5849",
+    "count": 3,
+    "Id": "D00T003R20171109201318001562",
+    "type": 2,
+    "Name": "集美大学清真食堂大门1",
+    "longitude": "118.0903"
+}, {
+    "latitude": "24.5845",
+    "count": 0,
+    "Id": "D00T003R20171109201446001565",
+    "type": 2,
+    "Name": "集美大学水产学院清真餐厅大门",
+    "longitude": "118.0979"
+}, {
+    "latitude": "24.594936",
+    "count": 0,
+    "Id": "D00T003R20171208154116001726",
+    "type": 2,
+    "Name": "集美区同集南路霞梧天桥路口2",
+    "longitude": "118.101725"
+}, {
+    "latitude": "24.600698",
+    "count": 1,
+    "Id": "D00T003R20171113144057001575",
+    "type": 2,
+    "Name": "集美区BRT华侨大学站东出口",
+    "longitude": "118.081683"
+}, {
+    "latitude": "24.624318",
+    "count": 1,
+    "Id": "D00T003R20171113144057001582",
+    "type": 2,
+    "Name": "集美区BRT刘厝站东出口",
+    "longitude": "118.060655"
+}, {
+    "latitude": "24.62944",
+    "count": 0,
+    "Id": "D00T003R20171113144057001591",
+    "type": 2,
+    "Name": "集美区BRT田厝站西出口",
+    "longitude": "118.066033"
+}, {
+    "latitude": "24.640937",
+    "count": 1,
+    "Id": "D00T003R20171113144227001603",
+    "type": 2,
+    "Name": "同安区BRT潘涂站东出口",
+    "longitude": "118.146281"
+}, {
+    "latitude": "24.61828",
+    "count": 0,
+    "Id": "D00T003R20171113144227001604",
+    "type": 2,
+    "Name": "同安区BRT美峰站东入口",
+    "longitude": "118.13712"
+}, {
+    "latitude": "24.5010808",
+    "count": 0,
+    "Id": "D00T003R20171214174425001754",
+    "type": 2,
+    "Name": "R003-湖里区SM一期负一层东门2",
+    "longitude": "118.127346"
+}, {
+    "latitude": "24.47598",
+    "count": 0,
+    "Id": "D00T003R20180403143849002694",
+    "type": 2,
+    "Name": "思明区湖滨西路西堤人行天桥1",
+    "longitude": "118.073528"
+}, {
+    "latitude": "24.4856108",
+    "count": 1,
+    "Id": "D00T003R20171214174425001767",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场A西门2（元初）",
+    "longitude": "118.1556845"
+}, {
+    "latitude": "24.507561",
+    "count": 1,
+    "Id": "D00T003R20171214174425001780",
+    "type": 2,
+    "Name": "R004-湖里万达广场14号东通道(1037号)",
+    "longitude": "118.173294"
+}, {
+    "latitude": "24.598229",
+    "count": 3,
+    "Id": "D00T003R20171129162434001678",
+    "type": 2,
+    "Name": "集美区同集南路霞梧路口公交站",
+    "longitude": "118.102752"
+}, {
+    "latitude": "24.514921",
+    "count": 0,
+    "Id": "D00T003R20171205144846001707",
+    "type": 2,
+    "Name": "R018-湖里区湖里街道办事处正门人行道2",
+    "longitude": "118.098465"
+}, {
+    "latitude": "24.514558",
+    "count": 1,
+    "Id": "D00T003R20171205144846001712",
+    "type": 2,
+    "Name": "R020-湖里区政府南门出入口人行道2",
+    "longitude": "118.14217"
+}, {
+    "latitude": "24.506949",
+    "count": 0,
+    "Id": "D00T003R20171214174425001781",
+    "type": 2,
+    "Name": "R004-湖里万达广场万达百货出入口2",
+    "longitude": "118.170831"
+}, {
+    "latitude": "24.506949",
+    "count": 0,
+    "Id": "D00T003R20171214174425001791",
+    "type": 2,
+    "Name": "R004-湖里万达广场万达百货出入口1",
+    "longitude": "118.170831"
+}, {
+    "latitude": "24.499765",
+    "count": 14,
+    "Id": "D00T003R20171214174425001797",
+    "type": 2,
+    "Name": "R034-湖里区江头东路江头小学旁人行道2",
+    "longitude": "118.1302"
+}, {
+    "latitude": "24.5125938",
+    "count": 1,
+    "Id": "D00T003R20171214174425001805",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇北门2",
+    "longitude": "118.1599617"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001815",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口1",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.533992",
+    "count": 1,
+    "Id": "D00T003R20171214174425001817",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口3",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.63125",
+    "count": 0,
+    "Id": "D00T003R20171205101525001695",
+    "type": 2,
+    "Name": "同安区BRT后田站东入口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.516836",
+    "count": 1,
+    "Id": "D00T003R20171214174425001832",
+    "type": 2,
+    "Name": "R021-湖里区枋湖路区政府北门出入口1",
+    "longitude": "118.142534"
+}, {
+    "latitude": "24.54089",
+    "count": 0,
+    "Id": "D00T003R20171218125920001885",
+    "type": 2,
+    "Name": "0844-高崎北二路夏商国际商城东门-朝南",
+    "longitude": "118.11851"
+}, {
+    "latitude": "24.50737",
+    "count": 0,
+    "Id": "D00T003R20171218125920001895",
+    "type": 2,
+    "Name": "0890-兴隆路南侧塘边村站-朝1",
+    "longitude": "118.11132"
+}, {
+    "latitude": "24.302398",
+    "count": 0,
+    "Id": "D00T003R20171218125920001902",
+    "type": 2,
+    "Name": "0919-南山路北侧康乐站1-朝1",
+    "longitude": "118.063078"
+}, {
+    "latitude": "24.4895",
+    "count": 14,
+    "Id": "D00T003R20171218173725001935",
+    "type": 2,
+    "Name": "湖里区0966-吕岭路北侧蔡塘广场站北K1",
+    "longitude": "118.1496"
+}, {
+    "latitude": "24.596131",
+    "count": 1,
+    "Id": "D00T003R20171222093757001958",
+    "type": 2,
+    "Name": "集美区BRT诚毅学院站西出口",
+    "longitude": "118.08957"
+}, {
+    "latitude": "24.5398961",
+    "count": 0,
+    "Id": "D00T003R20171229172743002066",
+    "type": 2,
+    "Name": "海沧区东孚西二路与新阳大道交界南面3",
+    "longitude": "117.9822851"
+}, {
+    "latitude": "24.4903611",
+    "count": 0,
+    "Id": "D00T003R20171229172743002068",
+    "type": 2,
+    "Name": "海沧区儿童公园东屿北路2",
+    "longitude": "118.0343571"
+}, {
+    "latitude": "24.5272181",
+    "count": 25,
+    "Id": "D00T003R20171229172743002071",
+    "type": 2,
+    "Name": "海沧区富海超市西面2",
+    "longitude": "117.9937211"
+}, {
+    "latitude": "24.4945171",
+    "count": 1,
+    "Id": "D00T003R20171229172743002083",
+    "type": 2,
+    "Name": "海沧医院西北面3",
+    "longitude": "118.0331461"
+}, {
+    "latitude": "24.4944371",
+    "count": 1,
+    "Id": "D00T003R20171229172743002086",
+    "type": 2,
+    "Name": "海沧区和美家具广场南2",
+    "longitude": "118.0421641"
+}, {
+    "latitude": "24.4765411",
+    "count": 2,
+    "Id": "D00T003R20171229172743002045",
+    "type": 2,
+    "Name": "海沧区囷瑶村入口南面2",
+    "longitude": "117.9704391"
+}, {
+    "latitude": "24.484752",
+    "count": 0,
+    "Id": "D00T003R20171214174425001857",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头4号门",
+    "longitude": "118.070618"
+}, {
+    "latitude": "24.485185",
+    "count": 0,
+    "Id": "D00T003R20171214174425001858",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头5号门",
+    "longitude": "118.071886"
+}, {
+    "latitude": "24.508907",
+    "count": 0,
+    "Id": "D00T003R20171214174425001868",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼南大门2",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.496196",
+    "count": 0,
+    "Id": "D00T003R20180403143849002660",
+    "type": 2,
+    "Name": "湖里区金尚路金尚小区人行天桥半球1",
+    "longitude": "118.142088"
+}, {
+    "latitude": "24.530664",
+    "count": 0,
+    "Id": "D00T003R20180403143849002672",
+    "type": 2,
+    "Name": "湖里区枋钟路太古生活区天桥半球1",
+    "longitude": "118.127477"
+}, {
+    "latitude": "24.482127",
+    "count": 0,
+    "Id": "D00T003R20180403143849002677",
+    "type": 2,
+    "Name": "思明区湖滨东路南湖公园人行天桥2",
+    "longitude": "118.103392"
+}, {
+    "latitude": "24.472109",
+    "count": 0,
+    "Id": "D00T003R20180403143849002680",
+    "type": 2,
+    "Name": "思明区湖滨南路非矿人行天桥半球1",
+    "longitude": "118.089027"
+}, {
+    "latitude": "24.472109",
+    "count": 0,
+    "Id": "D00T003R20180403143849002681",
+    "type": 2,
+    "Name": "思明区湖滨南路非矿人行天桥半球2",
+    "longitude": "118.089027"
+}, {
+    "latitude": "24.477752",
+    "count": 0,
+    "Id": "D00T003R20180403143849002683",
+    "type": 2,
+    "Name": "思明区湖滨南路凤屿路口人行天桥半球2",
+    "longitude": "118.109732"
+}, {
+    "latitude": "24.624656",
+    "count": 0,
+    "Id": "D00T003R20180201171812002367",
+    "type": 2,
+    "Name": "翔安区人民体育馆广场南篮球场人行道",
+    "longitude": "118.236263"
+}, {
+    "latitude": "24.486017",
+    "count": 0,
+    "Id": "D00T003R20180403143849002640",
+    "type": 2,
+    "Name": "湖里区东渡路东渡站人行天桥半球1",
+    "longitude": "118.07456"
+}, {
+    "latitude": "24.486017",
+    "count": 0,
+    "Id": "D00T003R20180403143849002641",
+    "type": 2,
+    "Name": "湖里区东渡路东渡站人行天桥半球2",
+    "longitude": "118.07456"
+}, {
+    "latitude": "24.71044",
+    "count": 1,
+    "Id": "D00T003R20180124145513002242",
+    "type": 2,
+    "Name": "同安区店仔街剑桥幼儿园路口1",
+    "longitude": "118.120427"
+}, {
+    "latitude": "24.711628",
+    "count": 5,
+    "Id": "D00T003R20180124145513002246",
+    "type": 2,
+    "Name": "同安区5号乌涂金包银街道3",
+    "longitude": "118.118862"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002256",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站A端出口闸机06",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002273",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线出口闸机10",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002284",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线出口闸机29",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.476849",
+    "count": 1,
+    "Id": "D00T003R20180125170611002298",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站A端入口闸机11",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.463483",
+    "count": 1,
+    "Id": "D00T003R20180125170611002310",
+    "type": 2,
+    "Name": "思明区将军祠地铁站A端出口闸机06",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002324",
+    "type": 2,
+    "Name": "思明区文灶地铁站A端出口闸机02",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.49607",
+    "count": 1,
+    "Id": "D00T003R20180627172027003090",
+    "type": 2,
+    "Name": "湖里区0142R-江头东路江浦路南路口1-朝北1",
+    "longitude": "118.12946"
+}, {
+    "latitude": "24.51501",
+    "count": 0,
+    "Id": "D00T003R20180627172027003104",
+    "type": 2,
+    "Name": "湖里区0160R-新丰路火炬二路路口1-朝东",
+    "longitude": "118.12082"
+}, {
+    "latitude": "24.473394",
+    "count": 0,
+    "Id": "D00T003R20180403143849002696",
+    "type": 2,
+    "Name": "思明区湖滨中路人民银行人行天桥半球1",
+    "longitude": "118.096384"
+}, {
+    "latitude": "24.538182",
+    "count": 0,
+    "Id": "D00T003R20180403143849002704",
+    "type": 2,
+    "Name": "思明区环岛干道五缘湾实验学校人行天桥机场方向东侧半球1",
+    "longitude": "118.157386"
+}, {
+    "latitude": "24.538",
+    "count": 0,
+    "Id": "D00T003R20180403143849002706",
+    "type": 2,
+    "Name": "思明区环岛干道五缘湾实验学校人行天桥轮渡方向西侧半球1",
+    "longitude": "118.157267"
+}, {
+    "latitude": "24.51496",
+    "count": 0,
+    "Id": "D00T003R20180627172027003107",
+    "type": 2,
+    "Name": "湖里区0160R-新丰路火炬二路路口2-朝南",
+    "longitude": "118.12047"
+}, {
+    "latitude": "24.49943",
+    "count": 0,
+    "Id": "D00T003R20180627172027003110",
+    "type": 2,
+    "Name": "湖里区0174R-台湾街江头北路路口1-朝东",
+    "longitude": "118.12767"
+}, {
+    "latitude": "24.49945",
+    "count": 0,
+    "Id": "D00T003R20180627172027003112",
+    "type": 2,
+    "Name": "湖里区0174R-台湾街江头北路路口2-朝北",
+    "longitude": "118.12785"
+}, {
+    "latitude": "24.51488",
+    "count": 0,
+    "Id": "D00T003R20180627172027003118",
+    "type": 2,
+    "Name": "湖里区0185R-悦华路世纪小学路口-朝北",
+    "longitude": "118.11586"
+}, {
+    "latitude": "24.51323",
+    "count": 0,
+    "Id": "D00T003R20180627172027003134",
+    "type": 2,
+    "Name": "湖里区0250R-金湖路枋湖东路路口3-朝南",
+    "longitude": "118.14496"
+}, {
+    "latitude": "24.45125",
+    "count": 0,
+    "Id": "D00T003R20180502183353002793",
+    "type": 2,
+    "Name": "思明区镇海路站2号出口1",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.45125",
+    "count": 5,
+    "Id": "D00T003R20180502183353002799",
+    "type": 2,
+    "Name": "思明区镇海路站1号入口1",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.50196",
+    "count": 0,
+    "Id": "D00T003R20180627172027003138",
+    "type": 2,
+    "Name": "湖里区0294R-仙岳路中医院门口-朝西",
+    "longitude": "118.13627"
+}, {
+    "latitude": "24.50638",
+    "count": 0,
+    "Id": "D00T003R20180627172027003142",
+    "type": 2,
+    "Name": "湖里区0315R-仙岳路南侧下湖社东出口-朝东",
+    "longitude": "118.16567"
+}, {
+    "latitude": "24.50396",
+    "count": 1,
+    "Id": "D00T003R20180613162746002960",
+    "type": 2,
+    "Name": "0936-湖里区环岛干道西侧高林站-朝2",
+    "longitude": "118.18946"
+}, {
+    "latitude": "24.52407",
+    "count": 0,
+    "Id": "D00T003R20180627172027003053",
+    "type": 2,
+    "Name": "湖里区0003R-嘉禾路殿前车站出岛方向下穿通道-朝东",
+    "longitude": "118.11611"
+}, {
+    "latitude": "24.52097",
+    "count": 0,
+    "Id": "D00T003R20180627172027003061",
+    "type": 2,
+    "Name": "湖里区0024R-长虹路长宁路路口-朝北",
+    "longitude": "118.09665"
+}, {
+    "latitude": "24.49966",
+    "count": 0,
+    "Id": "D00T003R20180627172027003080",
+    "type": 2,
+    "Name": "湖里区0134R-江华路国泰大厦停车场路口-朝北",
+    "longitude": "118.12281"
+}, {
+    "latitude": "24.48616",
+    "count": 0,
+    "Id": "D00T003R20180627172027003149",
+    "type": 2,
+    "Name": "湖里区0362R-吕岭路洪莲路口2-朝东",
+    "longitude": "118.16264"
+}, {
+    "latitude": "24.50469",
+    "count": 0,
+    "Id": "D00T003R20180627172027003155",
+    "type": 2,
+    "Name": "湖里区0514R-海天路百乐酒店路口-朝东",
+    "longitude": "118.09624"
+}, {
+    "latitude": "24.510867",
+    "count": 0,
+    "Id": "D00T003R20180627172027003160",
+    "type": 2,
+    "Name": "湖里区0545R-金湖路枋湖客运中心停车场出口-朝东",
+    "longitude": "118.132995"
+}, {
+    "latitude": "24.510867",
+    "count": 0,
+    "Id": "D00T003R20180627172027003161",
+    "type": 2,
+    "Name": "湖里区0545R-金湖路枋湖客运中心停车场出口-朝西",
+    "longitude": "118.132995"
+}, {
+    "latitude": "24.54034",
+    "count": 1,
+    "Id": "D00T003R20180627172027003208",
+    "type": 2,
+    "Name": "湖里区0737R-嘉禾路进岛方向中埔路口-朝南",
+    "longitude": "118.11154"
+}, {
+    "latitude": "24.524214",
+    "count": 0,
+    "Id": "D00T003R20180627172027003222",
+    "type": 2,
+    "Name": "湖里区0840R-长浩路北侧台贸中心公交站-朝东",
+    "longitude": "118.10168"
+}, {
+    "latitude": "24.50414",
+    "count": 0,
+    "Id": "D00T003R20180627172027003226",
+    "type": 2,
+    "Name": "湖里区0880R-华荣路西侧湖里公园东门站-朝东",
+    "longitude": "118.10847"
+}, {
+    "latitude": "24.50515",
+    "count": 0,
+    "Id": "D00T003R20180627172027003227",
+    "type": 2,
+    "Name": "湖里区0889R-仙洞路康乐路路口-朝北",
+    "longitude": "118.11465"
+}, {
+    "latitude": "24.51034",
+    "count": 0,
+    "Id": "D00T003R20180627172027003230",
+    "type": 2,
+    "Name": "湖里区0890R-兴隆路南侧塘边村公交站-朝西",
+    "longitude": "118.11499"
+}, {
+    "latitude": "24.50414",
+    "count": 0,
+    "Id": "D00T003R20180627172027003238",
+    "type": 2,
+    "Name": "湖里区0936R-环岛干道西侧高林站-朝南",
+    "longitude": "118.18959"
+}, {
+    "latitude": "24.50516",
+    "count": 0,
+    "Id": "D00T003R20180627172027003245",
+    "type": 2,
+    "Name": "湖里区1073R-金林路金街路口-朝东",
+    "longitude": "118.17912"
+}, {
+    "latitude": "24.574201",
+    "count": 0,
+    "Id": "D00T003R20180704095557003288",
+    "type": 2,
+    "Name": "集美区岑西路小商品街＿2",
+    "longitude": "118.090381"
+}, {
+    "latitude": "24.579502",
+    "count": 0,
+    "Id": "D00T003R20180704095557003304",
+    "type": 2,
+    "Name": "集美区园博一里公交站_1",
+    "longitude": "118.058022"
+}, {
+    "latitude": "24.603858",
+    "count": 0,
+    "Id": "D00T003R20180704095557003314",
+    "type": 2,
+    "Name": "集美区金龙路黄庄路路口_1",
+    "longitude": "117.980484"
+}, {
+    "latitude": "24.494625",
+    "count": 0,
+    "Id": "D00T003R20180724151521003362",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-13号易兴通讯2",
+    "longitude": "118.124167"
+}, {
+    "latitude": "24.52362",
+    "count": 0,
+    "Id": "D00T003R20180627172027003166",
+    "type": 2,
+    "Name": "湖里区0567R-枋湖北二路南侧尚忠公交车站-朝东",
+    "longitude": "118.14426"
+}, {
+    "latitude": "24.50217",
+    "count": 0,
+    "Id": "D00T003R20180627172027003181",
+    "type": 2,
+    "Name": "湖里区0633R-仙岳路台商会馆路口-朝西",
+    "longitude": "118.12748"
+}, {
+    "latitude": "24.50303",
+    "count": 0,
+    "Id": "D00T003R20180627172027003187",
+    "type": 2,
+    "Name": "湖里区0671R-枋湖东路万禹广场北门-朝南",
+    "longitude": "118.15579"
+}, {
+    "latitude": "24.49831",
+    "count": 0,
+    "Id": "D00T003R20180627172027003188",
+    "type": 2,
+    "Name": "湖里区0676R-云顶中路侯卿路路口-朝北",
+    "longitude": "118.15241"
+}, {
+    "latitude": "24.564705",
+    "count": 0,
+    "Id": "D00T003R20181012152312003788",
+    "type": 2,
+    "Name": "(金海湾)文达二里57号一楼",
+    "longitude": "118.054139"
+}, {
+    "latitude": "24.565118",
+    "count": 0,
+    "Id": "D00T003R20181012152312003802",
+    "type": 2,
+    "Name": "(金海湾)文达二里67号一楼",
+    "longitude": "118.051886"
+}, {
+    "latitude": "24.567085",
+    "count": 0,
+    "Id": "D00T003R20181012152312003806",
+    "type": 2,
+    "Name": "(金海湾)文达二里133号一楼",
+    "longitude": "118.052767"
+}, {
+    "latitude": "24.683925",
+    "count": 0,
+    "Id": "D00T003R20180725161940003390",
+    "type": 2,
+    "Name": "XA1730-莲塘村洞口",
+    "longitude": "118.286735"
+}, {
+    "latitude": "24.56531",
+    "count": 0,
+    "Id": "D00T003R20181012152312003824",
+    "type": 2,
+    "Name": "(金海湾)文达二里113号一楼",
+    "longitude": "118.054058"
+}, {
+    "latitude": "24.566072",
+    "count": 0,
+    "Id": "D00T003R20181012152312003828",
+    "type": 2,
+    "Name": "(金海湾)文达二里76号一楼",
+    "longitude": "118.052304"
+}, {
+    "latitude": "24.564854",
+    "count": 0,
+    "Id": "D00T003R20181012152312003830",
+    "type": 2,
+    "Name": "(金海湾)文达二里58号一楼",
+    "longitude": "118.054034"
+}, {
+    "latitude": "24.566868",
+    "count": 0,
+    "Id": "D00T003R20181012152312003831",
+    "type": 2,
+    "Name": "(金海湾)文达二里158号一楼",
+    "longitude": "118.054103"
+}, {
+    "latitude": "24.494389",
+    "count": 0,
+    "Id": "D00T003R20180724151521003367",
+    "type": 2,
+    "Name": "湖里区0179R-吕岭路邮政大门1",
+    "longitude": "118.126072"
+}, {
+    "latitude": "24.494838",
+    "count": 0,
+    "Id": "D00T003R20180724151521003368",
+    "type": 2,
+    "Name": "湖里区0179R-江头西路21-2号电信大厦3",
+    "longitude": "118.125624"
+}, {
+    "latitude": "24.49471",
+    "count": 0,
+    "Id": "D00T003R20180724151521003371",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-2号佳佳乐超市2",
+    "longitude": "118.124711"
+}, {
+    "latitude": "24.49471",
+    "count": 0,
+    "Id": "D00T003R20180724151521003374",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-2号佳佳乐超市3",
+    "longitude": "118.124711"
+}, {
+    "latitude": "24.4939",
+    "count": 0,
+    "Id": "D00T003R20180724151521003376",
+    "type": 2,
+    "Name": "湖里区0136R-吕岭路中闽百汇商场1",
+    "longitude": "118.125165"
+}, {
+    "latitude": "24.495061",
+    "count": 0,
+    "Id": "D00T003R20180724151521003377",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路新景园停车收费岗3",
+    "longitude": "118.125419"
+}, {
+    "latitude": "24.494882",
+    "count": 0,
+    "Id": "D00T003R20180724151521003378",
+    "type": 2,
+    "Name": "湖里区0140R-吕厝路328-17号华邻地产",
+    "longitude": "118.123976"
+}, {
+    "latitude": "24.494838",
+    "count": 0,
+    "Id": "D00T003R20180724151521003380",
+    "type": 2,
+    "Name": "湖里区0179R-江头西路21-2号电信大厦1",
+    "longitude": "118.125624"
+}, {
+    "latitude": "24.4732",
+    "count": 0,
+    "Id": "D00T003R20170411203954000029",
+    "type": 2,
+    "Name": "思明区梧村汽车站进口2",
+    "longitude": "118.1110"
+}, {
+    "latitude": "24.4732",
+    "count": 1,
+    "Id": "D00T003R20170411203954000030",
+    "type": 2,
+    "Name": "思明区梧村汽车站进口3",
+    "longitude": "118.1110"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000035",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口1",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000036",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口2",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5115",
+    "count": 1,
+    "Id": "D00T003R20170411203954000039",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口5",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5475",
+    "count": 0,
+    "Id": "D00T003R20170713164248001045",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥203",
+    "longitude": "118.14"
+}, {
+    "latitude": "24.5479",
+    "count": 0,
+    "Id": "D00T003R20170713164248001047",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4国内出口#1",
+    "longitude": "118.1443"
+}, {
+    "latitude": "24.5392",
+    "count": 0,
+    "Id": "D00T003R20170713164248001049",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#12",
+    "longitude": "118.1277"
+}, {
+    "latitude": "24.5475",
+    "count": 0,
+    "Id": "D00T003R20170713164248001054",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥212",
+    "longitude": "118.1414"
+}, {
+    "latitude": "24.476097",
+    "count": 0,
+    "Id": "D00T003R20170725105939000455",
+    "type": 2,
+    "Name": "禾祥东路倍顺超市门口人像识别东1",
+    "longitude": "118.11436"
+}, {
+    "latitude": "24.473322",
+    "count": 0,
+    "Id": "D00T003R20170725105939000467",
+    "type": 2,
+    "Name": "汇文路湖滨中路路口人像识别北1",
+    "longitude": "118.110317"
+}, {
+    "latitude": "24.716579",
+    "count": 0,
+    "Id": "D00T003R20170810114050000541",
+    "type": 2,
+    "Name": "23号田里村口21",
+    "longitude": "118.135196"
+}, {
+    "latitude": "24.518529",
+    "count": 0,
+    "Id": "D00T003R20170804094840000517",
+    "type": 2,
+    "Name": "安兜社成功大道天桥下K11",
+    "longitude": "118.14348"
+}, {
+    "latitude": "24.441547",
+    "count": 0,
+    "Id": "D00T003R20170804094840000520",
+    "type": 2,
+    "Name": "环岛南路母子铜像21",
+    "longitude": "118.150637"
+}, {
+    "latitude": "24.532396",
+    "count": 0,
+    "Id": "D00T003R20170804094840000524",
+    "type": 2,
+    "Name": "金尚路与林后路167号1",
+    "longitude": "118.144804"
+}, {
+    "latitude": "24.473322",
+    "count": 0,
+    "Id": "D00T003R20170725105939000468",
+    "type": 2,
+    "Name": "汇文路湖滨中路路口人像识别南1",
+    "longitude": "118.110317"
+}, {
+    "latitude": "24.52629",
+    "count": 0,
+    "Id": "D00T003R20170714142852000446",
+    "type": 2,
+    "Name": "厦蓉高速厦门西市际公安检查站人脸微卡口",
+    "longitude": "117.958063"
+}, {
+    "latitude": "24.5352",
+    "count": 3,
+    "Id": "D00T003R20170411203954000056",
+    "type": 2,
+    "Name": "湖里区BRT县后站出口2",
+    "longitude": "118.1473"
+}, {
+    "latitude": "24.4713",
+    "count": 1,
+    "Id": "D00T003R20170411203954000011",
+    "type": 2,
+    "Name": "厦门南站_站垂2路人行通道2",
+    "longitude": "118.1091"
+}, {
+    "latitude": "24.472",
+    "count": 3,
+    "Id": "D00T003R20170411203954000023",
+    "type": 2,
+    "Name": "思明区BRT火车站南侧出口1",
+    "longitude": "118.1105"
+}, {
+    "latitude": "24.6379",
+    "count": 1,
+    "Id": "D00T003R20170411203954000060",
+    "type": 2,
+    "Name": "厦门北站进站验证口6",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.6383",
+    "count": 5,
+    "Id": "D00T003R20170411203954000123",
+    "type": 2,
+    "Name": "厦门北站1号出站口1-4",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.4597",
+    "count": 0,
+    "Id": "D00T003R20170411203954000128",
+    "type": 2,
+    "Name": "思明区市局传达室2",
+    "longitude": "118.0799"
+}, {
+    "latitude": "24.596346",
+    "count": 0,
+    "Id": "D00T003R20170712100202000390",
+    "type": 2,
+    "Name": "集美大桥（滨海西）公安检查站人脸微卡口",
+    "longitude": "118.121471"
+}, {
+    "latitude": "24.5737171763",
+    "count": 0,
+    "Id": "D00T003R20170712100202000394",
+    "type": 2,
+    "Name": "杏林大桥（杏前）公安检查站人脸微卡口",
+    "longitude": "118.050238735"
+}, {
+    "latitude": "24.688855",
+    "count": 0,
+    "Id": "D00T003R20170712100202000396",
+    "type": 2,
+    "Name": "厦沙高速厦门北市际公安检查站人脸微卡口",
+    "longitude": "118.07034"
+}, {
+    "latitude": "24.537",
+    "count": 0,
+    "Id": "D00T003R20170713164248001034",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内远机位通道",
+    "longitude": "118.1259"
+}, {
+    "latitude": "24.5467",
+    "count": 0,
+    "Id": "D00T003R20170713164248001035",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥201",
+    "longitude": "118.1406"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000088",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口10",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4698",
+    "count": 0,
+    "Id": "D00T003R20170411203954000097",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台5",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.4698",
+    "count": 0,
+    "Id": "D00T003R20170411203954000098",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台6",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000105",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口7",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.6387",
+    "count": 0,
+    "Id": "D00T003R20170411203954000069",
+    "type": 2,
+    "Name": "厦门北站6号检票口1-2",
+    "longitude": "118.0703"
+}, {
+    "latitude": "24.472",
+    "count": 2,
+    "Id": "D00T003R20170411203954000076",
+    "type": 2,
+    "Name": "厦门南站_站垂1路人行通道1",
+    "longitude": "118.1105"
+}, {
+    "latitude": "24.442566",
+    "count": 0,
+    "Id": "D00T003R20170810114050000565",
+    "type": 2,
+    "Name": "大学路168号(医学院）门口对面1",
+    "longitude": "118.09721"
+}, {
+    "latitude": "24.438603",
+    "count": 0,
+    "Id": "D00T003R20170810114057000654",
+    "type": 2,
+    "Name": "演武大桥下厦大白城门口21",
+    "longitude": "118.108626"
+}, {
+    "latitude": "24.448431",
+    "count": 0,
+    "Id": "D00T003R20170810114050000580",
+    "type": 2,
+    "Name": "民族路与成功大道桥下11",
+    "longitude": "118.091575"
+}, {
+    "latitude": "24.484132",
+    "count": 0,
+    "Id": "D00T003R20170810114050000590",
+    "type": 2,
+    "Name": "明发广场北区30号31",
+    "longitude": "118.127822"
+}, {
+    "latitude": "24.446433",
+    "count": 0,
+    "Id": "D00T003R20170810114050000594",
+    "type": 2,
+    "Name": "南普陀山门（西侧）11",
+    "longitude": "118.101368"
+}, {
+    "latitude": "24.449276",
+    "count": 0,
+    "Id": "D00T003R20170810114050000597",
+    "type": 2,
+    "Name": "十八路公交总站1",
+    "longitude": "118.165499"
+}, {
+    "latitude": "24.528885",
+    "count": 0,
+    "Id": "D00T003R20170810114050000616",
+    "type": 2,
+    "Name": "坂上社62号K31",
+    "longitude": "118.151079"
+}, {
+    "latitude": "24.535591",
+    "count": 0,
+    "Id": "D00T003R20170810114050000619",
+    "type": 2,
+    "Name": "岐山北路围里社326号K11",
+    "longitude": "118.150468"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170810114057000625",
+    "type": 2,
+    "Name": "XA110同美塘尾仔同美里5号101旁11",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.670326",
+    "count": 0,
+    "Id": "D00T003R20170810114057000629",
+    "type": 2,
+    "Name": "XA127-同美下枫村惠康百货前21",
+    "longitude": "118.210974"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170810114050000550",
+    "type": 2,
+    "Name": "XA087-同美万家春里1号21",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.669845",
+    "count": 0,
+    "Id": "D00T003R20170810114050000553",
+    "type": 2,
+    "Name": "XA095-同塘仔尾可可馨超市11",
+    "longitude": "118.214269"
+}, {
+    "latitude": "24.669991",
+    "count": 0,
+    "Id": "D00T003R20170810114050000558",
+    "type": 2,
+    "Name": "XA112-同美塘尾仔同美小学路口1",
+    "longitude": "118.21117"
+}, {
+    "latitude": "24.46614",
+    "count": 4,
+    "Id": "D00T003R20170902155441000843",
+    "type": 2,
+    "Name": "思明区BRT二市站入口",
+    "longitude": "118.088979"
+}, {
+    "latitude": "24.534042",
+    "count": 0,
+    "Id": "D00T003R20170821095104000729",
+    "type": 2,
+    "Name": "0012-殿前六路五路夜市路口K11",
+    "longitude": "118.113488"
+}, {
+    "latitude": "24.534042",
+    "count": 0,
+    "Id": "D00T003R20170821095104000730",
+    "type": 2,
+    "Name": "0012-殿前六路五路夜市路口K21",
+    "longitude": "118.113488"
+}, {
+    "latitude": "24.527375",
+    "count": 0,
+    "Id": "D00T003R20170821095104000732",
+    "type": 2,
+    "Name": "0023-长虹路健民医院K31",
+    "longitude": "118.107711"
+}, {
+    "latitude": "24.51374",
+    "count": 0,
+    "Id": "D00T003R20170821095104000737",
+    "type": 2,
+    "Name": "0522-兴隆路中国邮政路口K11",
+    "longitude": "118.121166"
+}, {
+    "latitude": "24.472379",
+    "count": 0,
+    "Id": "D00T003R20170821095104000745",
+    "type": 2,
+    "Name": "BRT文灶站出站11",
+    "longitude": "118.111527"
+}, {
+    "latitude": "24.506435",
+    "count": 0,
+    "Id": "D00T003R20170823100549000764",
+    "type": 2,
+    "Name": "BRT金山站进站1",
+    "longitude": "118.166056"
+}, {
+    "latitude": "24.517756",
+    "count": 0,
+    "Id": "D00T003R20170823100549000769",
+    "type": 2,
+    "Name": "BRT市政务服务中心站出站21",
+    "longitude": "118.165444"
+}, {
+    "latitude": "24.508162",
+    "count": 0,
+    "Id": "D00T003R20170815112636000675",
+    "type": 2,
+    "Name": "竹坑路10号K21",
+    "longitude": "118.089561"
+}, {
+    "latitude": "24.508065",
+    "count": 0,
+    "Id": "D00T003R20170815112636000677",
+    "type": 2,
+    "Name": "竹坑路22-26号K21",
+    "longitude": "118.090703"
+}, {
+    "latitude": "24.508217",
+    "count": 0,
+    "Id": "D00T003R20170815112636000679",
+    "type": 2,
+    "Name": "竹坑路华昌路路口K21",
+    "longitude": "118.09232"
+}, {
+    "latitude": "24.491914",
+    "count": 0,
+    "Id": "D00T003R20170815112641000687",
+    "type": 2,
+    "Name": "蔡塘人行天桥北侧21",
+    "longitude": "118.16654"
+}, {
+    "latitude": "24.534633",
+    "count": 0,
+    "Id": "D00T003R20170815112641000697",
+    "type": 2,
+    "Name": "良丰百货路口21",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.522991",
+    "count": 0,
+    "Id": "D00T003R20170815112641000699",
+    "type": 2,
+    "Name": "名仕阁小区路口31",
+    "longitude": "117.993882"
+}, {
+    "latitude": "24.676411",
+    "count": 0,
+    "Id": "D00T003R20170817152504000715",
+    "type": 2,
+    "Name": "XA112-同美塘尾仔同美小学路口11",
+    "longitude": "118.234314"
+}, {
+    "latitude": "24.528553",
+    "count": 0,
+    "Id": "D00T003R20170817152504000723",
+    "type": 2,
+    "Name": "枋湖北二路县后社186号K21",
+    "longitude": "118.16149"
+}, {
+    "latitude": "24.456695",
+    "count": 0,
+    "Id": "D00T003R20170817152504000726",
+    "type": 2,
+    "Name": "局口街21",
+    "longitude": "118.075707"
+}, {
+    "latitude": "24.430766",
+    "count": 0,
+    "Id": "D00T003R20170823100549000780",
+    "type": 2,
+    "Name": "曾厝垵海外海（北向南）K21",
+    "longitude": "118.131434"
+}, {
+    "latitude": "24.433287",
+    "count": 0,
+    "Id": "D00T003R20170823100549000793",
+    "type": 2,
+    "Name": "曾厝垵街道40号（西向东）1",
+    "longitude": "118.130935"
+}, {
+    "latitude": "24.510813",
+    "count": 3,
+    "Id": "D00T003R20170914175956000922",
+    "type": 2,
+    "Name": "湖里区0522-兴隆路中国邮政路口K1",
+    "longitude": "118.10925"
+}, {
+    "latitude": "24.508",
+    "count": 0,
+    "Id": "D00T003R20170914175956000929",
+    "type": 2,
+    "Name": "湖里区2958华泰路湖里公园K1",
+    "longitude": "118.1002"
+}, {
+    "latitude": "24.464541",
+    "count": 2,
+    "Id": "D00T003R20170914175956000938",
+    "type": 2,
+    "Name": "思明区BRT斗西站入口",
+    "longitude": "118.082562"
+}, {
+    "latitude": "24.503513",
+    "count": 4,
+    "Id": "D00T003R20170914175956000944",
+    "type": 2,
+    "Name": "湖里区BRT金山站入口",
+    "longitude": "118.154866"
+}, {
+    "latitude": "24.56458",
+    "count": 0,
+    "Id": "D00T003R20170920151410001265",
+    "type": 2,
+    "Name": "集美区高浦西竺寺广场_1",
+    "longitude": "118.05129"
+}, {
+    "latitude": "24.56458",
+    "count": 0,
+    "Id": "D00T003R20170920151410001267",
+    "type": 2,
+    "Name": "集美区高浦西竺寺广场_3",
+    "longitude": "118.05129"
+}, {
+    "latitude": "24.60486",
+    "count": 0,
+    "Id": "D00T003R20170920151410001269",
+    "type": 2,
+    "Name": "集美区横四路和美别墅天桥2_2",
+    "longitude": "118.044118"
+}, {
+    "latitude": "24.594188",
+    "count": 0,
+    "Id": "D00T003R20170920151410001281",
+    "type": 2,
+    "Name": "集美区万科里2_2",
+    "longitude": "118.057017"
+}, {
+    "latitude": "24.4982",
+    "count": 0,
+    "Id": "D00T003R20170902155536000853",
+    "type": 2,
+    "Name": "湖里区0360-虎仔山西路宝龙御景西北角路口K2",
+    "longitude": "118.1646"
+}, {
+    "latitude": "24.438703",
+    "count": 1,
+    "Id": "D00T003R20170902155536000855",
+    "type": 2,
+    "Name": "思明区曾厝垵二路学生公寓公交总站人脸东",
+    "longitude": "118.111506"
+}, {
+    "latitude": "24.43216",
+    "count": 0,
+    "Id": "D00T003R20170902155441000845",
+    "type": 2,
+    "Name": "思明区环岛南路珍珠湾花园人脸西",
+    "longitude": "118.105843"
+}, {
+    "latitude": "24.565333",
+    "count": 1,
+    "Id": "D00T003R20170920151410001295",
+    "type": 2,
+    "Name": "集美区杏林东路文化宫门口_1",
+    "longitude": "118.046398"
+}, {
+    "latitude": "24.57418",
+    "count": 0,
+    "Id": "D00T003R20170920151410001301",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口1_2",
+    "longitude": "118.038386"
+}, {
+    "latitude": "24.57418",
+    "count": 0,
+    "Id": "D00T003R20170920151410001303",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口3_2",
+    "longitude": "118.038259"
+}, {
+    "latitude": "24.57418",
+    "count": 0,
+    "Id": "D00T003R20170920151410001304",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口3_3",
+    "longitude": "118.038259"
+}, {
+    "latitude": "24.574143",
+    "count": 0,
+    "Id": "D00T003R20170920151410001307",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口6",
+    "longitude": "118.038465"
+}, {
+    "latitude": "24.563191",
+    "count": 0,
+    "Id": "D00T003R20170920151410001308",
+    "type": 2,
+    "Name": "集美区禹州中央海岸联发杏林湾一号转盘1_1",
+    "longitude": "118.059628"
+}, {
+    "latitude": "24.462958",
+    "count": 0,
+    "Id": "D00T003R20170914175956000955",
+    "type": 2,
+    "Name": "思明区BRT思北站入口",
+    "longitude": "118.075358"
+}, {
+    "latitude": "24.46979",
+    "count": 3,
+    "Id": "D00T003R20170914175956000956",
+    "type": 2,
+    "Name": "思明区BRT文灶站出口1",
+    "longitude": "118.103306"
+}, {
+    "latitude": "24.669267",
+    "count": 0,
+    "Id": "D00T003R20170914175956000966",
+    "type": 2,
+    "Name": "翔安区XA083-同美山头里49号斜对面-02",
+    "longitude": "118.212426"
+}, {
+    "latitude": "24.669845",
+    "count": 0,
+    "Id": "D00T003R20170914175956000971",
+    "type": 2,
+    "Name": "翔安区翔安西路XA095-同塘仔尾可可馨超市1",
+    "longitude": "118.214269"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170914175956000973",
+    "type": 2,
+    "Name": "翔安区XA108-同美塘尾仔同美里116号前1",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170914175956000977",
+    "type": 2,
+    "Name": "翔安区XA110同美塘尾仔同美里5号101旁2",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170914175956000987",
+    "type": 2,
+    "Name": "翔安区春光路与舫山东二路交叉口XA141-郑坂村佳味美食城前1",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.442892",
+    "count": 0,
+    "Id": "D00T003R20170914175956001109",
+    "type": 2,
+    "Name": "思明区演武西路南普陀山门西侧1",
+    "longitude": "118.090025"
+}, {
+    "latitude": "24.5101",
+    "count": 1,
+    "Id": "D00T003R20170914175956001118",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边清洁楼2",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.740713",
+    "count": 0,
+    "Id": "D00T003R20170914175956001121",
+    "type": 2,
+    "Name": "同安莲花市际公安检查站人脸微卡口",
+    "longitude": "118.071624"
+}, {
+    "latitude": "24.470222",
+    "count": 3,
+    "Id": "D00T003R20170914175956001130",
+    "type": 2,
+    "Name": "思明区厦禾路金榜路口人像识别西",
+    "longitude": "118.105655"
+}, {
+    "latitude": "24.477233",
+    "count": 1,
+    "Id": "D00T003R20170914175956001138",
+    "type": 2,
+    "Name": "思明区厦禾路与湖明南路交叉口人像识别南",
+    "longitude": "118.114853"
+}, {
+    "latitude": "24.470242",
+    "count": 8,
+    "Id": "D00T003R20170914175956001141",
+    "type": 2,
+    "Name": "思明区厦禾路鑫安宾馆门口人像识别西",
+    "longitude": "118.104496"
+}, {
+    "latitude": "24.47352",
+    "count": 0,
+    "Id": "D00T003R20180403143849002691",
+    "type": 2,
+    "Name": "思明区湖滨南路中山医院人行天桥半球2",
+    "longitude": "118.093676"
+}, {
+    "latitude": "24.647732",
+    "count": 0,
+    "Id": "D00T003R20170914175956001004",
+    "type": 2,
+    "Name": "翔安区巷南路XA196-西坂下坂里1号旁2",
+    "longitude": "118.246208"
+}, {
+    "latitude": "24.435023",
+    "count": 3,
+    "Id": "D00T003R20170914175956001008",
+    "type": 2,
+    "Name": "思明区环岛路白城沙滩警务室1",
+    "longitude": "118.097662"
+}, {
+    "latitude": "24.4886",
+    "count": 2,
+    "Id": "D00T003R20170914175956001012",
+    "type": 2,
+    "Name": "湖里区吕岭路蔡塘南侧学校2",
+    "longitude": "118.1551"
+}, {
+    "latitude": "24.4889",
+    "count": 1,
+    "Id": "D00T003R20170914175956001014",
+    "type": 2,
+    "Name": "湖里区吕岭路蔡塘人行天桥北侧2",
+    "longitude": "118.1552"
+}, {
+    "latitude": "24.450541",
+    "count": 1,
+    "Id": "D00T003R20170914175956001016",
+    "type": 2,
+    "Name": "思明区草厝路草厝村口",
+    "longitude": "118.145617"
+}, {
+    "latitude": "24.441328",
+    "count": 0,
+    "Id": "D00T003R20170914175956001018",
+    "type": 2,
+    "Name": "思明区大学路84号1",
+    "longitude": "118.083431"
+}, {
+    "latitude": "24.475236",
+    "count": 1,
+    "Id": "D00T003R20170914175956001046",
+    "type": 2,
+    "Name": "思明区湖滨东路嘉隆商业城楼下人像识别南",
+    "longitude": "118.107472"
+}, {
+    "latitude": "24.44129",
+    "count": 0,
+    "Id": "D00T003R20170914175956001052",
+    "type": 2,
+    "Name": "思明区环岛南路母子铜像2",
+    "longitude": "118.149808"
+}, {
+    "latitude": "24.474956",
+    "count": 4,
+    "Id": "D00T003R20170914175956001059",
+    "type": 2,
+    "Name": "思明区厦禾路与东坪山路假日商城门口人像识别南",
+    "longitude": "118.114286"
+}, {
+    "latitude": "24.457759",
+    "count": 0,
+    "Id": "D00T003R20170914175956001072",
+    "type": 2,
+    "Name": "思明区局口街1",
+    "longitude": "118.075827"
+}, {
+    "latitude": "24.479613",
+    "count": 0,
+    "Id": "D00T003R20170914175956001081",
+    "type": 2,
+    "Name": "思明区莲前西路立新游乐场路口1",
+    "longitude": "118.119597"
+}, {
+    "latitude": "24.523971",
+    "count": 0,
+    "Id": "D00T003R20170914175956001146",
+    "type": 2,
+    "Name": "海沧区新美路口红绿灯",
+    "longitude": "117.998739"
+}, {
+    "latitude": "24.435565",
+    "count": 1,
+    "Id": "D00T003R20170914175956001154",
+    "type": 2,
+    "Name": "思明区大学路演武大桥下公厕旁1",
+    "longitude": "118.095124"
+}, {
+    "latitude": "24.427608",
+    "count": 0,
+    "Id": "D00T003R20170914175956001164",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵海外海东向西",
+    "longitude": "118.119992"
+}, {
+    "latitude": "24.4315",
+    "count": 0,
+    "Id": "D00T003R20170914175956001165",
+    "type": 2,
+    "Name": "思明区曾厝社美食街曾厝垵红素酒吧北向南",
+    "longitude": "118.121316"
+}, {
+    "latitude": "24.427176",
+    "count": 0,
+    "Id": "D00T003R20170914175956001173",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵加油站路口南向北人脸",
+    "longitude": "118.121613"
+}, {
+    "latitude": "24.526134",
+    "count": 0,
+    "Id": "D00T003R20170914175956001182",
+    "type": 2,
+    "Name": "海沧区新景路中医院骨伤科医院路口2",
+    "longitude": "118.002741"
+}, {
+    "latitude": "24.5083",
+    "count": 1,
+    "Id": "D00T003R20170914175956001183",
+    "type": 2,
+    "Name": "湖里区竹坑路10号K1",
+    "longitude": "118.0889"
+}, {
+    "latitude": "24.531",
+    "count": 5,
+    "Id": "D00T003R20170914175956001195",
+    "type": 2,
+    "Name": "湖里区岐山北路林后社539号K2",
+    "longitude": "118.1342"
+}, {
+    "latitude": "24.5348",
+    "count": 0,
+    "Id": "D00T003R20170914175956001196",
+    "type": 2,
+    "Name": "湖里区岐山北路围里村口车站K2",
+    "longitude": "118.1446"
+}, {
+    "latitude": "24.602984",
+    "count": 0,
+    "Id": "D00T003R20170918104444001239",
+    "type": 2,
+    "Name": "集美区英瑶路02东江医院1",
+    "longitude": "118.102054"
+}, {
+    "latitude": "24.594781",
+    "count": 0,
+    "Id": "D00T003R20170918175138001248",
+    "type": 2,
+    "Name": "集美区同集南路叶厝村2",
+    "longitude": "118.101519"
+}, {
+    "latitude": "24.5103",
+    "count": 0,
+    "Id": "D00T003R20170918175138001249",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边社331号K2",
+    "longitude": "118.1119"
+}, {
+    "latitude": "24.713432",
+    "count": 0,
+    "Id": "D00T003R20170921143621001312",
+    "type": 2,
+    "Name": "同安区五缘湾道23号田里村口2",
+    "longitude": "118.123643"
+}, {
+    "latitude": "24.5272",
+    "count": 4,
+    "Id": "D00T003R20170919165836001261",
+    "type": 2,
+    "Name": "湖里区0020-长浩路长虹路路口2K2",
+    "longitude": "118.0984"
+}, {
+    "latitude": "24.484752",
+    "count": 1,
+    "Id": "D00T003R20170914175956001202",
+    "type": 2,
+    "Name": "思明区莲花南里与盈翠西路鑫林滨餐厅旁拐角处1",
+    "longitude": "118.121988"
+}, {
+    "latitude": "24.484752",
+    "count": 0,
+    "Id": "D00T003R20170914175956001203",
+    "type": 2,
+    "Name": "思明区莲花南里与盈翠西路鑫林滨餐厅旁拐角处2",
+    "longitude": "118.121988"
+}, {
+    "latitude": "24.43929",
+    "count": 0,
+    "Id": "D00T003R20170918104444001207",
+    "type": 2,
+    "Name": "思明区后厝路口人脸西",
+    "longitude": "118.113712"
+}, {
+    "latitude": "24.437065",
+    "count": 0,
+    "Id": "D00T003R20170918104444001211",
+    "type": 2,
+    "Name": "思明区塔头东路丽斯海景酒店旁1",
+    "longitude": "118.141291"
+}, {
+    "latitude": "24.604173",
+    "count": 8,
+    "Id": "D00T003R20170918104444001212",
+    "type": 2,
+    "Name": "集美区侨英路09-1",
+    "longitude": "118.093528"
+}, {
+    "latitude": "24.587669",
+    "count": 0,
+    "Id": "D00T003R20170918104444001225",
+    "type": 2,
+    "Name": "集美区同集路孙厝公交站同安方向1",
+    "longitude": "118.096279"
+}, {
+    "latitude": "24.587669",
+    "count": 0,
+    "Id": "D00T003R20170918104444001226",
+    "type": 2,
+    "Name": "集美区同集路孙厝公交站同安方向2",
+    "longitude": "118.096279"
+}, {
+    "latitude": "24.583627",
+    "count": 3,
+    "Id": "D00T003R20170918104444001227",
+    "type": 2,
+    "Name": "集美区同集路信毅路口1",
+    "longitude": "118.100892"
+}, {
+    "latitude": "24.610675",
+    "count": 0,
+    "Id": "D00T003R20180320175111002584",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼负二层电梯口",
+    "longitude": "118.240652"
+}, {
+    "latitude": "24.713623",
+    "count": 0,
+    "Id": "D00T003R20170921143621001325",
+    "type": 2,
+    "Name": "同安区324国道与同明北路2",
+    "longitude": "118.118789"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025154639001471",
+    "type": 2,
+    "Name": "海沧区水云湾北门东侧行人出口",
+    "longitude": "118.0294"
+}, {
+    "latitude": "24.710417",
+    "count": 7,
+    "Id": "D00T003R20180124145513002234",
+    "type": 2,
+    "Name": "同安区新民中心小学大门口2",
+    "longitude": "118.119437"
+}, {
+    "latitude": "24.4810",
+    "count": 0,
+    "Id": "D00T003R20171031180057001483",
+    "type": 2,
+    "Name": "思明区新景南门车辆出口",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.4996",
+    "count": 0,
+    "Id": "D00T003R20171031180535001488",
+    "type": 2,
+    "Name": "湖里区裕兴大厦北门入口",
+    "longitude": "118.1232"
+}, {
+    "latitude": "24.5286",
+    "count": 0,
+    "Id": "D00T003R20171106101030001513",
+    "type": 2,
+    "Name": "湖里区金尚路与林后天桥K2",
+    "longitude": "118.1339"
+}, {
+    "latitude": "24.5562",
+    "count": 0,
+    "Id": "D00T003R20170927165917001376",
+    "type": 2,
+    "Name": "马銮村口(富兴超市对面)",
+    "longitude": "118.0287"
+}, {
+    "latitude": "24.5779911",
+    "count": 0,
+    "Id": "D00T003R20171229172743002116",
+    "type": 2,
+    "Name": "海沧区天竺山景区门口道路3",
+    "longitude": "117.9350091"
+}, {
+    "latitude": "24.603055",
+    "count": 1,
+    "Id": "D00T003R20170922143520001356",
+    "type": 2,
+    "Name": "集美区侨英路04-3",
+    "longitude": "118.108408"
+}, {
+    "latitude": "24.5348301",
+    "count": 0,
+    "Id": "D00T003R20171229172743002125",
+    "type": 2,
+    "Name": "海沧区霞阳公园南面3",
+    "longitude": "118.0157551"
+}, {
+    "latitude": "24.5272181",
+    "count": 30,
+    "Id": "D00T003R20171229172743002138",
+    "type": 2,
+    "Name": "海沧区新垵中路西面5",
+    "longitude": "117.9937211"
+}, {
+    "latitude": "24.5290281",
+    "count": 3,
+    "Id": "D00T003R20171229172743002141",
+    "type": 2,
+    "Name": "海沧区新阳派出所南面3",
+    "longitude": "118.0037691"
+}, {
+    "latitude": "24.4865031",
+    "count": 0,
+    "Id": "D00T003R20171229172743002145",
+    "type": 2,
+    "Name": "海沧区行政中心信访局东南面2",
+    "longitude": "118.0276631"
+}, {
+    "latitude": "24.4652",
+    "count": 0,
+    "Id": "D00T003R20171120141511001639",
+    "type": 2,
+    "Name": "海沧区水云湾东屿社区门口出口1",
+    "longitude": "118.0297"
+}, {
+    "latitude": "24.5870",
+    "count": 4,
+    "Id": "D00T003R20171123105935001647",
+    "type": 2,
+    "Name": "集美区孙厝路口_2",
+    "longitude": "118.0962"
+}, {
+    "latitude": "24.5976",
+    "count": 3,
+    "Id": "D00T003R20171123111017001648",
+    "type": 2,
+    "Name": "集美区霞梧中路_2",
+    "longitude": "118.1037"
+}, {
+    "latitude": "24.5712",
+    "count": 6,
+    "Id": "D00T003R20171123112926001650",
+    "type": 2,
+    "Name": "集美区杏林白泉市场大门靠杏东路_2",
+    "longitude": "118.0355"
+}, {
+    "latitude": "24.5651",
+    "count": 0,
+    "Id": "D00T003R20171123114910001652",
+    "type": 2,
+    "Name": "集美区杏林万科里杏林湾一号_2",
+    "longitude": "118.0577"
+}, {
+    "latitude": "24.473480",
+    "count": 2,
+    "Id": "D00T003R20171128184459001659",
+    "type": 2,
+    "Name": "思明区后江埭路4",
+    "longitude": "118.099998"
+}, {
+    "latitude": "24.453148",
+    "count": 4,
+    "Id": "D00T003R20180106134748002169",
+    "type": 2,
+    "Name": "思明区镇海路地铁站A端入口闸机06",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.4652",
+    "count": 0,
+    "Id": "D00T003R20171107194520001545",
+    "type": 2,
+    "Name": "海沧区水云湾东屿社区门口出口2",
+    "longitude": "118.0297"
+}, {
+    "latitude": "24.5926",
+    "count": 149,
+    "Id": "D00T003R20171115160938001634",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口东侧灯杆入口",
+    "longitude": "118.0958"
+}, {
+    "latitude": "24.473480",
+    "count": 0,
+    "Id": "D00T003R20171128184528001660",
+    "type": 2,
+    "Name": "思明区后江埭路3",
+    "longitude": "118.099998"
+}, {
+    "latitude": "24.5928",
+    "count": 6,
+    "Id": "D00T003R20171115161246001637",
+    "type": 2,
+    "Name": "集美区孙厝北健幼儿园出口",
+    "longitude": "118.0937"
+}, {
+    "latitude": "24.5849",
+    "count": 4,
+    "Id": "D00T003R20171109201347001563",
+    "type": 2,
+    "Name": "集美大学清真食堂大门2",
+    "longitude": "118.0903"
+}, {
+    "latitude": "24.640077",
+    "count": 1,
+    "Id": "D00T003R20171113174614001629",
+    "type": 2,
+    "Name": "同安区BRT潘涂站西出口",
+    "longitude": "118.145718"
+}, {
+    "latitude": "24.636846",
+    "count": 0,
+    "Id": "D00T003R20171113144057001569",
+    "type": 2,
+    "Name": "集美区BRT厦门北站出口1",
+    "longitude": "118.069034"
+}, {
+    "latitude": "24.596364",
+    "count": 0,
+    "Id": "D00T003R20171113144057001581",
+    "type": 2,
+    "Name": "集美区BRT东垵站西出口",
+    "longitude": "118.1214"
+}, {
+    "latitude": "24.600503",
+    "count": 3,
+    "Id": "D00T003R20171113144057001583",
+    "type": 2,
+    "Name": "集美区BRT华侨大学站西入口",
+    "longitude": "118.081576"
+}, {
+    "latitude": "24.607443",
+    "count": 0,
+    "Id": "D00T003R20171113144057001586",
+    "type": 2,
+    "Name": "集美区BRT产业研究院西出口",
+    "longitude": "118.069374"
+}, {
+    "latitude": "24.623712",
+    "count": 3,
+    "Id": "D00T003R20171113144057001589",
+    "type": 2,
+    "Name": "集美区BRT刘厝站西入口",
+    "longitude": "118.059826"
+}, {
+    "latitude": "24.62944",
+    "count": 0,
+    "Id": "D00T003R20171113144057001590",
+    "type": 2,
+    "Name": "集美区BRT田厝站西入口",
+    "longitude": "118.066033"
+}, {
+    "latitude": "24.487328",
+    "count": 1,
+    "Id": "D00T003R20171214174425001842",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头北出口1",
+    "longitude": "118.070654"
+}, {
+    "latitude": "27.32304",
+    "count": 2,
+    "Id": "D00T003R20171214174425001744",
+    "type": 2,
+    "Name": "R039-湖里区BRT双十中学站人行天桥2",
+    "longitude": "118.111022"
+}, {
+    "latitude": "24.532513",
+    "count": 11,
+    "Id": "D00T003R20171214174425001747",
+    "type": 2,
+    "Name": "R026-湖里区金尚路林后公交站路口1",
+    "longitude": "118.130903"
+}, {
+    "latitude": "24.5015933",
+    "count": 0,
+    "Id": "D00T003R20171214174425001755",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场员工通道",
+    "longitude": "118.1262785"
+}, {
+    "latitude": "24.5011101",
+    "count": 1,
+    "Id": "D00T003R20171214174425001759",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场东门1",
+    "longitude": "118.1273246"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171207182436001722",
+    "type": 2,
+    "Name": "林前地下通道-03旧",
+    "longitude": "118"
+}, {
+    "latitude": "24.506148",
+    "count": 0,
+    "Id": "D00T003R20171214174425001782",
+    "type": 2,
+    "Name": "R004-湖里万达广场12号南通道(1069号)",
+    "longitude": "118.173098"
+}, {
+    "latitude": "24.508236",
+    "count": 2,
+    "Id": "D00T003R20171214174425001784",
+    "type": 2,
+    "Name": "R004-湖里万达广场16号北通道(1010号)",
+    "longitude": "118.172658"
+}, {
+    "latitude": "24.509359",
+    "count": 0,
+    "Id": "D00T003R20171214174425001790",
+    "type": 2,
+    "Name": "R004-湖里万达广场1号门2",
+    "longitude": "118.172873"
+}, {
+    "latitude": "24.504723",
+    "count": 0,
+    "Id": "D00T003R20171214174425001792",
+    "type": 2,
+    "Name": "R014-湖里区嘉禾路SM地下通道1",
+    "longitude": "118.120887"
+}, {
+    "latitude": "24.512104",
+    "count": 0,
+    "Id": "D00T003R20171214174425001798",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇西门1",
+    "longitude": "118.1603068"
+}, {
+    "latitude": "24.5124913",
+    "count": 1,
+    "Id": "D00T003R20171214174425001803",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇北门3（万家超市出口）",
+    "longitude": "118.1595844"
+}, {
+    "latitude": "24.588571",
+    "count": 0,
+    "Id": "D00T003R20171130174956001687",
+    "type": 2,
+    "Name": "集美区乐海路新华都BRT站2",
+    "longitude": "118.103277"
+}, {
+    "latitude": "24.495006",
+    "count": 5,
+    "Id": "D00T003R20171214174425001812",
+    "type": 2,
+    "Name": "R032-湖里区吕岭路台湾街路口人行道2",
+    "longitude": "118.127114"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001819",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口5",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001821",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口7",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001822",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口8",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.595103",
+    "count": 3,
+    "Id": "D00T003R20171205101525001699",
+    "type": 2,
+    "Name": "集美区同集南路霞梧天桥路口1",
+    "longitude": "118.101839"
+}, {
+    "latitude": "24.589813",
+    "count": 0,
+    "Id": "D00T003R20171205101525001700",
+    "type": 2,
+    "Name": "新华都凤田路路路口3",
+    "longitude": "118.102904"
+}, {
+    "latitude": "24.502647",
+    "count": 7,
+    "Id": "D00T003R20171214174425001826",
+    "type": 2,
+    "Name": "R031-湖里区仙岳路禾山路路口人行道2",
+    "longitude": "118.12852"
+}, {
+    "latitude": "24.502001",
+    "count": 2,
+    "Id": "D00T003R20171214174425001828",
+    "type": 2,
+    "Name": "R035-湖里区仙岳路中医院分院旧货市场出入口1",
+    "longitude": "118.131597"
+}, {
+    "latitude": "24.516593",
+    "count": 1,
+    "Id": "D00T003R20171214174425001830",
+    "type": 2,
+    "Name": "R022-湖里区枋湖路区政府西北角出入口1",
+    "longitude": "118.140798"
+}, {
+    "latitude": "24.540479",
+    "count": 0,
+    "Id": "D00T003R20171218125920001878",
+    "type": 2,
+    "Name": "0006-嘉禾路中埔10230号-朝南",
+    "longitude": "118.111861"
+}, {
+    "latitude": "24.517429",
+    "count": 0,
+    "Id": "D00T003R20171218125920001879",
+    "type": 2,
+    "Name": "0184-悦华路马垄社出口-朝1",
+    "longitude": "118.112511"
+}, {
+    "latitude": "24.305194",
+    "count": 0,
+    "Id": "D00T003R20171218125920001897",
+    "type": 2,
+    "Name": "0892-华荣路东侧华荣路口站-朝2",
+    "longitude": "118.061379"
+}, {
+    "latitude": "24.51706",
+    "count": 0,
+    "Id": "D00T003R20171218125920001901",
+    "type": 2,
+    "Name": "0918-兴湖路象屿花园门口-朝东",
+    "longitude": "118.09739"
+}, {
+    "latitude": "24.49822",
+    "count": 0,
+    "Id": "D00T003R20171218125920001903",
+    "type": 2,
+    "Name": "0920-和旭路优山美地后门-朝1",
+    "longitude": "118.09008"
+}, {
+    "latitude": "24.50448",
+    "count": 0,
+    "Id": "D00T003R20171218125920001905",
+    "type": 2,
+    "Name": "0927-海天路南侧百乐园站-朝2",
+    "longitude": "118.09875"
+}, {
+    "latitude": "24.50048",
+    "count": 0,
+    "Id": "D00T003R20171218125920001906",
+    "type": 2,
+    "Name": "0929-枋湖东路东侧金山花园站-朝1",
+    "longitude": "118.15495"
+}, {
+    "latitude": "24.50396",
+    "count": 0,
+    "Id": "D00T003R20171218125920001910",
+    "type": 2,
+    "Name": "0936-湖里区环岛干道西侧高林站-朝1",
+    "longitude": "118.18946"
+}, {
+    "latitude": "24.50440",
+    "count": 0,
+    "Id": "D00T003R20171218125920001911",
+    "type": 2,
+    "Name": "0938-金钟路北侧高林居住区站-朝西",
+    "longitude": "118.18763"
+}, {
+    "latitude": "24.5190781",
+    "count": 0,
+    "Id": "D00T003R20171218125920001919",
+    "type": 2,
+    "Name": "1125-湖里区虎屿路边检大楼-RK1",
+    "longitude": "118.140343"
+}, {
+    "latitude": "24.503653",
+    "count": 7,
+    "Id": "D00T003R20171218125920001921",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥1",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.515069",
+    "count": 5,
+    "Id": "D00T003R20171218125920001928",
+    "type": 2,
+    "Name": "R038-湖里区BRT穆厝站人行天桥1",
+    "longitude": "118.15402"
+}, {
+    "latitude": "24.515069",
+    "count": 2,
+    "Id": "D00T003R20171218125920001929",
+    "type": 2,
+    "Name": "R038-湖里区BRT穆厝站人行天桥2",
+    "longitude": "118.15402"
+}, {
+    "latitude": "24.4895",
+    "count": 5,
+    "Id": "D00T003R20171218173725001934",
+    "type": 2,
+    "Name": "湖里区0966-吕岭路北侧蔡塘广场站北K2",
+    "longitude": "118.1496"
+}, {
+    "latitude": "24.596131",
+    "count": 5,
+    "Id": "D00T003R20171222093757001959",
+    "type": 2,
+    "Name": "集美区BRT诚毅学院站东出口",
+    "longitude": "118.08957"
+}, {
+    "latitude": "24.480792",
+    "count": 0,
+    "Id": "D00T003R20180403143849002648",
+    "type": 2,
+    "Name": "思明区湖滨北路中行人行天桥1",
+    "longitude": "118.079079"
+}, {
+    "latitude": "24.5584511",
+    "count": 0,
+    "Id": "D00T003R20171229172743002078",
+    "type": 2,
+    "Name": "海沧区寨后村主入口西南面3",
+    "longitude": "117.9253921"
+}, {
+    "latitude": "24.4945171",
+    "count": 1,
+    "Id": "D00T003R20171229172743002084",
+    "type": 2,
+    "Name": "海沧医院西北面4",
+    "longitude": "118.0331461"
+}, {
+    "latitude": "24.4944371",
+    "count": 0,
+    "Id": "D00T003R20171229172743002085",
+    "type": 2,
+    "Name": "海沧区和美家具广场南1",
+    "longitude": "118.0421641"
+}, {
+    "latitude": "24.485597",
+    "count": 0,
+    "Id": "D00T003R20171214174425001861",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头8号门",
+    "longitude": "118.071734"
+}, {
+    "latitude": "24.508907",
+    "count": 1,
+    "Id": "D00T003R20171214174425001872",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼商场通道1",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.517853",
+    "count": 0,
+    "Id": "D00T003R20180403143849002656",
+    "type": 2,
+    "Name": "湖里区嘉禾路马垅人行天桥半球1",
+    "longitude": "118.113456"
+}, {
+    "latitude": "24.48087",
+    "count": 0,
+    "Id": "D00T003R20180403143849002658",
+    "type": 2,
+    "Name": "思明区嘉禾路明发人行天桥半球1",
+    "longitude": "118.115919"
+}, {
+    "latitude": "24.521039",
+    "count": 0,
+    "Id": "D00T003R20180403143849002669",
+    "type": 2,
+    "Name": "湖里区兴湖路麦德隆人行天桥半球2",
+    "longitude": "118.101954"
+}, {
+    "latitude": "24.470891",
+    "count": 0,
+    "Id": "D00T003R20180403143849002678",
+    "type": 2,
+    "Name": "思明区湖滨南路电子城人行天桥半球1",
+    "longitude": "118.084136"
+}, {
+    "latitude": "24.71283",
+    "count": 2,
+    "Id": "D00T003R20180124145513002236",
+    "type": 2,
+    "Name": "同安区58号店仔街金包银华莱士2",
+    "longitude": "118.120143"
+}, {
+    "latitude": "24.710417",
+    "count": 1,
+    "Id": "D00T003R20180124145513002237",
+    "type": 2,
+    "Name": "同安区新民中心小学大门口1",
+    "longitude": "118.119437"
+}, {
+    "latitude": "24.710695",
+    "count": 0,
+    "Id": "D00T003R20180124145513002239",
+    "type": 2,
+    "Name": "同安区乌涂生产队路口2",
+    "longitude": "118.117739"
+}, {
+    "latitude": "24.710695",
+    "count": 0,
+    "Id": "D00T003R20180124145513002240",
+    "type": 2,
+    "Name": "同安区乌涂生产队路口1",
+    "longitude": "118.117739"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002255",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站A端出口闸机05",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002260",
+    "type": 2,
+    "Name": "集美区官任地铁站B端出口闸机02",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 2,
+    "Id": "D00T003R20180125170611002261",
+    "type": 2,
+    "Name": "集美区官任地铁站B端入口闸机07",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002262",
+    "type": 2,
+    "Name": "集美区官任地铁站B端入口闸机08",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002271",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线出口闸机08",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 2,
+    "Id": "D00T003R20180125170611002277",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机17",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002279",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线入口闸机20",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 2,
+    "Id": "D00T003R20180125170611002283",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线出口闸机28",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002288",
+    "type": 2,
+    "Name": "集美区岩内地铁站A端入口闸机03",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002296",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站A端出口闸机02",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002297",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站A端出口闸机03",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.463483",
+    "count": 2,
+    "Id": "D00T003R20180125170611002311",
+    "type": 2,
+    "Name": "思明区将军祠地铁站A端入口闸机07",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.493618",
+    "count": 0,
+    "Id": "D00T003R20180125170611002314",
+    "type": 2,
+    "Name": "思明区吕厝地铁站B端出口闸机02",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002328",
+    "type": 2,
+    "Name": "思明区文灶地铁站B端入口闸机07",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002329",
+    "type": 2,
+    "Name": "思明区文灶地铁站B端入口闸机08",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.459032",
+    "count": 0,
+    "Id": "D00T003R20180125170611002333",
+    "type": 2,
+    "Name": "思明区中山公园地铁站A端入口闸机02",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.4876",
+    "count": 0,
+    "Id": "D00T003R20180427175547002778",
+    "type": 2,
+    "Name": "0691-蔡塘一路蔡塘二路路口K1",
+    "longitude": "118.1544"
+}, {
+    "latitude": "24.50212",
+    "count": 0,
+    "Id": "D00T003R20180627172027003096",
+    "type": 2,
+    "Name": "湖里区0150R-兴山路乌石浦南路路口-朝东",
+    "longitude": "118.12809"
+}, {
+    "latitude": "24.50447",
+    "count": 0,
+    "Id": "D00T003R20180627172027003100",
+    "type": 2,
+    "Name": "湖里区0156R-嘉禾路SM一期公交站-朝东",
+    "longitude": "118.12114"
+}, {
+    "latitude": "24.51159",
+    "count": 0,
+    "Id": "D00T003R20180627172027003103",
+    "type": 2,
+    "Name": "湖里区0157R-兴隆路火炬二路路口-朝西",
+    "longitude": "118.117189"
+}, {
+    "latitude": "24.52209",
+    "count": 0,
+    "Id": "D00T003R20180627172027003120",
+    "type": 2,
+    "Name": "湖里区0187R-火炬北路新丰路路口1-朝南",
+    "longitude": "118.12081"
+}, {
+    "latitude": "24.51996",
+    "count": 0,
+    "Id": "D00T003R20180627172027003124",
+    "type": 2,
+    "Name": "湖里区0211R-枋湖北二路火炬东路路口-朝西",
+    "longitude": "118.12801"
+}, {
+    "latitude": "24.50196",
+    "count": 0,
+    "Id": "D00T003R20180627172027003137",
+    "type": 2,
+    "Name": "湖里区0294R-仙岳路中医院门口-朝北",
+    "longitude": "118.13627"
+}, {
+    "latitude": "24.245",
+    "count": 0,
+    "Id": "D00T003R20180428155826002781",
+    "type": 2,
+    "Name": "集美五一活动临时人脸4",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.52948",
+    "count": 0,
+    "Id": "D00T003R20180627172027003055",
+    "type": 2,
+    "Name": "湖里区0011R-殿前一路长虹路路口2-朝北",
+    "longitude": "118.10128"
+}, {
+    "latitude": "24.52961",
+    "count": 0,
+    "Id": "D00T003R20180627172027003058",
+    "type": 2,
+    "Name": "湖里区0011R-殿前一路长虹路路口5-朝南",
+    "longitude": "118.10105"
+}, {
+    "latitude": "24.49698",
+    "count": 0,
+    "Id": "D00T003R20180627172027003087",
+    "type": 2,
+    "Name": "湖里区0141R-台湾街江头南路路口1-朝西",
+    "longitude": "118.12763"
+}, {
+    "latitude": "24.50351",
+    "count": 0,
+    "Id": "D00T003R20180627172027003144",
+    "type": 2,
+    "Name": "湖里区0325R-枋湖东路金山西路路口4-朝南",
+    "longitude": "118.15572"
+}, {
+    "latitude": "24.51138",
+    "count": 0,
+    "Id": "D00T003R20180627172027003158",
+    "type": 2,
+    "Name": "湖里区0544R-金湖路凯悦新城东出口-朝东",
+    "longitude": "118.13877"
+}, {
+    "latitude": "24.49955",
+    "count": 0,
+    "Id": "D00T003R20180627172027003201",
+    "type": 2,
+    "Name": "湖里区0696R-双浦路江头所路口-朝北",
+    "longitude": "118.13534"
+}, {
+    "latitude": "24.52735",
+    "count": 0,
+    "Id": "D00T003R20180627172027003205",
+    "type": 2,
+    "Name": "湖里区0708R-殿前一路翔鹭三期5号门口-朝北",
+    "longitude": "118.10511"
+}, {
+    "latitude": "24.50515",
+    "count": 0,
+    "Id": "D00T003R20180627172027003228",
+    "type": 2,
+    "Name": "湖里区0889R-仙洞路康乐路路口-朝南",
+    "longitude": "118.11465"
+}, {
+    "latitude": "24.49766",
+    "count": 0,
+    "Id": "D00T003R20180627172027003232",
+    "type": 2,
+    "Name": "湖里区0923R-和宁路西侧东渡六中公交站-朝北",
+    "longitude": "118.08265"
+}, {
+    "latitude": "24.51377",
+    "count": 0,
+    "Id": "D00T003R20180627172027003243",
+    "type": 2,
+    "Name": "湖里区1021R-云顶北路金湖路路口-朝北",
+    "longitude": "118.15441"
+}, {
+    "latitude": "24.50516",
+    "count": 0,
+    "Id": "D00T003R20180627172027003246",
+    "type": 2,
+    "Name": "湖里区1073R-金林路金街路口-朝西",
+    "longitude": "118.17912"
+}, {
+    "latitude": "24.501404",
+    "count": 0,
+    "Id": "D00T003R20180627172027003249",
+    "type": 2,
+    "Name": "湖里区1086R-江头东路浦园社68号路口-朝南",
+    "longitude": "118.130634"
+}, {
+    "latitude": "24.573692",
+    "count": 0,
+    "Id": "D00T003R20180704095557003287",
+    "type": 2,
+    "Name": "集美区苑亭路与苑西路交叉路口_2",
+    "longitude": "118.050284"
+}, {
+    "latitude": "24.605676",
+    "count": 0,
+    "Id": "D00T003R20180704095557003293",
+    "type": 2,
+    "Name": "集美区景湖北路凤山庙路路口_2",
+    "longitude": "117.988591"
+}, {
+    "latitude": "24.628647",
+    "count": 0,
+    "Id": "D00T003R20180704095557003311",
+    "type": 2,
+    "Name": "集美区溪西下庄里46门前路口",
+    "longitude": "118.023074"
+}, {
+    "latitude": "24.604936",
+    "count": 0,
+    "Id": "D00T003R20180704095557003315",
+    "type": 2,
+    "Name": "集美区景湖南路金龙路路口_6",
+    "longitude": "118.021423"
+}, {
+    "latitude": "24.528564",
+    "count": 0,
+    "Id": "D00T003R20180627172027003164",
+    "type": 2,
+    "Name": "湖里区0559R-金尚路林后西路路口人行天桥1-朝东",
+    "longitude": "118.134034"
+}, {
+    "latitude": "24.50807",
+    "count": 0,
+    "Id": "D00T003R20180627172027003169",
+    "type": 2,
+    "Name": "湖里区0573R-云顶北路金湖四路路口3-朝西",
+    "longitude": "118.15971"
+}, {
+    "latitude": "24.50417",
+    "count": 0,
+    "Id": "D00T003R20180627172027003184",
+    "type": 2,
+    "Name": "湖里区0669R-乌石浦路梅阳花园门口-朝北",
+    "longitude": "118.13284"
+}, {
+    "latitude": "24.50135",
+    "count": 0,
+    "Id": "D00T003R20180627172027003192",
+    "type": 2,
+    "Name": "湖里区0681R-金山路金钟路路口2-朝北",
+    "longitude": "118.17735"
+}, {
+    "latitude": "24.58426",
+    "count": 0,
+    "Id": "D00T003R20180906144401003517",
+    "type": 2,
+    "Name": "同集路集美体院路口1B",
+    "longitude": "118.093857"
+}, {
+    "latitude": "24.566057",
+    "count": 0,
+    "Id": "D00T003R20181012152312003798",
+    "type": 2,
+    "Name": "(金海湾)文达二里105号一楼",
+    "longitude": "118.052262"
+}, {
+    "latitude": "24.565457",
+    "count": 0,
+    "Id": "D00T003R20181012152312003807",
+    "type": 2,
+    "Name": "(金海湾)文达二里122号一楼",
+    "longitude": "118.054935"
+}, {
+    "latitude": "24.567008",
+    "count": 0,
+    "Id": "D00T003R20181012152312003808",
+    "type": 2,
+    "Name": "(金海湾)文达二里121号一楼",
+    "longitude": "118.055314"
+}, {
+    "latitude": "24.565501",
+    "count": 0,
+    "Id": "D00T003R20181012152312003813",
+    "type": 2,
+    "Name": "(金海湾)文达二里71号一楼",
+    "longitude": "118.052281"
+}, {
+    "latitude": "24.56512",
+    "count": 0,
+    "Id": "D00T003R20181012152312003820",
+    "type": 2,
+    "Name": "(金海湾)文达二里21号一楼",
+    "longitude": "118.051851"
+}, {
+    "latitude": "24.494927",
+    "count": 0,
+    "Id": "D00T003R20180724151521003369",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路7-28号人人便利店3",
+    "longitude": "118.124684"
+}, {
+    "latitude": "24.494389",
+    "count": 0,
+    "Id": "D00T003R20180724151521003381",
+    "type": 2,
+    "Name": "湖里区0179R-吕岭路邮政大门3",
+    "longitude": "118.126072"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000083",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口5",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000084",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口6",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000037",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口3",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000041",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口7",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5483",
+    "count": 0,
+    "Id": "D00T003R20170713164248001040",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥209",
+    "longitude": "118.1406"
+}, {
+    "latitude": "24.5389",
+    "count": 0,
+    "Id": "D00T003R20170713164248001041",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#11",
+    "longitude": "118.1276"
+}, {
+    "latitude": "24.5378",
+    "count": 0,
+    "Id": "D00T003R20170713164248001044",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#8",
+    "longitude": "118.1261"
+}, {
+    "latitude": "24.5483",
+    "count": 0,
+    "Id": "D00T003R20170713164248001046",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4远机位门#3",
+    "longitude": "118.1436"
+}, {
+    "latitude": "24.5479",
+    "count": 4,
+    "Id": "D00T003R20170713164248001050",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4国内出口#2",
+    "longitude": "118.1443"
+}, {
+    "latitude": "24.5398",
+    "count": 0,
+    "Id": "D00T003R20170713164248001055",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#17",
+    "longitude": "118.129"
+}, {
+    "latitude": "24.5397",
+    "count": 0,
+    "Id": "D00T003R20170713164248001056",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#15",
+    "longitude": "118.1281"
+}, {
+    "latitude": "24.476599",
+    "count": 0,
+    "Id": "D00T003R20170725105939000457",
+    "type": 2,
+    "Name": "禾祥东路与金榜路交叉口人像识别东1",
+    "longitude": "118.11653"
+}, {
+    "latitude": "24.476599",
+    "count": 0,
+    "Id": "D00T003R20170725105939000458",
+    "type": 2,
+    "Name": "禾祥东路与金榜路交叉口人像识别西1",
+    "longitude": "118.11653"
+}, {
+    "latitude": "24.475813",
+    "count": 0,
+    "Id": "D00T003R20170725105939000462",
+    "type": 2,
+    "Name": "后埭溪与禾祥东路交叉路口人像识别东（益城广场）1",
+    "longitude": "118.11322"
+}, {
+    "latitude": "24.435075",
+    "count": 0,
+    "Id": "D00T003R20170804094840000530",
+    "type": 2,
+    "Name": "亚洲海湾大酒店南区路口11",
+    "longitude": "118.140509"
+}, {
+    "latitude": "24.435075",
+    "count": 0,
+    "Id": "D00T003R20170804094840000531",
+    "type": 2,
+    "Name": "亚洲海湾大酒店南区路口21",
+    "longitude": "118.140509"
+}, {
+    "latitude": "24.716579",
+    "count": 0,
+    "Id": "D00T003R20170810114050000540",
+    "type": 2,
+    "Name": "23号田里村口11",
+    "longitude": "118.135196"
+}, {
+    "latitude": "24.493825",
+    "count": 0,
+    "Id": "D00T003R20170804094840000513",
+    "type": 2,
+    "Name": "BRT蔡塘站东侧11",
+    "longitude": "118.160463"
+}, {
+    "latitude": "24.493825",
+    "count": 0,
+    "Id": "D00T003R20170804094840000514",
+    "type": 2,
+    "Name": "BRT蔡塘站东侧21",
+    "longitude": "118.160463"
+}, {
+    "latitude": "24.532718",
+    "count": 0,
+    "Id": "D00T003R20170804094840000525",
+    "type": 2,
+    "Name": "林后社441号11",
+    "longitude": "118.138729"
+}, {
+    "latitude": "24.473263",
+    "count": 0,
+    "Id": "D00T003R20170804094840000529",
+    "type": 2,
+    "Name": "前埔幼儿园21",
+    "longitude": "118.170361"
+}, {
+    "latitude": "24.77866",
+    "count": 0,
+    "Id": "D00T003R20170714142852000444",
+    "type": 2,
+    "Name": "同安沃溪市际公安检查站人脸微卡口",
+    "longitude": "118.09198"
+}, {
+    "latitude": "24.47435",
+    "count": 0,
+    "Id": "D00T003R20170725105939000493",
+    "type": 2,
+    "Name": "厦禾路世贸广场大门口人像识别西1",
+    "longitude": "118.120208"
+}, {
+    "latitude": "24.473438",
+    "count": 0,
+    "Id": "D00T003R20170725105939000479",
+    "type": 2,
+    "Name": "临泰宾馆路口人像识别北1",
+    "longitude": "118.11519"
+}, {
+    "latitude": "24.477055",
+    "count": 0,
+    "Id": "D00T003R20170725105939000484",
+    "type": 2,
+    "Name": "悟村街道与益泰大厦出口人像识别东1",
+    "longitude": "118.124489"
+}, {
+    "latitude": "24.5903",
+    "count": 2,
+    "Id": "D00T003R20170411203954000052",
+    "type": 2,
+    "Name": "集美区BRT集美嘉庚体育馆站入口",
+    "longitude": "118.1009"
+}, {
+    "latitude": "24.6397",
+    "count": 1,
+    "Id": "D00T003R20170411203954000004",
+    "type": 2,
+    "Name": "厦门北站8号检票口1-2",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.4571",
+    "count": 0,
+    "Id": "D00T003R20170411203954000009",
+    "type": 2,
+    "Name": "思明区轮渡码头入口3",
+    "longitude": "118.0683"
+}, {
+    "latitude": "24.4908",
+    "count": 6,
+    "Id": "D00T003R20170411203954000013",
+    "type": 2,
+    "Name": "湖里区BRT蔡塘站出口1",
+    "longitude": "118.149"
+}, {
+    "latitude": "24.4712",
+    "count": 0,
+    "Id": "D00T003R20170411203954000114",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口2",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.4712",
+    "count": 2,
+    "Id": "D00T003R20170411203954000117",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口5",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.6383",
+    "count": 3,
+    "Id": "D00T003R20170411203954000122",
+    "type": 2,
+    "Name": "厦门北站1号出站口1-3",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.5368",
+    "count": 0,
+    "Id": "D00T003R20170713164248001027",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#5",
+    "longitude": "118.1247"
+}, {
+    "latitude": "24.5372",
+    "count": 0,
+    "Id": "D00T003R20170713164248001030",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#6",
+    "longitude": "118.1252"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000087",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口9",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000089",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口11",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000100",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口2",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000106",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口8",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.6397",
+    "count": 0,
+    "Id": "D00T003R20170411203954000067",
+    "type": 2,
+    "Name": "厦门北站8号检票口1-1",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.676675",
+    "count": 0,
+    "Id": "D00T003R20170810114050000561",
+    "type": 2,
+    "Name": "XA124-同美下枫路井冈山饭店前-011",
+    "longitude": "118.220304"
+}, {
+    "latitude": "24.710625",
+    "count": 0,
+    "Id": "D00T003R20170810114050000563",
+    "type": 2,
+    "Name": "坝仔埔1",
+    "longitude": "118.129438"
+}, {
+    "latitude": "24.445741",
+    "count": 0,
+    "Id": "D00T003R20170810114050000566",
+    "type": 2,
+    "Name": "大学路84号11",
+    "longitude": "118.094263"
+}, {
+    "latitude": "24.445741",
+    "count": 0,
+    "Id": "D00T003R20170810114050000567",
+    "type": 2,
+    "Name": "大学路84号21",
+    "longitude": "118.094263"
+}, {
+    "latitude": "24.440062",
+    "count": 0,
+    "Id": "D00T003R20170810114050000575",
+    "type": 2,
+    "Name": "丽斯海景酒店旁21",
+    "longitude": "118.152709"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170810114057000637",
+    "type": 2,
+    "Name": "XA166-郑坂南里181号前两幢31",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.647732",
+    "count": 0,
+    "Id": "D00T003R20170810114057000645",
+    "type": 2,
+    "Name": "XA196-西坂下坂里1号旁21",
+    "longitude": "118.246208"
+}, {
+    "latitude": "24.466412",
+    "count": 0,
+    "Id": "D00T003R20170810114057000648",
+    "type": 2,
+    "Name": "开禾路口站出站1",
+    "longitude": "118.082392"
+}, {
+    "latitude": "24.438603",
+    "count": 0,
+    "Id": "D00T003R20170810114057000653",
+    "type": 2,
+    "Name": "演武大桥下厦大白城门口11",
+    "longitude": "118.108626"
+}, {
+    "latitude": "24.509518",
+    "count": 0,
+    "Id": "D00T003R20170815112636000661",
+    "type": 2,
+    "Name": "湖里街9号K11",
+    "longitude": "118.089657"
+}, {
+    "latitude": "24.46165",
+    "count": 1,
+    "Id": "D00T003R20170914175956000932",
+    "type": 2,
+    "Name": "思明区BRT第一码头站出口1",
+    "longitude": "118.066653"
+}, {
+    "latitude": "24.451277",
+    "count": 0,
+    "Id": "D00T003R20170810114050000579",
+    "type": 2,
+    "Name": "茂后路口A74号公厕旁1",
+    "longitude": "118.163758"
+}, {
+    "latitude": "24.4828",
+    "count": 0,
+    "Id": "D00T003R20170810114050000586",
+    "type": 2,
+    "Name": "明发BRT旁21",
+    "longitude": "118.12894"
+}, {
+    "latitude": "24.446433",
+    "count": 0,
+    "Id": "D00T003R20170810114050000595",
+    "type": 2,
+    "Name": "南普陀山门（西侧）21",
+    "longitude": "118.101368"
+}, {
+    "latitude": "24.452263",
+    "count": 0,
+    "Id": "D00T003R20170810114050000611",
+    "type": 2,
+    "Name": "云顶南路茂新路口21",
+    "longitude": "118.159558"
+}, {
+    "latitude": "24.537915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000618",
+    "type": 2,
+    "Name": "岐山北路围里村口车站K21",
+    "longitude": "118.156432"
+}, {
+    "latitude": "24.535591",
+    "count": 0,
+    "Id": "D00T003R20170810114050000620",
+    "type": 2,
+    "Name": "岐山北路围里社326号K21",
+    "longitude": "118.150468"
+}, {
+    "latitude": "24.526915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000544",
+    "type": 2,
+    "Name": "BRT斗西站进站1",
+    "longitude": "118.15566"
+}, {
+    "latitude": "24.495475",
+    "count": 0,
+    "Id": "D00T003R20180403143849002636",
+    "type": 2,
+    "Name": "湖里区东渡路大榕树人行天桥半球1",
+    "longitude": "118.078901"
+}, {
+    "latitude": "24.530673",
+    "count": 0,
+    "Id": "D00T003R20170914175956000913",
+    "type": 2,
+    "Name": "湖里区0012-殿前六路五路夜市路口K2",
+    "longitude": "118.102207"
+}, {
+    "latitude": "24.513107",
+    "count": 0,
+    "Id": "D00T003R20170821095104000736",
+    "type": 2,
+    "Name": "0521-兴隆路光亮骨科医院K21",
+    "longitude": "118.12501"
+}, {
+    "latitude": "24.481906",
+    "count": 0,
+    "Id": "D00T003R20170821095104000742",
+    "type": 2,
+    "Name": "BRT洪文站进站1",
+    "longitude": "118.165888"
+}, {
+    "latitude": "24.520512",
+    "count": 0,
+    "Id": "D00T003R20170821095104000748",
+    "type": 2,
+    "Name": "后铺社村口戏台K21",
+    "longitude": "118.121181"
+}, {
+    "latitude": "24.5173",
+    "count": 0,
+    "Id": "D00T003R20170821095104000749",
+    "type": 2,
+    "Name": "湖里区后浦社村口戏台K31",
+    "longitude": "118.1096"
+}, {
+    "latitude": "24.716386",
+    "count": 0,
+    "Id": "D00T003R20170823100549000757",
+    "type": 2,
+    "Name": "324国道与同明北路21",
+    "longitude": "118.130253"
+}, {
+    "latitude": "24.508065",
+    "count": 0,
+    "Id": "D00T003R20170815112636000676",
+    "type": 2,
+    "Name": "竹坑路22-26号K11",
+    "longitude": "118.090703"
+}, {
+    "latitude": "24.491914",
+    "count": 0,
+    "Id": "D00T003R20170815112641000686",
+    "type": 2,
+    "Name": "蔡塘人行天桥北侧11",
+    "longitude": "118.16654"
+}, {
+    "latitude": "24.534633",
+    "count": 0,
+    "Id": "D00T003R20170815112641000696",
+    "type": 2,
+    "Name": "良丰百货路口11",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.534633",
+    "count": 0,
+    "Id": "D00T003R20170815112641000698",
+    "type": 2,
+    "Name": "良丰百货路口31",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.50135",
+    "count": 0,
+    "Id": "D00T003R20180403143849002630",
+    "type": 2,
+    "Name": "湖里区长岸路海天路口人行天桥东侧半球1",
+    "longitude": "118.081414"
+}, {
+    "latitude": "24.517756",
+    "count": 0,
+    "Id": "D00T003R20170823100549000770",
+    "type": 2,
+    "Name": "BRT市政务服务中心站进站1",
+    "longitude": "118.165444"
+}, {
+    "latitude": "24.432021",
+    "count": 0,
+    "Id": "D00T003R20170823100549000784",
+    "type": 2,
+    "Name": "曾厝垵佳福园路口（北向南）1",
+    "longitude": "118.130006"
+}, {
+    "latitude": "24.470179",
+    "count": 4,
+    "Id": "D00T003R20170830101037000804",
+    "type": 2,
+    "Name": "思明区厦禾路汉庭酒店门口人像识别西",
+    "longitude": "118.104065"
+}, {
+    "latitude": "24.51",
+    "count": 0,
+    "Id": "D00T003R20170914175956000920",
+    "type": 2,
+    "Name": "湖里区0521-兴隆路光亮骨科医院K1",
+    "longitude": "118.1136"
+}, {
+    "latitude": "24.5239",
+    "count": 0,
+    "Id": "D00T003R20170914175956000928",
+    "type": 2,
+    "Name": "湖里区0566-枋湖北二路板上路口K2",
+    "longitude": "118.1441"
+}, {
+    "latitude": "24.503513",
+    "count": 2,
+    "Id": "D00T003R20170914175956000942",
+    "type": 2,
+    "Name": "湖里区BRT金山站出口1",
+    "longitude": "118.154866"
+}, {
+    "latitude": "24.479112",
+    "count": 3,
+    "Id": "D00T003R20170914175956000945",
+    "type": 2,
+    "Name": "思明区BRT莲坂站出口",
+    "longitude": "118.117486"
+}, {
+    "latitude": "24.559981",
+    "count": 0,
+    "Id": "D00T003R20170920151410001262",
+    "type": 2,
+    "Name": "集美区高浦路豪友大排档路口_1",
+    "longitude": "118.046555"
+}, {
+    "latitude": "24.587613",
+    "count": 1,
+    "Id": "D00T003R20170920151410001270",
+    "type": 2,
+    "Name": "集美区九天湖路与杏林北三路路口2_1",
+    "longitude": "118.041648"
+}, {
+    "latitude": "24.594951",
+    "count": 0,
+    "Id": "D00T003R20170920151410001274",
+    "type": 2,
+    "Name": "集美区立德路与通林二路2_3",
+    "longitude": "118.058684"
+}, {
+    "latitude": "24.594512",
+    "count": 0,
+    "Id": "D00T003R20170920151410001277",
+    "type": 2,
+    "Name": "集美区桐林一路与立德路广场西2_1",
+    "longitude": "118.056454"
+}, {
+    "latitude": "24.594512",
+    "count": 0,
+    "Id": "D00T003R20170920151410001278",
+    "type": 2,
+    "Name": "集美区桐林一路与立德路广场西2_2",
+    "longitude": "118.056454"
+}, {
+    "latitude": "24.4982",
+    "count": 0,
+    "Id": "D00T003R20170902155536000854",
+    "type": 2,
+    "Name": "湖里区0360-虎仔山西路宝龙御景西北角路口K3",
+    "longitude": "118.1646"
+}, {
+    "latitude": "24.565785",
+    "count": 0,
+    "Id": "D00T003R20170920151410001289",
+    "type": 2,
+    "Name": "集美区杏林东路洪埭路路口_2",
+    "longitude": "118.042302"
+}, {
+    "latitude": "24.566276",
+    "count": 0,
+    "Id": "D00T003R20170920151410001294",
+    "type": 2,
+    "Name": "集美区杏林东路时代广场天桥路口2_2",
+    "longitude": "118.042109"
+}, {
+    "latitude": "24.667005",
+    "count": 9,
+    "Id": "D00T003R20170914175956000964",
+    "type": 2,
+    "Name": "翔安区XA032-马巷街80号外墙2",
+    "longitude": "118.245882"
+}, {
+    "latitude": "24.669845",
+    "count": 0,
+    "Id": "D00T003R20170914175956000972",
+    "type": 2,
+    "Name": "翔安区翔安西路XA095-同塘仔尾可可馨超市2",
+    "longitude": "118.214269"
+}, {
+    "latitude": "24.672123",
+    "count": 0,
+    "Id": "D00T003R20170914175956000981",
+    "type": 2,
+    "Name": "翔安区XA119-同美村委1",
+    "longitude": "118.212275"
+}, {
+    "latitude": "24.672123",
+    "count": 0,
+    "Id": "D00T003R20170914175956000982",
+    "type": 2,
+    "Name": "翔安区XA119-同美村委2",
+    "longitude": "118.212275"
+}, {
+    "latitude": "24.646666",
+    "count": 0,
+    "Id": "D00T003R20170914175956000997",
+    "type": 2,
+    "Name": "翔安区春光路XA169-郑坂社区综合农贸市场对面2",
+    "longitude": "118.232697"
+}, {
+    "latitude": "24.5101",
+    "count": 3,
+    "Id": "D00T003R20170914175956001117",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边清洁楼1",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.470222",
+    "count": 0,
+    "Id": "D00T003R20170914175956001129",
+    "type": 2,
+    "Name": "思明区厦禾路金榜路口人像识别东",
+    "longitude": "118.105655"
+}, {
+    "latitude": "24.471037",
+    "count": 1,
+    "Id": "D00T003R20170914175956001133",
+    "type": 2,
+    "Name": "思明区厦禾路世贸广场大门口人像识别东",
+    "longitude": "118.108598"
+}, {
+    "latitude": "24.469266",
+    "count": 3,
+    "Id": "D00T003R20170914175956001136",
+    "type": 2,
+    "Name": "思明区厦禾路英才商厦门口人像识别西",
+    "longitude": "118.100504"
+}, {
+    "latitude": "24.477233",
+    "count": 0,
+    "Id": "D00T003R20170914175956001137",
+    "type": 2,
+    "Name": "思明区厦禾路与湖明南路交叉口人像识别北",
+    "longitude": "118.114853"
+}, {
+    "latitude": "24.647732",
+    "count": 2,
+    "Id": "D00T003R20170914175956001003",
+    "type": 2,
+    "Name": "翔安区巷南路XA196-西坂下坂里1号旁1",
+    "longitude": "118.246208"
+}, {
+    "latitude": "24.5218",
+    "count": 1,
+    "Id": "D00T003R20170914175956001006",
+    "type": 2,
+    "Name": "湖里区禾山街道安兜社611号博爱门诊K2",
+    "longitude": "118.1319"
+}, {
+    "latitude": "24.5095",
+    "count": 2,
+    "Id": "D00T003R20170914175956001048",
+    "type": 2,
+    "Name": "湖里区湖里街道42号K1",
+    "longitude": "118.0916"
+}, {
+    "latitude": "24.470392",
+    "count": 7,
+    "Id": "D00T003R20170914175956001064",
+    "type": 2,
+    "Name": "思明区厦禾路金榜公园人行天桥上人像识别北",
+    "longitude": "118.105724"
+}, {
+    "latitude": "24.470392",
+    "count": 6,
+    "Id": "D00T003R20170914175956001065",
+    "type": 2,
+    "Name": "思明区厦禾路金榜公园人行天桥上人像识别南",
+    "longitude": "118.105724"
+}, {
+    "latitude": "24.473758",
+    "count": 0,
+    "Id": "D00T003R20170914175956001067",
+    "type": 2,
+    "Name": "思明区东浦路金枫园门口人像识别西",
+    "longitude": "118.117152"
+}, {
+    "latitude": "24.537422",
+    "count": 0,
+    "Id": "D00T003R20170914175956001070",
+    "type": 2,
+    "Name": "海沧区霞阳南路晶华陶瓷路口1",
+    "longitude": "118.028818"
+}, {
+    "latitude": "24.457759",
+    "count": 0,
+    "Id": "D00T003R20170914175956001073",
+    "type": 2,
+    "Name": "思明区局口街2",
+    "longitude": "118.075827"
+}, {
+    "latitude": "24.522991",
+    "count": 0,
+    "Id": "D00T003R20170914175956001107",
+    "type": 2,
+    "Name": "海沧区翁角路名仕阁小区路口4",
+    "longitude": "117.993882"
+}, {
+    "latitude": "24.526529",
+    "count": 0,
+    "Id": "D00T003R20170914175956001177",
+    "type": 2,
+    "Name": "海沧区新景路已翁角路交叉口正顺宫路口1",
+    "longitude": "117.996714"
+}, {
+    "latitude": "24.5301",
+    "count": 0,
+    "Id": "D00T003R20170914175956001192",
+    "type": 2,
+    "Name": "湖里区坂上路围里社区路口K2",
+    "longitude": "118.1394"
+}, {
+    "latitude": "24.5261",
+    "count": 3,
+    "Id": "D00T003R20170914175956001194",
+    "type": 2,
+    "Name": "湖里区坂上社62号K3",
+    "longitude": "118.14"
+}, {
+    "latitude": "24.599126",
+    "count": 0,
+    "Id": "D00T003R20170918175138001246",
+    "type": 2,
+    "Name": "集美区天凤路霞浯路口2",
+    "longitude": "118.102024"
+}, {
+    "latitude": "24.599126",
+    "count": 0,
+    "Id": "D00T003R20170918175138001247",
+    "type": 2,
+    "Name": "集美区天凤路霞浯路口1",
+    "longitude": "118.102024"
+}, {
+    "latitude": "24.709952",
+    "count": 0,
+    "Id": "D00T003R20170921143621001313",
+    "type": 2,
+    "Name": "同安区21号同辉路集银路新厝",
+    "longitude": "118.116444"
+}, {
+    "latitude": "24.5272",
+    "count": 12,
+    "Id": "D00T003R20170919165836001257",
+    "type": 2,
+    "Name": "湖里区0020-长浩路长虹路路口2K1",
+    "longitude": "118.0984"
+}, {
+    "latitude": "24.506389",
+    "count": 0,
+    "Id": "D00T003R20170921143621001322",
+    "type": 2,
+    "Name": "湖里区云顶北路西潘村口3",
+    "longitude": "118.155076"
+}, {
+    "latitude": "24.440639",
+    "count": 0,
+    "Id": "D00T003R20170918104444001209",
+    "type": 2,
+    "Name": "思明区老虎山路与龙虎西二里交叉口旧海洋路口人脸南",
+    "longitude": "118.115357"
+}, {
+    "latitude": "24.603099",
+    "count": 0,
+    "Id": "D00T003R20170918104444001214",
+    "type": 2,
+    "Name": "集美区侨英路与天安路永峰超市2",
+    "longitude": "118.101606"
+}, {
+    "latitude": "24.596354",
+    "count": 1,
+    "Id": "D00T003R20170918104444001219",
+    "type": 2,
+    "Name": "集美区天安路霞梧路口以纯店2",
+    "longitude": "118.100358"
+}, {
+    "latitude": "24.583627",
+    "count": 1,
+    "Id": "D00T003R20170918104444001228",
+    "type": 2,
+    "Name": "集美区同集路信毅路口2",
+    "longitude": "118.100892"
+}, {
+    "latitude": "24.44069",
+    "count": 0,
+    "Id": "D00T003R20170918104444001235",
+    "type": 2,
+    "Name": "思明区曾厝垵二路学生公寓往东宅人脸南",
+    "longitude": "118.112599"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025152308001466",
+    "type": 2,
+    "Name": "海沧区水云湾北门西侧车道旁",
+    "longitude": "118.0289"
+}, {
+    "latitude": "24.4810",
+    "count": 0,
+    "Id": "D00T003R20171025154745001473",
+    "type": 2,
+    "Name": "思明区新景南门车辆入口",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.71044",
+    "count": 0,
+    "Id": "D00T003R20180124145513002235",
+    "type": 2,
+    "Name": "同安区店仔街剑桥幼儿园路口2",
+    "longitude": "118.120427"
+}, {
+    "latitude": "24.4810",
+    "count": 3,
+    "Id": "D00T003R20171031180129001484",
+    "type": 2,
+    "Name": "思明区新景南门入口",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.4813",
+    "count": 0,
+    "Id": "D00T003R20171031180245001486",
+    "type": 2,
+    "Name": "思明区新景东门车辆入口",
+    "longitude": "118.1145"
+}, {
+    "latitude": "24.5869",
+    "count": 177,
+    "Id": "D00T003R20171031184521001499",
+    "type": 2,
+    "Name": "集美区孙厝路口外",
+    "longitude": "118.0959"
+}, {
+    "latitude": "24.5324",
+    "count": 0,
+    "Id": "D00T003R20171106101030001511",
+    "type": 2,
+    "Name": "湖里区坂尚路安墩路路口K1",
+    "longitude": "118.1376"
+}, {
+    "latitude": "24.353065",
+    "count": 0,
+    "Id": "D00T003R20170927165917001373",
+    "type": 2,
+    "Name": "集美区凤林美村口(同集路与凤林中路交汇处)",
+    "longitude": "118.062552"
+}, {
+    "latitude": "24.5221761",
+    "count": 0,
+    "Id": "D00T003R20171229172743002091",
+    "type": 2,
+    "Name": "海沧区甲壳虫西侧",
+    "longitude": "117.9955891"
+}, {
+    "latitude": "24.4836601",
+    "count": 1,
+    "Id": "D00T003R20171229172743002093",
+    "type": 2,
+    "Name": "海沧区渐美村入口西南面4",
+    "longitude": "118.0230181"
+}, {
+    "latitude": "24.4534921",
+    "count": 0,
+    "Id": "D00T003R20171229172743002094",
+    "type": 2,
+    "Name": "海沧区建港路兴港路岭上村口南面2",
+    "longitude": "118.0295681"
+}, {
+    "latitude": "24.531116",
+    "count": 0,
+    "Id": "D00T003R20170922143520001341",
+    "type": 2,
+    "Name": "湖里区云顶北路阳光公寓路口7",
+    "longitude": "118.149021"
+}, {
+    "latitude": "24.5249",
+    "count": 0,
+    "Id": "D00T003R20170922143520001358",
+    "type": 2,
+    "Name": "湖里区0554-成功大道辅道安兜自来水厂路口K1",
+    "longitude": "118.127"
+}, {
+    "latitude": "24.451457",
+    "count": 1,
+    "Id": "D00T003R20170922143520001364",
+    "type": 2,
+    "Name": "思明区黄厝茂后鱼之家",
+    "longitude": "118.153997"
+}, {
+    "latitude": "24.5253501",
+    "count": 2,
+    "Id": "D00T003R20171229172743002136",
+    "type": 2,
+    "Name": "海沧区新垵中路西面3",
+    "longitude": "117.9937501"
+}, {
+    "latitude": "24.5233571",
+    "count": 0,
+    "Id": "D00T003R20171229172743002140",
+    "type": 2,
+    "Name": "海沧区新华都东北面",
+    "longitude": "117.9988941"
+}, {
+    "latitude": "24.4865031",
+    "count": 0,
+    "Id": "D00T003R20171229172743002144",
+    "type": 2,
+    "Name": "海沧区行政中心信访局东南面1",
+    "longitude": "118.0276631"
+}, {
+    "latitude": "24.663836",
+    "count": 0,
+    "Id": "D00T003R20171113144227001607",
+    "type": 2,
+    "Name": "同安区BRT轻工食品园站入口",
+    "longitude": "118.132405"
+}, {
+    "latitude": "24.613779",
+    "count": 0,
+    "Id": "D00T003R20171113144227001611",
+    "type": 2,
+    "Name": "同安区BRT东亭站西出口",
+    "longitude": "118.130019"
+}, {
+    "latitude": "24.709549",
+    "count": 0,
+    "Id": "D00T003R20171113144227001612",
+    "type": 2,
+    "Name": "同安区BRT第三医院站入口",
+    "longitude": "118.140153"
+}, {
+    "latitude": "24.603099",
+    "count": 0,
+    "Id": "D00T003R20171113144227001625",
+    "type": 2,
+    "Name": "集美区侨英路与天安路永峰超市",
+    "longitude": "118.101606"
+}, {
+    "latitude": "24.692018",
+    "count": 0,
+    "Id": "D00T003R20171113144227001626",
+    "type": 2,
+    "Name": "同安区BRT工业集中区站入口",
+    "longitude": "118.136608"
+}, {
+    "latitude": "24.5562",
+    "count": 0,
+    "Id": "D00T003R20171122174556001645",
+    "type": 2,
+    "Name": "集美区马銮村口_2",
+    "longitude": "118.0287"
+}, {
+    "latitude": "24.5742",
+    "count": 0,
+    "Id": "D00T003R20171123114358001651",
+    "type": 2,
+    "Name": "集美区集美长途车站_2",
+    "longitude": "118.0347"
+}, {
+    "latitude": "24.722102",
+    "count": 2,
+    "Id": "D00T003R20171129162434001667",
+    "type": 2,
+    "Name": "同安区BRT同安枢纽站出口",
+    "longitude": "118.128821"
+}, {
+    "latitude": "24.453148",
+    "count": 8,
+    "Id": "D00T003R20180106134748002175",
+    "type": 2,
+    "Name": "思明区镇海路地铁站B端入口闸机05",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20180109174849002192",
+    "type": 2,
+    "Name": "海峡论坛摄像机",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.4699630612",
+    "count": 0,
+    "Id": "D00T003R20180120100846002225",
+    "type": 2,
+    "Name": "思明区香山游艇会南门人脸卡口",
+    "longitude": "118.1905907393"
+}, {
+    "latitude": "24.711628",
+    "count": 0,
+    "Id": "D00T003R20180124145513002233",
+    "type": 2,
+    "Name": "同安区5号乌涂金包银街道1",
+    "longitude": "118.118862"
+}, {
+    "latitude": "24.5911",
+    "count": 0,
+    "Id": "D00T003R20171109200633001557",
+    "type": 2,
+    "Name": "集美区诚毅学院食堂小铁门1",
+    "longitude": "118.0904"
+}, {
+    "latitude": "24.5926",
+    "count": 2,
+    "Id": "D00T003R20171109201616001568",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口西侧灯杆入口",
+    "longitude": "118.0958"
+}, {
+    "latitude": "24.683539",
+    "count": 0,
+    "Id": "D00T003R20171129162434001661",
+    "type": 2,
+    "Name": "同安区BRT四口圳站出口",
+    "longitude": "118.134837"
+}, {
+    "latitude": "24.617478",
+    "count": 0,
+    "Id": "D00T003R20171113144227001595",
+    "type": 2,
+    "Name": "同安区BRT美峰站西出口",
+    "longitude": "118.136706"
+}, {
+    "latitude": "24.601875",
+    "count": 1,
+    "Id": "D00T003R20171113144227001599",
+    "type": 2,
+    "Name": "集美区侨英路天阳路",
+    "longitude": "118.10049"
+}, {
+    "latitude": "24.485823",
+    "count": 0,
+    "Id": "D00T003R20171214174425001838",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头7号员工电梯",
+    "longitude": "118.071847"
+}, {
+    "latitude": "24.485814",
+    "count": 0,
+    "Id": "D00T003R20171214174425001839",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头南出口1",
+    "longitude": "118.070649"
+}, {
+    "latitude": "24.487328",
+    "count": 1,
+    "Id": "D00T003R20171214174425001843",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头北出口2",
+    "longitude": "118.070654"
+}, {
+    "latitude": "24.5010254",
+    "count": 0,
+    "Id": "D00T003R20171214174425001756",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场西门1（莱雅百货）",
+    "longitude": "118.1265754"
+}, {
+    "latitude": "24.4854008",
+    "count": 0,
+    "Id": "D00T003R20171214174425001772",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场C东门2（肯德基）",
+    "longitude": "118.1571579"
+}, {
+    "latitude": "24.519872",
+    "count": 1,
+    "Id": "D00T003R20171214174425001779",
+    "type": 2,
+    "Name": "R023-湖里区湖里公安分局出入口人行道1",
+    "longitude": "118.140309"
+}, {
+    "latitude": "24.47598",
+    "count": 0,
+    "Id": "D00T003R20180403143849002695",
+    "type": 2,
+    "Name": "思明区湖滨西路西堤人行天桥2",
+    "longitude": "118.073528"
+}, {
+    "latitude": "24.718226",
+    "count": 4,
+    "Id": "D00T003R20171129162434001679",
+    "type": 2,
+    "Name": "同安区BRT城南站入口",
+    "longitude": "118.14195"
+}, {
+    "latitude": "24.646165",
+    "count": 0,
+    "Id": "D00T003R20171129162434001681",
+    "type": 2,
+    "Name": "同安区BRT滨海新城站入口",
+    "longitude": "118.154866"
+}, {
+    "latitude": "24.5002477",
+    "count": 5,
+    "Id": "D00T003R20171214174425001794",
+    "type": 2,
+    "Name": "R009-湖里区嘉禾路SM天桥1",
+    "longitude": "118.1264484"
+}, {
+    "latitude": "24.611989",
+    "count": 0,
+    "Id": "D00T003R20180326153310002606",
+    "type": 2,
+    "Name": "翔安区新店菜市场2入口",
+    "longitude": "118.241778"
+}, {
+    "latitude": "24.600588",
+    "count": 0,
+    "Id": "D00T003R20171130174956001688",
+    "type": 2,
+    "Name": "集美区同集南路叶厝鑫平江二手车路口",
+    "longitude": "118.105621"
+}, {
+    "latitude": "24.493899",
+    "count": 2,
+    "Id": "D00T003R20171214174425001810",
+    "type": 2,
+    "Name": "R033-湖里区吕岭路江头西路天桥2",
+    "longitude": "118.12563"
+}, {
+    "latitude": "24.506649",
+    "count": 3,
+    "Id": "D00T003R20171214174425001814",
+    "type": 2,
+    "Name": "R010-湖里区万达金街通道2",
+    "longitude": "118.173904"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001816",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口2",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.52342",
+    "count": 0,
+    "Id": "D00T003R20171218125920001884",
+    "type": 2,
+    "Name": "0840-长浩路北侧台贸中心站-朝东",
+    "longitude": "118.10595"
+}, {
+    "latitude": "24.50521",
+    "count": 0,
+    "Id": "D00T003R20171218125920001894",
+    "type": 2,
+    "Name": "0889-仙洞路康乐路路口-朝西",
+    "longitude": "118.11449"
+}, {
+    "latitude": "24.51143",
+    "count": 0,
+    "Id": "D00T003R20171218125920001898",
+    "type": 2,
+    "Name": "0894-湖里大道南侧华光站-朝3",
+    "longitude": "118.11084"
+}, {
+    "latitude": "24.51146",
+    "count": 0,
+    "Id": "D00T003R20171218125920001900",
+    "type": 2,
+    "Name": "0897-湖里大道北侧石头皮山站-朝",
+    "longitude": "118.11531"
+}, {
+    "latitude": "24.50849",
+    "count": 0,
+    "Id": "D00T003R20171218125920001914",
+    "type": 2,
+    "Name": "0947-仙岳路北侧国贸金融中心站北1-朝东",
+    "longitude": "118.18036"
+}, {
+    "latitude": "24.503653",
+    "count": 3,
+    "Id": "D00T003R20171218125920001925",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥5",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.5375221",
+    "count": 3,
+    "Id": "D00T003R20171229172743002088",
+    "type": 2,
+    "Name": "海沧区后柯村主入口北面2",
+    "longitude": "117.9707691"
+}, {
+    "latitude": "24.4829371",
+    "count": 0,
+    "Id": "D00T003R20171229172743002046",
+    "type": 2,
+    "Name": "海沧区阿罗海城市广场人行道1",
+    "longitude": "118.0268131"
+}, {
+    "latitude": "24.4829371",
+    "count": 1,
+    "Id": "D00T003R20171229172743002047",
+    "type": 2,
+    "Name": "海沧区阿罗海城市广场人行道2",
+    "longitude": "118.0268131"
+}, {
+    "latitude": "24.4830211",
+    "count": 1,
+    "Id": "D00T003R20171229172743002048",
+    "type": 2,
+    "Name": "海沧区阿罗海城市广场入口东南面1",
+    "longitude": "118.0269821"
+}, {
+    "latitude": "24.5345591",
+    "count": 0,
+    "Id": "D00T003R20171229172743002051",
+    "type": 2,
+    "Name": "安井路口北面4",
+    "longitude": "118.0105741"
+}, {
+    "latitude": "24.5341381",
+    "count": 0,
+    "Id": "D00T003R20171229172743002056",
+    "type": 2,
+    "Name": "海沧区长庚医院入口东北侧3",
+    "longitude": "118.0076521"
+}, {
+    "latitude": "24.4881881",
+    "count": 0,
+    "Id": "D00T003R20171229172743002058",
+    "type": 2,
+    "Name": "海沧区慈济东宫1",
+    "longitude": "117.9695591"
+}, {
+    "latitude": "24.483798",
+    "count": 0,
+    "Id": "D00T003R20171214174425001854",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头厦鼓航线到达口2",
+    "longitude": "118.069645"
+}, {
+    "latitude": "24.508907",
+    "count": 0,
+    "Id": "D00T003R20171214174425001869",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼南大门3",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.48087",
+    "count": 4,
+    "Id": "D00T003R20180403143849002659",
+    "type": 2,
+    "Name": "思明区嘉禾路明发人行天桥半球2",
+    "longitude": "118.115919"
+}, {
+    "latitude": "24.4792441",
+    "count": 0,
+    "Id": "D00T003R20180125101812002249",
+    "type": 2,
+    "Name": "海沧区海沧农村客运站西南面1",
+    "longitude": "118.0169531"
+}, {
+    "latitude": "24.530664",
+    "count": 0,
+    "Id": "D00T003R20180403143849002673",
+    "type": 2,
+    "Name": "湖里区枋钟路太古生活区天桥半球2",
+    "longitude": "118.127477"
+}, {
+    "latitude": "24.53614",
+    "count": 0,
+    "Id": "D00T003R20180403143849002674",
+    "type": 2,
+    "Name": "湖里区枋钟路中骏世家人行天桥半球1",
+    "longitude": "118.133692"
+}, {
+    "latitude": "24.53614",
+    "count": 0,
+    "Id": "D00T003R20180403143849002675",
+    "type": 2,
+    "Name": "湖里区枋钟路中骏世家人行天桥半球2",
+    "longitude": "118.133692"
+}, {
+    "latitude": "24.475645",
+    "count": 1,
+    "Id": "D00T003R20180403143849002686",
+    "type": 2,
+    "Name": "思明区湖滨南路湖滨中学人行天桥半球1",
+    "longitude": "118.10209"
+}, {
+    "latitude": "24.665207",
+    "count": 0,
+    "Id": "D00T003R20180201171812002358",
+    "type": 2,
+    "Name": "翔安区马巷菜市场南入口",
+    "longitude": "118.249245"
+}, {
+    "latitude": "24.667986",
+    "count": 0,
+    "Id": "D00T003R20180201171812002366",
+    "type": 2,
+    "Name": "翔安区巷西路马巷诊所旁",
+    "longitude": "118.247527"
+}, {
+    "latitude": "24.499259",
+    "count": 0,
+    "Id": "D00T003R20180403143849002642",
+    "type": 2,
+    "Name": "湖里区东渡路和旭路人行天桥半球1",
+    "longitude": "118.080555"
+}, {
+    "latitude": "24.484566",
+    "count": 0,
+    "Id": "D00T003R20180403143849002644",
+    "type": 2,
+    "Name": "湖里区东港路国际邮轮城人行天桥半球1",
+    "longitude": "118.071623"
+}, {
+    "latitude": "24.71283",
+    "count": 0,
+    "Id": "D00T003R20180124145513002238",
+    "type": 2,
+    "Name": "同安区58号店仔街金包银华莱士1",
+    "longitude": "118.120143"
+}, {
+    "latitude": "24.708406",
+    "count": 0,
+    "Id": "D00T003R20180124145513002243",
+    "type": 2,
+    "Name": "同安区新民中心小学后门1",
+    "longitude": "118.121654"
+}, {
+    "latitude": "24.711628",
+    "count": 4,
+    "Id": "D00T003R20180124145513002247",
+    "type": 2,
+    "Name": "同安区5号乌涂金包银街道2",
+    "longitude": "118.118862"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002258",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站A端入口闸机09",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002265",
+    "type": 2,
+    "Name": "集美区官任地铁站A端入口闸机05",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002266",
+    "type": 2,
+    "Name": "集美区官任地铁站A端入口闸机06",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002274",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线出口闸机11",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 1,
+    "Id": "D00T003R20180125170611002275",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机15",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002282",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线出口闸机30",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002285",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线入口闸机32",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002289",
+    "type": 2,
+    "Name": "集美区岩内地铁站A端出口闸机10",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002295",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站A端出口闸机01",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.476849",
+    "count": 2,
+    "Id": "D00T003R20180125170611002299",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站A端入口闸机12",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.476849",
+    "count": 1,
+    "Id": "D00T003R20180125170611002300",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站B端出口闸机06",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.463483",
+    "count": 0,
+    "Id": "D00T003R20180125170611002306",
+    "type": 2,
+    "Name": "思明区将军祠地铁站B端出口闸机02",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.493618",
+    "count": 0,
+    "Id": "D00T003R20180125170611002315",
+    "type": 2,
+    "Name": "思明区吕厝地铁站B端入口闸机04",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.493618",
+    "count": 0,
+    "Id": "D00T003R20180125170611002318",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端出口闸机10",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.493618",
+    "count": 24,
+    "Id": "D00T003R20180125170611002321",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端入口闸机13",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.493618",
+    "count": 22,
+    "Id": "D00T003R20180125170611002322",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端入口闸机14",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002325",
+    "type": 2,
+    "Name": "思明区文灶地铁站A端出口闸机03",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002331",
+    "type": 2,
+    "Name": "思明区文灶地铁站B端出口闸机12",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.50212",
+    "count": 0,
+    "Id": "D00T003R20180627172027003097",
+    "type": 2,
+    "Name": "湖里区0150R-兴山路乌石浦南路路口-朝西",
+    "longitude": "118.12809"
+}, {
+    "latitude": "24.50281",
+    "count": 0,
+    "Id": "D00T003R20180627172027003098",
+    "type": 2,
+    "Name": "湖里区0155R-仙岳路白果山公交站-朝西",
+    "longitude": "118.12521"
+}, {
+    "latitude": "24.538",
+    "count": 0,
+    "Id": "D00T003R20180403143849002707",
+    "type": 2,
+    "Name": "思明区环岛干道五缘湾实验学校人行天桥轮渡方向西侧半球2",
+    "longitude": "118.157267"
+}, {
+    "latitude": "24.441073",
+    "count": 0,
+    "Id": "D00T003R20180403143849002708",
+    "type": 2,
+    "Name": "思明区演武路演武人行天桥半球1",
+    "longitude": "118.088642"
+}, {
+    "latitude": "24.592485",
+    "count": 0,
+    "Id": "D00T003R20180601102222002883",
+    "type": 2,
+    "Name": "测试集美活动临时人脸4",
+    "longitude": "118.042893"
+}, {
+    "latitude": "24.49943",
+    "count": 0,
+    "Id": "D00T003R20180627172027003111",
+    "type": 2,
+    "Name": "湖里区0174R-台湾街江头北路路口1-朝西",
+    "longitude": "118.12767"
+}, {
+    "latitude": "24.49222",
+    "count": 0,
+    "Id": "D00T003R20180627172027003114",
+    "type": 2,
+    "Name": "湖里区0176R-吕岭路台湾街路口1-朝西",
+    "longitude": "118.13231"
+}, {
+    "latitude": "24.49743",
+    "count": 0,
+    "Id": "D00T003R20180627172027003117",
+    "type": 2,
+    "Name": "湖里区0178R-天湖广场与江头公园支路-朝南",
+    "longitude": "118.12647"
+}, {
+    "latitude": "24.503379",
+    "count": 0,
+    "Id": "D00T003R20180627172027003126",
+    "type": 2,
+    "Name": "湖里区0220R-枋钟路太古宿舍天桥南侧-朝西",
+    "longitude": "118.127187"
+}, {
+    "latitude": "24.51892",
+    "count": 0,
+    "Id": "D00T003R20180627172027003127",
+    "type": 2,
+    "Name": "湖里区0239R-金尚路尚忠社路口-朝东",
+    "longitude": "118.1477"
+}, {
+    "latitude": "24.51638",
+    "count": 0,
+    "Id": "D00T003R20180627172027003129",
+    "type": 2,
+    "Name": "湖里区0244R-云顶北路枋湖路路口-朝东",
+    "longitude": "118.15812"
+}, {
+    "latitude": "24.51374",
+    "count": 0,
+    "Id": "D00T003R20180627172027003131",
+    "type": 2,
+    "Name": "湖里区0247R-云顶北路枋湖南路路口-朝西",
+    "longitude": "118.15871"
+}, {
+    "latitude": "24.50103",
+    "count": 0,
+    "Id": "D00T003R20180627172027003139",
+    "type": 2,
+    "Name": "湖里区0299R-成功大道双浦路涵洞西侧-朝北",
+    "longitude": "118.13268"
+}, {
+    "latitude": "24.52961",
+    "count": 2,
+    "Id": "D00T003R20180627172027003057",
+    "type": 2,
+    "Name": "湖里区0011R-殿前一路长虹路路口5-朝北",
+    "longitude": "118.10105"
+}, {
+    "latitude": "24.54865",
+    "count": 0,
+    "Id": "D00T003R20180627172027003063",
+    "type": 2,
+    "Name": "湖里区0040R-海堤路高崎小学路口-朝北",
+    "longitude": "118.10635"
+}, {
+    "latitude": "24.50732",
+    "count": 0,
+    "Id": "D00T003R20180627172027003066",
+    "type": 2,
+    "Name": "湖里区0061R-海天路华嘉路路口1-朝东",
+    "longitude": "118.09582"
+}, {
+    "latitude": "24.50732",
+    "count": 0,
+    "Id": "D00T003R20180627172027003069",
+    "type": 2,
+    "Name": "湖里区0061R-海天路华嘉路路口2-朝北",
+    "longitude": "118.09582"
+}, {
+    "latitude": "24.50598",
+    "count": 0,
+    "Id": "D00T003R20180627172027003073",
+    "type": 2,
+    "Name": "湖里区0092R-长岸路竹坑路路口-朝东",
+    "longitude": "118.09284"
+}, {
+    "latitude": "24.50598",
+    "count": 0,
+    "Id": "D00T003R20180627172027003074",
+    "type": 2,
+    "Name": "湖里区0092R-长岸路竹坑路路口-朝西",
+    "longitude": "118.09284"
+}, {
+    "latitude": "24.50703",
+    "count": 1,
+    "Id": "D00T003R20180627172027003075",
+    "type": 2,
+    "Name": "湖里区0094R-嘉禾路观音寺门口-朝北",
+    "longitude": "118.11948"
+}, {
+    "latitude": "24.50703",
+    "count": 1,
+    "Id": "D00T003R20180627172027003076",
+    "type": 2,
+    "Name": "湖里区0094R-嘉禾路观音寺门口-朝南",
+    "longitude": "118.11948"
+}, {
+    "latitude": "24.50583",
+    "count": 0,
+    "Id": "D00T003R20180627172027003147",
+    "type": 2,
+    "Name": "湖里区0341R-云顶中路后坑前社路口-朝南",
+    "longitude": "118.164756"
+}, {
+    "latitude": "24.48895",
+    "count": 0,
+    "Id": "D00T003R20180627172027003151",
+    "type": 2,
+    "Name": "湖里区0365R-云顶中路忠仑公园西南路口-朝南",
+    "longitude": "118.14804"
+}, {
+    "latitude": "24.52558",
+    "count": 0,
+    "Id": "D00T003R20180627172027003212",
+    "type": 2,
+    "Name": "湖里区0785R-福厦铁路禾山路老铁道口天桥-朝东",
+    "longitude": "118.12367"
+}, {
+    "latitude": "24.50006",
+    "count": 0,
+    "Id": "D00T003R20180627172027003215",
+    "type": 2,
+    "Name": "湖里区0804R-江头北路江顺二路路口-朝东",
+    "longitude": "118.12614"
+}, {
+    "latitude": "24.49498",
+    "count": 0,
+    "Id": "D00T003R20180627172027003218",
+    "type": 2,
+    "Name": "湖里区0807R-吕岭路报业大厦站-朝东",
+    "longitude": "118.12865"
+}, {
+    "latitude": "24.49766",
+    "count": 0,
+    "Id": "D00T003R20180627172027003233",
+    "type": 2,
+    "Name": "湖里区0923R-和宁路西侧东渡六中公交站-朝南",
+    "longitude": "118.08265"
+}, {
+    "latitude": "24.50717",
+    "count": 0,
+    "Id": "D00T003R20180627172027003236",
+    "type": 2,
+    "Name": "湖里区0927R-海天路南侧百乐园公交站-朝西",
+    "longitude": "118.09328"
+}, {
+    "latitude": "24.52504",
+    "count": 1,
+    "Id": "D00T003R20180627172027003241",
+    "type": 2,
+    "Name": "湖里区1003R-枋湖北二路北侧岭下公交站-朝东",
+    "longitude": "118.14826"
+}, {
+    "latitude": "24.50022",
+    "count": 0,
+    "Id": "D00T003R20180627172027003247",
+    "type": 2,
+    "Name": "湖里区1085R-江头东路浦园社28号路口-朝北",
+    "longitude": "118.13043"
+}, {
+    "latitude": "24.50022",
+    "count": 0,
+    "Id": "D00T003R20180627172027003248",
+    "type": 2,
+    "Name": "湖里区1085R-江头东路浦园社28号路口-朝南",
+    "longitude": "118.13043"
+}, {
+    "latitude": "24.49933",
+    "count": 0,
+    "Id": "D00T003R20180627172027003251",
+    "type": 2,
+    "Name": "湖里区R034R-江头东路江头小学旁人行道-朝南",
+    "longitude": "118.13013"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180724111624003356",
+    "type": 2,
+    "Name": "集美大道华侨大学地下通道",
+    "longitude": "117"
+}, {
+    "latitude": "24.494625",
+    "count": 0,
+    "Id": "D00T003R20180724151521003366",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-13号易兴通讯3",
+    "longitude": "118.124167"
+}, {
+    "latitude": "24.57481",
+    "count": 0,
+    "Id": "D00T003R20180704095557003291",
+    "type": 2,
+    "Name": "集美区苑亭路与苑西路交叉路口_1",
+    "longitude": "118.050502"
+}, {
+    "latitude": "24.63298",
+    "count": 0,
+    "Id": "D00T003R20180704095557003302",
+    "type": 2,
+    "Name": "集美区溪西下梧里1号",
+    "longitude": "118.020844"
+}, {
+    "latitude": "24.605403",
+    "count": 0,
+    "Id": "D00T003R20180704095557003303",
+    "type": 2,
+    "Name": "集美区景湖北路实验小学旁路口_1",
+    "longitude": "117.989729"
+}, {
+    "latitude": "24.62614",
+    "count": 0,
+    "Id": "D00T003R20180704095557003305",
+    "type": 2,
+    "Name": "集美区溪西坂山里51号_1",
+    "longitude": "118.029004"
+}, {
+    "latitude": "24.572555",
+    "count": 0,
+    "Id": "D00T003R20180704095557003306",
+    "type": 2,
+    "Name": "集美区杏前路杏林村路口",
+    "longitude": "118.057528"
+}, {
+    "latitude": "24.611178",
+    "count": 0,
+    "Id": "D00T003R20180704095557003309",
+    "type": 2,
+    "Name": "集美区景湖北路凤山庙路路口_1",
+    "longitude": "117.989795"
+}, {
+    "latitude": "24.522729",
+    "count": 0,
+    "Id": "D00T003R20180627172027003162",
+    "type": 2,
+    "Name": "湖里区0555R-成功大道安兜天桥出岛方向-朝东",
+    "longitude": "118.12942"
+}, {
+    "latitude": "24.50135",
+    "count": 0,
+    "Id": "D00T003R20180627172027003193",
+    "type": 2,
+    "Name": "湖里区0681R-金山路金钟路路口2-朝南",
+    "longitude": "118.17735"
+}, {
+    "latitude": "24.51037",
+    "count": 0,
+    "Id": "D00T003R20180627172027003194",
+    "type": 2,
+    "Name": "湖里区0683R-仙岳路金林路路口-朝东",
+    "longitude": "118.17492"
+}, {
+    "latitude": "24.495061",
+    "count": 0,
+    "Id": "D00T003R20180724151521003385",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路新景园停车收费岗2",
+    "longitude": "118.125419"
+}, {
+    "latitude": "24.2873",
+    "count": 0,
+    "Id": "D00T003R20180926111636003580",
+    "type": 2,
+    "Name": "厦门南站_站垂4人行通道3",
+    "longitude": "118.6383"
+}, {
+    "latitude": "24.673264",
+    "count": 0,
+    "Id": "D00T003R20181018115652003871",
+    "type": 2,
+    "Name": "翔安区XA124-同美下枫路井冈山饭店前-01",
+    "longitude": "118.209134"
+}, {
+    "latitude": "24.56942",
+    "count": 0,
+    "Id": "D00T003R20180906144401003516",
+    "type": 2,
+    "Name": "航海学院南门1B",
+    "longitude": "118.08896"
+}, {
+    "latitude": "24.476283",
+    "count": 1,
+    "Id": "D00T003R20180802153821003412",
+    "type": 2,
+    "Name": "思明区厦禾路李老六路口2",
+    "longitude": "118.115117"
+}, {
+    "latitude": "24.4646",
+    "count": 0,
+    "Id": "D00T003R20180822185636003470",
+    "type": 2,
+    "Name": "水云湾西门出口01",
+    "longitude": "118.0226"
+}, {
+    "latitude": "24.565073",
+    "count": 0,
+    "Id": "D00T003R20181012152312003786",
+    "type": 2,
+    "Name": "(金海湾)文达二里39号一楼",
+    "longitude": "118.052824"
+}, {
+    "latitude": "24.565697",
+    "count": 0,
+    "Id": "D00T003R20181012152312003790",
+    "type": 2,
+    "Name": "(金海湾)文达二里118号一楼",
+    "longitude": "118.053911"
+}, {
+    "latitude": "24.564935",
+    "count": 0,
+    "Id": "D00T003R20181012152312003799",
+    "type": 2,
+    "Name": "(金海湾)文达二里55号一楼",
+    "longitude": "118.053606"
+}, {
+    "latitude": "24.565065",
+    "count": 0,
+    "Id": "D00T003R20181012152312003823",
+    "type": 2,
+    "Name": "(金海湾)文达二里23号一楼",
+    "longitude": "118.052065"
+}, {
+    "latitude": "24.565664",
+    "count": 0,
+    "Id": "D00T003R20181012152312003814",
+    "type": 2,
+    "Name": "(金海湾)文达二里68号一楼",
+    "longitude": "118.051897"
+}, {
+    "latitude": "24.566083",
+    "count": 0,
+    "Id": "D00T003R20181012152312003818",
+    "type": 2,
+    "Name": "(金海湾)文达二里115号一楼",
+    "longitude": "118.053304"
+}, {
+    "latitude": "24.687298",
+    "count": 0,
+    "Id": "D00T003R20180725161940003389",
+    "type": 2,
+    "Name": "XA1744-曾厝村洞口",
+    "longitude": "118.272981"
+}, {
+    "latitude": "24.56497",
+    "count": 0,
+    "Id": "D00T003R20181012152312003827",
+    "type": 2,
+    "Name": "(金海湾)文达二里60号一楼",
+    "longitude": "118.053503"
+}, {
+    "latitude": "24.566063",
+    "count": 0,
+    "Id": "D00T003R20181012152312003837",
+    "type": 2,
+    "Name": "(金海湾)文达二里120号一楼",
+    "longitude": "118.054733"
+}, {
+    "latitude": "24.5115",
+    "count": 4,
+    "Id": "D00T003R20170411203954000043",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站出口1",
+    "longitude": "118.1339"
+}, {
+    "latitude": "24.5881",
+    "count": 2,
+    "Id": "D00T003R20170411203954000048",
+    "type": 2,
+    "Name": "集美区BRT集美大桥南站西侧出口",
+    "longitude": "118.1033"
+}, {
+    "latitude": "24.5483",
+    "count": 0,
+    "Id": "D00T003R20170713164248001051",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4远机位门#1",
+    "longitude": "118.1436"
+}, {
+    "latitude": "24.476097",
+    "count": 0,
+    "Id": "D00T003R20170725105939000456",
+    "type": 2,
+    "Name": "禾祥东路倍顺超市门口人像识别西1",
+    "longitude": "118.11436"
+}, {
+    "latitude": "24.476208",
+    "count": 0,
+    "Id": "D00T003R20170725105939000460",
+    "type": 2,
+    "Name": "禾祥东路与金榜西二路交叉口人像识别西1",
+    "longitude": "118.11419"
+}, {
+    "latitude": "24.47339",
+    "count": 0,
+    "Id": "D00T003R20180326153143002601",
+    "type": 2,
+    "Name": "思明区禾祥东路汉庭酒店路口4",
+    "longitude": "118.104706"
+}, {
+    "latitude": "24.472624",
+    "count": 0,
+    "Id": "D00T003R20170725105939000495",
+    "type": 2,
+    "Name": "厦禾路英才商厦门口人像识别西1",
+    "longitude": "118.111741"
+}, {
+    "latitude": "24.48027",
+    "count": 0,
+    "Id": "D00T003R20170725105939000496",
+    "type": 2,
+    "Name": "厦禾路与湖明南路交叉口人像识别北1",
+    "longitude": "118.126317"
+}, {
+    "latitude": "24.500952",
+    "count": 0,
+    "Id": "D00T003R20170810114050000537",
+    "type": 2,
+    "Name": "0359-虎仔山西路宝龙御景东北角路口K41",
+    "longitude": "118.177367"
+}, {
+    "latitude": "24.713485",
+    "count": 0,
+    "Id": "D00T003R20170804094840000512",
+    "type": 2,
+    "Name": "21号同辉路集银路新厝1",
+    "longitude": "118.12497"
+}, {
+    "latitude": "24.451026",
+    "count": 0,
+    "Id": "D00T003R20170804094840000522",
+    "type": 2,
+    "Name": "环岛南路椰风寨岗亭21",
+    "longitude": "118.164235"
+}, {
+    "latitude": "24.480009",
+    "count": 0,
+    "Id": "D00T003R20170714142852000440",
+    "type": 2,
+    "Name": "海沧青礁市际公安检查站人脸微卡口",
+    "longitude": "117.972865"
+}, {
+    "latitude": "24.68838",
+    "count": 0,
+    "Id": "D00T003R20170714142852000447",
+    "type": 2,
+    "Name": "厦沙高速凤南市际公安检查站人脸微卡口",
+    "longitude": "118.06656"
+}, {
+    "latitude": "24.478227",
+    "count": 0,
+    "Id": "D00T003R20170725105939000470",
+    "type": 2,
+    "Name": "假日商城门口人像识别南1",
+    "longitude": "118.125724"
+}, {
+    "latitude": "24.472862",
+    "count": 0,
+    "Id": "D00T003R20170725105939000472",
+    "type": 2,
+    "Name": "金榜大厦厦禾路拐角人像识别东1",
+    "longitude": "118.114207"
+}, {
+    "latitude": "24.472862",
+    "count": 0,
+    "Id": "D00T003R20170725105939000473",
+    "type": 2,
+    "Name": "金榜大厦厦禾路拐角人像识别南1",
+    "longitude": "118.114207"
+}, {
+    "latitude": "24.473725",
+    "count": 0,
+    "Id": "D00T003R20170725105939000475",
+    "type": 2,
+    "Name": "金榜公园人行天桥上人像识别北1",
+    "longitude": "118.11714"
+}, {
+    "latitude": "24.472426",
+    "count": 0,
+    "Id": "D00T003R20170725105939000482",
+    "type": 2,
+    "Name": "文屏路加油站路口人像识别东1",
+    "longitude": "118.112208"
+}, {
+    "latitude": "24.473668",
+    "count": 0,
+    "Id": "D00T003R20170725105939000490",
+    "type": 2,
+    "Name": "厦禾路千禧园三枪门口人像识别东1",
+    "longitude": "118.116304"
+}, {
+    "latitude": "24.4571",
+    "count": 8,
+    "Id": "D00T003R20170411203954000008",
+    "type": 2,
+    "Name": "思明区轮渡码头入口2",
+    "longitude": "118.0683"
+}, {
+    "latitude": "24.4742",
+    "count": 10,
+    "Id": "D00T003R20170411203954000016",
+    "type": 2,
+    "Name": "思明区BRT前埔站入口1",
+    "longitude": "118.1677"
+}, {
+    "latitude": "24.472",
+    "count": 9,
+    "Id": "D00T003R20170411203954000025",
+    "type": 2,
+    "Name": "思明区BRT火车站南侧入口",
+    "longitude": "118.1105"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000061",
+    "type": 2,
+    "Name": "厦门北站3号检票口1-1",
+    "longitude": "118.0684"
+}, {
+    "latitude": "24.4712",
+    "count": 0,
+    "Id": "D00T003R20170411203954000118",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口6",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.6383",
+    "count": 0,
+    "Id": "D00T003R20170411203954000121",
+    "type": 2,
+    "Name": "厦门北站2号出站口1-3",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.4758",
+    "count": 0,
+    "Id": "D00T003R20170411203954000126",
+    "type": 2,
+    "Name": "阿达西饭庄(厦禾路1126号)旧",
+    "longitude": "118.1152"
+}, {
+    "latitude": "24.55206",
+    "count": 0,
+    "Id": "D00T003R20170712100202000384",
+    "type": 2,
+    "Name": "高集海堤公安检查站人脸微卡口",
+    "longitude": "118.113279"
+}, {
+    "latitude": "24.5472",
+    "count": 0,
+    "Id": "D00T003R20170713164248001024",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥215",
+    "longitude": "118.1416"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000091",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口13",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000103",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口5",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000110",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口12",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000070",
+    "type": 2,
+    "Name": "厦门北站4号检票口1-1",
+    "longitude": "118.0684"
+}, {
+    "latitude": "24.6383",
+    "count": 0,
+    "Id": "D00T003R20170411203954000073",
+    "type": 2,
+    "Name": "厦门北站1号出站口1-2",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.4704",
+    "count": 0,
+    "Id": "D00T003R20170411203954000079",
+    "type": 2,
+    "Name": "思明区金榜公园人行通道2",
+    "longitude": "118.1058"
+}, {
+    "latitude": "24.672123",
+    "count": 0,
+    "Id": "D00T003R20170810114050000560",
+    "type": 2,
+    "Name": "XA119-同美村委21",
+    "longitude": "118.212275"
+}, {
+    "latitude": "24.487196",
+    "count": 0,
+    "Id": "D00T003R20170810114050000570",
+    "type": 2,
+    "Name": "复兴肯德基旁11",
+    "longitude": "118.127011"
+}, {
+    "latitude": "24.507588",
+    "count": 0,
+    "Id": "D00T003R20180403143849002633",
+    "type": 2,
+    "Name": "湖里区长岸路海天路口人行天桥西侧半球2",
+    "longitude": "118.087021"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170810114057000635",
+    "type": 2,
+    "Name": "XA166-郑坂南里181号前两幢11",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170810114057000642",
+    "type": 2,
+    "Name": "XA191-下坂村聚星隆购物对面21",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.438377",
+    "count": 0,
+    "Id": "D00T003R20170810114057000646",
+    "type": 2,
+    "Name": "白城沙滩警务室11",
+    "longitude": "118.109125"
+}, {
+    "latitude": "24.512596",
+    "count": 0,
+    "Id": "D00T003R20180403143849002635",
+    "type": 2,
+    "Name": "湖里区长岸路湖里大道人行天桥半球2",
+    "longitude": "118.088763"
+}, {
+    "latitude": "24.509553",
+    "count": 0,
+    "Id": "D00T003R20170815112636000662",
+    "type": 2,
+    "Name": "湖里街道42号K11",
+    "longitude": "118.096727"
+}, {
+    "latitude": "24.509553",
+    "count": 0,
+    "Id": "D00T003R20170815112636000663",
+    "type": 2,
+    "Name": "湖里街道42号K21",
+    "longitude": "118.096727"
+}, {
+    "latitude": "24.448431",
+    "count": 0,
+    "Id": "D00T003R20170810114050000582",
+    "type": 2,
+    "Name": "民族路与成功大道桥下31",
+    "longitude": "118.091575"
+}, {
+    "latitude": "24.439244",
+    "count": 0,
+    "Id": "D00T003R20170810114050000598",
+    "type": 2,
+    "Name": "塔头路农盛超市11",
+    "longitude": "118.147358"
+}, {
+    "latitude": "24.530572",
+    "count": 0,
+    "Id": "D00T003R20170810114050000604",
+    "type": 2,
+    "Name": "县后社48号对面K31",
+    "longitude": "118.157232"
+}, {
+    "latitude": "24.442775",
+    "count": 0,
+    "Id": "D00T003R20170810114050000609",
+    "type": 2,
+    "Name": "演武大桥木栈道3K11",
+    "longitude": "118.093579"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170810114050000557",
+    "type": 2,
+    "Name": "XA108-同美塘尾仔同美里116号前31",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.5176",
+    "count": 0,
+    "Id": "D00T003R20170914175956000917",
+    "type": 2,
+    "Name": "湖里区0184-悦华路马垄社路口K2",
+    "longitude": "118.1126"
+}, {
+    "latitude": "24.440219",
+    "count": 0,
+    "Id": "D00T003R20170902155441000841",
+    "type": 2,
+    "Name": "思明区东宅理发店路口人脸南",
+    "longitude": "118.113895"
+}, {
+    "latitude": "24.520862",
+    "count": 0,
+    "Id": "D00T003R20170821095104000734",
+    "type": 2,
+    "Name": "0184-悦华路马垄社路口K21",
+    "longitude": "118.124056"
+}, {
+    "latitude": "24.482365",
+    "count": 0,
+    "Id": "D00T003R20170821095104000744",
+    "type": 2,
+    "Name": "BRT莲坂站进站1",
+    "longitude": "118.128827"
+}, {
+    "latitude": "24.532623",
+    "count": 0,
+    "Id": "D00T003R20170823100549000754",
+    "type": 2,
+    "Name": "0560-金尚路小林后青龙宫庙路口K11",
+    "longitude": "118.144994"
+}, {
+    "latitude": "24.532623",
+    "count": 0,
+    "Id": "D00T003R20170823100549000755",
+    "type": 2,
+    "Name": "0560-金尚路小林后青龙宫庙路口K21",
+    "longitude": "118.144994"
+}, {
+    "latitude": "24.506435",
+    "count": 0,
+    "Id": "D00T003R20170823100549000762",
+    "type": 2,
+    "Name": "BRT金山站出站11",
+    "longitude": "118.166056"
+}, {
+    "latitude": "24.648153",
+    "count": 0,
+    "Id": "D00T003R20170815112636000673",
+    "type": 2,
+    "Name": "郑坂亿丰超市21",
+    "longitude": "118.243252"
+}, {
+    "latitude": "24.508065",
+    "count": 0,
+    "Id": "D00T003R20170815112636000678",
+    "type": 2,
+    "Name": "竹坑路22-26号K41",
+    "longitude": "118.090703"
+}, {
+    "latitude": "24.527556",
+    "count": 0,
+    "Id": "D00T003R20170815112641000693",
+    "type": 2,
+    "Name": "海阳幼儿园路口41",
+    "longitude": "118.002129"
+}, {
+    "latitude": "24.526857",
+    "count": 0,
+    "Id": "D00T003R20170815112641000708",
+    "type": 2,
+    "Name": "新美路口（红绿灯）1",
+    "longitude": "118.009922"
+}, {
+    "latitude": "24.528287",
+    "count": 0,
+    "Id": "D00T003R20170815112641000710",
+    "type": 2,
+    "Name": "正顺花园路口21",
+    "longitude": "117.990117"
+}, {
+    "latitude": "24.526134",
+    "count": 0,
+    "Id": "D00T003R20170815112641000711",
+    "type": 2,
+    "Name": "中医院骨伤科医院路口21",
+    "longitude": "118.002741"
+}, {
+    "latitude": "24.46674",
+    "count": 0,
+    "Id": "D00T003R20170823100549000772",
+    "type": 2,
+    "Name": "BRT思北站出站21",
+    "longitude": "118.087197"
+}, {
+    "latitude": "24.483489",
+    "count": 0,
+    "Id": "D00T003R20170823100549000775",
+    "type": 2,
+    "Name": "BRT卧龙晓城站进站1",
+    "longitude": "118.148978"
+}, {
+    "latitude": "24.431034",
+    "count": 0,
+    "Id": "D00T003R20170823100549000777",
+    "type": 2,
+    "Name": "曾厝垵阿川海鲜（东向西）1",
+    "longitude": "118.130913"
+}, {
+    "latitude": "24.430766",
+    "count": 0,
+    "Id": "D00T003R20170823100549000779",
+    "type": 2,
+    "Name": "曾厝垵海外海（北向南）K11",
+    "longitude": "118.131434"
+}, {
+    "latitude": "24.434624",
+    "count": 0,
+    "Id": "D00T003R20170823100549000782",
+    "type": 2,
+    "Name": "曾厝垵红素酒吧（北向南）1",
+    "longitude": "118.132746"
+}, {
+    "latitude": "24.434624",
+    "count": 0,
+    "Id": "D00T003R20170823100549000783",
+    "type": 2,
+    "Name": "曾厝垵红素酒吧（西向东）1",
+    "longitude": "118.132746"
+}, {
+    "latitude": "24.432021",
+    "count": 0,
+    "Id": "D00T003R20170823100549000785",
+    "type": 2,
+    "Name": "曾厝垵佳福园路口（东向西）1",
+    "longitude": "118.130006"
+}, {
+    "latitude": "24.430376",
+    "count": 0,
+    "Id": "D00T003R20170823100549000788",
+    "type": 2,
+    "Name": "曾厝垵加油站出口（西向东）1",
+    "longitude": "118.132635"
+}, {
+    "latitude": "24.433287",
+    "count": 0,
+    "Id": "D00T003R20170823100549000791",
+    "type": 2,
+    "Name": "曾厝垵街道40号（东向西）1",
+    "longitude": "118.130935"
+}, {
+    "latitude": "24.464541",
+    "count": 1,
+    "Id": "D00T003R20170914175956000937",
+    "type": 2,
+    "Name": "思明区BRT斗西站出口2",
+    "longitude": "118.082562"
+}, {
+    "latitude": "24.562983",
+    "count": 1,
+    "Id": "D00T003R20170920151410001275",
+    "type": 2,
+    "Name": "集美区联发杏林湾1号_1",
+    "longitude": "118.05681"
+}, {
+    "latitude": "24.562983",
+    "count": 1,
+    "Id": "D00T003R20170920151410001276",
+    "type": 2,
+    "Name": "集美区联发杏林湾1号_2",
+    "longitude": "118.05681"
+}, {
+    "latitude": "24.42603",
+    "count": 0,
+    "Id": "D00T003R20170902155441000846",
+    "type": 2,
+    "Name": "思明区环岛南路海上运动学校后门木栈道人脸西",
+    "longitude": "118.122202"
+}, {
+    "latitude": "24.574143",
+    "count": 1,
+    "Id": "D00T003R20170920151410001305",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口5_1",
+    "longitude": "118.038465"
+}, {
+    "latitude": "24.667005",
+    "count": 7,
+    "Id": "D00T003R20170914175956000963",
+    "type": 2,
+    "Name": "翔安区XA032-马巷街80号外墙1",
+    "longitude": "118.245882"
+}, {
+    "latitude": "24.670326",
+    "count": 4,
+    "Id": "D00T003R20170914175956000985",
+    "type": 2,
+    "Name": "翔安区XA127-同美下枫村惠康百货前1",
+    "longitude": "118.210974"
+}, {
+    "latitude": "24.670326",
+    "count": 2,
+    "Id": "D00T003R20170914175956000986",
+    "type": 2,
+    "Name": "翔安区XA127-同美下枫村惠康百货前2",
+    "longitude": "118.210974"
+}, {
+    "latitude": "24.643272",
+    "count": 6,
+    "Id": "D00T003R20170914175956000998",
+    "type": 2,
+    "Name": "翔安区巷南路XA179-西坂西亭里214号前1",
+    "longitude": "118.242345"
+}, {
+    "latitude": "24.47352",
+    "count": 0,
+    "Id": "D00T003R20180403143849002690",
+    "type": 2,
+    "Name": "思明区湖滨南路中山医院人行天桥半球1",
+    "longitude": "118.093676"
+}, {
+    "latitude": "24.473747",
+    "count": 0,
+    "Id": "D00T003R20170914175956001126",
+    "type": 2,
+    "Name": "思明区厦禾路悟村街道与益泰大厦出口人像识别西",
+    "longitude": "118.112838"
+}, {
+    "latitude": "24.53457",
+    "count": 0,
+    "Id": "D00T003R20170914175956001127",
+    "type": 2,
+    "Name": "海沧区新阳路霞阳小学路口1",
+    "longitude": "118.010276"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170914175956001001",
+    "type": 2,
+    "Name": "翔安区春波路与翔星路交叉口XA191-下坂村聚星隆购物对面2",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.474419",
+    "count": 1,
+    "Id": "D00T003R20170914175956001023",
+    "type": 2,
+    "Name": "思明区东浦路18号路口人像识别西",
+    "longitude": "118.120247"
+}, {
+    "latitude": "24.474702",
+    "count": 0,
+    "Id": "D00T003R20170914175956001024",
+    "type": 2,
+    "Name": "思明区东浦路兴鹭峰洒店路口人像识别东",
+    "longitude": "118.122712"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180830174822003494",
+    "type": 2,
+    "Name": "万达1号门岗亭旁",
+    "longitude": "117"
+}, {
+    "latitude": "24.475236",
+    "count": 0,
+    "Id": "D00T003R20170914175956001045",
+    "type": 2,
+    "Name": "思明区湖滨东路嘉隆商业城楼下人像识别北",
+    "longitude": "118.107472"
+}, {
+    "latitude": "24.438659",
+    "count": 0,
+    "Id": "D00T003R20170914175956001055",
+    "type": 2,
+    "Name": "思明区黄厝塔头125号",
+    "longitude": "118.138865"
+}, {
+    "latitude": "24.474956",
+    "count": 2,
+    "Id": "D00T003R20170914175956001060",
+    "type": 2,
+    "Name": "思明区厦禾路与东坪山路假日商城门口人像识别西",
+    "longitude": "118.114286"
+}, {
+    "latitude": "24.473758",
+    "count": 0,
+    "Id": "D00T003R20170914175956001066",
+    "type": 2,
+    "Name": "思明区东浦路金枫园门口人像识别北",
+    "longitude": "118.117152"
+}, {
+    "latitude": "24.537422",
+    "count": 0,
+    "Id": "D00T003R20170914175956001071",
+    "type": 2,
+    "Name": "海沧区霞阳南路晶华陶瓷路口2",
+    "longitude": "118.028818"
+}, {
+    "latitude": "24.470019",
+    "count": 0,
+    "Id": "D00T003R20170914175956001089",
+    "type": 2,
+    "Name": "思明区厦禾路与金榜西三路交叉口临泰宾馆路口人像识别西",
+    "longitude": "118.103614"
+}, {
+    "latitude": "24.488875",
+    "count": 0,
+    "Id": "D00T003R20170914175956001090",
+    "type": 2,
+    "Name": "思明区吕岭路蔡塘段人行道东向西",
+    "longitude": "118.153736"
+}, {
+    "latitude": "24.444852",
+    "count": 0,
+    "Id": "D00T003R20170914175956001094",
+    "type": 2,
+    "Name": "思明区民族路与成功大道桥下3",
+    "longitude": "118.080238"
+}, {
+    "latitude": "24.44842",
+    "count": 1,
+    "Id": "D00T003R20170914175956001096",
+    "type": 2,
+    "Name": "思明区民族路与寿山路2",
+    "longitude": "118.077092"
+}, {
+    "latitude": "24.479544",
+    "count": 0,
+    "Id": "D00T003R20170914175956001099",
+    "type": 2,
+    "Name": "思明区莲前西路辅路明发BRT旁3",
+    "longitude": "118.117776"
+}, {
+    "latitude": "24.536596",
+    "count": 0,
+    "Id": "D00T003R20170914175956001147",
+    "type": 2,
+    "Name": "海沧区新阳北路与新元路交叉路口2",
+    "longitude": "118.018416"
+}, {
+    "latitude": "24.435029",
+    "count": 0,
+    "Id": "D00T003R20170914175956001151",
+    "type": 2,
+    "Name": "思明区环岛南路亚洲海湾大酒店南区路口2",
+    "longitude": "118.140258"
+}, {
+    "latitude": "24.428066",
+    "count": 2,
+    "Id": "D00T003R20170914175956001160",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵阿川海鲜东向西",
+    "longitude": "118.119452"
+}, {
+    "latitude": "24.427608",
+    "count": 0,
+    "Id": "D00T003R20170914175956001162",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵海外海北向南K1",
+    "longitude": "118.119992"
+}, {
+    "latitude": "24.428225",
+    "count": 0,
+    "Id": "D00T003R20170914175956001167",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵佳福园路口北向南",
+    "longitude": "118.119161"
+}, {
+    "latitude": "24.427176",
+    "count": 0,
+    "Id": "D00T003R20170914175956001172",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵加油站路口北向南人脸",
+    "longitude": "118.121613"
+}, {
+    "latitude": "24.434276",
+    "count": 0,
+    "Id": "D00T003R20170914175956001181",
+    "type": 2,
+    "Name": "思明区环岛南路中化石油黄厝加油站对面",
+    "longitude": "118.138156"
+}, {
+    "latitude": "24.488385",
+    "count": 0,
+    "Id": "D00T003R20170921143621001320",
+    "type": 2,
+    "Name": "湖里区吕岭路口腔医院2",
+    "longitude": "118.159977"
+}, {
+    "latitude": "24.5991",
+    "count": 2,
+    "Id": "D00T003R20170918104444001221",
+    "type": 2,
+    "Name": "集美区天凤路霞浯公交站1-2",
+    "longitude": "118.102133"
+}, {
+    "latitude": "24.429904",
+    "count": 0,
+    "Id": "D00T003R20170918104444001232",
+    "type": 2,
+    "Name": "思明区环岛南路统建房人脸西",
+    "longitude": "118.116752"
+}, {
+    "latitude": "24.5276",
+    "count": 2,
+    "Id": "D00T003R20170921143621001328",
+    "type": 2,
+    "Name": "湖里区枋湖北二路县后社48号对面K3",
+    "longitude": "118.1458"
+}, {
+    "latitude": "24.4950071",
+    "count": 0,
+    "Id": "D00T003R20171229172743002155",
+    "type": 2,
+    "Name": "海沧区钟山村入口东南面6",
+    "longitude": "118.0196911"
+}, {
+    "latitude": "24.5358811",
+    "count": 0,
+    "Id": "D00T003R20171229172743002158",
+    "type": 2,
+    "Name": "海沧区孚中央主入口南面3",
+    "longitude": "117.9618831"
+}, {
+    "latitude": "24.4570961",
+    "count": 0,
+    "Id": "D00T003R20171229172743002157",
+    "type": 2,
+    "Name": "海沧区嵩屿码头进站口北侧2",
+    "longitude": "118.0409801"
+}, {
+    "latitude": "24.5870",
+    "count": 54,
+    "Id": "D00T003R20171031184421001497",
+    "type": 2,
+    "Name": "集美区孙厝路口见福便利店门口",
+    "longitude": "118.0956"
+}, {
+    "latitude": "24.5651",
+    "count": 0,
+    "Id": "D00T003R20170927165917001374",
+    "type": 2,
+    "Name": "杏林万科里（永辉超市门口）",
+    "longitude": "118.0577"
+}, {
+    "latitude": "24.4836601",
+    "count": 0,
+    "Id": "D00T003R20171229172743002092",
+    "type": 2,
+    "Name": "海沧区渐美村入口西南面3",
+    "longitude": "118.0230181"
+}, {
+    "latitude": "24.4911191",
+    "count": 1,
+    "Id": "D00T003R20171229172743002098",
+    "type": 2,
+    "Name": "海沧区乐海百货西南面2",
+    "longitude": "118.0434751"
+}, {
+    "latitude": "24.5608641",
+    "count": 2,
+    "Id": "D00T003R20171229172743002100",
+    "type": 2,
+    "Name": "海沧区莲花村主入口南面3",
+    "longitude": "117.9301841"
+}, {
+    "latitude": "24.5018851",
+    "count": 2,
+    "Id": "D00T003R20171229172743002112",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面3",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.5344911",
+    "count": 1,
+    "Id": "D00T003R20171229172743002117",
+    "type": 2,
+    "Name": "海沧区霞阳畅想霞阳东路16号东面3",
+    "longitude": "118.0174031"
+}, {
+    "latitude": "24.607956",
+    "count": 0,
+    "Id": "D00T003R20170922143520001340",
+    "type": 2,
+    "Name": "集美区英瑶路井泉路1",
+    "longitude": "118.107751"
+}, {
+    "latitude": "24.45002",
+    "count": 2,
+    "Id": "D00T003R20170922143520001347",
+    "type": 2,
+    "Name": "思明区黄厝茂后73号",
+    "longitude": "118.152946"
+}, {
+    "latitude": "24.5325",
+    "count": 2,
+    "Id": "D00T003R20170922143520001362",
+    "type": 2,
+    "Name": "湖里区0227A-坂尚路安墩路路口K2",
+    "longitude": "118.1377"
+}, {
+    "latitude": "24.5870",
+    "count": 0,
+    "Id": "D00T003R20170927120106001371",
+    "type": 2,
+    "Name": "孙厝路口(同集路与乐安东里交汇处)",
+    "longitude": "118.0962"
+}, {
+    "latitude": "24.5346051",
+    "count": 0,
+    "Id": "D00T003R20171229172743002122",
+    "type": 2,
+    "Name": "霞阳大榕树西南面6",
+    "longitude": "118.0144881"
+}, {
+    "latitude": "24.5324251",
+    "count": 0,
+    "Id": "D00T003R20171229172743002132",
+    "type": 2,
+    "Name": "祥露村口西南面3",
+    "longitude": "117.9819341"
+}, {
+    "latitude": "24.4868331",
+    "count": 1,
+    "Id": "D00T003R20171229172743002142",
+    "type": 2,
+    "Name": "海沧区行政中心西边出入口1",
+    "longitude": "118.0283681"
+}, {
+    "latitude": "24.607644",
+    "count": 0,
+    "Id": "D00T003R20171113144227001610",
+    "type": 2,
+    "Name": "集美区BRT产业研究院东入口",
+    "longitude": "118.069497"
+}, {
+    "latitude": "24.612183",
+    "count": 6,
+    "Id": "D00T003R20171113144227001614",
+    "type": 2,
+    "Name": "集美区BRT中科院站西入口",
+    "longitude": "118.061055"
+}, {
+    "latitude": "24.604561",
+    "count": 2,
+    "Id": "D00T003R20171113144227001621",
+    "type": 2,
+    "Name": "集美区BRT大学城西入口",
+    "longitude": "118.074457"
+}, {
+    "latitude": "24.4590",
+    "count": 4,
+    "Id": "D00T003R20171122170639001644",
+    "type": 2,
+    "Name": "思明区公园南路清真寺门口",
+    "longitude": "118.0826"
+}, {
+    "latitude": "24.595165",
+    "count": 0,
+    "Id": "D00T003R20171129162434001666",
+    "type": 2,
+    "Name": "集美区同集南路叶厝九点半路口1",
+    "longitude": "118.101888"
+}, {
+    "latitude": "24.51585",
+    "count": 2,
+    "Id": "D00T003R20171228100006002018",
+    "type": 2,
+    "Name": "0820-湖里区嘉禾路东侧马垅站2-朝北",
+    "longitude": "118.11854"
+}, {
+    "latitude": "24.51585",
+    "count": 9,
+    "Id": "D00T003R20171228100006002022",
+    "type": 2,
+    "Name": "0820-湖里区嘉禾路东侧马垅站1-朝南",
+    "longitude": "118.11854"
+}, {
+    "latitude": "24.453148",
+    "count": 11,
+    "Id": "D00T003R20180106134748002170",
+    "type": 2,
+    "Name": "思明区镇海路地铁站A端出口闸机10",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.49828",
+    "count": 3,
+    "Id": "D00T003R20171228100006002024",
+    "type": 2,
+    "Name": "0930-湖里区仙岳路南侧金尚公交场站-朝西",
+    "longitude": "118.15073"
+}, {
+    "latitude": "24.537259",
+    "count": 0,
+    "Id": "D00T003R20180109174849002190",
+    "type": 2,
+    "Name": "海沧区霞光北路与霞光路交叉口龙冠瓷砖路口3",
+    "longitude": "118.019744"
+}, {
+    "latitude": "24.537259",
+    "count": 0,
+    "Id": "D00T003R20180109174849002191",
+    "type": 2,
+    "Name": "海沧区霞光北路与霞光路交叉口龙冠瓷砖路口2",
+    "longitude": "118.019744"
+}, {
+    "latitude": "24.4813",
+    "count": 0,
+    "Id": "D00T003R20171109200231001554",
+    "type": 2,
+    "Name": "思明区新景东门出门2",
+    "longitude": "118.1145"
+}, {
+    "latitude": "24.5930",
+    "count": 85,
+    "Id": "D00T003R20171109200556001556",
+    "type": 2,
+    "Name": "集美区诚毅学院长廊小铁门2",
+    "longitude": "118.0897"
+}, {
+    "latitude": "24.6018",
+    "count": 0,
+    "Id": "D00T003R20171109200829001561",
+    "type": 2,
+    "Name": "集美区华侨大学清真食堂2",
+    "longitude": "118.0835"
+}, {
+    "latitude": "24.5849",
+    "count": 0,
+    "Id": "D00T003R20171109201416001564",
+    "type": 2,
+    "Name": "集美大学清真食堂后门",
+    "longitude": "118.0903"
+}, {
+    "latitude": "24.656205",
+    "count": 0,
+    "Id": "D00T003R20171129162434001663",
+    "type": 2,
+    "Name": "同安区BRT官浔站出口",
+    "longitude": "118.143563"
+}, {
+    "latitude": "24.600698",
+    "count": 0,
+    "Id": "D00T003R20171113144057001593",
+    "type": 2,
+    "Name": "集美区BRT华侨大学站东入口",
+    "longitude": "118.081683"
+}, {
+    "latitude": "24.610683",
+    "count": 0,
+    "Id": "D00T003R20171113144227001598",
+    "type": 2,
+    "Name": "集美区东林路莲塘路交叉口1-2",
+    "longitude": "118.103933"
+}, {
+    "latitude": "24.709549",
+    "count": 0,
+    "Id": "D00T003R20171113144227001601",
+    "type": 2,
+    "Name": "同安区BRT第三医院站出口",
+    "longitude": "118.140153"
+}, {
+    "latitude": "24.484421",
+    "count": 1,
+    "Id": "D00T003R20171214174425001834",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头1号门",
+    "longitude": "118.070927"
+}, {
+    "latitude": "24.485949",
+    "count": 0,
+    "Id": "D00T003R20171214174425001836",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头11号门",
+    "longitude": "118.070661"
+}, {
+    "latitude": "24.486311",
+    "count": 0,
+    "Id": "D00T003R20171214174425001837",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头的士上车口",
+    "longitude": "118.071631"
+}, {
+    "latitude": "24.486311",
+    "count": 0,
+    "Id": "D00T003R20171214174425001850",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头5号电梯",
+    "longitude": "118.071631"
+}, {
+    "latitude": "24.485602",
+    "count": 0,
+    "Id": "D00T003R20171214174425001851",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头天天渔港电梯",
+    "longitude": "118.072096"
+}, {
+    "latitude": "24.502819",
+    "count": 2,
+    "Id": "D00T003R20171214174425001748",
+    "type": 2,
+    "Name": "R030-湖里区仙岳路白果山公交站1",
+    "longitude": "118.125208"
+}, {
+    "latitude": "24.5004136",
+    "count": 0,
+    "Id": "D00T003R20171214174425001749",
+    "type": 2,
+    "Name": "R003-湖里区SM一期地下车库出入口1 ",
+    "longitude": "118.1126418"
+}, {
+    "latitude": "24.5044391",
+    "count": 0,
+    "Id": "D00T003R20171214174425001750",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场北门2（肯德基）",
+    "longitude": "118.1218579"
+}, {
+    "latitude": "24.530416",
+    "count": 0,
+    "Id": "D00T003R20171214174425001764",
+    "type": 2,
+    "Name": "R027-湖里区安兜成功大道引桥下方出口2",
+    "longitude": "118.117782"
+}, {
+    "latitude": "24.522325",
+    "count": 0,
+    "Id": "D00T003R20171214174425001778",
+    "type": 2,
+    "Name": "R028-湖里区成功大道安兜天桥2",
+    "longitude": "118.129547"
+}, {
+    "latitude": "24.500957",
+    "count": 0,
+    "Id": "D00T003R20171205144846001706",
+    "type": 2,
+    "Name": "R017-湖里区江头街道办事处正门人行道1",
+    "longitude": "118.126948"
+}, {
+    "latitude": "24.514558",
+    "count": 0,
+    "Id": "D00T003R20171205144846001710",
+    "type": 2,
+    "Name": "R020-湖里区政府南门出入口人行道1",
+    "longitude": "118.14217"
+}, {
+    "latitude": "24.47339",
+    "count": 0,
+    "Id": "D00T003R20180326153143002605",
+    "type": 2,
+    "Name": "思明区禾祥东路汉庭酒店路口3",
+    "longitude": "118.104706"
+}, {
+    "latitude": "24.505179",
+    "count": 0,
+    "Id": "D00T003R20171214174425001788",
+    "type": 2,
+    "Name": "R004-湖里万达广场5号门1",
+    "longitude": "118.171453"
+}, {
+    "latitude": "24.608563",
+    "count": 1,
+    "Id": "D00T003R20171208154116001728",
+    "type": 2,
+    "Name": "集美区东林路井泉路口1",
+    "longitude": "118.104223"
+}, {
+    "latitude": "24.588571",
+    "count": 0,
+    "Id": "D00T003R20171130174956001689",
+    "type": 2,
+    "Name": "集美区乐海路新华都BRT站1",
+    "longitude": "118.103277"
+}, {
+    "latitude": "24.495006",
+    "count": 11,
+    "Id": "D00T003R20171214174425001811",
+    "type": 2,
+    "Name": "R032-湖里区吕岭路台湾街路口人行道1",
+    "longitude": "118.127114"
+}, {
+    "latitude": "24.506649",
+    "count": 0,
+    "Id": "D00T003R20171214174425001813",
+    "type": 2,
+    "Name": "R010-湖里区万达金街通道1",
+    "longitude": "118.173904"
+}, {
+    "latitude": "24.63125",
+    "count": 0,
+    "Id": "D00T003R20171205101525001694",
+    "type": 2,
+    "Name": "同安区BRT后田站西入口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.63125",
+    "count": 0,
+    "Id": "D00T003R20171205101525001697",
+    "type": 2,
+    "Name": "同安区BRT后田站西出口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.50775",
+    "count": 4,
+    "Id": "D00T003R20171218125920001880",
+    "type": 2,
+    "Name": "0823-湖里区嘉禾路东侧塘边站2-朝北",
+    "longitude": "118.12109"
+}, {
+    "latitude": "24.52085",
+    "count": 0,
+    "Id": "D00T003R20171218125920001883",
+    "type": 2,
+    "Name": "0837-长乐路南侧寨上站南-朝1",
+    "longitude": "118.10396"
+}, {
+    "latitude": "24.50388",
+    "count": 0,
+    "Id": "D00T003R20171218125920001892",
+    "type": 2,
+    "Name": "0885-南山路南侧康乐站-朝西人行道",
+    "longitude": "118.11515"
+}, {
+    "latitude": "24.49831",
+    "count": 0,
+    "Id": "D00T003R20171218125920001904",
+    "type": 2,
+    "Name": "0922-和宁路东侧和宁路站-朝2",
+    "longitude": "118.08770"
+}, {
+    "latitude": "24.50446",
+    "count": 0,
+    "Id": "D00T003R20171218125920001909",
+    "type": 2,
+    "Name": "0932-仙岳路金湫路路口-朝1",
+    "longitude": "118.17241"
+}, {
+    "latitude": "24.5377641",
+    "count": 1,
+    "Id": "D00T003R20171229172743002063",
+    "type": 2,
+    "Name": "海沧区鼎美村主入口西北面2",
+    "longitude": "117.9701001"
+}, {
+    "latitude": "24.4722821",
+    "count": 0,
+    "Id": "D00T003R20171229172743002079",
+    "type": 2,
+    "Name": "海沧体育场西南侧3",
+    "longitude": "118.0247881"
+}, {
+    "latitude": "24.4948811",
+    "count": 0,
+    "Id": "D00T003R20171229172743002081",
+    "type": 2,
+    "Name": "海沧天虹商场西南面3",
+    "longitude": "118.0422871"
+}, {
+    "latitude": "24.4948811",
+    "count": 1,
+    "Id": "D00T003R20171229172743002082",
+    "type": 2,
+    "Name": "海沧天虹商场西南面4",
+    "longitude": "118.0422871"
+}, {
+    "latitude": "24.5695991",
+    "count": 0,
+    "Id": "D00T003R20171229172743002087",
+    "type": 2,
+    "Name": "海沧区洪塘村主入口西南面2",
+    "longitude": "117.9427211"
+}, {
+    "latitude": "24.521369",
+    "count": 3,
+    "Id": "D00T003R20171214174425001863",
+    "type": 2,
+    "Name": "R029-湖里区枋湖北二路安兜出入口1",
+    "longitude": "118.132449"
+}, {
+    "latitude": "24.5116127",
+    "count": 0,
+    "Id": "D00T003R20171214174425001867",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK2楼东大门",
+    "longitude": "118.1345844"
+}, {
+    "latitude": "24.5094358",
+    "count": 6,
+    "Id": "D00T003R20171214174425001870",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK出站口1",
+    "longitude": "118.1394571"
+}, {
+    "latitude": "24.510325",
+    "count": 0,
+    "Id": "D00T003R20180403143849002654",
+    "type": 2,
+    "Name": "湖里区嘉禾路大唐世家人行天桥半球1",
+    "longitude": "118.116242"
+}, {
+    "latitude": "24.510325",
+    "count": 0,
+    "Id": "D00T003R20180403143849002655",
+    "type": 2,
+    "Name": "湖里区嘉禾路大唐世家人行天桥半球2",
+    "longitude": "118.116242"
+}, {
+    "latitude": "24.512595",
+    "count": 1,
+    "Id": "D00T003R20180403143849002670",
+    "type": 2,
+    "Name": "湖里区兴湖路寨上人行天桥枪机1",
+    "longitude": "118.088737"
+}, {
+    "latitude": "24.512595",
+    "count": 0,
+    "Id": "D00T003R20180403143849002671",
+    "type": 2,
+    "Name": "湖里区兴湖路寨上人行天桥枪机2",
+    "longitude": "118.088737"
+}, {
+    "latitude": "24.477752",
+    "count": 0,
+    "Id": "D00T003R20180403143849002682",
+    "type": 2,
+    "Name": "思明区湖滨南路凤屿路口人行天桥半球1",
+    "longitude": "118.109732"
+}, {
+    "latitude": "24.479057",
+    "count": 1,
+    "Id": "D00T003R20180403143849002685",
+    "type": 2,
+    "Name": "思明区湖滨南路国贸人行天桥半球2",
+    "longitude": "118.114143"
+}, {
+    "latitude": "24.669474",
+    "count": 0,
+    "Id": "D00T003R20180201171812002355",
+    "type": 2,
+    "Name": "翔安区同美菜市场旁",
+    "longitude": "118.210673"
+}, {
+    "latitude": "24.656855",
+    "count": 0,
+    "Id": "D00T003R20180201171812002357",
+    "type": 2,
+    "Name": "翔安区马巷上庄村北入口",
+    "longitude": "118.236786"
+}, {
+    "latitude": "24.667415",
+    "count": 2,
+    "Id": "D00T003R20180201171812002361",
+    "type": 2,
+    "Name": "翔安区马巷公交枢纽站西入口",
+    "longitude": "118.248347"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002250",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站B端出口闸机01",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002252",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站B端入口闸机10",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.514961",
+    "count": 2,
+    "Id": "D00T003R20180125170611002253",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站B端入口闸机11",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002259",
+    "type": 2,
+    "Name": "集美区官任地铁站B端出口闸机01",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002267",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机03",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002278",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线入口闸机19",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002292",
+    "type": 2,
+    "Name": "集美区岩内地铁站B端入口闸机05",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002304",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站B端入口闸机10",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.463483",
+    "count": 1,
+    "Id": "D00T003R20180125170611002309",
+    "type": 2,
+    "Name": "思明区将军祠地铁站A端出口闸机05",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.493618",
+    "count": 0,
+    "Id": "D00T003R20180125170611002313",
+    "type": 2,
+    "Name": "思明区吕厝地铁站B端出口闸机01",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.493618",
+    "count": 1,
+    "Id": "D00T003R20180125170611002317",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端出口闸机09",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.493618",
+    "count": 1,
+    "Id": "D00T003R20180125170611002320",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端出口闸机07",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.47093",
+    "count": 1,
+    "Id": "D00T003R20180125170611002323",
+    "type": 2,
+    "Name": "思明区文灶地铁站A端出口闸机01",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.459032",
+    "count": 0,
+    "Id": "D00T003R20180125170611002336",
+    "type": 2,
+    "Name": "思明区中山公园地铁站B端出口闸机04",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.592485",
+    "count": 0,
+    "Id": "D00T003R20180606152315002936",
+    "type": 2,
+    "Name": "测试集美活动临时人脸5",
+    "longitude": "118.042893"
+}, {
+    "latitude": "24.49607",
+    "count": 0,
+    "Id": "D00T003R20180627172027003091",
+    "type": 2,
+    "Name": "湖里区0142R-江头东路江浦路南路口1-朝北2",
+    "longitude": "118.12946"
+}, {
+    "latitude": "24.49511",
+    "count": 1,
+    "Id": "D00T003R20180627172027003094",
+    "type": 2,
+    "Name": "湖里区0143R-吕岭路江头东路路口-朝南",
+    "longitude": "118.12964"
+}, {
+    "latitude": "24.51501",
+    "count": 0,
+    "Id": "D00T003R20180627172027003105",
+    "type": 2,
+    "Name": "湖里区0160R-新丰路火炬二路路口1-朝西",
+    "longitude": "118.12082"
+}, {
+    "latitude": "24.437037",
+    "count": 0,
+    "Id": "D00T003R20180403143849002699",
+    "type": 2,
+    "Name": "思明区环岛干道白城隧道口人行天桥半球2",
+    "longitude": "118.113629"
+}, {
+    "latitude": "24.485038",
+    "count": 0,
+    "Id": "D00T003R20180403143849002700",
+    "type": 2,
+    "Name": "思明区环岛干道软件园人行天桥机场方向半球1",
+    "longitude": "118.182615"
+}, {
+    "latitude": "24.49222",
+    "count": 0,
+    "Id": "D00T003R20180627172027003115",
+    "type": 2,
+    "Name": "湖里区0176R-吕岭路台湾街路口3-朝东",
+    "longitude": "118.13231"
+}, {
+    "latitude": "24.245",
+    "count": 0,
+    "Id": "D00T003R20180428155826002782",
+    "type": 2,
+    "Name": "集美五一活动临时人脸5",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.45125",
+    "count": 3,
+    "Id": "D00T003R20180502183353002797",
+    "type": 2,
+    "Name": "思明区镇海路站1号入口2",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.52478",
+    "count": 1,
+    "Id": "D00T003R20180627172027003059",
+    "type": 2,
+    "Name": "湖里区0017R-殿前一路殿前村口2-朝北",
+    "longitude": "118.10925"
+}, {
+    "latitude": "24.50732",
+    "count": 0,
+    "Id": "D00T003R20180627172027003070",
+    "type": 2,
+    "Name": "湖里区0061R-海天路华嘉路路口2-朝南",
+    "longitude": "118.09582"
+}, {
+    "latitude": "24.49966",
+    "count": 0,
+    "Id": "D00T003R20180627172027003081",
+    "type": 2,
+    "Name": "湖里区0134R-江华路国泰大厦停车场路口-朝南",
+    "longitude": "118.12281"
+}, {
+    "latitude": "24.49521",
+    "count": 0,
+    "Id": "D00T003R20180627172027003082",
+    "type": 2,
+    "Name": "湖里区0138R-嘉禾路吕厝路路口2-朝东",
+    "longitude": "118.12304"
+}, {
+    "latitude": "24.50389",
+    "count": 1,
+    "Id": "D00T003R20180627172027003145",
+    "type": 2,
+    "Name": "湖里区0334R-祥店中路祥店三路路口-朝东",
+    "longitude": "118.13963"
+}, {
+    "latitude": "24.50389",
+    "count": 0,
+    "Id": "D00T003R20180627172027003146",
+    "type": 2,
+    "Name": "湖里区0334R-祥店中路祥店三路路口-朝西",
+    "longitude": "118.13963"
+}, {
+    "latitude": "24.49955",
+    "count": 0,
+    "Id": "D00T003R20180627172027003202",
+    "type": 2,
+    "Name": "湖里区0696R-双浦路江头所路口-朝南",
+    "longitude": "118.13534"
+}, {
+    "latitude": "24.49081",
+    "count": 0,
+    "Id": "D00T003R20180627172027003203",
+    "type": 2,
+    "Name": "湖里区0703R-金盛路金安里东门路口-朝北",
+    "longitude": "118.15057"
+}, {
+    "latitude": "24.52735",
+    "count": 0,
+    "Id": "D00T003R20180627172027003206",
+    "type": 2,
+    "Name": "湖里区0708R-殿前一路翔鹭三期5号门口-朝南",
+    "longitude": "118.10511"
+}, {
+    "latitude": "24.52289",
+    "count": 0,
+    "Id": "D00T003R20180627172027003211",
+    "type": 2,
+    "Name": "湖里区0771R-钟宅西三路钟智西一路路口-朝南",
+    "longitude": "118.15588"
+}, {
+    "latitude": "24.51034",
+    "count": 0,
+    "Id": "D00T003R20180627172027003229",
+    "type": 2,
+    "Name": "湖里区0890R-兴隆路南侧塘边村公交站-朝东",
+    "longitude": "118.11499"
+}, {
+    "latitude": "24.51377",
+    "count": 0,
+    "Id": "D00T003R20180627172027003244",
+    "type": 2,
+    "Name": "湖里区1021R-云顶北路金湖路路口-朝南",
+    "longitude": "118.15441"
+}, {
+    "latitude": "24.49474",
+    "count": 0,
+    "Id": "D00T003R20180627172027003250",
+    "type": 2,
+    "Name": "湖里区R032R-吕岭路台湾街路口人行道-朝南",
+    "longitude": "118.12702"
+}, {
+    "latitude": "24.574781",
+    "count": 0,
+    "Id": "D00T003R20180704095557003300",
+    "type": 2,
+    "Name": "集美区岑西路01",
+    "longitude": "118.091456"
+}, {
+    "latitude": "24.602774",
+    "count": 0,
+    "Id": "D00T003R20180704095557003307",
+    "type": 2,
+    "Name": "集美区黄庄路意辉超市路口",
+    "longitude": "117.981169"
+}, {
+    "latitude": "24.574178",
+    "count": 0,
+    "Id": "D00T003R20180704095557003308",
+    "type": 2,
+    "Name": "集美区岑西路小商品街＿1",
+    "longitude": "118.090372"
+}, {
+    "latitude": "24.601478",
+    "count": 0,
+    "Id": "D00T003R20180704095557003312",
+    "type": 2,
+    "Name": "集美区景湖南路灌口中心幼儿园门口",
+    "longitude": "117.989292"
+}, {
+    "latitude": "24.49479",
+    "count": 0,
+    "Id": "D00T003R20180724151521003363",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路1号OPPO手机店1",
+    "longitude": "118.125439"
+}, {
+    "latitude": "24.49567",
+    "count": 0,
+    "Id": "D00T003R20180627172027003173",
+    "type": 2,
+    "Name": "湖里区0621R-吕厝路江头西路路口1-朝北",
+    "longitude": "118.12543"
+}, {
+    "latitude": "24.49567",
+    "count": 0,
+    "Id": "D00T003R20180627172027003174",
+    "type": 2,
+    "Name": "湖里区0621R-吕厝路江头西路路口1-朝南",
+    "longitude": "118.12543"
+}, {
+    "latitude": "24.49514",
+    "count": 0,
+    "Id": "D00T003R20180627172027003179",
+    "type": 2,
+    "Name": "湖里区0628R-吕岭路铁路桥涵洞-朝西",
+    "longitude": "118.13175"
+}, {
+    "latitude": "24.50094",
+    "count": 0,
+    "Id": "D00T003R20180627172027003182",
+    "type": 2,
+    "Name": "湖里区0666R-禾山路江头蔬菜批发市场路口-朝北",
+    "longitude": "118.13341"
+}, {
+    "latitude": "24.50094",
+    "count": 0,
+    "Id": "D00T003R20180627172027003183",
+    "type": 2,
+    "Name": "湖里区0666R-禾山路江头蔬菜批发市场路口-朝南",
+    "longitude": "118.13341"
+}, {
+    "latitude": "24.50303",
+    "count": 0,
+    "Id": "D00T003R20180627172027003186",
+    "type": 2,
+    "Name": "湖里区0671R-枋湖东路万禹广场北门-朝北",
+    "longitude": "118.15579"
+}, {
+    "latitude": "24.48894",
+    "count": 0,
+    "Id": "D00T003R20180627172027003191",
+    "type": 2,
+    "Name": "湖里区0678R-谊爱路忠仑社出口金尚路80号-朝西",
+    "longitude": "118.14804"
+}, {
+    "latitude": "24.50159",
+    "count": 0,
+    "Id": "D00T003R20180627172027003198",
+    "type": 2,
+    "Name": "湖里区0693R-仙岳路后坑后社路口-朝西",
+    "longitude": "118.15293"
+}, {
+    "latitude": "24.49437",
+    "count": 0,
+    "Id": "D00T003R20180627172027003199",
+    "type": 2,
+    "Name": "湖里区0694R-吕岭路金岭大厦路口-朝东",
+    "longitude": "118.13601"
+}, {
+    "latitude": "24.49479",
+    "count": 0,
+    "Id": "D00T003R20180724151521003386",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路1号OPPO手机店2",
+    "longitude": "118.125439"
+}, {
+    "latitude": "24.2874",
+    "count": 0,
+    "Id": "D00T003R20180926111636003578",
+    "type": 2,
+    "Name": "厦门南站_站垂4人行通道4",
+    "longitude": "118.6384"
+}, {
+    "latitude": "24.58363",
+    "count": 0,
+    "Id": "D00T003R20180927165011003608",
+    "type": 2,
+    "Name": "水产学院南门_3B",
+    "longitude": "118.09873"
+}, {
+    "latitude": "24.5173",
+    "count": 0,
+    "Id": "D00T003R20181018115029003870",
+    "type": 2,
+    "Name": "湖里区后浦社村口戏台K3",
+    "longitude": "118.1096"
+}, {
+    "latitude": "24.450363",
+    "count": 0,
+    "Id": "D00T003R20180802153821003406",
+    "type": 2,
+    "Name": "思明区黄厝茂后村320号1",
+    "longitude": "118.15092"
+}, {
+    "latitude": "24.42579",
+    "count": 0,
+    "Id": "D00T003R20180802153821003410",
+    "type": 2,
+    "Name": "思明区佳丽后木栈道人脸南",
+    "longitude": "118.120586"
+}, {
+    "latitude": "24.566103",
+    "count": 0,
+    "Id": "D00T003R20181012152312003782",
+    "type": 2,
+    "Name": "(金海湾)文达二里74号一楼",
+    "longitude": "118.051891"
+}, {
+    "latitude": "24.564927",
+    "count": 0,
+    "Id": "D00T003R20181012152312003792",
+    "type": 2,
+    "Name": "(金海湾)文达二里40号一楼",
+    "longitude": "118.053074"
+}, {
+    "latitude": "24.565684",
+    "count": 0,
+    "Id": "D00T003R20181012152312003811",
+    "type": 2,
+    "Name": "(金海湾)文达二里73号一楼",
+    "longitude": "118.051831"
+}, {
+    "latitude": "24.565076",
+    "count": 0,
+    "Id": "D00T003R20181012152312003816",
+    "type": 2,
+    "Name": "(金海湾)文达二里64号一楼",
+    "longitude": "118.052428"
+}, {
+    "latitude": "24.565797",
+    "count": 0,
+    "Id": "D00T003R20181012152312003817",
+    "type": 2,
+    "Name": "(金海湾)文达二里119号一楼",
+    "longitude": "118.054206"
+}, {
+    "latitude": "24.56568",
+    "count": 0,
+    "Id": "D00T003R20181012152312003826",
+    "type": 2,
+    "Name": "(金海湾)文达二里109号一楼",
+    "longitude": "118.053144"
+}, {
+    "latitude": "24.56558",
+    "count": 0,
+    "Id": "D00T003R20181012152312003838",
+    "type": 2,
+    "Name": "(金海湾)文达二里69号一楼",
+    "longitude": "118.052116"
+}, {
+    "latitude": "24.494389",
+    "count": 0,
+    "Id": "D00T003R20180724151521003370",
+    "type": 2,
+    "Name": "湖里区0179R-吕岭路邮政大门2",
+    "longitude": "118.126072"
+}, {
+    "latitude": "24.494927",
+    "count": 0,
+    "Id": "D00T003R20180724151521003382",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路7-28号人人便利店1",
+    "longitude": "118.124684"
+}, {
+    "latitude": "24.477384",
+    "count": 0,
+    "Id": "D00T003R20170725105939000452",
+    "type": 2,
+    "Name": "东浦路18号路口人像识别西1",
+    "longitude": "118.130807"
+}, {
+    "latitude": "24.477738",
+    "count": 0,
+    "Id": "D00T003R20170725105939000453",
+    "type": 2,
+    "Name": "东浦路兴鹭峰洒店路口人像识别东1",
+    "longitude": "118.134355"
+}, {
+    "latitude": "24.476208",
+    "count": 0,
+    "Id": "D00T003R20170725105939000459",
+    "type": 2,
+    "Name": "禾祥东路与金榜西二路交叉口人像识别东1",
+    "longitude": "118.11419"
+}, {
+    "latitude": "24.473154",
+    "count": 0,
+    "Id": "D00T003R20170725105939000499",
+    "type": 2,
+    "Name": "厦禾路鑫安宾馆门口人像识别东1",
+    "longitude": "118.114054"
+}, {
+    "latitude": "24.473154",
+    "count": 0,
+    "Id": "D00T003R20170725105939000500",
+    "type": 2,
+    "Name": "厦禾路鑫安宾馆门口人像识别西1",
+    "longitude": "118.114054"
+}, {
+    "latitude": "24.524917",
+    "count": 0,
+    "Id": "D00T003R20170804094840000515",
+    "type": 2,
+    "Name": "安兜社611号博爱门诊K11",
+    "longitude": "118.14338"
+}, {
+    "latitude": "24.57407",
+    "count": 0,
+    "Id": "D00T003R20170714142852000439",
+    "type": 2,
+    "Name": "海沧东孚市际公安检查站人脸微卡口",
+    "longitude": "117.96009"
+}, {
+    "latitude": "24.478227",
+    "count": 0,
+    "Id": "D00T003R20170725105939000469",
+    "type": 2,
+    "Name": "假日商城门口人像识别东1",
+    "longitude": "118.125724"
+}, {
+    "latitude": "24.473725",
+    "count": 0,
+    "Id": "D00T003R20170725105939000476",
+    "type": 2,
+    "Name": "金榜公园人行天桥上人像识别南1",
+    "longitude": "118.11714"
+}, {
+    "latitude": "24.472903",
+    "count": 0,
+    "Id": "D00T003R20170725105939000486",
+    "type": 2,
+    "Name": "厦禾路汉庭酒店门口人像识别东1",
+    "longitude": "118.112927"
+}, {
+    "latitude": "24.472987",
+    "count": 0,
+    "Id": "D00T003R20180326153143002604",
+    "type": 2,
+    "Name": "思明区金翔大厦与龙翔花园交叉口1",
+    "longitude": "118.104038"
+}, {
+    "latitude": "24.47435",
+    "count": 0,
+    "Id": "D00T003R20170725105939000492",
+    "type": 2,
+    "Name": "厦禾路世贸广场大门口人像识别东1",
+    "longitude": "118.120208"
+}, {
+    "latitude": "24.4571",
+    "count": 0,
+    "Id": "D00T003R20170411203954000010",
+    "type": 2,
+    "Name": "思明区轮渡码头入口4",
+    "longitude": "118.0683"
+}, {
+    "latitude": "24.472",
+    "count": 3,
+    "Id": "D00T003R20170411203954000024",
+    "type": 2,
+    "Name": "思明区BRT火车站南侧出口2",
+    "longitude": "118.1105"
+}, {
+    "latitude": "24.4712",
+    "count": 0,
+    "Id": "D00T003R20170411203954000116",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口4",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.695512",
+    "count": 0,
+    "Id": "D00T003R20170712100202000398",
+    "type": 2,
+    "Name": "翔安内厝市际公安检查站（固定点）人脸微卡口",
+    "longitude": "118.39486"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000086",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口8",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.5670722",
+    "count": 0,
+    "Id": "D00T003R20170712100202000392",
+    "type": 2,
+    "Name": "杏林大桥（杏滨）公安检查站人脸微卡口",
+    "longitude": "118.056499"
+}, {
+    "latitude": "24.5386",
+    "count": 0,
+    "Id": "D00T003R20170713164248001039",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#10",
+    "longitude": "118.1272"
+}, {
+    "latitude": "24.5377",
+    "count": 0,
+    "Id": "D00T003R20170713164248001026",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国际卫检门口#1",
+    "longitude": "118.1275"
+}, {
+    "latitude": "24.548",
+    "count": 0,
+    "Id": "D00T003R20170713164248001037",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥210",
+    "longitude": "118.1408"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000090",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口12",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000102",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口4",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000104",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口6",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000107",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口9",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000111",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口13",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000112",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口14",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.5352",
+    "count": 3,
+    "Id": "D00T003R20170411203954000057",
+    "type": 2,
+    "Name": "湖里区BRT县后站入口",
+    "longitude": "118.1473"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000058",
+    "type": 2,
+    "Name": "厦门北站进站验证口2",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.472",
+    "count": 0,
+    "Id": "D00T003R20170411203954000077",
+    "type": 2,
+    "Name": "厦门南站_站垂1路人行通道2",
+    "longitude": "118.1105"
+}, {
+    "latitude": "24.4704",
+    "count": 0,
+    "Id": "D00T003R20170411203954000078",
+    "type": 2,
+    "Name": "思明区金榜公园人行通道1",
+    "longitude": "118.1058"
+}, {
+    "latitude": "24.487871",
+    "count": 0,
+    "Id": "D00T003R20170810114050000569",
+    "type": 2,
+    "Name": "第二实验小学旁21",
+    "longitude": "118.133405"
+}, {
+    "latitude": "24.487196",
+    "count": 0,
+    "Id": "D00T003R20170810114050000571",
+    "type": 2,
+    "Name": "复兴肯德基旁21",
+    "longitude": "118.127011"
+}, {
+    "latitude": "24.435151",
+    "count": 0,
+    "Id": "D00T003R20170810114050000574",
+    "type": 2,
+    "Name": "进明寺门口31",
+    "longitude": "118.147521"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170810114057000632",
+    "type": 2,
+    "Name": "XA141-郑坂村佳味美食城前31",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170810114057000638",
+    "type": 2,
+    "Name": "XA166-郑坂南里181号前两幢41",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.643272",
+    "count": 0,
+    "Id": "D00T003R20170810114057000640",
+    "type": 2,
+    "Name": "XA179-西坂西亭里215号前21",
+    "longitude": "118.242345"
+}, {
+    "latitude": "24.509553",
+    "count": 0,
+    "Id": "D00T003R20170815112636000664",
+    "type": 2,
+    "Name": "湖里街道42号K31",
+    "longitude": "118.096727"
+}, {
+    "latitude": "24.510449",
+    "count": 0,
+    "Id": "D00T003R20170815112636000665",
+    "type": 2,
+    "Name": "塘边社328号K11",
+    "longitude": "118.114411"
+}, {
+    "latitude": "24.510449",
+    "count": 0,
+    "Id": "D00T003R20170815112636000666",
+    "type": 2,
+    "Name": "塘边社328号K21",
+    "longitude": "118.114411"
+}, {
+    "latitude": "24.508",
+    "count": 0,
+    "Id": "D00T003R20170914175956000930",
+    "type": 2,
+    "Name": "湖里区2958华泰路湖里公园K2",
+    "longitude": "118.1002"
+}, {
+    "latitude": "24.482701",
+    "count": 0,
+    "Id": "D00T003R20170810114050000578",
+    "type": 2,
+    "Name": "莲前西路立新游乐场路口21",
+    "longitude": "118.131109"
+}, {
+    "latitude": "24.452076",
+    "count": 0,
+    "Id": "D00T003R20170810114050000583",
+    "type": 2,
+    "Name": "民族路与寿山路11",
+    "longitude": "118.088349"
+}, {
+    "latitude": "24.484132",
+    "count": 0,
+    "Id": "D00T003R20170810114050000589",
+    "type": 2,
+    "Name": "明发广场北区30号21",
+    "longitude": "118.127822"
+}, {
+    "latitude": "24.442775",
+    "count": 0,
+    "Id": "D00T003R20170810114050000610",
+    "type": 2,
+    "Name": "演武大桥木栈道3K21",
+    "longitude": "118.093579"
+}, {
+    "latitude": "24.437093",
+    "count": 0,
+    "Id": "D00T003R20170810114050000612",
+    "type": 2,
+    "Name": "中化石油黄厝加油站对面1",
+    "longitude": "118.149391"
+}, {
+    "latitude": "24.670326",
+    "count": 0,
+    "Id": "D00T003R20170810114057000628",
+    "type": 2,
+    "Name": "XA127-同美下枫村惠康百货前11",
+    "longitude": "118.210974"
+}, {
+    "latitude": "24.669267",
+    "count": 0,
+    "Id": "D00T003R20170810114050000547",
+    "type": 2,
+    "Name": "XA083-同美山头里49号斜对面-011",
+    "longitude": "118.212426"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170810114050000551",
+    "type": 2,
+    "Name": "XA087-同美万家春里1号31",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.668549",
+    "count": 0,
+    "Id": "D00T003R20170810114050000552",
+    "type": 2,
+    "Name": "XA087-同美万家春里1号41",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170810114050000556",
+    "type": 2,
+    "Name": "XA108-同美塘尾仔同美里116号前21",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.5237",
+    "count": 2,
+    "Id": "D00T003R20170914175956000915",
+    "type": 2,
+    "Name": "湖里区0023-长虹路健民医院K3",
+    "longitude": "118.0963"
+}, {
+    "latitude": "24.4978",
+    "count": 0,
+    "Id": "D00T003R20170914175956000919",
+    "type": 2,
+    "Name": "湖里区0359-虎仔山西路宝龙御景东北角路口K4",
+    "longitude": "118.1662"
+}, {
+    "latitude": "24.520763",
+    "count": 0,
+    "Id": "D00T003R20170821095104000733",
+    "type": 2,
+    "Name": "0183-嘉禾路悦华路路口K21",
+    "longitude": "118.124689"
+}, {
+    "latitude": "24.51374",
+    "count": 0,
+    "Id": "D00T003R20170821095104000739",
+    "type": 2,
+    "Name": "0522-兴隆路中国邮政路口K31",
+    "longitude": "118.121166"
+}, {
+    "latitude": "24.481906",
+    "count": 0,
+    "Id": "D00T003R20170821095104000741",
+    "type": 2,
+    "Name": "BRT洪文站出站21",
+    "longitude": "118.165888"
+}, {
+    "latitude": "24.472379",
+    "count": 0,
+    "Id": "D00T003R20170821095104000746",
+    "type": 2,
+    "Name": "BRT文灶站出站21",
+    "longitude": "118.111527"
+}, {
+    "latitude": "24.472379",
+    "count": 0,
+    "Id": "D00T003R20170821095104000747",
+    "type": 2,
+    "Name": "BRT文灶站进站1",
+    "longitude": "118.111527"
+}, {
+    "latitude": "24.716386",
+    "count": 0,
+    "Id": "D00T003R20170823100549000756",
+    "type": 2,
+    "Name": "324国道与同明北路11",
+    "longitude": "118.130253"
+}, {
+    "latitude": "24.468361",
+    "count": 0,
+    "Id": "D00T003R20170823100549000761",
+    "type": 2,
+    "Name": "BRT第一码头站进站21",
+    "longitude": "118.078766"
+}, {
+    "latitude": "24.482043",
+    "count": 0,
+    "Id": "D00T003R20170823100549000766",
+    "type": 2,
+    "Name": "BRT龙山桥站出站11",
+    "longitude": "118.137539"
+}, {
+    "latitude": "24.482043",
+    "count": 0,
+    "Id": "D00T003R20170823100549000767",
+    "type": 2,
+    "Name": "BRT龙山桥站出站21",
+    "longitude": "118.137539"
+}, {
+    "latitude": "24.511414",
+    "count": 0,
+    "Id": "D00T003R20170815112641000683",
+    "type": 2,
+    "Name": "2958华泰路湖里公园K21",
+    "longitude": "118.111653"
+}, {
+    "latitude": "24.537422",
+    "count": 0,
+    "Id": "D00T003R20170815112641000695",
+    "type": 2,
+    "Name": "晶华陶瓷路口21",
+    "longitude": "118.028818"
+}, {
+    "latitude": "24.53475",
+    "count": 0,
+    "Id": "D00T003R20170815112641000706",
+    "type": 2,
+    "Name": "霞阳小学路口11",
+    "longitude": "118.009145"
+}, {
+    "latitude": "24.536596",
+    "count": 0,
+    "Id": "D00T003R20170815112641000709",
+    "type": 2,
+    "Name": "新阳北路与新元路交叉路口21",
+    "longitude": "118.018416"
+}, {
+    "latitude": "24.46674",
+    "count": 0,
+    "Id": "D00T003R20170823100549000771",
+    "type": 2,
+    "Name": "BRT思北站出站11",
+    "longitude": "118.087197"
+}, {
+    "latitude": "24.507588",
+    "count": 0,
+    "Id": "D00T003R20180403143849002632",
+    "type": 2,
+    "Name": "湖里区长岸路海天路口人行天桥西侧半球1",
+    "longitude": "118.087021"
+}, {
+    "latitude": "24.5298",
+    "count": 4,
+    "Id": "D00T003R20170914175956000926",
+    "type": 2,
+    "Name": "湖里区0560-金尚路小林后青龙宫庙路口K2",
+    "longitude": "118.1333"
+}, {
+    "latitude": "24.478859",
+    "count": 0,
+    "Id": "D00T003R20170914175956000939",
+    "type": 2,
+    "Name": "思明区BRT洪文站出口1",
+    "longitude": "118.154162"
+}, {
+    "latitude": "24.559981",
+    "count": 0,
+    "Id": "D00T003R20170920151410001263",
+    "type": 2,
+    "Name": "集美区高浦路豪友大排档路口_2",
+    "longitude": "118.046555"
+}, {
+    "latitude": "24.438703",
+    "count": 1,
+    "Id": "D00T003R20170902155536000849",
+    "type": 2,
+    "Name": "思明区曾厝垵二路学生公寓公交总站人脸西",
+    "longitude": "118.111506"
+}, {
+    "latitude": "24.581333",
+    "count": 0,
+    "Id": "D00T003R20170920151410001283",
+    "type": 2,
+    "Name": "集美区杏北二路与苑亭路路口2_1",
+    "longitude": "118.052002"
+}, {
+    "latitude": "24.572398",
+    "count": 0,
+    "Id": "D00T003R20170920151410001286",
+    "type": 2,
+    "Name": "集美区杏林北路建昌建材城路口_2",
+    "longitude": "118.037807"
+}, {
+    "latitude": "24.567407",
+    "count": 0,
+    "Id": "D00T003R20170920151410001291",
+    "type": 2,
+    "Name": "集美区杏林东路三秀巷路口_2",
+    "longitude": "118.038307"
+}, {
+    "latitude": "24.46614",
+    "count": 1,
+    "Id": "D00T003R20170902155441000847",
+    "type": 2,
+    "Name": "思明区BRT二市站出口2",
+    "longitude": "118.088979"
+}, {
+    "latitude": "24.57418",
+    "count": 0,
+    "Id": "D00T003R20170920151410001300",
+    "type": 2,
+    "Name": "集美区杏前路与杏林北路十字路口1_1",
+    "longitude": "118.038386"
+}, {
+    "latitude": "24.578454",
+    "count": 1,
+    "Id": "D00T003R20170920151410001310",
+    "type": 2,
+    "Name": "集美区中宛路内林社路口1_1",
+    "longitude": "118.041042"
+}, {
+    "latitude": "24.578454",
+    "count": 0,
+    "Id": "D00T003R20170920151410001311",
+    "type": 2,
+    "Name": "集美区中宛路内林社路口1_2",
+    "longitude": "118.041042"
+}, {
+    "latitude": "24.46979",
+    "count": 6,
+    "Id": "D00T003R20170914175956000958",
+    "type": 2,
+    "Name": "思明区BRT文灶站入口",
+    "longitude": "118.103306"
+}, {
+    "latitude": "24.668549",
+    "count": 1,
+    "Id": "D00T003R20170914175956000967",
+    "type": 2,
+    "Name": "翔安区舫山西路XA087-同美万家春里1号1",
+    "longitude": "118.210329"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170914175956000974",
+    "type": 2,
+    "Name": "翔安区XA108-同美塘尾仔同美里116号前2",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.669991",
+    "count": 1,
+    "Id": "D00T003R20170914175956000980",
+    "type": 2,
+    "Name": "翔安区XA112-同美塘尾仔同美小学路口1",
+    "longitude": "118.21117"
+}, {
+    "latitude": "24.474658",
+    "count": 0,
+    "Id": "D00T003R20180403143849002689",
+    "type": 2,
+    "Name": "思明区湖滨南路闽南人行天桥半球2",
+    "longitude": "118.098107"
+}, {
+    "latitude": "24.643852",
+    "count": 0,
+    "Id": "D00T003R20170914175956000990",
+    "type": 2,
+    "Name": "翔安区XA147-郑坂南里155号对面-盛远2",
+    "longitude": "118.232656"
+}, {
+    "latitude": "24.646666",
+    "count": 0,
+    "Id": "D00T003R20170914175956000996",
+    "type": 2,
+    "Name": "翔安区春光路XA169-郑坂社区综合农贸市场对面1",
+    "longitude": "118.232697"
+}, {
+    "latitude": "24.5104",
+    "count": 0,
+    "Id": "D00T003R20170914175956001119",
+    "type": 2,
+    "Name": "湖里区兴隆路塘边社328号K1",
+    "longitude": "118.1146"
+}, {
+    "latitude": "24.470179",
+    "count": 6,
+    "Id": "D00T003R20170914175956001128",
+    "type": 2,
+    "Name": "思明区厦禾路汉庭酒店门口人像识别东",
+    "longitude": "118.104065"
+}, {
+    "latitude": "24.469266",
+    "count": 11,
+    "Id": "D00T003R20170914175956001135",
+    "type": 2,
+    "Name": "思明区厦禾路英才商厦门口人像识别东",
+    "longitude": "118.100504"
+}, {
+    "latitude": "24.470242",
+    "count": 3,
+    "Id": "D00T003R20170914175956001139",
+    "type": 2,
+    "Name": "思明区厦禾路鑫安宾馆门口人像识别北",
+    "longitude": "118.104496"
+}, {
+    "latitude": "24.4886",
+    "count": 2,
+    "Id": "D00T003R20170914175956001011",
+    "type": 2,
+    "Name": "湖里区吕岭路蔡塘南侧学校1",
+    "longitude": "118.1551"
+}, {
+    "latitude": "24.474419",
+    "count": 3,
+    "Id": "D00T003R20170914175956001022",
+    "type": 2,
+    "Name": "思明区东浦路18号路口人像识别东",
+    "longitude": "118.120247"
+}, {
+    "latitude": "24.473102",
+    "count": 0,
+    "Id": "D00T003R20170914175956001037",
+    "type": 2,
+    "Name": "思明区禾祥东路与金榜西二路交叉口人像识别东",
+    "longitude": "118.104085"
+}, {
+    "latitude": "24.472511",
+    "count": 0,
+    "Id": "D00T003R20170914175956001043",
+    "type": 2,
+    "Name": "思明区后埭溪与禾祥东路交叉路口人像识别西（农业发展银行）",
+    "longitude": "118.101579"
+}, {
+    "latitude": "24.44129",
+    "count": 0,
+    "Id": "D00T003R20170914175956001051",
+    "type": 2,
+    "Name": "思明区环岛南路母子铜像1",
+    "longitude": "118.149808"
+}, {
+    "latitude": "24.2872",
+    "count": 0,
+    "Id": "D00T003R20180926111636003577",
+    "type": 2,
+    "Name": "厦门南站_站垂4人行通道2",
+    "longitude": "118.6382"
+}, {
+    "latitude": "24.48961",
+    "count": 3,
+    "Id": "D00T003R20170914175956001078",
+    "type": 2,
+    "Name": "思明区谊爱路莲花邮局2",
+    "longitude": "118.128201"
+}, {
+    "latitude": "24.534633",
+    "count": 0,
+    "Id": "D00T003R20170914175956001085",
+    "type": 2,
+    "Name": "海沧区霞阳南路良丰百货路口3",
+    "longitude": "118.016216"
+}, {
+    "latitude": "24.448058",
+    "count": 3,
+    "Id": "D00T003R20170914175956001091",
+    "type": 2,
+    "Name": "思明区黄厝中路与茂后路口A74号公厕旁",
+    "longitude": "118.152259"
+}, {
+    "latitude": "24.481018",
+    "count": 5,
+    "Id": "D00T003R20170914175956001102",
+    "type": 2,
+    "Name": "思明区嘉禾路辅路明发广场北区30号3",
+    "longitude": "118.116563"
+}, {
+    "latitude": "24.48214",
+    "count": 5,
+    "Id": "D00T003R20170914175956001145",
+    "type": 2,
+    "Name": "思明区莲兴路新景工行旁嘉禾路口2",
+    "longitude": "118.115873"
+}, {
+    "latitude": "24.435261",
+    "count": 0,
+    "Id": "D00T003R20170914175956001156",
+    "type": 2,
+    "Name": "思明区大学路演武大桥下厦大白城门口1",
+    "longitude": "118.097244"
+}, {
+    "latitude": "24.64378",
+    "count": 0,
+    "Id": "D00T003R20170914175956001180",
+    "type": 2,
+    "Name": "翔安区郑坂亿丰超市2",
+    "longitude": "118.232067"
+}, {
+    "latitude": "24.5083",
+    "count": 7,
+    "Id": "D00T003R20170914175956001186",
+    "type": 2,
+    "Name": "湖里区竹坑路22-26号K2",
+    "longitude": "118.0906"
+}, {
+    "latitude": "24.5261",
+    "count": 4,
+    "Id": "D00T003R20170914175956001193",
+    "type": 2,
+    "Name": "湖里区坂上社62号K2",
+    "longitude": "118.14"
+}, {
+    "latitude": "24.5327",
+    "count": 0,
+    "Id": "D00T003R20170914175956001197",
+    "type": 2,
+    "Name": "湖里区岐山北路围里社326号K1",
+    "longitude": "118.139"
+}, {
+    "latitude": "24.605304",
+    "count": 0,
+    "Id": "D00T003R20170918104444001241",
+    "type": 2,
+    "Name": "集美区孙坂南路浒井公交车站旁2",
+    "longitude": "118.092732"
+}, {
+    "latitude": "24.594781",
+    "count": 0,
+    "Id": "D00T003R20170918175138001245",
+    "type": 2,
+    "Name": "集美区同集南路叶厝村4",
+    "longitude": "118.101519"
+}, {
+    "latitude": "24.4965",
+    "count": 0,
+    "Id": "D00T003R20170919165836001252",
+    "type": 2,
+    "Name": "湖里区0325-枋湖东路金山西路路口K2",
+    "longitude": "118.17"
+}, {
+    "latitude": "24.5174",
+    "count": 1,
+    "Id": "D00T003R20170919165836001258",
+    "type": 2,
+    "Name": "湖里区0185-悦华路世纪小学路口K1",
+    "longitude": "118.111"
+}, {
+    "latitude": "24.467838",
+    "count": 0,
+    "Id": "D00T003R20170919165836001260",
+    "type": 2,
+    "Name": "思明区后埭西路与文灶街九中对面路口2",
+    "longitude": "118.103197"
+}, {
+    "latitude": "24.708489",
+    "count": 0,
+    "Id": "D00T003R20170921143621001316",
+    "type": 2,
+    "Name": "同安区同明路乌涂商业街爱心购物广场1",
+    "longitude": "118.119031"
+}, {
+    "latitude": "24.5256",
+    "count": 0,
+    "Id": "D00T003R20170914175956001201",
+    "type": 2,
+    "Name": "湖里区枋湖北二路县后社186号K4",
+    "longitude": "118.1499"
+}, {
+    "latitude": "24.43929",
+    "count": 1,
+    "Id": "D00T003R20170918104444001205",
+    "type": 2,
+    "Name": "思明区后厝路口人脸北",
+    "longitude": "118.113712"
+}, {
+    "latitude": "24.440639",
+    "count": 0,
+    "Id": "D00T003R20170918104444001210",
+    "type": 2,
+    "Name": "思明区老虎山路与龙虎西二里交叉口旧海洋路口人脸西",
+    "longitude": "118.115357"
+}, {
+    "latitude": "24.708489",
+    "count": 1,
+    "Id": "D00T003R20170921143621001323",
+    "type": 2,
+    "Name": "同安区同明路乌涂商业街爱心购物广场2",
+    "longitude": "118.119031"
+}, {
+    "latitude": "24.5297831",
+    "count": 0,
+    "Id": "D00T003R20171229172743002146",
+    "type": 2,
+    "Name": "海沧区许厝大榕树西面3",
+    "longitude": "118.0092161"
+}, {
+    "latitude": "24.5206361",
+    "count": 0,
+    "Id": "D00T003R20171229172743002150",
+    "type": 2,
+    "Name": "海沧区悦实广场路口东南面4",
+    "longitude": "117.9954381"
+}, {
+    "latitude": "24.4950071",
+    "count": 0,
+    "Id": "D00T003R20171229172743002154",
+    "type": 2,
+    "Name": "海沧区钟山村入口东南面5",
+    "longitude": "118.0196911"
+}, {
+    "latitude": "24.601378",
+    "count": 0,
+    "Id": "D00T003R20180115160230002203",
+    "type": 2,
+    "Name": "集美区同集南路叶厝九点半路口2",
+    "longitude": "118.106135"
+}, {
+    "latitude": "24.594681",
+    "count": 0,
+    "Id": "D00T003R20180115160230002204",
+    "type": 2,
+    "Name": "集美区同集南路国贸商城同悦路口1",
+    "longitude": "118.101433"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025154605001470",
+    "type": 2,
+    "Name": "海沧区水云湾北门东侧车道旁",
+    "longitude": "118.0294"
+}, {
+    "latitude": "24.4810",
+    "count": 2,
+    "Id": "D00T003R20171031180015001482",
+    "type": 2,
+    "Name": "思明区新景南门出口",
+    "longitude": "118.1129"
+}, {
+    "latitude": "24.4996",
+    "count": 71,
+    "Id": "D00T003R20171031180500001487",
+    "type": 2,
+    "Name": "湖里区裕兴大厦北门出口",
+    "longitude": "118.1232"
+}, {
+    "latitude": "24.4813",
+    "count": 0,
+    "Id": "D00T003R20171031184055001492",
+    "type": 2,
+    "Name": "思明区新景东门入口",
+    "longitude": "118.1145"
+}, {
+    "latitude": "24.5870",
+    "count": 225,
+    "Id": "D00T003R20171031184451001498",
+    "type": 2,
+    "Name": "集美区孙厝路口见福便利店门口2",
+    "longitude": "118.0956"
+}, {
+    "latitude": "24",
+    "count": 2,
+    "Id": "D00T003R20171103161415001507",
+    "type": 2,
+    "Name": "45路公交车DZ5520",
+    "longitude": "118"
+}, {
+    "latitude": "24.5324",
+    "count": 2,
+    "Id": "D00T003R20171106101030001509",
+    "type": 2,
+    "Name": "湖里区0227B-坂尚路安墩路路口K1",
+    "longitude": "118.1377"
+}, {
+    "latitude": "24.5712",
+    "count": 0,
+    "Id": "D00T003R20170927165917001377",
+    "type": 2,
+    "Name": "杏林白泉市场大门（靠杏东路）",
+    "longitude": "118.0355"
+}, {
+    "latitude": "24.4531211",
+    "count": 0,
+    "Id": "D00T003R20171229172743002095",
+    "type": 2,
+    "Name": "海沧区建港路贞庵村口西面2",
+    "longitude": "118.0198291"
+}, {
+    "latitude": "24.610514",
+    "count": 0,
+    "Id": "D00T003R20180320175111002586",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼负一层电梯口",
+    "longitude": "118.240515"
+}, {
+    "latitude": "24.5196091",
+    "count": 0,
+    "Id": "D00T003R20171229172743002108",
+    "type": 2,
+    "Name": "海沧区石室禅院南面4",
+    "longitude": "118.0160831"
+}, {
+    "latitude": "24.5018851",
+    "count": 0,
+    "Id": "D00T003R20171229172743002114",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面9",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.5344911",
+    "count": 4,
+    "Id": "D00T003R20171229172743002118",
+    "type": 2,
+    "Name": "海沧区霞阳畅想霞阳东路16号东面4",
+    "longitude": "118.0174031"
+}, {
+    "latitude": "24.531116",
+    "count": 0,
+    "Id": "D00T003R20170922143520001348",
+    "type": 2,
+    "Name": "湖里区云顶北路阳光公寓路口6",
+    "longitude": "118.149021"
+}, {
+    "latitude": "24.636798",
+    "count": 0,
+    "Id": "D00T003R20170922143520001353",
+    "type": 2,
+    "Name": "XA309厦门天马微电子有限公司宿舍出口2",
+    "longitude": "118.204516"
+}, {
+    "latitude": "24.5350161",
+    "count": 0,
+    "Id": "D00T003R20171229172743002119",
+    "type": 2,
+    "Name": "霞阳村公交站1",
+    "longitude": "118.0151731"
+}, {
+    "latitude": "24.5348301",
+    "count": 1,
+    "Id": "D00T003R20171229172743002126",
+    "type": 2,
+    "Name": "海沧区霞阳公园南面4",
+    "longitude": "118.0157551"
+}, {
+    "latitude": "24.5342941",
+    "count": 0,
+    "Id": "D00T003R20171229172743002130",
+    "type": 2,
+    "Name": "霞阳乐翻天西面6",
+    "longitude": "118.0155411"
+}, {
+    "latitude": "24.5307601",
+    "count": 4,
+    "Id": "D00T003R20171229172743002135",
+    "type": 2,
+    "Name": "海沧区新垵五角亭4",
+    "longitude": "117.9939801"
+}, {
+    "latitude": "24.5253501",
+    "count": 4,
+    "Id": "D00T003R20171229172743002137",
+    "type": 2,
+    "Name": "海沧区新垵中路西面4",
+    "longitude": "117.9937501"
+}, {
+    "latitude": "24.612356",
+    "count": 1,
+    "Id": "D00T003R20171113144227001613",
+    "type": 2,
+    "Name": "集美区BRT中科院站东入口",
+    "longitude": "118.061185"
+}, {
+    "latitude": "24.692018",
+    "count": 1,
+    "Id": "D00T003R20171113144227001615",
+    "type": 2,
+    "Name": "同安区BRT工业集中区站出口",
+    "longitude": "118.136608"
+}, {
+    "latitude": "24.610135",
+    "count": 0,
+    "Id": "D00T003R20171113144227001623",
+    "type": 2,
+    "Name": "集美区前占同集南路村口1",
+    "longitude": "118.112539"
+}, {
+    "latitude": "24.475252",
+    "count": 1,
+    "Id": "D00T003R20171128184345001657",
+    "type": 2,
+    "Name": "思明区后江埭路1",
+    "longitude": "118.099432"
+}, {
+    "latitude": "24.604411",
+    "count": 0,
+    "Id": "D00T003R20171129162434001664",
+    "type": 2,
+    "Name": "集美区侨英路浒井溜冰场路口2",
+    "longitude": "118.094197"
+}, {
+    "latitude": "24.590558",
+    "count": 0,
+    "Id": "D00T003R20171129162434001665",
+    "type": 2,
+    "Name": "集美区凤林路乐天路2",
+    "longitude": "118.103343"
+}, {
+    "latitude": "24.50717",
+    "count": 0,
+    "Id": "D00T003R20171228100006002020",
+    "type": 2,
+    "Name": "0816-园山南路北侧叉车厂站-朝东",
+    "longitude": "118.13284"
+}, {
+    "latitude": "24.453148",
+    "count": 1,
+    "Id": "D00T003R20180106134748002172",
+    "type": 2,
+    "Name": "思明区镇海路地铁站A端出口闸机09",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20180109174849002188",
+    "type": 2,
+    "Name": "海沧区霞阳南路霞阳大榕树路口3",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20180109174849002189",
+    "type": 2,
+    "Name": "霞阳大榕树路口2",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.5930",
+    "count": 0,
+    "Id": "D00T003R20171109200304001555",
+    "type": 2,
+    "Name": "集美区诚毅学院长廊小铁门1",
+    "longitude": "118.0897"
+}, {
+    "latitude": "24.5845",
+    "count": 0,
+    "Id": "D00T003R20171109201513001566",
+    "type": 2,
+    "Name": "集美大学水产学院清真餐厅后门",
+    "longitude": "118.0979"
+}, {
+    "latitude": "24.5926",
+    "count": 30,
+    "Id": "D00T003R20171109201546001567",
+    "type": 2,
+    "Name": "集美区孙厝集美大道口西侧灯杆出口",
+    "longitude": "118.0958"
+}, {
+    "latitude": "24.58905",
+    "count": 0,
+    "Id": "D00T003R20171113174614001628",
+    "type": 2,
+    "Name": "集美区凤安路厦门银行路口2",
+    "longitude": "118.105523"
+}, {
+    "latitude": "24.4653",
+    "count": 0,
+    "Id": "D00T003R20171120143025001641",
+    "type": 2,
+    "Name": "海沧区水云湾西门南侧入口",
+    "longitude": "118.0270"
+}, {
+    "latitude": "24.590558",
+    "count": 2,
+    "Id": "D00T003R20171129162434001662",
+    "type": 2,
+    "Name": "集美区凤林路乐天路3",
+    "longitude": "118.103343"
+}, {
+    "latitude": "24.591032",
+    "count": 1,
+    "Id": "D00T003R20171113144057001577",
+    "type": 2,
+    "Name": "集美区BRT凤林站东出口",
+    "longitude": "118.117222"
+}, {
+    "latitude": "24.636907",
+    "count": 2,
+    "Id": "D00T003R20171113144057001579",
+    "type": 2,
+    "Name": "集美区BRT厦门北站入口2",
+    "longitude": "118.068224"
+}, {
+    "latitude": "24.597275",
+    "count": 0,
+    "Id": "D00T003R20171113144057001584",
+    "type": 2,
+    "Name": "集美区BRT东垵站东入口",
+    "longitude": "118.121681"
+}, {
+    "latitude": "24.62944",
+    "count": 0,
+    "Id": "D00T003R20171113144057001585",
+    "type": 2,
+    "Name": "集美区BRT田厝站东入口",
+    "longitude": "118.066033"
+}, {
+    "latitude": "24.623712",
+    "count": 0,
+    "Id": "D00T003R20171113144057001587",
+    "type": 2,
+    "Name": "集美区BRT刘厝站西出口",
+    "longitude": "118.059826"
+}, {
+    "latitude": "24.612183",
+    "count": 0,
+    "Id": "D00T003R20171113144227001597",
+    "type": 2,
+    "Name": "集美区BRT中科院站西出口",
+    "longitude": "118.061055"
+}, {
+    "latitude": "24.612356",
+    "count": 1,
+    "Id": "D00T003R20171113144227001600",
+    "type": 2,
+    "Name": "集美区BRT中科院站东出口",
+    "longitude": "118.061185"
+}, {
+    "latitude": "24.484421",
+    "count": 0,
+    "Id": "D00T003R20171214174425001845",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头2号门",
+    "longitude": "118.070927"
+}, {
+    "latitude": "24.486305",
+    "count": 0,
+    "Id": "D00T003R20171214174425001853",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头国际邮轮到达口1",
+    "longitude": "118.070873"
+}, {
+    "latitude": "24.506904",
+    "count": 2,
+    "Id": "D00T003R20171214174425001745",
+    "type": 2,
+    "Name": "R012-湖里区金山路万达天桥1",
+    "longitude": "118.171408"
+}, {
+    "latitude": "24.506904",
+    "count": 2,
+    "Id": "D00T003R20171214174425001746",
+    "type": 2,
+    "Name": "R012-湖里区金山路万达天桥2",
+    "longitude": "118.171448"
+}, {
+    "latitude": "24.501743",
+    "count": 0,
+    "Id": "D00T003R20171214174425001757",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场南门1（麦当劳）",
+    "longitude": "118.1267971"
+}, {
+    "latitude": "24.5044391",
+    "count": 1,
+    "Id": "D00T003R20171214174425001758",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场北门1（肯德基）",
+    "longitude": "118.1218579"
+}, {
+    "latitude": "24.5002347",
+    "count": 1,
+    "Id": "D00T003R20171214174425001762",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场南门2（麦当劳）",
+    "longitude": "118.1271029"
+}, {
+    "latitude": "24.530416",
+    "count": 2,
+    "Id": "D00T003R20171214174425001763",
+    "type": 2,
+    "Name": "R027-湖里区安兜成功大道引桥下方出口1",
+    "longitude": "118.117782"
+}, {
+    "latitude": "24.4855066",
+    "count": 1,
+    "Id": "D00T003R20171214174425001774",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场大润发出口",
+    "longitude": "118.1563318"
+}, {
+    "latitude": "24.522325",
+    "count": 3,
+    "Id": "D00T003R20171214174425001777",
+    "type": 2,
+    "Name": "R028-湖里区成功大道安兜天桥1",
+    "longitude": "118.129547"
+}, {
+    "latitude": "24.718226",
+    "count": 2,
+    "Id": "D00T003R20171129162434001685",
+    "type": 2,
+    "Name": "同安区BRT城南站出口",
+    "longitude": "118.14195"
+}, {
+    "latitude": "24.587345",
+    "count": 0,
+    "Id": "D00T003R20171129162434001686",
+    "type": 2,
+    "Name": "集美区同集南路乐安路2",
+    "longitude": "118.09602"
+}, {
+    "latitude": "24.524814",
+    "count": 2,
+    "Id": "D00T003R20171205144846001704",
+    "type": 2,
+    "Name": "R019-湖里区殿前街道办事处正门人行道2",
+    "longitude": "118.101087"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171204112450001691",
+    "type": 2,
+    "Name": "海沧区水云湾西门北侧入口",
+    "longitude": "118"
+}, {
+    "latitude": "24.508158",
+    "count": 0,
+    "Id": "D00T003R20171214174425001785",
+    "type": 2,
+    "Name": "R004-湖里万达广场15号东通道(1028号)",
+    "longitude": "118.173313"
+}, {
+    "latitude": "24.5001956",
+    "count": 3,
+    "Id": "D00T003R20171214174425001795",
+    "type": 2,
+    "Name": "R009-湖里区嘉禾路SM天桥2",
+    "longitude": "118.1260139"
+}, {
+    "latitude": "24.5118242",
+    "count": 0,
+    "Id": "D00T003R20171214174425001804",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇西门3（迪卡隆）",
+    "longitude": "118.1605715"
+}, {
+    "latitude": "24.510986",
+    "count": 1,
+    "Id": "D00T003R20171214174425001807",
+    "type": 2,
+    "Name": "R011-湖里区金湖路枋湖客运站天桥1",
+    "longitude": "118.154507"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001818",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口4",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.610097",
+    "count": 0,
+    "Id": "D00T003R20180326153310002607",
+    "type": 2,
+    "Name": "翔安区泰和邮政广场路口",
+    "longitude": "118.241132"
+}, {
+    "latitude": "24.589813",
+    "count": 0,
+    "Id": "D00T003R20171205101525001692",
+    "type": 2,
+    "Name": "新华都凤田路路路口2",
+    "longitude": "118.102904"
+}, {
+    "latitude": "24.63125",
+    "count": 0,
+    "Id": "D00T003R20171205101525001696",
+    "type": 2,
+    "Name": "同安区BRT后田站东出口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.4909",
+    "count": 2,
+    "Id": "D00T003R20171205101525001698",
+    "type": 2,
+    "Name": "湖里区云顶中路BRT蔡塘站东侧1",
+    "longitude": "118.1492"
+}, {
+    "latitude": "24.502647",
+    "count": 3,
+    "Id": "D00T003R20171214174425001827",
+    "type": 2,
+    "Name": "R031-湖里区仙岳路禾山路路口人行道3",
+    "longitude": "118.12852"
+}, {
+    "latitude": "24.52143",
+    "count": 0,
+    "Id": "D00T003R20171218125920001882",
+    "type": 2,
+    "Name": "0832-湖里区环岛干道槟城路路口-朝1",
+    "longitude": "118.18097"
+}, {
+    "latitude": "24.294163",
+    "count": 0,
+    "Id": "D00T003R20171218125920001887",
+    "type": 2,
+    "Name": "0877-仙岳路北侧厦门古玩城站-朝东",
+    "longitude": "118.045166"
+}, {
+    "latitude": "24.50440",
+    "count": 3,
+    "Id": "D00T003R20171218125920001912",
+    "type": 2,
+    "Name": "0945-湖里区金山路下湖路路口-朝北",
+    "longitude": "118.17604"
+}, {
+    "latitude": "24.503653",
+    "count": 5,
+    "Id": "D00T003R20171218125920001923",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥3",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.531044",
+    "count": 6,
+    "Id": "D00T003R20171218125920001927",
+    "type": 2,
+    "Name": "R024-湖里区金尚路林后值勤点路口1",
+    "longitude": "118.131464"
+}, {
+    "latitude": "24.596131",
+    "count": 15,
+    "Id": "D00T003R20171222093757001960",
+    "type": 2,
+    "Name": "集美区BRT诚毅学院站西入口",
+    "longitude": "118.08957"
+}, {
+    "latitude": "24.4857221",
+    "count": 1,
+    "Id": "D00T003R20171229172743002073",
+    "type": 2,
+    "Name": "海沧公安分局西北面2",
+    "longitude": "118.0227741"
+}, {
+    "latitude": "24.48083",
+    "count": 2,
+    "Id": "D00T003R20180403143849002647",
+    "type": 2,
+    "Name": "思明区湖滨北路市政府人行天桥2",
+    "longitude": "118.083151"
+}, {
+    "latitude": "24.597944",
+    "count": 5,
+    "Id": "D00T003R20171215112854001877",
+    "type": 2,
+    "Name": "集美区行政服务中心门口_2",
+    "longitude": "118.055448"
+}, {
+    "latitude": "24.507952",
+    "count": 2,
+    "Id": "D00T003R20171218125920001931",
+    "type": 2,
+    "Name": "R010-湖里区万达金街通道4",
+    "longitude": "118.173336"
+}, {
+    "latitude": "24.534681",
+    "count": 5,
+    "Id": "D00T003R20171218125920001933",
+    "type": 2,
+    "Name": "R040-湖里区BRT县后站人行天桥2",
+    "longitude": "118.148205"
+}, {
+    "latitude": "24.480792",
+    "count": 0,
+    "Id": "D00T003R20180403143849002649",
+    "type": 2,
+    "Name": "思明区湖滨北路中行人行天桥2",
+    "longitude": "118.079079"
+}, {
+    "latitude": "24.4830211",
+    "count": 1,
+    "Id": "D00T003R20171229172743002049",
+    "type": 2,
+    "Name": "海沧区阿罗海城市广场入口东南面2",
+    "longitude": "118.0269821"
+}, {
+    "latitude": "24.5341381",
+    "count": 0,
+    "Id": "D00T003R20171229172743002054",
+    "type": 2,
+    "Name": "海沧区长庚医院入口东北侧1",
+    "longitude": "118.0076521"
+}, {
+    "latitude": "24.5341381",
+    "count": 0,
+    "Id": "D00T003R20171229172743002057",
+    "type": 2,
+    "Name": "海沧区长庚医院入口东北侧4",
+    "longitude": "118.0076521"
+}, {
+    "latitude": "24.4881881",
+    "count": 0,
+    "Id": "D00T003R20171229172743002060",
+    "type": 2,
+    "Name": "海沧区慈济东宫3",
+    "longitude": "117.9695591"
+}, {
+    "latitude": "24.52408",
+    "count": 0,
+    "Id": "D00T003R20180403143849002650",
+    "type": 2,
+    "Name": "湖里区环岛路五通立交桥1机场方向半球1",
+    "longitude": "118.187108"
+}, {
+    "latitude": "24.484752",
+    "count": 0,
+    "Id": "D00T003R20171214174425001856",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头3号门",
+    "longitude": "118.070618"
+}, {
+    "latitude": "24.485668",
+    "count": 0,
+    "Id": "D00T003R20171214174425001862",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头9号门",
+    "longitude": "118.071176"
+}, {
+    "latitude": "24.508907",
+    "count": 0,
+    "Id": "D00T003R20171214174425001865",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼南大门1",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.52408",
+    "count": 0,
+    "Id": "D00T003R20180403143849002651",
+    "type": 2,
+    "Name": "湖里区环岛路五通立交桥1机场方向半球2",
+    "longitude": "118.187108"
+}, {
+    "latitude": "24.507183",
+    "count": 1,
+    "Id": "D00T003R20180403143849002662",
+    "type": 2,
+    "Name": "湖里区金钟路高林居住区天桥半球1",
+    "longitude": "118.183156"
+}, {
+    "latitude": "24.4792441",
+    "count": 0,
+    "Id": "D00T003R20180125101812002248",
+    "type": 2,
+    "Name": "海沧区海沧农村客运站西南面3",
+    "longitude": "118.0169531"
+}, {
+    "latitude": "24.479057",
+    "count": 0,
+    "Id": "D00T003R20180403143849002684",
+    "type": 2,
+    "Name": "思明区湖滨南路国贸人行天桥半球1",
+    "longitude": "118.114143"
+}, {
+    "latitude": "24.499259",
+    "count": 0,
+    "Id": "D00T003R20180403143849002643",
+    "type": 2,
+    "Name": "湖里区东渡路和旭路人行天桥半球2",
+    "longitude": "118.080555"
+}, {
+    "latitude": "24.484566",
+    "count": 0,
+    "Id": "D00T003R20180403143849002645",
+    "type": 2,
+    "Name": "湖里区东港路国际邮轮城人行天桥半球2",
+    "longitude": "118.071623"
+}, {
+    "latitude": "24.514961",
+    "count": 0,
+    "Id": "D00T003R20180125170611002257",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站A端入口闸机08",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002270",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线出口闸机07",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002276",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机16",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 3,
+    "Id": "D00T003R20180125170611002280",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线出口闸机25",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002286",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线入口闸机33",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002291",
+    "type": 2,
+    "Name": "集美区岩内地铁站B端入口闸机04",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002294",
+    "type": 2,
+    "Name": "集美区岩内地铁站B端出口闸机07",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.463483",
+    "count": 0,
+    "Id": "D00T003R20180125170611002307",
+    "type": 2,
+    "Name": "思明区将军祠地铁站B端入口闸机09",
+    "longitude": "118.09482"
+}, {
+    "latitude": "24.47093",
+    "count": 0,
+    "Id": "D00T003R20180125170611002326",
+    "type": 2,
+    "Name": "思明区文灶地铁站A端入口闸机05",
+    "longitude": "118.098118"
+}, {
+    "latitude": "24.495475",
+    "count": 0,
+    "Id": "D00T003R20180403143849002637",
+    "type": 2,
+    "Name": "湖里区东渡路大榕树人行天桥半球2",
+    "longitude": "118.078901"
+}, {
+    "latitude": "24.4876",
+    "count": 0,
+    "Id": "D00T003R20180427175547002777",
+    "type": 2,
+    "Name": "0691-蔡塘一路蔡塘二路路口K2",
+    "longitude": "118.1544"
+}, {
+    "latitude": "24.50447",
+    "count": 0,
+    "Id": "D00T003R20180627172027003099",
+    "type": 2,
+    "Name": "湖里区0156R-嘉禾路SM一期公交站-朝北",
+    "longitude": "118.12114"
+}, {
+    "latitude": "24.481453",
+    "count": 0,
+    "Id": "D00T003R20180418120551002757",
+    "type": 2,
+    "Name": "思明区一代佳人成功大道路口1",
+    "longitude": "118.120634"
+}, {
+    "latitude": "24.4876",
+    "count": 0,
+    "Id": "D00T003R20180509120312002817",
+    "type": 2,
+    "Name": "湖里区0691-蔡塘一路蔡塘二路路口K2",
+    "longitude": "118.1544"
+}, {
+    "latitude": "24.592485",
+    "count": 0,
+    "Id": "D00T003R20180601102222002881",
+    "type": 2,
+    "Name": "测试集美活动临时人脸1",
+    "longitude": "118.042893"
+}, {
+    "latitude": "24.4597",
+    "count": 0,
+    "Id": "D00T003R20180608163113002951",
+    "type": 2,
+    "Name": "思明区市局传达室",
+    "longitude": "118.0799"
+}, {
+    "latitude": "24.48616",
+    "count": 0,
+    "Id": "D00T003R20180627172027003109",
+    "type": 2,
+    "Name": "湖里区0162R-新丰路创新三路路口-朝南",
+    "longitude": "118.15938"
+}, {
+    "latitude": "24.52209",
+    "count": 0,
+    "Id": "D00T003R20180627172027003119",
+    "type": 2,
+    "Name": "湖里区0187R-火炬北路新丰路路口1-朝北",
+    "longitude": "118.12081"
+}, {
+    "latitude": "24.49861",
+    "count": 0,
+    "Id": "D00T003R20180627172027003122",
+    "type": 2,
+    "Name": "湖里区0189R-江头西路江头公园西门-朝南",
+    "longitude": "118.12488"
+}, {
+    "latitude": "24.51892",
+    "count": 0,
+    "Id": "D00T003R20180627172027003128",
+    "type": 2,
+    "Name": "湖里区0239R-金尚路尚忠社路口-朝西",
+    "longitude": "118.1477"
+}, {
+    "latitude": "24.51374",
+    "count": 0,
+    "Id": "D00T003R20180627172027003130",
+    "type": 2,
+    "Name": "湖里区0247R-云顶北路枋湖南路路口-朝东",
+    "longitude": "118.15871"
+}, {
+    "latitude": "24.245",
+    "count": 0,
+    "Id": "D00T003R20180428155826002780",
+    "type": 2,
+    "Name": "集美五一活动临时人脸2",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.45125",
+    "count": 8,
+    "Id": "D00T003R20180502183353002794",
+    "type": 2,
+    "Name": "思明区镇海路站2号出口2",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.45125",
+    "count": 0,
+    "Id": "D00T003R20180502183353002800",
+    "type": 2,
+    "Name": "思明区镇海路站2号入口2",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.54865",
+    "count": 0,
+    "Id": "D00T003R20180627172027003064",
+    "type": 2,
+    "Name": "湖里区0040R-海堤路高崎小学路口-朝东",
+    "longitude": "118.10635"
+}, {
+    "latitude": "24.50703",
+    "count": 0,
+    "Id": "D00T003R20180627172027003077",
+    "type": 2,
+    "Name": "湖里区0094R-嘉禾路观音寺门口-朝西",
+    "longitude": "118.11948"
+}, {
+    "latitude": "24.50159",
+    "count": 0,
+    "Id": "D00T003R20180627172027003078",
+    "type": 2,
+    "Name": "湖里区0104R-南山路仙岳公园门口-朝北",
+    "longitude": "118.10703"
+}, {
+    "latitude": "24.50159",
+    "count": 0,
+    "Id": "D00T003R20180627172027003079",
+    "type": 2,
+    "Name": "湖里区0104R-南山路仙岳公园门口-朝南",
+    "longitude": "118.10703"
+}, {
+    "latitude": "24.49521",
+    "count": 0,
+    "Id": "D00T003R20180627172027003083",
+    "type": 2,
+    "Name": "湖里区0138R-嘉禾路吕厝路路口2-朝西",
+    "longitude": "118.12304"
+}, {
+    "latitude": "24.49551",
+    "count": 0,
+    "Id": "D00T003R20180627172027003085",
+    "type": 2,
+    "Name": "湖里区0139R-嘉禾路东方巴黎小商品市场-朝南",
+    "longitude": "118.122772"
+}, {
+    "latitude": "24.49682",
+    "count": 1,
+    "Id": "D00T003R20180627172027003089",
+    "type": 2,
+    "Name": "湖里区0141R-台湾街江头南路路口2-朝西",
+    "longitude": "118.12751"
+}, {
+    "latitude": "24.48895",
+    "count": 0,
+    "Id": "D00T003R20180627172027003150",
+    "type": 2,
+    "Name": "湖里区0365R-云顶中路忠仑公园西南路口-朝北",
+    "longitude": "118.14804"
+}, {
+    "latitude": "24.48741",
+    "count": 1,
+    "Id": "D00T003R20180627172027003152",
+    "type": 2,
+    "Name": "湖里区0506R-东渡路74号保安亭-朝北",
+    "longitude": "118.07507"
+}, {
+    "latitude": "24.50226",
+    "count": 0,
+    "Id": "D00T003R20180627172027003214",
+    "type": 2,
+    "Name": "湖里区0801R-仙岳路南侧白果山公交站-朝西",
+    "longitude": "118.12658"
+}, {
+    "latitude": "24.49709",
+    "count": 0,
+    "Id": "D00T003R20180627172027003217",
+    "type": 2,
+    "Name": "湖里区0805R-台湾街西侧建材市场公交站-朝东",
+    "longitude": "118.12735"
+}, {
+    "latitude": "24.49498",
+    "count": 0,
+    "Id": "D00T003R20180627172027003219",
+    "type": 2,
+    "Name": "湖里区0807R-吕岭路报业大厦站-朝西",
+    "longitude": "118.12865"
+}, {
+    "latitude": "24.47927",
+    "count": 0,
+    "Id": "D00T003R20180627172027003224",
+    "type": 2,
+    "Name": "湖里区0876R-东渡路东侧狐尾山站2-朝北",
+    "longitude": "118.07821"
+}, {
+    "latitude": "24.50511",
+    "count": 0,
+    "Id": "D00T003R20180627172027003240",
+    "type": 2,
+    "Name": "湖里区0951R-仙岳北侧湖边站-朝西",
+    "longitude": "118.16264"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180724111933003359",
+    "type": 2,
+    "Name": "同集南路孙厝公交车站进岛",
+    "longitude": "117"
+}, {
+    "latitude": "24.495061",
+    "count": 0,
+    "Id": "D00T003R20180724151521003365",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路新景园停车收费岗1",
+    "longitude": "118.125419"
+}, {
+    "latitude": "24.627244",
+    "count": 0,
+    "Id": "D00T003R20180704095557003297",
+    "type": 2,
+    "Name": "集美区溪西坂山里59号_1",
+    "longitude": "118.028809"
+}, {
+    "latitude": "24.602917",
+    "count": 0,
+    "Id": "D00T003R20180704095557003310",
+    "type": 2,
+    "Name": "集美区凤山庙路好百姓药店门口路口_2",
+    "longitude": "117.986712"
+}, {
+    "latitude": "24.630708",
+    "count": 0,
+    "Id": "D00T003R20180704095557003313",
+    "type": 2,
+    "Name": "集美区后溪卫生院",
+    "longitude": "118.029961"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180724111742003357",
+    "type": 2,
+    "Name": "月台路与白泉街1",
+    "longitude": "117"
+}, {
+    "latitude": "24.494483",
+    "count": 0,
+    "Id": "D00T003R20180724151521003364",
+    "type": 2,
+    "Name": "湖里区0179R-吕岭路广物连锁超市旁",
+    "longitude": "118.126322"
+}, {
+    "latitude": "24.49907",
+    "count": 0,
+    "Id": "D00T003R20180627172027003177",
+    "type": 2,
+    "Name": "湖里区0626R-台湾街东方威尼斯出口-朝西",
+    "longitude": "118.12763"
+}, {
+    "latitude": "24.50217",
+    "count": 0,
+    "Id": "D00T003R20180627172027003180",
+    "type": 2,
+    "Name": "湖里区0633R-仙岳路台商会馆路口-朝东",
+    "longitude": "118.12748"
+}, {
+    "latitude": "24.565578",
+    "count": 0,
+    "Id": "D00T003R20181012152312003840",
+    "type": 2,
+    "Name": "(金海湾)文达二里111号一楼",
+    "longitude": "118.053588"
+}, {
+    "latitude": "24.58232",
+    "count": 0,
+    "Id": "D00T003R20180906144401003519",
+    "type": 2,
+    "Name": "体育学院门口南人行道2B",
+    "longitude": "118.092639"
+}, {
+    "latitude": "24.5113",
+    "count": 0,
+    "Id": "D00T003R20180802153821003405",
+    "type": 2,
+    "Name": "湖里区兴隆路华昌路凤湖街入口K2",
+    "longitude": "118.0918"
+}, {
+    "latitude": "24.476283",
+    "count": 1,
+    "Id": "D00T003R20180802153821003408",
+    "type": 2,
+    "Name": "思明区厦禾路李老六路口1",
+    "longitude": "118.115117"
+}, {
+    "latitude": "24.476283",
+    "count": 0,
+    "Id": "D00T003R20180802153821003411",
+    "type": 2,
+    "Name": "思明区厦禾路李老六路口3",
+    "longitude": "118.115117"
+}, {
+    "latitude": "24.566549",
+    "count": 0,
+    "Id": "D00T003R20181012152312003779",
+    "type": 2,
+    "Name": "(金海湾)文达二里129号一楼",
+    "longitude": "118.053714"
+}, {
+    "latitude": "24.57687",
+    "count": 0,
+    "Id": "D00T003R20180927165313003610",
+    "type": 2,
+    "Name": "集大新校区南大门_3B",
+    "longitude": "118.088961"
+}, {
+    "latitude": "24.566908",
+    "count": 0,
+    "Id": "D00T003R20181012152312003791",
+    "type": 2,
+    "Name": "(金海湾)文达二里176号一楼",
+    "longitude": "118.054769"
+}, {
+    "latitude": "24.566328",
+    "count": 0,
+    "Id": "D00T003R20181012152312003804",
+    "type": 2,
+    "Name": "(金海湾)文达二里114号一楼",
+    "longitude": "118.053171"
+}, {
+    "latitude": "24.565062",
+    "count": 0,
+    "Id": "D00T003R20181012152312003800",
+    "type": 2,
+    "Name": "(金海湾)文达二里62号一楼",
+    "longitude": "118.053063"
+}, {
+    "latitude": "24.4598",
+    "count": 0,
+    "Id": "D00T003R20180822100321003463",
+    "type": 2,
+    "Name": "8楼瑞为摄像机",
+    "longitude": "118.0802"
+}, {
+    "latitude": "24.56511",
+    "count": 0,
+    "Id": "D00T003R20181012152312003810",
+    "type": 2,
+    "Name": "(金海湾)文达二里63号一楼",
+    "longitude": "118.052803"
+}, {
+    "latitude": "24.564905",
+    "count": 0,
+    "Id": "D00T003R20181012152312003834",
+    "type": 2,
+    "Name": "(金海湾)文达二里61号一楼",
+    "longitude": "118.053307"
+}, {
+    "latitude": "24.494625",
+    "count": 0,
+    "Id": "D00T003R20180724151521003373",
+    "type": 2,
+    "Name": "湖里区0136R-江头西路7-13号易兴通讯1",
+    "longitude": "118.124167"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000082",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口4",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4732",
+    "count": 1,
+    "Id": "D00T003R20170411203954000033",
+    "type": 2,
+    "Name": "思明区梧村汽车站出口2",
+    "longitude": "118.1107"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000044",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站出口2",
+    "longitude": "118.1339"
+}, {
+    "latitude": "24.5885",
+    "count": 0,
+    "Id": "D00T003R20170411203954000045",
+    "type": 2,
+    "Name": "集美区BRT集美大桥南站东侧出口",
+    "longitude": "118.1036"
+}, {
+    "latitude": "24.5487",
+    "count": 0,
+    "Id": "D00T003R20170713164248001043",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥208",
+    "longitude": "118.1404"
+}, {
+    "latitude": "24.477738",
+    "count": 0,
+    "Id": "D00T003R20170725105939000454",
+    "type": 2,
+    "Name": "东浦路兴鹭峰洒店路口人像识别西1",
+    "longitude": "118.134355"
+}, {
+    "latitude": "24.475941",
+    "count": 0,
+    "Id": "D00T003R20170725105939000463",
+    "type": 2,
+    "Name": "后埭溪与禾祥东路交叉路口人像识别西（农业发展银行）1",
+    "longitude": "118.112973"
+}, {
+    "latitude": "24.475813",
+    "count": 0,
+    "Id": "D00T003R20170725105939000464",
+    "type": 2,
+    "Name": "后埭溪与禾祥东路交叉路口人像识别西（益城广场）1",
+    "longitude": "118.11322"
+}, {
+    "latitude": "24.526915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000538",
+    "type": 2,
+    "Name": "0566-枋湖北二路板上路口K11",
+    "longitude": "118.15566"
+}, {
+    "latitude": "24.526915",
+    "count": 0,
+    "Id": "D00T003R20170810114050000542",
+    "type": 2,
+    "Name": "BRT斗西站出站11",
+    "longitude": "118.15566"
+}, {
+    "latitude": "24.47339",
+    "count": 0,
+    "Id": "D00T003R20180326153143002602",
+    "type": 2,
+    "Name": "思明区禾祥东路汉庭酒店路口1",
+    "longitude": "118.104706"
+}, {
+    "latitude": "24.530078",
+    "count": 0,
+    "Id": "D00T003R20170804094840000518",
+    "type": 2,
+    "Name": "编号556金尚路林后村11",
+    "longitude": "118.147284"
+}, {
+    "latitude": "24.451026",
+    "count": 0,
+    "Id": "D00T003R20170804094840000521",
+    "type": 2,
+    "Name": "环岛南路椰风寨岗亭11",
+    "longitude": "118.164235"
+}, {
+    "latitude": "24.5074",
+    "count": 0,
+    "Id": "D00T003R20170714142852000445",
+    "type": 2,
+    "Name": "海沧大桥（湖滨）公安检查站人脸微卡口",
+    "longitude": "118.069165"
+}, {
+    "latitude": "24.476878",
+    "count": 0,
+    "Id": "D00T003R20170725105939000477",
+    "type": 2,
+    "Name": "金枫园门口人像识别北1",
+    "longitude": "118.128624"
+}, {
+    "latitude": "24.477055",
+    "count": 0,
+    "Id": "D00T003R20170725105939000485",
+    "type": 2,
+    "Name": "悟村街道与益泰大厦出口人像识别西1",
+    "longitude": "118.124489"
+}, {
+    "latitude": "24.5903",
+    "count": 1,
+    "Id": "D00T003R20170411203954000053",
+    "type": 2,
+    "Name": "集美区BRT集美嘉庚体育馆站出口1",
+    "longitude": "118.1009"
+}, {
+    "latitude": "24.4793",
+    "count": 5,
+    "Id": "D00T003R20170411203954000022",
+    "type": 2,
+    "Name": "思明区BRT东芳山庄出口2",
+    "longitude": "118.1451"
+}, {
+    "latitude": "24.6379",
+    "count": 1,
+    "Id": "D00T003R20170411203954000125",
+    "type": 2,
+    "Name": "厦门北站进站验证口7",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.55558",
+    "count": 0,
+    "Id": "D00T003R20170712100202000388",
+    "type": 2,
+    "Name": "厦门大桥公安检查站人脸微卡口",
+    "longitude": "118.11679"
+}, {
+    "latitude": "24.552718",
+    "count": 0,
+    "Id": "D00T003R20170712100202000395",
+    "type": 2,
+    "Name": "厦蓉高速海沧市际公安检查站人脸微卡口",
+    "longitude": "117.92758"
+}, {
+    "latitude": "24.5396",
+    "count": 0,
+    "Id": "D00T003R20170713164248001028",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#16",
+    "longitude": "118.1285"
+}, {
+    "latitude": "24.5383",
+    "count": 0,
+    "Id": "D00T003R20170713164248001033",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#9",
+    "longitude": "118.1267"
+}, {
+    "latitude": "24.4698",
+    "count": 0,
+    "Id": "D00T003R20170411203954000093",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台1",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000099",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口1",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.4709",
+    "count": 0,
+    "Id": "D00T003R20170411203954000109",
+    "type": 2,
+    "Name": "厦门南站_北广场出站口11",
+    "longitude": "118.1106"
+}, {
+    "latitude": "24.673264",
+    "count": 0,
+    "Id": "D00T003R20170810114050000562",
+    "type": 2,
+    "Name": "停用翔安区XA124-同美下枫路井冈山饭店前-01",
+    "longitude": "118.209134"
+}, {
+    "latitude": "24.452393",
+    "count": 0,
+    "Id": "D00T003R20170810114050000564",
+    "type": 2,
+    "Name": "草厝村口1",
+    "longitude": "118.157763"
+}, {
+    "latitude": "24.487871",
+    "count": 0,
+    "Id": "D00T003R20170810114050000568",
+    "type": 2,
+    "Name": "第二实验小学旁11",
+    "longitude": "118.133405"
+}, {
+    "latitude": "24.466412",
+    "count": 0,
+    "Id": "D00T003R20170810114057000649",
+    "type": 2,
+    "Name": "开禾路口站进站1",
+    "longitude": "118.082392"
+}, {
+    "latitude": "24.439004",
+    "count": 0,
+    "Id": "D00T003R20170810114057000651",
+    "type": 2,
+    "Name": "演武大桥下公厕旁11",
+    "longitude": "118.106441"
+}, {
+    "latitude": "24.646683",
+    "count": 0,
+    "Id": "D00T003R20170815112636000659",
+    "type": 2,
+    "Name": "XA169-郑坂社区综合农贸市场对面11",
+    "longitude": "118.245925"
+}, {
+    "latitude": "24.452076",
+    "count": 0,
+    "Id": "D00T003R20170810114050000584",
+    "type": 2,
+    "Name": "民族路与寿山路21",
+    "longitude": "118.088349"
+}, {
+    "latitude": "24.4828",
+    "count": 0,
+    "Id": "D00T003R20170810114050000585",
+    "type": 2,
+    "Name": "明发BRT旁11",
+    "longitude": "118.12894"
+}, {
+    "latitude": "24.4828",
+    "count": 0,
+    "Id": "D00T003R20170810114050000587",
+    "type": 2,
+    "Name": "明发BRT旁31",
+    "longitude": "118.12894"
+}, {
+    "latitude": "24.482664",
+    "count": 0,
+    "Id": "D00T003R20170810114050000591",
+    "type": 2,
+    "Name": "明发南区80号周边11",
+    "longitude": "118.130534"
+}, {
+    "latitude": "24.532172",
+    "count": 0,
+    "Id": "D00T003R20170810114050000614",
+    "type": 2,
+    "Name": "坂上路围里社区路口K21",
+    "longitude": "118.151398"
+}, {
+    "latitude": "24.528885",
+    "count": 0,
+    "Id": "D00T003R20170810114050000615",
+    "type": 2,
+    "Name": "坂上社62号K21",
+    "longitude": "118.151079"
+}, {
+    "latitude": "24.667005",
+    "count": 0,
+    "Id": "D00T003R20170810114057000623",
+    "type": 2,
+    "Name": "XA032-马巷街80号外墙11",
+    "longitude": "118.245882"
+}, {
+    "latitude": "24.645878",
+    "count": 0,
+    "Id": "D00T003R20170810114050000545",
+    "type": 2,
+    "Name": "XA002-市头北里1号101对面11",
+    "longitude": "118.247136"
+}, {
+    "latitude": "24.669267",
+    "count": 0,
+    "Id": "D00T003R20170810114050000548",
+    "type": 2,
+    "Name": "XA083-同美山头里49号斜对面-021",
+    "longitude": "118.212426"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170810114050000555",
+    "type": 2,
+    "Name": "XA108-同美塘尾仔同美里116号前11",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.530673",
+    "count": 0,
+    "Id": "D00T003R20170914175956000912",
+    "type": 2,
+    "Name": "湖里区0012-殿前六路五路夜市路口K1",
+    "longitude": "118.102207"
+}, {
+    "latitude": "24.5175",
+    "count": 0,
+    "Id": "D00T003R20170914175956000916",
+    "type": 2,
+    "Name": "湖里区0183-嘉禾路悦华路路口K2",
+    "longitude": "118.1131"
+}, {
+    "latitude": "24.43216",
+    "count": 0,
+    "Id": "D00T003R20170902155441000837",
+    "type": 2,
+    "Name": "思明区环岛南路珍珠湾花园人脸东",
+    "longitude": "118.105843"
+}, {
+    "latitude": "24.6262",
+    "count": 0,
+    "Id": "D00T003R20170818105829000728",
+    "type": 2,
+    "Name": "集美区理工学院集美校区",
+    "longitude": "118.0824"
+}, {
+    "latitude": "24.513107",
+    "count": 0,
+    "Id": "D00T003R20170821095104000735",
+    "type": 2,
+    "Name": "0521-兴隆路光亮骨科医院K11",
+    "longitude": "118.12501"
+}, {
+    "latitude": "24.519518",
+    "count": 0,
+    "Id": "D00T003R20170815112636000670",
+    "type": 2,
+    "Name": "云顶北路政务中心路口11",
+    "longitude": "118.165224"
+}, {
+    "latitude": "24.519518",
+    "count": 0,
+    "Id": "D00T003R20170815112636000671",
+    "type": 2,
+    "Name": "云顶北路政务中心路口31",
+    "longitude": "118.165224"
+}, {
+    "latitude": "24.508162",
+    "count": 0,
+    "Id": "D00T003R20170815112636000674",
+    "type": 2,
+    "Name": "竹坑路10号K11",
+    "longitude": "118.089561"
+}, {
+    "latitude": "24.508217",
+    "count": 0,
+    "Id": "D00T003R20170815112636000681",
+    "type": 2,
+    "Name": "竹坑路华昌路路口K41",
+    "longitude": "118.09232"
+}, {
+    "latitude": "24.523207",
+    "count": 0,
+    "Id": "D00T003R20170815112641000689",
+    "type": 2,
+    "Name": "福隆驾校旁（辅路）11",
+    "longitude": "117.997198"
+}, {
+    "latitude": "24.534767",
+    "count": 0,
+    "Id": "D00T003R20170815112641000690",
+    "type": 2,
+    "Name": "高炳煌口腔医院路口11",
+    "longitude": "118.001541"
+}, {
+    "latitude": "24.535888",
+    "count": 0,
+    "Id": "D00T003R20170815112641000691",
+    "type": 2,
+    "Name": "海沧中学体育场外十字路口21",
+    "longitude": "117.9904"
+}, {
+    "latitude": "24.537422",
+    "count": 0,
+    "Id": "D00T003R20170815112641000694",
+    "type": 2,
+    "Name": "晶华陶瓷路口11",
+    "longitude": "118.028818"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20170815112641000704",
+    "type": 2,
+    "Name": "霞阳大榕树路口31",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.489718",
+    "count": 0,
+    "Id": "D00T003R20170817152504000714",
+    "type": 2,
+    "Name": "莲花邮局21",
+    "longitude": "118.128113"
+}, {
+    "latitude": "24.489718",
+    "count": 0,
+    "Id": "D00T003R20170817152504000721",
+    "type": 2,
+    "Name": "莲花邮局31",
+    "longitude": "118.128113"
+}, {
+    "latitude": "24.46674",
+    "count": 0,
+    "Id": "D00T003R20170823100549000773",
+    "type": 2,
+    "Name": "BRT思北站进站1",
+    "longitude": "118.087197"
+}, {
+    "latitude": "24.431034",
+    "count": 0,
+    "Id": "D00T003R20170823100549000778",
+    "type": 2,
+    "Name": "曾厝垵阿川海鲜（西向东）1",
+    "longitude": "118.130913"
+}, {
+    "latitude": "24.432021",
+    "count": 0,
+    "Id": "D00T003R20170823100549000786",
+    "type": 2,
+    "Name": "曾厝垵佳福园路口（南向北）1",
+    "longitude": "118.130006"
+}, {
+    "latitude": "24.430236",
+    "count": 0,
+    "Id": "D00T003R20170823100549000789",
+    "type": 2,
+    "Name": "曾厝垵加油站路口（北向南）人脸1",
+    "longitude": "118.133006"
+}, {
+    "latitude": "24.433287",
+    "count": 0,
+    "Id": "D00T003R20170823100549000792",
+    "type": 2,
+    "Name": "曾厝垵街道40号（南向北）1",
+    "longitude": "118.130935"
+}, {
+    "latitude": "24.510813",
+    "count": 1,
+    "Id": "D00T003R20170914175956000923",
+    "type": 2,
+    "Name": "湖里区0522-兴隆路中国邮政路口K2",
+    "longitude": "118.10925"
+}, {
+    "latitude": "24.5239",
+    "count": 0,
+    "Id": "D00T003R20170914175956000927",
+    "type": 2,
+    "Name": "湖里区0566-枋湖北二路板上路口K1",
+    "longitude": "118.1441"
+}, {
+    "latitude": "24.46165",
+    "count": 2,
+    "Id": "D00T003R20170914175956000934",
+    "type": 2,
+    "Name": "思明区BRT第一码头站入口1",
+    "longitude": "118.066653"
+}, {
+    "latitude": "24.46165",
+    "count": 1,
+    "Id": "D00T003R20170914175956000935",
+    "type": 2,
+    "Name": "思明区BRT第一码头站入口2",
+    "longitude": "118.066653"
+}, {
+    "latitude": "24.478859",
+    "count": 4,
+    "Id": "D00T003R20170914175956000941",
+    "type": 2,
+    "Name": "思明区BRT洪文站入口",
+    "longitude": "118.154162"
+}, {
+    "latitude": "24.514606",
+    "count": 0,
+    "Id": "D00T003R20170914175956000950",
+    "type": 2,
+    "Name": "湖里区BRT市政务服务中心站出口1",
+    "longitude": "118.154174"
+}, {
+    "latitude": "24.56458",
+    "count": 0,
+    "Id": "D00T003R20170920151410001266",
+    "type": 2,
+    "Name": "集美区高浦西竺寺广场_2",
+    "longitude": "118.05129"
+}, {
+    "latitude": "24.60486",
+    "count": 0,
+    "Id": "D00T003R20170920151410001268",
+    "type": 2,
+    "Name": "集美区横四路和美别墅天桥2_1",
+    "longitude": "118.044118"
+}, {
+    "latitude": "24.594188",
+    "count": 0,
+    "Id": "D00T003R20170920151410001280",
+    "type": 2,
+    "Name": "集美区万科里2_1",
+    "longitude": "118.057017"
+}, {
+    "latitude": "24.439885",
+    "count": 0,
+    "Id": "D00T003R20170902155536000848",
+    "type": 2,
+    "Name": "思明区曾厝垵上里上李老黑批发部路口人脸东",
+    "longitude": "118.118949"
+}, {
+    "latitude": "24.572398",
+    "count": 1,
+    "Id": "D00T003R20170920151410001285",
+    "type": 2,
+    "Name": "集美区杏林北路建昌建材城路口_1",
+    "longitude": "118.037807"
+}, {
+    "latitude": "24.475645",
+    "count": 0,
+    "Id": "D00T003R20180403143849002687",
+    "type": 2,
+    "Name": "思明区湖滨南路湖滨中学人行天桥半球2",
+    "longitude": "118.10209"
+}, {
+    "latitude": "24.563191",
+    "count": 1,
+    "Id": "D00T003R20170920151410001309",
+    "type": 2,
+    "Name": "集美区禹州中央海岸联发杏林湾一号转盘1_2",
+    "longitude": "118.059628"
+}, {
+    "latitude": "24.462958",
+    "count": 1,
+    "Id": "D00T003R20170914175956000954",
+    "type": 2,
+    "Name": "思明区BRT思北站出口2",
+    "longitude": "118.075358"
+}, {
+    "latitude": "24.670146",
+    "count": 0,
+    "Id": "D00T003R20170914175956000975",
+    "type": 2,
+    "Name": "翔安区XA108-同美塘尾仔同美里116号前3",
+    "longitude": "118.212443"
+}, {
+    "latitude": "24.669991",
+    "count": 0,
+    "Id": "D00T003R20170914175956000979",
+    "type": 2,
+    "Name": "翔安区XA112-同美塘尾仔同美小学路口",
+    "longitude": "118.21117"
+}, {
+    "latitude": "24.643242",
+    "count": 0,
+    "Id": "D00T003R20170914175956000988",
+    "type": 2,
+    "Name": "翔安区春光路与舫山东二路交叉口XA141-郑坂村佳味美食城前2",
+    "longitude": "118.233549"
+}, {
+    "latitude": "24.644672",
+    "count": 1,
+    "Id": "D00T003R20170914175956000993",
+    "type": 2,
+    "Name": "翔安区XA166-郑坂南里181号前两幢2",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.783764",
+    "count": 0,
+    "Id": "D00T003R20170914175956001122",
+    "type": 2,
+    "Name": "同安汀溪市际公安检查站人脸微卡口",
+    "longitude": "118.132217"
+}, {
+    "latitude": "24.469002",
+    "count": 0,
+    "Id": "D00T003R20170914175956001123",
+    "type": 2,
+    "Name": "思明区文屏路加油站路口人像识别东",
+    "longitude": "118.100677"
+}, {
+    "latitude": "24.473747",
+    "count": 3,
+    "Id": "D00T003R20170914175956001125",
+    "type": 2,
+    "Name": "思明区厦禾路悟村街道与益泰大厦出口人像识别东",
+    "longitude": "118.112838"
+}, {
+    "latitude": "24.48214",
+    "count": 0,
+    "Id": "D00T003R20170914175956001144",
+    "type": 2,
+    "Name": "思明区莲兴路新景工行旁嘉禾路口1",
+    "longitude": "118.115873"
+}, {
+    "latitude": "24.438875",
+    "count": 0,
+    "Id": "D00T003R20170914175956001017",
+    "type": 2,
+    "Name": "思明区大学路168号(医学院）门口对面",
+    "longitude": "118.08599"
+}, {
+    "latitude": "24.480916",
+    "count": 1,
+    "Id": "D00T003R20170914175956001027",
+    "type": 2,
+    "Name": "思明区莲景路与莲兴路交叉口复兴肯德基旁1",
+    "longitude": "118.114736"
+}, {
+    "latitude": "24.473473",
+    "count": 0,
+    "Id": "D00T003R20170914175956001035",
+    "type": 2,
+    "Name": "思明区禾祥东路与金榜路交叉口人像识别东",
+    "longitude": "118.105406"
+}, {
+    "latitude": "24.464604",
+    "count": 0,
+    "Id": "D00T003R20180403143849002693",
+    "type": 2,
+    "Name": "思明区湖滨西路思北站天桥2",
+    "longitude": "118.074332"
+}, {
+    "latitude": "24.473102",
+    "count": 0,
+    "Id": "D00T003R20170914175956001038",
+    "type": 2,
+    "Name": "思明区禾祥东路与金榜西二路交叉口人像识别西",
+    "longitude": "118.104085"
+}, {
+    "latitude": "24.453013",
+    "count": 0,
+    "Id": "D00T003R20170914175956001053",
+    "type": 2,
+    "Name": "思明区环岛南路椰风寨岗亭1",
+    "longitude": "118.166367"
+}, {
+    "latitude": "24.453013",
+    "count": 0,
+    "Id": "D00T003R20170914175956001054",
+    "type": 2,
+    "Name": "思明区环岛南路椰风寨岗亭2",
+    "longitude": "118.166367"
+}, {
+    "latitude": "24.46942",
+    "count": 0,
+    "Id": "D00T003R20170914175956001063",
+    "type": 2,
+    "Name": "思明区厦禾路金榜大厦厦禾路拐角人像识别西",
+    "longitude": "118.102794"
+}, {
+    "latitude": "24.5281",
+    "count": 0,
+    "Id": "D00T003R20170914175956001068",
+    "type": 2,
+    "Name": "湖里区金尚路林后社850号公厕2",
+    "longitude": "118.1344"
+}, {
+    "latitude": "24.5299",
+    "count": 0,
+    "Id": "D00T003R20170914175956001069",
+    "type": 2,
+    "Name": "湖里区金尚路与林后路167号",
+    "longitude": "118.1329"
+}, {
+    "latitude": "24.457759",
+    "count": 1,
+    "Id": "D00T003R20170914175956001074",
+    "type": 2,
+    "Name": "思明区局口街3",
+    "longitude": "118.075827"
+}, {
+    "latitude": "24.46277",
+    "count": 7,
+    "Id": "D00T003R20170914175956001075",
+    "type": 2,
+    "Name": "思明区BRT开禾路口站出口",
+    "longitude": "118.070698"
+}, {
+    "latitude": "24.437065",
+    "count": 0,
+    "Id": "D00T003R20170914175956001077",
+    "type": 2,
+    "Name": "思明区塔头东路丽斯海景酒店旁2",
+    "longitude": "118.141291"
+}, {
+    "latitude": "24.444852",
+    "count": 2,
+    "Id": "D00T003R20170914175956001093",
+    "type": 2,
+    "Name": "思明区民族路与成功大道桥下2",
+    "longitude": "118.080238"
+}, {
+    "latitude": "24.481018",
+    "count": 0,
+    "Id": "D00T003R20170914175956001100",
+    "type": 2,
+    "Name": "思明区嘉禾路辅路明发广场北区30号1",
+    "longitude": "118.116563"
+}, {
+    "latitude": "24.479612",
+    "count": 0,
+    "Id": "D00T003R20170914175956001105",
+    "type": 2,
+    "Name": "思明区明发南区80号周边3",
+    "longitude": "118.118875"
+}, {
+    "latitude": "24.435261",
+    "count": 3,
+    "Id": "D00T003R20170914175956001157",
+    "type": 2,
+    "Name": "思明区大学路演武大桥下厦大白城门口2",
+    "longitude": "118.097244"
+}, {
+    "latitude": "24.611014",
+    "count": 0,
+    "Id": "D00T003R20180320175111002583",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区1号楼一层大堂通道",
+    "longitude": "118.240533"
+}, {
+    "latitude": "24.435746",
+    "count": 0,
+    "Id": "D00T003R20170918104444001237",
+    "type": 2,
+    "Name": "思明区龙虎西路演武第二小学门口人脸北",
+    "longitude": "118.113319"
+}, {
+    "latitude": "24.611204",
+    "count": 1,
+    "Id": "D00T003R20180320175111002590",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区大门入口",
+    "longitude": "118.240172"
+}, {
+    "latitude": "24.467838",
+    "count": 0,
+    "Id": "D00T003R20170919165836001253",
+    "type": 2,
+    "Name": "思明区后埭西路与文灶街九中对面路口1",
+    "longitude": "118.103197"
+}, {
+    "latitude": "24.467838",
+    "count": 0,
+    "Id": "D00T003R20170919165836001256",
+    "type": 2,
+    "Name": "思明区后埭西路与文灶街九中对面路口3",
+    "longitude": "118.103197"
+}, {
+    "latitude": "24.5155",
+    "count": 2,
+    "Id": "D00T003R20170919165836001259",
+    "type": 2,
+    "Name": "湖里区华光路后浦社区131K2",
+    "longitude": "118.1083"
+}, {
+    "latitude": "24.488385",
+    "count": 0,
+    "Id": "D00T003R20170921143621001317",
+    "type": 2,
+    "Name": "湖里区吕岭路口腔医院1",
+    "longitude": "118.159977"
+}, {
+    "latitude": "24.713623",
+    "count": 2,
+    "Id": "D00T003R20170921143621001321",
+    "type": 2,
+    "Name": "同安区324国道与同明北路1",
+    "longitude": "118.118789"
+}, {
+    "latitude": "24.5327",
+    "count": 0,
+    "Id": "D00T003R20170914175956001198",
+    "type": 2,
+    "Name": "湖里区岐山北路围里社326号K2",
+    "longitude": "118.139"
+}, {
+    "latitude": "24.59717",
+    "count": 1,
+    "Id": "D00T003R20170918104444001217",
+    "type": 2,
+    "Name": "集美区天安路渡田路口霞梧广场2",
+    "longitude": "118.099117"
+}, {
+    "latitude": "24.596354",
+    "count": 2,
+    "Id": "D00T003R20170918104444001218",
+    "type": 2,
+    "Name": "集美区天安路霞梧路口以纯店1",
+    "longitude": "118.100358"
+}, {
+    "latitude": "24.596348",
+    "count": 3,
+    "Id": "D00T003R20170918104444001223",
+    "type": 2,
+    "Name": "集美区天凤路霞浯公交站2-2",
+    "longitude": "118.1070077"
+}, {
+    "latitude": "24.598953",
+    "count": 0,
+    "Id": "D00T003R20170918104444001224",
+    "type": 2,
+    "Name": "集美区同集路凤安中路",
+    "longitude": "118.112238"
+}, {
+    "latitude": "24.429904",
+    "count": 0,
+    "Id": "D00T003R20170918104444001231",
+    "type": 2,
+    "Name": "思明区环岛南路统建房人脸东",
+    "longitude": "118.116752"
+}, {
+    "latitude": "24.708489",
+    "count": 2,
+    "Id": "D00T003R20170921143621001330",
+    "type": 2,
+    "Name": "同安区同明路乌涂商业街爱心购物广场3",
+    "longitude": "118.119031"
+}, {
+    "latitude": "24.5206361",
+    "count": 1,
+    "Id": "D00T003R20171229172743002149",
+    "type": 2,
+    "Name": "海沧区悦实广场路口东南面3",
+    "longitude": "117.9954381"
+}, {
+    "latitude": "24.4950071",
+    "count": 0,
+    "Id": "D00T003R20171229172743002152",
+    "type": 2,
+    "Name": "海沧区钟山村入口东南面3",
+    "longitude": "118.0196911"
+}, {
+    "latitude": "24.4570961",
+    "count": 0,
+    "Id": "D00T003R20171229172743002156",
+    "type": 2,
+    "Name": "海沧区嵩屿码头进站口北侧1",
+    "longitude": "118.0409801"
+}, {
+    "latitude": "24.432699",
+    "count": 0,
+    "Id": "D00T003R20180115160230002205",
+    "type": 2,
+    "Name": "思明区环岛路河望角木栈道人脸东",
+    "longitude": "118.10037"
+}, {
+    "latitude": "24.432699",
+    "count": 0,
+    "Id": "D00T003R20180115160230002206",
+    "type": 2,
+    "Name": "思明区环岛路河望角木栈道人脸西",
+    "longitude": "118.10037"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025152412001467",
+    "type": 2,
+    "Name": "海沧区水云湾北门西侧行人出口",
+    "longitude": "118.0289"
+}, {
+    "latitude": "24.4663",
+    "count": 0,
+    "Id": "D00T003R20171025154529001469",
+    "type": 2,
+    "Name": "海沧区水云湾北门东侧入口",
+    "longitude": "118.0294"
+}, {
+    "latitude": "24.5000",
+    "count": 34,
+    "Id": "D00T003R20171031184020001491",
+    "type": 2,
+    "Name": "湖里区裕兴大厦南门入口",
+    "longitude": "118.1231"
+}, {
+    "latitude": "24.4996",
+    "count": 0,
+    "Id": "D00T003R20171031184311001495",
+    "type": 2,
+    "Name": "湖里区裕兴大厦地下北出口",
+    "longitude": "118.1234"
+}, {
+    "latitude": "24.4996",
+    "count": 1,
+    "Id": "D00T003R20171031184342001496",
+    "type": 2,
+    "Name": "湖里区裕兴大厦地下北入口",
+    "longitude": "118.1234"
+}, {
+    "latitude": "24.3",
+    "count": 0,
+    "Id": "D00T003R20171102115839001504",
+    "type": 2,
+    "Name": "127路Y9058前方",
+    "longitude": "118.4"
+}, {
+    "latitude": "24.5976",
+    "count": 0,
+    "Id": "D00T003R20170927165917001379",
+    "type": 2,
+    "Name": "霞梧中路(霞梧路与天安路交汇处)",
+    "longitude": "118.1037"
+}, {
+    "latitude": "24.5440501",
+    "count": 1,
+    "Id": "D00T003R20171229172743002103",
+    "type": 2,
+    "Name": "海沧区浦头村主入口东南面3",
+    "longitude": "117.9111481"
+}, {
+    "latitude": "24.5556001",
+    "count": 0,
+    "Id": "D00T003R20171229172743002105",
+    "type": 2,
+    "Name": "海沧区山边村主入口西南面3",
+    "longitude": "117.9183321"
+}, {
+    "latitude": "24.5018851",
+    "count": 0,
+    "Id": "D00T003R20171229172743002110",
+    "type": 2,
+    "Name": "海沧区石塘村入口东南面10",
+    "longitude": "118.0407941"
+}, {
+    "latitude": "24.603055",
+    "count": 0,
+    "Id": "D00T003R20170922143520001351",
+    "type": 2,
+    "Name": "集美区侨英路04-4",
+    "longitude": "118.108408"
+}, {
+    "latitude": "24.669267",
+    "count": 0,
+    "Id": "D00T003R20170922143520001363",
+    "type": 2,
+    "Name": "翔安区XA083-同美山头里49号斜对面-03",
+    "longitude": "118.212426"
+}, {
+    "latitude": "24.5350161",
+    "count": 0,
+    "Id": "D00T003R20171229172743002120",
+    "type": 2,
+    "Name": "霞阳村公交站2",
+    "longitude": "118.0151731"
+}, {
+    "latitude": "24.5346051",
+    "count": 0,
+    "Id": "D00T003R20171229172743002124",
+    "type": 2,
+    "Name": "霞阳大榕树西南面8",
+    "longitude": "118.0144881"
+}, {
+    "latitude": "24.5342941",
+    "count": 0,
+    "Id": "D00T003R20171229172743002129",
+    "type": 2,
+    "Name": "霞阳乐翻天西面5",
+    "longitude": "118.0155411"
+}, {
+    "latitude": "24.5342941",
+    "count": 0,
+    "Id": "D00T003R20171229172743002127",
+    "type": 2,
+    "Name": "霞阳乐翻天西面3",
+    "longitude": "118.0155411"
+}, {
+    "latitude": "24.4868331",
+    "count": 0,
+    "Id": "D00T003R20171229172743002143",
+    "type": 2,
+    "Name": "海沧区行政中心西边出入口2",
+    "longitude": "118.0283681"
+}, {
+    "latitude": "24.610675",
+    "count": 0,
+    "Id": "D00T003R20180320175111002588",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区2号楼一层大堂通道",
+    "longitude": "118.240652"
+}, {
+    "latitude": "24.4656",
+    "count": 0,
+    "Id": "D00T003R20171120141554001640",
+    "type": 2,
+    "Name": "海沧区水云湾西门北侧出口",
+    "longitude": "118.0269"
+}, {
+    "latitude": "24.5739",
+    "count": 4,
+    "Id": "D00T003R20171123111650001649",
+    "type": 2,
+    "Name": "集美区杏林长途汽车站_2",
+    "longitude": "118.0351"
+}, {
+    "latitude": "24.6119",
+    "count": 1,
+    "Id": "D00T003R20171123115531001653",
+    "type": 2,
+    "Name": "集美区灌口凤泉广场_2",
+    "longitude": "117.9862"
+}, {
+    "latitude": "24.453148",
+    "count": 3,
+    "Id": "D00T003R20180106134748002176",
+    "type": 2,
+    "Name": "思明区镇海路地铁站B端出口闸机02",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.4884583",
+    "count": 0,
+    "Id": "D00T003R20180120100846002226",
+    "type": 2,
+    "Name": "思明区观音山梦幻海岸度假区入口（人脸卡口）",
+    "longitude": "118.193947"
+}, {
+    "latitude": "24.587345",
+    "count": 0,
+    "Id": "D00T003R20171129162434001669",
+    "type": 2,
+    "Name": "集美区同集南路乐安路1",
+    "longitude": "118.09602"
+}, {
+    "latitude": "24.604411",
+    "count": 0,
+    "Id": "D00T003R20171129162434001672",
+    "type": 2,
+    "Name": "集美区侨英路浒井溜冰场路口1",
+    "longitude": "118.094197"
+}, {
+    "latitude": "24.601915",
+    "count": 0,
+    "Id": "D00T003R20171129162434001673",
+    "type": 2,
+    "Name": "集美区同集南路美森大家具城路口2",
+    "longitude": "118.106488"
+}, {
+    "latitude": "24.611046",
+    "count": 0,
+    "Id": "D00T003R20180326153310002609",
+    "type": 2,
+    "Name": "翔安区泰禾红门小区负一层停车场入口",
+    "longitude": "118.240404"
+}, {
+    "latitude": "24.5735",
+    "count": 1,
+    "Id": "D00T003R20171109200731001559",
+    "type": 2,
+    "Name": "财经学院清真食堂门口",
+    "longitude": "118.0968"
+}, {
+    "latitude": "24.6018",
+    "count": 0,
+    "Id": "D00T003R20171109200802001560",
+    "type": 2,
+    "Name": "集美区华侨大学清真食堂1",
+    "longitude": "118.0835"
+}, {
+    "latitude": "24.58905",
+    "count": 0,
+    "Id": "D00T003R20171113174614001630",
+    "type": 2,
+    "Name": "集美区凤安路厦门银行路口1",
+    "longitude": "118.105523"
+}, {
+    "latitude": "24.640077",
+    "count": 0,
+    "Id": "D00T003R20171113174614001631",
+    "type": 2,
+    "Name": "同安区BRT潘涂站西入口",
+    "longitude": "118.145718"
+}, {
+    "latitude": "24.597275",
+    "count": 1,
+    "Id": "D00T003R20171113144057001572",
+    "type": 2,
+    "Name": "集美区BRT东垵站东出口",
+    "longitude": "118.121681"
+}, {
+    "latitude": "24.591032",
+    "count": 0,
+    "Id": "D00T003R20171113144057001573",
+    "type": 2,
+    "Name": "集美区BRT凤林站东入口",
+    "longitude": "118.117222"
+}, {
+    "latitude": "24.636846",
+    "count": 1,
+    "Id": "D00T003R20171113144057001592",
+    "type": 2,
+    "Name": "集美区BRT厦门北站出口2",
+    "longitude": "118.069034"
+}, {
+    "latitude": "24.614498",
+    "count": 0,
+    "Id": "D00T003R20171113144227001606",
+    "type": 2,
+    "Name": "同安区BRT东亭站东出口",
+    "longitude": "118.130658"
+}, {
+    "latitude": "24.484866",
+    "count": 0,
+    "Id": "D00T003R20171214174425001835",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头10号门",
+    "longitude": "118.070764"
+}, {
+    "latitude": "24.485814",
+    "count": 0,
+    "Id": "D00T003R20171214174425001840",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头南出口2",
+    "longitude": "118.070649"
+}, {
+    "latitude": "24.5010661",
+    "count": 0,
+    "Id": "D00T003R20171214174425001761",
+    "type": 2,
+    "Name": "R003-湖里区SM一期商场东门2",
+    "longitude": "118.1273711"
+}, {
+    "latitude": "24.4856108",
+    "count": 0,
+    "Id": "D00T003R20171214174425001765",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场A西门1（元初）",
+    "longitude": "118.1556845"
+}, {
+    "latitude": "24.502689",
+    "count": 6,
+    "Id": "D00T003R20171214174425001776",
+    "type": 2,
+    "Name": "R036-湖里区BRT蔡塘站人行天桥2",
+    "longitude": "118.130016"
+}, {
+    "latitude": "24.590558",
+    "count": 0,
+    "Id": "D00T003R20171129162434001683",
+    "type": 2,
+    "Name": "集美区凤林路乐天路4",
+    "longitude": "118.103343"
+}, {
+    "latitude": "24.525335",
+    "count": 0,
+    "Id": "D00T003R20171205144846001709",
+    "type": 2,
+    "Name": "R015-湖里区禾山街道办事处正门人行道2",
+    "longitude": "118.146338"
+}, {
+    "latitude": "24.524814",
+    "count": 0,
+    "Id": "D00T003R20171205144846001711",
+    "type": 2,
+    "Name": "R019-湖里区殿前街道办事处正门人行道1",
+    "longitude": "118.101087"
+}, {
+    "latitude": "24.506661",
+    "count": 1,
+    "Id": "D00T003R20171214174425001783",
+    "type": 2,
+    "Name": "R004-湖里万达广场13号南通道(1056号)",
+    "longitude": "118.173022"
+}, {
+    "latitude": "24.504723",
+    "count": 0,
+    "Id": "D00T003R20171214174425001793",
+    "type": 2,
+    "Name": "R014-湖里区嘉禾路SM地下通道2",
+    "longitude": "118.120887"
+}, {
+    "latitude": "24.428027",
+    "count": 0,
+    "Id": "D00T003R20171208154116001729",
+    "type": 2,
+    "Name": "思明区环岛南路曾厝垵福海宫路口东向西",
+    "longitude": "118.119388"
+}, {
+    "latitude": "24.512104",
+    "count": 0,
+    "Id": "D00T003R20171214174425001799",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇西门2",
+    "longitude": "118.1603068"
+}, {
+    "latitude": "24.5120992",
+    "count": 2,
+    "Id": "D00T003R20171214174425001801",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇南门",
+    "longitude": "118.1598705"
+}, {
+    "latitude": "24.510986",
+    "count": 1,
+    "Id": "D00T003R20171214174425001808",
+    "type": 2,
+    "Name": "R011-湖里区金湖路枋湖客运站天桥2",
+    "longitude": "118.154507"
+}, {
+    "latitude": "24.493899",
+    "count": 96,
+    "Id": "D00T003R20171214174425001809",
+    "type": 2,
+    "Name": "R033-湖里区吕岭路江头西路天桥1",
+    "longitude": "118.12563"
+}, {
+    "latitude": "24.605294",
+    "count": 2,
+    "Id": "D00T003R20171205101525001693",
+    "type": 2,
+    "Name": "集美区英瑶路井泉路2-1",
+    "longitude": "118.112844"
+}, {
+    "latitude": "24.516593",
+    "count": 0,
+    "Id": "D00T003R20171214174425001831",
+    "type": 2,
+    "Name": "R022-湖里区枋湖路区政府西北角出入口2",
+    "longitude": "118.140798"
+}, {
+    "latitude": "24.613372",
+    "count": 0,
+    "Id": "D00T003R20180326153310002608",
+    "type": 2,
+    "Name": "翔安区新店菜市场入口3",
+    "longitude": "118.241255"
+}, {
+    "latitude": "24.5119121",
+    "count": 0,
+    "Id": "D00T003R20171214174425001874",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼侧门",
+    "longitude": "118.1345218"
+}, {
+    "latitude": "24.50707",
+    "count": 0,
+    "Id": "D00T003R20171218125920001889",
+    "type": 2,
+    "Name": "0879-宜宾路南侧市儿童医院站-朝西人行道",
+    "longitude": "118.11354"
+}, {
+    "latitude": "24.50521",
+    "count": 0,
+    "Id": "D00T003R20171218125920001893",
+    "type": 2,
+    "Name": "0889-仙洞路康乐路路口-朝北",
+    "longitude": "118.11449"
+}, {
+    "latitude": "24.50202",
+    "count": 0,
+    "Id": "D00T003R20171218125920001908",
+    "type": 2,
+    "Name": "0931-仙岳路南侧湖边站-朝",
+    "longitude": "118.16769"
+}, {
+    "latitude": "24.50584",
+    "count": 0,
+    "Id": "D00T003R20171218125920001918",
+    "type": 2,
+    "Name": "0950-仙岳路北侧湖边花园北站-朝东",
+    "longitude": "118.17379"
+}, {
+    "latitude": "24.503653",
+    "count": 2,
+    "Id": "D00T003R20171218125920001924",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥4",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.503653",
+    "count": 9,
+    "Id": "D00T003R20171218125920001926",
+    "type": 2,
+    "Name": "R037-湖里区BRT金山站人行天桥6",
+    "longitude": "118.154769"
+}, {
+    "latitude": "24.5440061",
+    "count": 0,
+    "Id": "D00T003R20171229172743002064",
+    "type": 2,
+    "Name": "海沧区东浦村主入口西北面3",
+    "longitude": "117.9232461"
+}, {
+    "latitude": "24.5600011",
+    "count": 2,
+    "Id": "D00T003R20171229172743002065",
+    "type": 2,
+    "Name": "海沧区东孚派出所东北面3",
+    "longitude": "117.9280401"
+}, {
+    "latitude": "24.5272181",
+    "count": 21,
+    "Id": "D00T003R20171229172743002070",
+    "type": 2,
+    "Name": "海沧区富海超市西面1",
+    "longitude": "117.9937211"
+}, {
+    "latitude": "24.4857221",
+    "count": 0,
+    "Id": "D00T003R20171229172743002072",
+    "type": 2,
+    "Name": "海沧公安分局东南面3",
+    "longitude": "118.0227741"
+}, {
+    "latitude": "24.507952",
+    "count": 2,
+    "Id": "D00T003R20171218125920001930",
+    "type": 2,
+    "Name": "R010-湖里区万达金街通道3",
+    "longitude": "118.173336"
+}, {
+    "latitude": "24.534681",
+    "count": 16,
+    "Id": "D00T003R20171218125920001932",
+    "type": 2,
+    "Name": "R040-湖里区BRT县后站人行天桥1",
+    "longitude": "118.148205"
+}, {
+    "latitude": "24.5341171",
+    "count": 0,
+    "Id": "D00T003R20171229172743002077",
+    "type": 2,
+    "Name": "海沧区九号会所西北侧4",
+    "longitude": "117.9941941"
+}, {
+    "latitude": "24.4878541",
+    "count": 0,
+    "Id": "D00T003R20171229172743002052",
+    "type": 2,
+    "Name": "海沧区滨湖北路海沧区展览馆路口1",
+    "longitude": "118.0273131"
+}, {
+    "latitude": "24.4881881",
+    "count": 0,
+    "Id": "D00T003R20171229172743002061",
+    "type": 2,
+    "Name": "海沧区慈济东宫4",
+    "longitude": "117.9695591"
+}, {
+    "latitude": "24.4881881",
+    "count": 0,
+    "Id": "D00T003R20171229172743002062",
+    "type": 2,
+    "Name": "海沧区慈济东宫5",
+    "longitude": "117.9695591"
+}, {
+    "latitude": "24.485282",
+    "count": 0,
+    "Id": "D00T003R20171214174425001859",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头6号门",
+    "longitude": "118.071847"
+}, {
+    "latitude": "24.5117697",
+    "count": 0,
+    "Id": "D00T003R20171214174425001866",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼东大门",
+    "longitude": "118.1345263"
+}, {
+    "latitude": "24.508907",
+    "count": 0,
+    "Id": "D00T003R20171214174425001873",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK1楼商场通道2",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.235",
+    "count": 0,
+    "Id": "D00T003R20180203144119002371",
+    "type": 2,
+    "Name": "集美区美岁天地1号门入口",
+    "longitude": "118.245"
+}, {
+    "latitude": "24.523921",
+    "count": 0,
+    "Id": "D00T003R20180403143849002652",
+    "type": 2,
+    "Name": "湖里区环岛路五通立交桥轮渡方向半球1",
+    "longitude": "118.186953"
+}, {
+    "latitude": "24.523921",
+    "count": 0,
+    "Id": "D00T003R20180403143849002653",
+    "type": 2,
+    "Name": "湖里区环岛路五通立交桥轮渡方向半球2",
+    "longitude": "118.186953"
+}, {
+    "latitude": "24.50718",
+    "count": 1,
+    "Id": "D00T003R20180403143849002663",
+    "type": 2,
+    "Name": "湖里区金钟路高林居住区天桥半球2",
+    "longitude": "118.183197"
+}, {
+    "latitude": "24.630547",
+    "count": 0,
+    "Id": "D00T003R20180201171812002356",
+    "type": 2,
+    "Name": "翔安区新马路祥吴村口",
+    "longitude": "118.24154"
+}, {
+    "latitude": "24.711769",
+    "count": 0,
+    "Id": "D00T003R20180124145513002244",
+    "type": 2,
+    "Name": "同安区白里宫60号1",
+    "longitude": "118.121666"
+}, {
+    "latitude": "24.638689",
+    "count": 7,
+    "Id": "D00T003R20180125170611002268",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机04",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.476849",
+    "count": 0,
+    "Id": "D00T003R20180125170611002301",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站B端出口闸机07",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.493618",
+    "count": 0,
+    "Id": "D00T003R20180125170611002316",
+    "type": 2,
+    "Name": "思明区吕厝地铁站B端入口闸机05",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.459032",
+    "count": 0,
+    "Id": "D00T003R20180125170611002337",
+    "type": 2,
+    "Name": "思明区中山公园地铁站B端出口闸机05",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.33",
+    "count": 0,
+    "Id": "D00T003R20180522114806002848",
+    "type": 2,
+    "Name": "丽云测试机",
+    "longitude": "118.56"
+}, {
+    "latitude": "24.49511",
+    "count": 0,
+    "Id": "D00T003R20180627172027003093",
+    "type": 2,
+    "Name": "湖里区0143R-吕岭路江头东路路口-朝北",
+    "longitude": "118.12964"
+}, {
+    "latitude": "24.51159",
+    "count": 1,
+    "Id": "D00T003R20180627172027003102",
+    "type": 2,
+    "Name": "湖里区0157R-兴隆路火炬二路路口-朝东",
+    "longitude": "118.117189"
+}, {
+    "latitude": "24.485038",
+    "count": 0,
+    "Id": "D00T003R20180403143849002701",
+    "type": 2,
+    "Name": "思明区环岛干道软件园人行天桥机场方向半球2",
+    "longitude": "118.182615"
+}, {
+    "latitude": "24.538182",
+    "count": 0,
+    "Id": "D00T003R20180403143849002705",
+    "type": 2,
+    "Name": "思明区环岛干道五缘湾实验学校人行天桥机场方向东侧半球2",
+    "longitude": "118.157386"
+}, {
+    "latitude": "24.441073",
+    "count": 0,
+    "Id": "D00T003R20180403143849002709",
+    "type": 2,
+    "Name": "思明区演武路演武人行天桥半球2",
+    "longitude": "118.088642"
+}, {
+    "latitude": "24.481453",
+    "count": 0,
+    "Id": "D00T003R20180418120551002756",
+    "type": 2,
+    "Name": "思明区一代佳人成功大道路口2",
+    "longitude": "118.120634"
+}, {
+    "latitude": "24.4876",
+    "count": 0,
+    "Id": "D00T003R20180509120312002816",
+    "type": 2,
+    "Name": "湖里区0691-蔡塘一路蔡塘二路路口K1",
+    "longitude": "118.1544"
+}, {
+    "latitude": "24.592485",
+    "count": 0,
+    "Id": "D00T003R20180601102222002882",
+    "type": 2,
+    "Name": "测试集美活动临时人脸3",
+    "longitude": "118.042893"
+}, {
+    "latitude": "24.50196",
+    "count": 0,
+    "Id": "D00T003R20180622090618002989",
+    "type": 2,
+    "Name": "湖里区0294R-仙岳路中医院门口-朝东",
+    "longitude": "118.13627"
+}, {
+    "latitude": "24.49743",
+    "count": 0,
+    "Id": "D00T003R20180627172027003116",
+    "type": 2,
+    "Name": "湖里区0178R-天湖广场与江头公园支路-朝北",
+    "longitude": "118.12647"
+}, {
+    "latitude": "24.51996",
+    "count": 0,
+    "Id": "D00T003R20180627172027003123",
+    "type": 2,
+    "Name": "湖里区0211R-枋湖北二路火炬东路路口-朝东",
+    "longitude": "118.12801"
+}, {
+    "latitude": "24.503379",
+    "count": 0,
+    "Id": "D00T003R20180627172027003125",
+    "type": 2,
+    "Name": "湖里区0220R-枋钟路太古宿舍天桥南侧-朝东",
+    "longitude": "118.127187"
+}, {
+    "latitude": "24.49915",
+    "count": 1,
+    "Id": "D00T003R20180627172027003135",
+    "type": 2,
+    "Name": "湖里区0293R-仙岳路祥店二路路口-朝东",
+    "longitude": "118.14391"
+}, {
+    "latitude": "24.49915",
+    "count": 0,
+    "Id": "D00T003R20180627172027003136",
+    "type": 2,
+    "Name": "湖里区0293R-仙岳路祥店二路路口-朝西",
+    "longitude": "118.14391"
+}, {
+    "latitude": "24.45125",
+    "count": 4,
+    "Id": "D00T003R20180502183353002796",
+    "type": 2,
+    "Name": "思明区镇海路站2号入口1",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.52948",
+    "count": 0,
+    "Id": "D00T003R20180627172027003056",
+    "type": 2,
+    "Name": "湖里区0011R-殿前一路长虹路路口2-朝东",
+    "longitude": "118.10128"
+}, {
+    "latitude": "24.52097",
+    "count": 0,
+    "Id": "D00T003R20180627172027003062",
+    "type": 2,
+    "Name": "湖里区0024R-长虹路长宁路路口-朝南",
+    "longitude": "118.09665"
+}, {
+    "latitude": "24.50732",
+    "count": 0,
+    "Id": "D00T003R20180627172027003067",
+    "type": 2,
+    "Name": "湖里区0061R-海天路华嘉路路口1-朝南",
+    "longitude": "118.09582"
+}, {
+    "latitude": "24.51675",
+    "count": 0,
+    "Id": "D00T003R20180627172027003071",
+    "type": 2,
+    "Name": "湖里区0073R-悦华路华昌路路口-朝南-朝北",
+    "longitude": "118.09311"
+}, {
+    "latitude": "24.48741",
+    "count": 1,
+    "Id": "D00T003R20180627172027003153",
+    "type": 2,
+    "Name": "湖里区0506R-东渡路74号保安亭-朝东",
+    "longitude": "118.07507"
+}, {
+    "latitude": "24.48858",
+    "count": 0,
+    "Id": "D00T003R20180627172027003156",
+    "type": 2,
+    "Name": "湖里区0528R-海山路与金鼎路交界处2-朝北",
+    "longitude": "118.08429"
+}, {
+    "latitude": "24.52558",
+    "count": 0,
+    "Id": "D00T003R20180627172027003213",
+    "type": 2,
+    "Name": "湖里区0785R-福厦铁路禾山路老铁道口天桥-朝西",
+    "longitude": "118.12367"
+}, {
+    "latitude": "24.50006",
+    "count": 0,
+    "Id": "D00T003R20180627172027003216",
+    "type": 2,
+    "Name": "湖里区0804R-江头北路江顺二路路口-朝西",
+    "longitude": "118.12614"
+}, {
+    "latitude": "24.52504",
+    "count": 1,
+    "Id": "D00T003R20180627172027003242",
+    "type": 2,
+    "Name": "湖里区1003R-枋湖北二路北侧岭下公交站-朝西",
+    "longitude": "118.14826"
+}, {
+    "latitude": "24.600021",
+    "count": 0,
+    "Id": "D00T003R20180704095557003286",
+    "type": 2,
+    "Name": "集美区黄庄路厦门农商银行路口",
+    "longitude": "117.984927"
+}, {
+    "latitude": "24.604886",
+    "count": 0,
+    "Id": "D00T003R20180704095557003292",
+    "type": 2,
+    "Name": "集美区景湖南路金龙路路口_2",
+    "longitude": "117.981892"
+}, {
+    "latitude": "24.573413",
+    "count": 0,
+    "Id": "D00T003R20180704095557003296",
+    "type": 2,
+    "Name": "集美区岑西路与岑头街交叉路口",
+    "longitude": "118.090092"
+}, {
+    "latitude": "24.58838",
+    "count": 0,
+    "Id": "D00T003R20180704095557003299",
+    "type": 2,
+    "Name": "集美区园博五里55号桥头_2",
+    "longitude": "118.051904"
+}, {
+    "latitude": "24.626149",
+    "count": 0,
+    "Id": "D00T003R20180704095557003316",
+    "type": 2,
+    "Name": "集美区溪西坂山里51号_2",
+    "longitude": "118.02900700000001"
+}, {
+    "latitude": "24.573485",
+    "count": 0,
+    "Id": "D00T003R20180704095557003317",
+    "type": 2,
+    "Name": "集美区杏前路苑亭路路口",
+    "longitude": "118.051601"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180724111831003358",
+    "type": 2,
+    "Name": "体育学院门口南人行道_1B",
+    "longitude": "117"
+}, {
+    "latitude": "24.522729",
+    "count": 2,
+    "Id": "D00T003R20180627172027003163",
+    "type": 2,
+    "Name": "湖里区0555R-成功大道安兜天桥出岛方向-朝西",
+    "longitude": "118.12942"
+}, {
+    "latitude": "24.52362",
+    "count": 0,
+    "Id": "D00T003R20180627172027003167",
+    "type": 2,
+    "Name": "湖里区0567R-枋湖北二路南侧尚忠公交车站-朝西",
+    "longitude": "118.14426"
+}, {
+    "latitude": "24.5081",
+    "count": 0,
+    "Id": "D00T003R20180627172027003168",
+    "type": 2,
+    "Name": "湖里区0572R-枋湖东路蔡坑路口-朝东",
+    "longitude": "118.15577"
+}, {
+    "latitude": "24.49567",
+    "count": 0,
+    "Id": "D00T003R20180627172027003175",
+    "type": 2,
+    "Name": "湖里区0621R-吕厝路江头西路路口1-朝西",
+    "longitude": "118.12543"
+}, {
+    "latitude": "24.49514",
+    "count": 0,
+    "Id": "D00T003R20180627172027003178",
+    "type": 2,
+    "Name": "湖里区0628R-吕岭路铁路桥涵洞-朝东",
+    "longitude": "118.13175"
+}, {
+    "latitude": "24.50417",
+    "count": 0,
+    "Id": "D00T003R20180627172027003185",
+    "type": 2,
+    "Name": "湖里区0669R-乌石浦路梅阳花园门口-朝南",
+    "longitude": "118.13284"
+}, {
+    "latitude": "24.495166",
+    "count": 0,
+    "Id": "D00T003R20180724151521003384",
+    "type": 2,
+    "Name": "湖里区0144R-江宁里18号鑫太龙木业2",
+    "longitude": "118.126324"
+}, {
+    "latitude": "24.56606",
+    "count": 0,
+    "Id": "D00T003R20181012152312003841",
+    "type": 2,
+    "Name": "(金海湾)文达二里102号一楼",
+    "longitude": "118.051786"
+}, {
+    "latitude": "24.566432",
+    "count": 0,
+    "Id": "D00T003R20181012152312003842",
+    "type": 2,
+    "Name": "(金海湾)文达二里116号一楼",
+    "longitude": "118.053824"
+}, {
+    "latitude": "24.565054",
+    "count": 0,
+    "Id": "D00T003R20181012152312003843",
+    "type": 2,
+    "Name": "(金海湾)文达二里25号一楼",
+    "longitude": "118.052416"
+}, {
+    "latitude": "24.5113",
+    "count": 0,
+    "Id": "D00T003R20180802153821003407",
+    "type": 2,
+    "Name": "湖里区兴隆路华昌路凤湖街入口K1",
+    "longitude": "118.0918"
+}, {
+    "latitude": "24.4646",
+    "count": 0,
+    "Id": "D00T003R20180822185844003472",
+    "type": 2,
+    "Name": "水云湾西门入口",
+    "longitude": "118.0226"
+}, {
+    "latitude": "24.566073",
+    "count": 0,
+    "Id": "D00T003R20181012152312003780",
+    "type": 2,
+    "Name": "(金海湾)文达二里75号一楼",
+    "longitude": "118.052061"
+}, {
+    "latitude": "24.565058",
+    "count": 0,
+    "Id": "D00T003R20181012152312003781",
+    "type": 2,
+    "Name": "(金海湾)文达二里24号一楼",
+    "longitude": "118.052292"
+}, {
+    "latitude": "24.56613",
+    "count": 0,
+    "Id": "D00T003R20181012152312003784",
+    "type": 2,
+    "Name": "(金海湾)文达二里125号一楼",
+    "longitude": "118.054671"
+}, {
+    "latitude": "24.566136",
+    "count": 0,
+    "Id": "D00T003R20181012152312003787",
+    "type": 2,
+    "Name": "(金海湾)文达二里107号一楼",
+    "longitude": "118.052606"
+}, {
+    "latitude": "24.563161",
+    "count": 0,
+    "Id": "D00T003R20181012152312003793",
+    "type": 2,
+    "Name": "(金海湾)文达二里56号一楼",
+    "longitude": "118.053907"
+}, {
+    "latitude": "24.565033",
+    "count": 0,
+    "Id": "D00T003R20181012152312003795",
+    "type": 2,
+    "Name": "(金海湾)文达二里65号一楼",
+    "longitude": "118.052198"
+}, {
+    "latitude": "24.566939",
+    "count": 0,
+    "Id": "D00T003R20181012152312003796",
+    "type": 2,
+    "Name": "(金海湾)文达二里157号一楼",
+    "longitude": "118.055071"
+}, {
+    "latitude": "24.56666",
+    "count": 0,
+    "Id": "D00T003R20181012152312003797",
+    "type": 2,
+    "Name": "(金海湾)文达二里177号一楼",
+    "longitude": "118.054885"
+}, {
+    "latitude": "24.565593",
+    "count": 0,
+    "Id": "D00T003R20181012152312003801",
+    "type": 2,
+    "Name": "(金海湾)文达二里72号一楼",
+    "longitude": "118.052038"
+}, {
+    "latitude": "24.565615",
+    "count": 0,
+    "Id": "D00T003R20181012152312003809",
+    "type": 2,
+    "Name": "(金海湾)文达二里110号一楼",
+    "longitude": "118.053346"
+}, {
+    "latitude": "24.566322",
+    "count": 0,
+    "Id": "D00T003R20181012152312003812",
+    "type": 2,
+    "Name": "(金海湾)文达二里128号一楼",
+    "longitude": "118.054211"
+}, {
+    "latitude": "24.564899",
+    "count": 0,
+    "Id": "D00T003R20181012152312003815",
+    "type": 2,
+    "Name": "(金海湾)文达二里59号一楼",
+    "longitude": "118.053772"
+}, {
+    "latitude": "24.567014",
+    "count": 0,
+    "Id": "D00T003R20181012152312003821",
+    "type": 2,
+    "Name": "(金海湾)文达二里199号一楼",
+    "longitude": "118.055706"
+}, {
+    "latitude": "24.58408",
+    "count": 0,
+    "Id": "D00T003R20180927165145003609",
+    "type": 2,
+    "Name": "轮机学院北门_1B",
+    "longitude": "118.096413"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000081",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口3",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4732",
+    "count": 5,
+    "Id": "D00T003R20170411203954000032",
+    "type": 2,
+    "Name": "思明区梧村汽车站出口1",
+    "longitude": "118.1107"
+}, {
+    "latitude": "24.4732",
+    "count": 0,
+    "Id": "D00T003R20170411203954000034",
+    "type": 2,
+    "Name": "思明区梧村汽车站出口3",
+    "longitude": "118.1107"
+}, {
+    "latitude": "24.5362",
+    "count": 0,
+    "Id": "D00T003R20170713164248001042",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#2",
+    "longitude": "118.1239"
+}, {
+    "latitude": "24.5483",
+    "count": 0,
+    "Id": "D00T003R20170713164248001052",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4远机位门#2",
+    "longitude": "118.1436"
+}, {
+    "latitude": "24.478079",
+    "count": 0,
+    "Id": "D00T003R20170725105939000466",
+    "type": 2,
+    "Name": "湖滨东路嘉隆商业城楼下人像识别南1",
+    "longitude": "118.119274"
+}, {
+    "latitude": "24.472624",
+    "count": 0,
+    "Id": "D00T003R20170725105939000494",
+    "type": 2,
+    "Name": "厦禾路英才商厦门口人像识别东1",
+    "longitude": "118.111741"
+}, {
+    "latitude": "24.48027",
+    "count": 0,
+    "Id": "D00T003R20170725105939000497",
+    "type": 2,
+    "Name": "厦禾路与湖明南路交叉口人像识别南1",
+    "longitude": "118.126317"
+}, {
+    "latitude": "24.473154",
+    "count": 0,
+    "Id": "D00T003R20170725105939000498",
+    "type": 2,
+    "Name": "厦禾路鑫安宾馆门口人像识别北1",
+    "longitude": "118.114054"
+}, {
+    "latitude": "24.500952",
+    "count": 0,
+    "Id": "D00T003R20170810114050000536",
+    "type": 2,
+    "Name": "0359-虎仔山西路宝龙御景东北角路口K31",
+    "longitude": "118.177367"
+}, {
+    "latitude": "24.492113",
+    "count": 0,
+    "Id": "D00T003R20170804094840000527",
+    "type": 2,
+    "Name": "吕岭路口腔医院21",
+    "longitude": "118.171839"
+}, {
+    "latitude": "24.492113",
+    "count": 0,
+    "Id": "D00T003R20170804094840000528",
+    "type": 2,
+    "Name": "吕岭路口腔医院31",
+    "longitude": "118.171839"
+}, {
+    "latitude": "24.750693",
+    "count": 0,
+    "Id": "D00T003R20170714142852000442",
+    "type": 2,
+    "Name": "同安莲花市际公安检查站（固定点）人脸微卡口",
+    "longitude": "118.07446"
+}, {
+    "latitude": "24.77448",
+    "count": 0,
+    "Id": "D00T003R20170714142852000443",
+    "type": 2,
+    "Name": "同安汀溪市际公安检查站（固定点）人脸微卡口",
+    "longitude": "118.14918"
+}, {
+    "latitude": "24.569587",
+    "count": 0,
+    "Id": "D00T003R20170714142852000448",
+    "type": 2,
+    "Name": "翔安隧道公安检查站人脸微卡口",
+    "longitude": "118.23424"
+}, {
+    "latitude": "24.478227",
+    "count": 0,
+    "Id": "D00T003R20170725105939000471",
+    "type": 2,
+    "Name": "假日商城门口人像识别西1",
+    "longitude": "118.125724"
+}, {
+    "latitude": "24.472862",
+    "count": 0,
+    "Id": "D00T003R20170725105939000474",
+    "type": 2,
+    "Name": "金榜大厦厦禾路拐角人像识别西1",
+    "longitude": "118.114207"
+}, {
+    "latitude": "24.476878",
+    "count": 0,
+    "Id": "D00T003R20170725105939000478",
+    "type": 2,
+    "Name": "金枫园门口人像识别西1",
+    "longitude": "118.128624"
+}, {
+    "latitude": "24.472426",
+    "count": 0,
+    "Id": "D00T003R20170725105939000483",
+    "type": 2,
+    "Name": "文屏路加油站路口人像识别南1",
+    "longitude": "118.112208"
+}, {
+    "latitude": "24.473898",
+    "count": 0,
+    "Id": "D00T003R20170725105939000488",
+    "type": 2,
+    "Name": "厦禾路金榜路口人像识别东1",
+    "longitude": "118.117144"
+}, {
+    "latitude": "24.5248",
+    "count": 4,
+    "Id": "D00T003R20170411203954000050",
+    "type": 2,
+    "Name": "湖里区BRT双十中学出口2",
+    "longitude": "118.1516"
+}, {
+    "latitude": "24.5352",
+    "count": 4,
+    "Id": "D00T003R20170411203954000055",
+    "type": 2,
+    "Name": "湖里区BRT县后站出口1",
+    "longitude": "118.1473"
+}, {
+    "latitude": "24.4590",
+    "count": 0,
+    "Id": "D00T003R20170509140321000137",
+    "type": 2,
+    "Name": "公园南路清真寺门口旧",
+    "longitude": "118.0826"
+}, {
+    "latitude": "24.6379",
+    "count": 0,
+    "Id": "D00T003R20170411203954000002",
+    "type": 2,
+    "Name": "厦门北站进站验证口1",
+    "longitude": "118.0695"
+}, {
+    "latitude": "24.4908",
+    "count": 2,
+    "Id": "D00T003R20170411203954000015",
+    "type": 2,
+    "Name": "湖里区BRT蔡塘站入口",
+    "longitude": "118.149"
+}, {
+    "latitude": "24.4793",
+    "count": 2,
+    "Id": "D00T003R20170411203954000020",
+    "type": 2,
+    "Name": "思明区BRT东芳山庄入口",
+    "longitude": "118.1451"
+}, {
+    "latitude": "24.4793",
+    "count": 0,
+    "Id": "D00T003R20170411203954000021",
+    "type": 2,
+    "Name": "思明区BRT东芳山庄出口1",
+    "longitude": "118.1451"
+}, {
+    "latitude": "24.4712",
+    "count": 0,
+    "Id": "D00T003R20170411203954000113",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口1",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.4712",
+    "count": 0,
+    "Id": "D00T003R20170411203954000115",
+    "type": 2,
+    "Name": "厦门南站_北广场进站口3",
+    "longitude": "118.1101"
+}, {
+    "latitude": "24.497864",
+    "count": 0,
+    "Id": "D00T003R20170712100202000389",
+    "type": 2,
+    "Name": "海沧大桥（沧虹）公安检查站人脸微卡口",
+    "longitude": "118.06026"
+}, {
+    "latitude": "24.647976",
+    "count": 0,
+    "Id": "D00T003R20170712100202000397",
+    "type": 2,
+    "Name": "翔安莲河市际公安检查站人脸微卡口",
+    "longitude": "118.42364"
+}, {
+    "latitude": "24.5363",
+    "count": 0,
+    "Id": "D00T003R20170713164248001022",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内出口接机#2",
+    "longitude": "118.1258"
+}, {
+    "latitude": "24.5471",
+    "count": 0,
+    "Id": "D00T003R20170713164248001025",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥202",
+    "longitude": "118.1403"
+}, {
+    "latitude": "24.5359",
+    "count": 0,
+    "Id": "D00T003R20170713164248001031",
+    "type": 2,
+    "Name": "厦门高崎国际机场T3国内廊桥#1",
+    "longitude": "118.1234"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000085",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口7",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4698",
+    "count": 0,
+    "Id": "D00T003R20170411203954000094",
+    "type": 2,
+    "Name": "厦门南站_南广场验证台2",
+    "longitude": "118.1120"
+}, {
+    "latitude": "24.6387",
+    "count": 0,
+    "Id": "D00T003R20170411203954000063",
+    "type": 2,
+    "Name": "厦门北站5号检票口1-1",
+    "longitude": "118.0703"
+}, {
+    "latitude": "24.6387",
+    "count": 0,
+    "Id": "D00T003R20170411203954000064",
+    "type": 2,
+    "Name": "厦门北站5号检票口1-2",
+    "longitude": "118.0703"
+}, {
+    "latitude": "24.6383",
+    "count": 0,
+    "Id": "D00T003R20170411203954000074",
+    "type": 2,
+    "Name": "厦门北站2号出站口1-1",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.6383",
+    "count": 1,
+    "Id": "D00T003R20170411203954000075",
+    "type": 2,
+    "Name": "厦门北站2号出站口1-2",
+    "longitude": "118.0702"
+}, {
+    "latitude": "24.435151",
+    "count": 0,
+    "Id": "D00T003R20170810114050000573",
+    "type": 2,
+    "Name": "进明寺门口21",
+    "longitude": "118.147521"
+}, {
+    "latitude": "24.439004",
+    "count": 0,
+    "Id": "D00T003R20170810114057000652",
+    "type": 2,
+    "Name": "演武大桥下公厕旁21",
+    "longitude": "118.106441"
+}, {
+    "latitude": "24.646683",
+    "count": 0,
+    "Id": "D00T003R20170815112636000660",
+    "type": 2,
+    "Name": "XA169-郑坂社区综合农贸市场对面21",
+    "longitude": "118.245925"
+}, {
+    "latitude": "24.712718",
+    "count": 0,
+    "Id": "D00T003R20170810114050000602",
+    "type": 2,
+    "Name": "乌涂商业街爱心购物广场31",
+    "longitude": "118.130556"
+}, {
+    "latitude": "24.485574",
+    "count": 0,
+    "Id": "D00T003R20170810114050000605",
+    "type": 2,
+    "Name": "新景工行旁嘉禾路口11",
+    "longitude": "118.127258"
+}, {
+    "latitude": "24.485574",
+    "count": 0,
+    "Id": "D00T003R20170810114050000606",
+    "type": 2,
+    "Name": "新景工行旁嘉禾路口21",
+    "longitude": "118.127258"
+}, {
+    "latitude": "24.486636",
+    "count": 0,
+    "Id": "D00T003R20170810114050000607",
+    "type": 2,
+    "Name": "新中林酒店旁十字口11",
+    "longitude": "118.131604"
+}, {
+    "latitude": "24.488565",
+    "count": 0,
+    "Id": "D00T003R20170810114050000622",
+    "type": 2,
+    "Name": "鑫林滨餐厅旁拐角处21",
+    "longitude": "118.131298"
+}, {
+    "latitude": "24.645878",
+    "count": 0,
+    "Id": "D00T003R20170810114050000546",
+    "type": 2,
+    "Name": "XA002-市头北里1号101对面21",
+    "longitude": "118.247136"
+}, {
+    "latitude": "24.669845",
+    "count": 0,
+    "Id": "D00T003R20170810114050000554",
+    "type": 2,
+    "Name": "XA095-同塘仔尾可可馨超市21",
+    "longitude": "118.214269"
+}, {
+    "latitude": "24.440219",
+    "count": 0,
+    "Id": "D00T003R20170902155441000838",
+    "type": 2,
+    "Name": "思明区东宅理发店路口人脸东",
+    "longitude": "118.113895"
+}, {
+    "latitude": "24.527375",
+    "count": 0,
+    "Id": "D00T003R20170821095104000731",
+    "type": 2,
+    "Name": "0023-长虹路健民医院K11",
+    "longitude": "118.107711"
+}, {
+    "latitude": "24.51374",
+    "count": 0,
+    "Id": "D00T003R20170821095104000738",
+    "type": 2,
+    "Name": "0522-兴隆路中国邮政路口K21",
+    "longitude": "118.121166"
+}, {
+    "latitude": "24.481906",
+    "count": 0,
+    "Id": "D00T003R20170821095104000740",
+    "type": 2,
+    "Name": "BRT洪文站出站11",
+    "longitude": "118.165888"
+}, {
+    "latitude": "24.468361",
+    "count": 0,
+    "Id": "D00T003R20170823100549000759",
+    "type": 2,
+    "Name": "BRT第一码头站出站21",
+    "longitude": "118.078766"
+}, {
+    "latitude": "24.482043",
+    "count": 0,
+    "Id": "D00T003R20170823100549000765",
+    "type": 2,
+    "Name": "BRT龙山桥站1",
+    "longitude": "118.137539"
+}, {
+    "latitude": "24.517756",
+    "count": 0,
+    "Id": "D00T003R20170823100549000768",
+    "type": 2,
+    "Name": "BRT市政务服务中心站出站11",
+    "longitude": "118.165444"
+}, {
+    "latitude": "24.648153",
+    "count": 0,
+    "Id": "D00T003R20170815112636000672",
+    "type": 2,
+    "Name": "郑坂亿丰超市11",
+    "longitude": "118.243252"
+}, {
+    "latitude": "24.491622",
+    "count": 0,
+    "Id": "D00T003R20170815112641000685",
+    "type": 2,
+    "Name": "蔡塘南侧学校21",
+    "longitude": "118.166464"
+}, {
+    "latitude": "24.529587",
+    "count": 0,
+    "Id": "D00T003R20170815112641000702",
+    "type": 2,
+    "Name": "苏埭路口11",
+    "longitude": "117.990033"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20170815112641000703",
+    "type": 2,
+    "Name": "霞阳大榕树路口21",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.534354",
+    "count": 0,
+    "Id": "D00T003R20170815112641000705",
+    "type": 2,
+    "Name": "霞阳大榕树路口51",
+    "longitude": "118.014659"
+}, {
+    "latitude": "24.456695",
+    "count": 0,
+    "Id": "D00T003R20170817152504000713",
+    "type": 2,
+    "Name": "局口街11",
+    "longitude": "118.075707"
+}, {
+    "latitude": "24.528553",
+    "count": 0,
+    "Id": "D00T003R20170817152504000716",
+    "type": 2,
+    "Name": "枋湖北二路县后社186号K41",
+    "longitude": "118.16149"
+}, {
+    "latitude": "24.431034",
+    "count": 0,
+    "Id": "D00T003R20170823100549000776",
+    "type": 2,
+    "Name": "曾厝垵阿川海鲜（北向南）1",
+    "longitude": "118.130913"
+}, {
+    "latitude": "24.430766",
+    "count": 0,
+    "Id": "D00T003R20170823100549000781",
+    "type": 2,
+    "Name": "曾厝垵海外海（东向西）1",
+    "longitude": "118.131434"
+}, {
+    "latitude": "24.587613",
+    "count": 0,
+    "Id": "D00T003R20170920151410001271",
+    "type": 2,
+    "Name": "集美区九天湖路与杏林北三路路口2_2",
+    "longitude": "118.041648"
+}, {
+    "latitude": "24.594951",
+    "count": 0,
+    "Id": "D00T003R20170920151410001272",
+    "type": 2,
+    "Name": "集美区立德路与通林二路2_1",
+    "longitude": "118.058684"
+}, {
+    "latitude": "24.439885",
+    "count": 1,
+    "Id": "D00T003R20170902155536000852",
+    "type": 2,
+    "Name": "思明区曾厝垵上里上李老黑批发部路口人脸西",
+    "longitude": "118.118949"
+}, {
+    "latitude": "24.594188",
+    "count": 0,
+    "Id": "D00T003R20170920151410001282",
+    "type": 2,
+    "Name": "集美区万科里2_3",
+    "longitude": "118.057017"
+}, {
+    "latitude": "24.572514",
+    "count": 0,
+    "Id": "D00T003R20170920151410001297",
+    "type": 2,
+    "Name": "集美区杏前路建昌花园_1_1",
+    "longitude": "118.037826"
+}, {
+    "latitude": "24.462958",
+    "count": 2,
+    "Id": "D00T003R20170914175956000953",
+    "type": 2,
+    "Name": "思明区BRT思北站出口1",
+    "longitude": "118.075358"
+}, {
+    "latitude": "24.480559",
+    "count": 3,
+    "Id": "D00T003R20170914175956000959",
+    "type": 2,
+    "Name": "思明区BRT卧龙晓城站出口",
+    "longitude": "118.137282"
+}, {
+    "latitude": "24.480559",
+    "count": 4,
+    "Id": "D00T003R20170914175956000960",
+    "type": 2,
+    "Name": "思明区BRT卧龙晓城站入口",
+    "longitude": "118.137282"
+}, {
+    "latitude": "24.645878",
+    "count": 0,
+    "Id": "D00T003R20170914175956000961",
+    "type": 2,
+    "Name": "翔安区巷南路XA002-市头北里1号101对面1",
+    "longitude": "118.247136"
+}, {
+    "latitude": "24.645878",
+    "count": 10,
+    "Id": "D00T003R20170914175956000962",
+    "type": 2,
+    "Name": "翔安区巷南路XA002-市头北里1号101对面2",
+    "longitude": "118.247136"
+}, {
+    "latitude": "24.667142",
+    "count": 0,
+    "Id": "D00T003R20170914175956000978",
+    "type": 2,
+    "Name": "翔安区XA110同美塘尾仔同美里5号101旁3",
+    "longitude": "118.216624"
+}, {
+    "latitude": "24.644672",
+    "count": 1,
+    "Id": "D00T003R20170914175956000992",
+    "type": 2,
+    "Name": "翔安区XA166-郑坂南里181号前两幢1",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170914175956000994",
+    "type": 2,
+    "Name": "翔安区XA166-郑坂南里181号前两幢3",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.644672",
+    "count": 0,
+    "Id": "D00T003R20170914175956000995",
+    "type": 2,
+    "Name": "翔安区XA166-郑坂南里181号前两幢4",
+    "longitude": "118.232125"
+}, {
+    "latitude": "24.643272",
+    "count": 3,
+    "Id": "D00T003R20170914175956000999",
+    "type": 2,
+    "Name": "翔安区巷南路XA179-西坂西亭里214号前2",
+    "longitude": "118.242345"
+}, {
+    "latitude": "24.650574",
+    "count": 0,
+    "Id": "D00T003R20170914175956001000",
+    "type": 2,
+    "Name": "翔安区春波路与翔星路交叉口XA191-下坂村聚星隆购物对面1",
+    "longitude": "118.242463"
+}, {
+    "latitude": "24.443035",
+    "count": 0,
+    "Id": "D00T003R20170914175956001112",
+    "type": 2,
+    "Name": "思明区民族路沙坡尾水闸2",
+    "longitude": "118.080974"
+}, {
+    "latitude": "24.469002",
+    "count": 0,
+    "Id": "D00T003R20170914175956001124",
+    "type": 2,
+    "Name": "思明区文屏路加油站路口人像识别南",
+    "longitude": "118.100677"
+}, {
+    "latitude": "24.470374",
+    "count": 0,
+    "Id": "D00T003R20170914175956001131",
+    "type": 2,
+    "Name": "思明区厦禾路千禧园三枪门口人像识别东",
+    "longitude": "118.105066"
+}, {
+    "latitude": "24.470242",
+    "count": 1,
+    "Id": "D00T003R20170914175956001140",
+    "type": 2,
+    "Name": "思明区厦禾路鑫安宾馆门口人像识别东",
+    "longitude": "118.104496"
+}, {
+    "latitude": "24.5218",
+    "count": 0,
+    "Id": "D00T003R20170914175956001005",
+    "type": 2,
+    "Name": "湖里区禾山街道安兜社611号博爱门诊K1",
+    "longitude": "118.1319"
+}, {
+    "latitude": "24.435023",
+    "count": 1,
+    "Id": "D00T003R20170914175956001009",
+    "type": 2,
+    "Name": "思明区环岛路白城沙滩警务室2",
+    "longitude": "118.097662"
+}, {
+    "latitude": "24.4889",
+    "count": 7,
+    "Id": "D00T003R20170914175956001015",
+    "type": 2,
+    "Name": "湖里区吕岭路蔡塘人行天桥北侧3",
+    "longitude": "118.1552"
+}, {
+    "latitude": "24.484841",
+    "count": 5,
+    "Id": "D00T003R20170914175956001021",
+    "type": 2,
+    "Name": "思明区莲花南里已映碧北路交叉口第二实验小学旁2",
+    "longitude": "118.122064"
+}, {
+    "latitude": "24.527556",
+    "count": 0,
+    "Id": "D00T003R20170914175956001032",
+    "type": 2,
+    "Name": "海沧区霞阳南路海霞幼儿园路口4",
+    "longitude": "118.002129"
+}, {
+    "latitude": "24.5173",
+    "count": 2,
+    "Id": "D00T003R20170914175956001039",
+    "type": 2,
+    "Name": "湖里区悦华路后铺社村口戏台K2",
+    "longitude": "118.1096"
+}, {
+    "latitude": "24.472462",
+    "count": 0,
+    "Id": "D00T003R20170914175956001044",
+    "type": 2,
+    "Name": "思明区后埭溪与禾祥东路交叉路口人像识别西（益城广场）",
+    "longitude": "118.101668"
+}, {
+    "latitude": "24.5095",
+    "count": 1,
+    "Id": "D00T003R20170914175956001050",
+    "type": 2,
+    "Name": "湖里区湖里街道42号K3",
+    "longitude": "118.0916"
+}, {
+    "latitude": "24.469716",
+    "count": 2,
+    "Id": "D00T003R20170914175956001057",
+    "type": 2,
+    "Name": "思明区汇文路湖滨中路路口人像识别南",
+    "longitude": "118.099147"
+}, {
+    "latitude": "24.5308",
+    "count": 3,
+    "Id": "D00T003R20170914175956001086",
+    "type": 2,
+    "Name": "湖里区枋钟路林后社441号1",
+    "longitude": "118.1239"
+}, {
+    "latitude": "24.444852",
+    "count": 0,
+    "Id": "D00T003R20170914175956001092",
+    "type": 2,
+    "Name": "思明区民族路与成功大道桥下1",
+    "longitude": "118.080238"
+}, {
+    "latitude": "24.479544",
+    "count": 1,
+    "Id": "D00T003R20170914175956001097",
+    "type": 2,
+    "Name": "思明区莲前西路辅路明发BRT旁1",
+    "longitude": "118.117776"
+}, {
+    "latitude": "24.435029",
+    "count": 0,
+    "Id": "D00T003R20170914175956001150",
+    "type": 2,
+    "Name": "思明区环岛南路亚洲海湾大酒店南区路口1",
+    "longitude": "118.140258"
+}, {
+    "latitude": "24.435565",
+    "count": 0,
+    "Id": "D00T003R20170914175956001155",
+    "type": 2,
+    "Name": "思明区大学路演武大桥下公厕旁2",
+    "longitude": "118.095124"
+}, {
+    "latitude": "24.428066",
+    "count": 1,
+    "Id": "D00T003R20170914175956001159",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵阿川海鲜北向南",
+    "longitude": "118.119452"
+}, {
+    "latitude": "24.4315",
+    "count": 0,
+    "Id": "D00T003R20170914175956001166",
+    "type": 2,
+    "Name": "思明区曾厝社美食街曾厝垵红素酒吧西向东",
+    "longitude": "118.121316"
+}, {
+    "latitude": "24.428225",
+    "count": 0,
+    "Id": "D00T003R20170914175956001169",
+    "type": 2,
+    "Name": "思明区环岛路曾厝垵佳福园路口南向北",
+    "longitude": "118.119161"
+}, {
+    "latitude": "24.5083",
+    "count": 14,
+    "Id": "D00T003R20170914175956001185",
+    "type": 2,
+    "Name": "湖里区竹坑路22-26号K1",
+    "longitude": "118.0906"
+}, {
+    "latitude": "24.5083",
+    "count": 0,
+    "Id": "D00T003R20170914175956001187",
+    "type": 2,
+    "Name": "湖里区竹坑路22-26号K4",
+    "longitude": "118.0906"
+}, {
+    "latitude": "24.5083",
+    "count": 21,
+    "Id": "D00T003R20170914175956001188",
+    "type": 2,
+    "Name": "湖里区竹坑路华昌路路口K2",
+    "longitude": "118.0925"
+}, {
+    "latitude": "24.5301",
+    "count": 0,
+    "Id": "D00T003R20170914175956001191",
+    "type": 2,
+    "Name": "湖里区坂上路围里社区路口K1",
+    "longitude": "118.1394"
+}, {
+    "latitude": "24.605304",
+    "count": 8,
+    "Id": "D00T003R20170918104444001242",
+    "type": 2,
+    "Name": "集美区孙坂南路浒井公交车站旁3",
+    "longitude": "118.092732"
+}, {
+    "latitude": "24.707536",
+    "count": 0,
+    "Id": "D00T003R20170921143621001315",
+    "type": 2,
+    "Name": "同安区同明路坝仔埔",
+    "longitude": "118.118077"
+}, {
+    "latitude": "24.537675",
+    "count": 0,
+    "Id": "D00T003R20170919165836001254",
+    "type": 2,
+    "Name": "湖里区云顶北路县后段断面人行道北向南2",
+    "longitude": "118.146318"
+}, {
+    "latitude": "24.51",
+    "count": 0,
+    "Id": "D00T003R20170921143621001318",
+    "type": 2,
+    "Name": "湖里区0521-兴隆路光亮骨科医院K2",
+    "longitude": "118.1136"
+}, {
+    "latitude": "24.5276",
+    "count": 1,
+    "Id": "D00T003R20170921143621001319",
+    "type": 2,
+    "Name": "湖里区枋湖北二路县后社48号对面K2",
+    "longitude": "118.1458"
+}, {
+    "latitude": "24.5256",
+    "count": 0,
+    "Id": "D00T003R20170914175956001199",
+    "type": 2,
+    "Name": "湖里区枋湖北二路县后社186号K2",
+    "longitude": "118.1499"
+}, {
+    "latitude": "24.5256",
+    "count": 0,
+    "Id": "D00T003R20170914175956001200",
+    "type": 2,
+    "Name": "湖里区枋湖北二路县后社186号K3",
+    "longitude": "118.1499"
+}, {
+    "latitude": "24.5991",
+    "count": 0,
+    "Id": "D00T003R20170918104444001220",
+    "type": 2,
+    "Name": "集美区天凤路霞浯公交站1-1",
+    "longitude": "118.102133"
+}, {
+    "latitude": "24.433934",
+    "count": 0,
+    "Id": "D00T003R20170918104444001233",
+    "type": 2,
+    "Name": "思明区仓里路小白鹭正门人脸东",
+    "longitude": "118.11337"
+}, {
+    "latitude": "24.433934",
+    "count": 0,
+    "Id": "D00T003R20170918104444001234",
+    "type": 2,
+    "Name": "思明区仓里路小白鹭正门人脸西",
+    "longitude": "118.11337"
+}, {
+    "latitude": "24.5207421",
+    "count": 3,
+    "Id": "D00T003R20171229172743002148",
+    "type": 2,
+    "Name": "海沧区永辉超市西南面",
+    "longitude": "117.9926451"
+}, {
+    "latitude": "24.5000",
+    "count": 3,
+    "Id": "D00T003R20171031184217001494",
+    "type": 2,
+    "Name": "湖里区裕兴大厦地下南入口",
+    "longitude": "118.1233"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171103113619001506",
+    "type": 2,
+    "Name": "24路公交车DZ3870",
+    "longitude": "118"
+}, {
+    "latitude": "24.5175",
+    "count": 0,
+    "Id": "D00T003R20171106101030001515",
+    "type": 2,
+    "Name": "湖里区悦华路后浦社区35号K2",
+    "longitude": "118.11"
+}, {
+    "latitude": "24.714934",
+    "count": 0,
+    "Id": "D00T003R20171106101030001516",
+    "type": 2,
+    "Name": "同安区新民大道新民所对面可益福大酒店",
+    "longitude": "118.127361"
+}, {
+    "latitude": "24.5739",
+    "count": 0,
+    "Id": "D00T003R20170927165917001378",
+    "type": 2,
+    "Name": "杏林长途汽车站大门岗亭上面",
+    "longitude": "118.0351"
+}, {
+    "latitude": "24.4906291",
+    "count": 0,
+    "Id": "D00T003R20171229172743002101",
+    "type": 2,
+    "Name": "海沧区马青路古楼农场南面2",
+    "longitude": "117.9770201"
+}, {
+    "latitude": "24.4816111",
+    "count": 1,
+    "Id": "D00T003R20171229172743002104",
+    "type": 2,
+    "Name": "海沧区青礁村口南面2",
+    "longitude": "117.9628491"
+}, {
+    "latitude": "24.5649881",
+    "count": 2,
+    "Id": "D00T003R20171229172743002106",
+    "type": 2,
+    "Name": "海沧区商业街南面西南2",
+    "longitude": "117.9326001"
+}, {
+    "latitude": "24.5196091",
+    "count": 0,
+    "Id": "D00T003R20171229172743002107",
+    "type": 2,
+    "Name": "海沧区石室禅院南面2",
+    "longitude": "118.0160831"
+}, {
+    "latitude": "24.5588051",
+    "count": 0,
+    "Id": "D00T003R20171229172743002115",
+    "type": 2,
+    "Name": "海沧区汤岸主入口南面2",
+    "longitude": "117.9329991"
+}, {
+    "latitude": "24.5249",
+    "count": 0,
+    "Id": "D00T003R20170922143520001343",
+    "type": 2,
+    "Name": "湖里区0554-成功大道辅道安兜自来水厂路口K4",
+    "longitude": "118.127"
+}, {
+    "latitude": "24.438837",
+    "count": 10,
+    "Id": "D00T003R20170922143520001350",
+    "type": 2,
+    "Name": "思明区黄厝塔头122号",
+    "longitude": "118.139079"
+}, {
+    "latitude": "24.607956",
+    "count": 0,
+    "Id": "D00T003R20170922143520001355",
+    "type": 2,
+    "Name": "集美区英瑶路井泉路2",
+    "longitude": "118.107751"
+}, {
+    "latitude": "24.431724",
+    "count": 0,
+    "Id": "D00T003R20170922143520001360",
+    "type": 2,
+    "Name": "思明区黄厝溪头下24号2",
+    "longitude": "118.136709"
+}, {
+    "latitude": "24.5346051",
+    "count": 0,
+    "Id": "D00T003R20171229172743002121",
+    "type": 2,
+    "Name": "霞阳大榕树西南面5",
+    "longitude": "118.0144881"
+}, {
+    "latitude": "24.5342941",
+    "count": 0,
+    "Id": "D00T003R20171229172743002128",
+    "type": 2,
+    "Name": "霞阳乐翻天西面4",
+    "longitude": "118.0155411"
+}, {
+    "latitude": "24.5307601",
+    "count": 12,
+    "Id": "D00T003R20171229172743002134",
+    "type": 2,
+    "Name": "海沧区新垵五角亭3",
+    "longitude": "117.9939801"
+}, {
+    "latitude": "24.613779",
+    "count": 0,
+    "Id": "D00T003R20171113144227001616",
+    "type": 2,
+    "Name": "同安区BRT东亭站西入口",
+    "longitude": "118.130019"
+}, {
+    "latitude": "24.617478",
+    "count": 0,
+    "Id": "D00T003R20171113144227001618",
+    "type": 2,
+    "Name": "同安区BRT美峰站西入口",
+    "longitude": "118.136706"
+}, {
+    "latitude": "24.610683",
+    "count": 5,
+    "Id": "D00T003R20171113144227001622",
+    "type": 2,
+    "Name": "集美区东林路莲塘路交叉口2",
+    "longitude": "118.103933"
+}, {
+    "latitude": "24.603922",
+    "count": 1,
+    "Id": "D00T003R20171113144227001624",
+    "type": 2,
+    "Name": "集美区英瑶路07双丰商场1",
+    "longitude": "118.105208"
+}, {
+    "latitude": "24.4653",
+    "count": 0,
+    "Id": "D00T003R20171120141431001638",
+    "type": 2,
+    "Name": "海沧区水云湾西门南侧出口",
+    "longitude": "118.0270"
+}, {
+    "latitude": "24.63125",
+    "count": 1,
+    "Id": "D00T003R20171129162434001668",
+    "type": 2,
+    "Name": "同安区BRT蔡店站西出口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.50717",
+    "count": 0,
+    "Id": "D00T003R20171228100006002019",
+    "type": 2,
+    "Name": "0816-园山南路北侧叉车厂站-朝",
+    "longitude": "118.13284"
+}, {
+    "latitude": "24.453148",
+    "count": 1,
+    "Id": "D00T003R20180106134748002174",
+    "type": 2,
+    "Name": "思明区镇海路地铁站A端入口闸机07",
+    "longitude": "118.007481"
+}, {
+    "latitude": "24.49706",
+    "count": 1,
+    "Id": "D00T003R20180102154906002160",
+    "type": 2,
+    "Name": "0957-湖里区金尚路西侧祥店站-朝1",
+    "longitude": "118.14794"
+}, {
+    "latitude": "24.47915",
+    "count": 0,
+    "Id": "D00T003R20180120100846002224",
+    "type": 2,
+    "Name": "思明区香山船艇会人脸卡口",
+    "longitude": "118.189936"
+}, {
+    "latitude": "24.5928",
+    "count": 3,
+    "Id": "D00T003R20171115161136001636",
+    "type": 2,
+    "Name": "集美区孙厝北健幼儿园入口",
+    "longitude": "118.0937"
+}, {
+    "latitude": "24.63125",
+    "count": 1,
+    "Id": "D00T003R20171129162434001671",
+    "type": 2,
+    "Name": "同安区BRT蔡店站东出口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.656205",
+    "count": 1,
+    "Id": "D00T003R20171129162434001674",
+    "type": 2,
+    "Name": "同安区BRT官浔站入口",
+    "longitude": "118.143563"
+}, {
+    "latitude": "24.5911",
+    "count": 63,
+    "Id": "D00T003R20171109200659001558",
+    "type": 2,
+    "Name": "集美区诚毅学院食堂小铁门2",
+    "longitude": "118.0904"
+}, {
+    "latitude": "24.590257",
+    "count": 0,
+    "Id": "D00T003R20171113144057001570",
+    "type": 2,
+    "Name": "集美区BRT凤林站西出口",
+    "longitude": "118.116388"
+}, {
+    "latitude": "24.624318",
+    "count": 0,
+    "Id": "D00T003R20171113144057001571",
+    "type": 2,
+    "Name": "集美区BRT刘厝站东入口",
+    "longitude": "118.060655"
+}, {
+    "latitude": "24.590257",
+    "count": 0,
+    "Id": "D00T003R20171113144057001578",
+    "type": 2,
+    "Name": "集美区BRT凤林站西入口",
+    "longitude": "118.116388"
+}, {
+    "latitude": "24.596364",
+    "count": 1,
+    "Id": "D00T003R20171113144057001588",
+    "type": 2,
+    "Name": "集美区BRT东垵站西入口",
+    "longitude": "118.1214"
+}, {
+    "latitude": "24.6048",
+    "count": 0,
+    "Id": "D00T003R20171113144227001596",
+    "type": 2,
+    "Name": "集美区BRT大学城东入口",
+    "longitude": "118.074517"
+}, {
+    "latitude": "24.6048",
+    "count": 1,
+    "Id": "D00T003R20171113144227001602",
+    "type": 2,
+    "Name": "集美区BRT大学城东出口",
+    "longitude": "118.074517"
+}, {
+    "latitude": "24.486884",
+    "count": 1,
+    "Id": "D00T003R20171214174425001846",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码人行天桥2",
+    "longitude": "118.071017"
+}, {
+    "latitude": "24.485405",
+    "count": 0,
+    "Id": "D00T003R20171214174425001847",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头1号电梯",
+    "longitude": "118.071676"
+}, {
+    "latitude": "24.485405",
+    "count": 0,
+    "Id": "D00T003R20171214174425001848",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头2号电梯",
+    "longitude": "118.071676"
+}, {
+    "latitude": "24.486305",
+    "count": 0,
+    "Id": "D00T003R20171214174425001852",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头厦鼓航线到达口1",
+    "longitude": "118.070873"
+}, {
+    "latitude": "24.52578",
+    "count": 5,
+    "Id": "D00T003R20171214174425001743",
+    "type": 2,
+    "Name": "R039-湖里区BRT双十中学站人行天桥1",
+    "longitude": "118.151352"
+}, {
+    "latitude": "24.5014973",
+    "count": 0,
+    "Id": "D00T003R20171214174425001751",
+    "type": 2,
+    "Name": "R003-湖里区SM一期地下车库出入口2",
+    "longitude": "118.1262231"
+}, {
+    "latitude": "24.4856108",
+    "count": 0,
+    "Id": "D00T003R20171214174425001768",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场A西门3（元初）",
+    "longitude": "118.1556845"
+}, {
+    "latitude": "24.4854822",
+    "count": 0,
+    "Id": "D00T003R20171214174425001769",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场B北门1（星巴克）",
+    "longitude": "118.1562728"
+}, {
+    "latitude": "24.4854008",
+    "count": 0,
+    "Id": "D00T003R20171214174425001771",
+    "type": 2,
+    "Name": "R007-湖里区蔡塘东百广场C东门1（肯德基）",
+    "longitude": "118.1571579"
+}, {
+    "latitude": "24.63125",
+    "count": 0,
+    "Id": "D00T003R20171129162434001676",
+    "type": 2,
+    "Name": "同安区BRT蔡店站西入口",
+    "longitude": "118.133267"
+}, {
+    "latitude": "24.683539",
+    "count": 1,
+    "Id": "D00T003R20171129162434001677",
+    "type": 2,
+    "Name": "同安区BRT四口圳站入口",
+    "longitude": "118.134837"
+}, {
+    "latitude": "24.722102",
+    "count": 18,
+    "Id": "D00T003R20171129162434001680",
+    "type": 2,
+    "Name": "同安区BRT同安枢纽站入口",
+    "longitude": "118.128821"
+}, {
+    "latitude": "24.587345",
+    "count": 0,
+    "Id": "D00T003R20171129162434001682",
+    "type": 2,
+    "Name": "集美区同集南路乐安路3",
+    "longitude": "118.09602"
+}, {
+    "latitude": "24.441793",
+    "count": 0,
+    "Id": "D00T003R20171129162434001684",
+    "type": 2,
+    "Name": "思明区龙虎上里上李部队路口车辆东",
+    "longitude": "118.119628"
+}, {
+    "latitude": "24.525335",
+    "count": 0,
+    "Id": "D00T003R20171205144846001705",
+    "type": 2,
+    "Name": "R015-湖里区禾山街道办事处正门人行道1",
+    "longitude": "118.146338"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20171207182436001723",
+    "type": 2,
+    "Name": "华天学院对面学生街",
+    "longitude": "118"
+}, {
+    "latitude": "24.507775",
+    "count": 10,
+    "Id": "D00T003R20171214174425001786",
+    "type": 2,
+    "Name": "R004-湖里万达广场6号门",
+    "longitude": "118.173033"
+}, {
+    "latitude": "24.509359",
+    "count": 0,
+    "Id": "D00T003R20171214174425001787",
+    "type": 2,
+    "Name": "R004-湖里万达广场1号门1",
+    "longitude": "118.172873"
+}, {
+    "latitude": "24.428027",
+    "count": 0,
+    "Id": "D00T003R20171208154116001727",
+    "type": 2,
+    "Name": "思明区环岛南路曾厝垵福海宫路口西向东",
+    "longitude": "118.119388"
+}, {
+    "latitude": "24.5121463",
+    "count": 0,
+    "Id": "D00T003R20171214174425001800",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇二楼BRT天桥西门",
+    "longitude": "118.1596059"
+}, {
+    "latitude": "24.511969",
+    "count": 0,
+    "Id": "D00T003R20171214174425001806",
+    "type": 2,
+    "Name": "R006-湖里区五缘湾乐都汇员工通道",
+    "longitude": "118.1608808"
+}, {
+    "latitude": "24.533992",
+    "count": 0,
+    "Id": "D00T003R20171214174425001820",
+    "type": 2,
+    "Name": "R041-厦门五通码头大厅出入口6",
+    "longitude": "118.186246"
+}, {
+    "latitude": "24.502379",
+    "count": 11,
+    "Id": "D00T003R20171214174425001823",
+    "type": 2,
+    "Name": "R013-湖里区仙岳路SM天桥1",
+    "longitude": "118.123204"
+}, {
+    "latitude": "24.516836",
+    "count": 0,
+    "Id": "D00T003R20171214174425001833",
+    "type": 2,
+    "Name": "R021-湖里区枋湖路区政府北门出入口2",
+    "longitude": "118.142534"
+}, {
+    "latitude": "24.529924",
+    "count": 14,
+    "Id": "D00T003R20171214174425001876",
+    "type": 2,
+    "Name": "R025-湖里区枋钟路林后社出口2",
+    "longitude": "118.126605"
+}, {
+    "latitude": "24.50679",
+    "count": 0,
+    "Id": "D00T003R20171218125920001888",
+    "type": 2,
+    "Name": "0878-宜宾路北侧市儿童医院站-朝",
+    "longitude": "118.11323"
+}, {
+    "latitude": "24.50454",
+    "count": 0,
+    "Id": "D00T003R20171218125920001890",
+    "type": 2,
+    "Name": "0881-华荣路东侧水上乐园站-朝北",
+    "longitude": "118.10886"
+}, {
+    "latitude": "24.50362",
+    "count": 0,
+    "Id": "D00T003R20171218125920001891",
+    "type": 2,
+    "Name": "0883-南山路北侧南山疗养院站-朝西",
+    "longitude": "118.11186"
+}, {
+    "latitude": "24.50726",
+    "count": 0,
+    "Id": "D00T003R20171218125920001896",
+    "type": 2,
+    "Name": "0891-嘉禾路西侧塘边站-朝1",
+    "longitude": "118.12153"
+}, {
+    "latitude": "24.51146",
+    "count": 0,
+    "Id": "D00T003R20171218125920001899",
+    "type": 2,
+    "Name": "0895-湖里大道北侧华光站-朝3",
+    "longitude": "118.11158"
+}, {
+    "latitude": "24.49828",
+    "count": 0,
+    "Id": "D00T003R20171218125920001907",
+    "type": 2,
+    "Name": "0930-湖里区仙岳路南侧金尚公交场站-朝北",
+    "longitude": "118.15073"
+}, {
+    "latitude": "24.50440",
+    "count": 3,
+    "Id": "D00T003R20171218125920001913",
+    "type": 2,
+    "Name": "0945-湖里区金山路下湖路路口-朝西",
+    "longitude": "118.17604"
+}, {
+    "latitude": "24.4903611",
+    "count": 2,
+    "Id": "D00T003R20171229172743002067",
+    "type": 2,
+    "Name": "海沧区儿童公园东屿北路1",
+    "longitude": "118.0343571"
+}, {
+    "latitude": "24.5341171",
+    "count": 0,
+    "Id": "D00T003R20171229172743002076",
+    "type": 2,
+    "Name": "海沧区九号会所西北侧2",
+    "longitude": "117.9941941"
+}, {
+    "latitude": "24.4722821",
+    "count": 0,
+    "Id": "D00T003R20171229172743002080",
+    "type": 2,
+    "Name": "海沧体育场西南侧6",
+    "longitude": "118.0247881"
+}, {
+    "latitude": "24.5249861",
+    "count": 0,
+    "Id": "D00T003R20171229172743002089",
+    "type": 2,
+    "Name": "海沧区惠佐路口南面3",
+    "longitude": "117.9902111"
+}, {
+    "latitude": "24.4878541",
+    "count": 0,
+    "Id": "D00T003R20171229172743002053",
+    "type": 2,
+    "Name": "海沧区滨湖北路海沧区展览馆路口2",
+    "longitude": "118.0273131"
+}, {
+    "latitude": "23",
+    "count": 1,
+    "Id": "D00T003R20171222143314001997",
+    "type": 2,
+    "Name": "翔安区书院路路口",
+    "longitude": "118"
+}, {
+    "latitude": "24.5341381",
+    "count": 0,
+    "Id": "D00T003R20171229172743002055",
+    "type": 2,
+    "Name": "海沧区长庚医院入口东北侧2",
+    "longitude": "118.0076521"
+}, {
+    "latitude": "24.4881881",
+    "count": 0,
+    "Id": "D00T003R20171229172743002059",
+    "type": 2,
+    "Name": "海沧区慈济东宫2",
+    "longitude": "117.9695591"
+}, {
+    "latitude": "24.483798",
+    "count": 0,
+    "Id": "D00T003R20171214174425001855",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头国际邮轮到达口2",
+    "longitude": "118.069645"
+}, {
+    "latitude": "24.485402",
+    "count": 0,
+    "Id": "D00T003R20171214174425001860",
+    "type": 2,
+    "Name": "R001-厦门东渡邮轮码头7号门",
+    "longitude": "118.071637"
+}, {
+    "latitude": "24.521369",
+    "count": 8,
+    "Id": "D00T003R20171214174425001864",
+    "type": 2,
+    "Name": "R029-湖里区枋湖北二路安兜出入口2",
+    "longitude": "118.132449"
+}, {
+    "latitude": "24.508907",
+    "count": 0,
+    "Id": "D00T003R20171214174425001871",
+    "type": 2,
+    "Name": "R005-厦门枋湖客运站TBK2楼南大门（肯德基）",
+    "longitude": "118.1386846"
+}, {
+    "latitude": "24.236",
+    "count": 0,
+    "Id": "D00T003R20180203144119002372",
+    "type": 2,
+    "Name": "集美区美岁天地1号门出口",
+    "longitude": "118.246"
+}, {
+    "latitude": "24.50194",
+    "count": 0,
+    "Id": "D00T003R20180403143849002664",
+    "type": 2,
+    "Name": "湖里区仙岳路江头医院人行天桥海沧方向半球1",
+    "longitude": "118.13164"
+}, {
+    "latitude": "24.521039",
+    "count": 0,
+    "Id": "D00T003R20180403143849002667",
+    "type": 2,
+    "Name": "湖里区兴湖路华荣路口人行天桥半球2",
+    "longitude": "118.101954"
+}, {
+    "latitude": "24.470891",
+    "count": 0,
+    "Id": "D00T003R20180403143849002679",
+    "type": 2,
+    "Name": "思明区湖滨南路电子城人行天桥半球2",
+    "longitude": "118.084136"
+}, {
+    "latitude": "24.657751",
+    "count": 0,
+    "Id": "D00T003R20180201171812002362",
+    "type": 2,
+    "Name": "翔安区翔海路冠捷科技南大门",
+    "longitude": "118.227082"
+}, {
+    "latitude": "24.606967",
+    "count": 0,
+    "Id": "D00T003R20180201171812002364",
+    "type": 2,
+    "Name": "翔安区华天学院学生街东入口",
+    "longitude": "118.242691"
+}, {
+    "latitude": "24.670446",
+    "count": 1,
+    "Id": "D00T003R20180201171812002368",
+    "type": 2,
+    "Name": "翔安区同美下枫村惠康百货旁",
+    "longitude": "118.21088"
+}, {
+    "latitude": "24.708406",
+    "count": 0,
+    "Id": "D00T003R20180124145513002241",
+    "type": 2,
+    "Name": "同安区新民中心小学后门2",
+    "longitude": "118.121654"
+}, {
+    "latitude": "24.514961",
+    "count": 3,
+    "Id": "D00T003R20180125170611002251",
+    "type": 2,
+    "Name": "湖里区火炬园地铁站B端出口闸机02",
+    "longitude": "118.113278"
+}, {
+    "latitude": "24.647638",
+    "count": 0,
+    "Id": "D00T003R20180125170611002263",
+    "type": 2,
+    "Name": "集美区官任地铁站A端出口闸机03",
+    "longitude": "118.065302"
+}, {
+    "latitude": "24.638689",
+    "count": 3,
+    "Id": "D00T003R20180125170611002269",
+    "type": 2,
+    "Name": "集美区厦门北地铁站右线入口闸机05",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 0,
+    "Id": "D00T003R20180125170611002272",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线入口闸机31",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.638689",
+    "count": 5,
+    "Id": "D00T003R20180125170611002281",
+    "type": 2,
+    "Name": "集美区厦门北地铁站左线出口闸机26",
+    "longitude": "118.069712"
+}, {
+    "latitude": "24.476849",
+    "count": 3,
+    "Id": "D00T003R20180125170611002303",
+    "type": 2,
+    "Name": "思明区湖滨东路地铁站B端入口闸机09",
+    "longitude": "118.105502"
+}, {
+    "latitude": "24.493618",
+    "count": 1,
+    "Id": "D00T003R20180125170611002319",
+    "type": 2,
+    "Name": "思明区吕厝地铁站A端出口闸机08",
+    "longitude": "118.123143"
+}, {
+    "latitude": "24.459032",
+    "count": 0,
+    "Id": "D00T003R20180125170611002334",
+    "type": 2,
+    "Name": "思明区中山公园地铁站A端出口闸机09",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.459032",
+    "count": 2,
+    "Id": "D00T003R20180125170611002335",
+    "type": 2,
+    "Name": "思明区中山公园地铁站A端出口闸机10",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.459032",
+    "count": 2,
+    "Id": "D00T003R20180125170611002339",
+    "type": 2,
+    "Name": "思明区中山公园地铁站B端入口闸机07",
+    "longitude": "118.084995"
+}, {
+    "latitude": "24.50212",
+    "count": 3,
+    "Id": "D00T003R20180627172027003095",
+    "type": 2,
+    "Name": "湖里区0150R-兴山路乌石浦南路路口-朝北",
+    "longitude": "118.12809"
+}, {
+    "latitude": "24.52278",
+    "count": 0,
+    "Id": "D00T003R20180403143849002702",
+    "type": 2,
+    "Name": "思明区环岛干道湿地公园人行天桥机场方向半球1",
+    "longitude": "118.176298"
+}, {
+    "latitude": "24.49945",
+    "count": 0,
+    "Id": "D00T003R20180627172027003113",
+    "type": 2,
+    "Name": "湖里区0174R-台湾街江头北路路口2-朝西",
+    "longitude": "118.12785"
+}, {
+    "latitude": "24.49861",
+    "count": 0,
+    "Id": "D00T003R20180627172027003121",
+    "type": 2,
+    "Name": "湖里区0189R-江头西路江头公园西门-朝北",
+    "longitude": "118.12488"
+}, {
+    "latitude": "24.51128",
+    "count": 0,
+    "Id": "D00T003R20180627172027003133",
+    "type": 2,
+    "Name": "湖里区0248R-云顶北路金湖路路口5-朝西",
+    "longitude": "118.15867"
+}, {
+    "latitude": "24.45125",
+    "count": 4,
+    "Id": "D00T003R20180502183353002795",
+    "type": 2,
+    "Name": "思明区镇海路站1号出口1",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24.45125",
+    "count": 5,
+    "Id": "D00T003R20180502183353002798",
+    "type": 2,
+    "Name": "思明区镇海路站1号出口2",
+    "longitude": "118.08448"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180606152910002937",
+    "type": 2,
+    "Name": "江头测试",
+    "longitude": "118"
+}, {
+    "latitude": "24.50103",
+    "count": 0,
+    "Id": "D00T003R20180627172027003140",
+    "type": 2,
+    "Name": "湖里区0299R-成功大道双浦路涵洞西侧-朝南",
+    "longitude": "118.13268"
+}, {
+    "latitude": "24.51675",
+    "count": 0,
+    "Id": "D00T003R20180627172027003072",
+    "type": 2,
+    "Name": "湖里区0073R-悦华路华昌路路口-朝南-朝南",
+    "longitude": "118.09311"
+}, {
+    "latitude": "24.49551",
+    "count": 0,
+    "Id": "D00T003R20180627172027003084",
+    "type": 2,
+    "Name": "湖里区0139R-嘉禾路东方巴黎小商品市场-朝北",
+    "longitude": "118.122772"
+}, {
+    "latitude": "24.48616",
+    "count": 0,
+    "Id": "D00T003R20180627172027003148",
+    "type": 2,
+    "Name": "湖里区0362R-吕岭路洪莲路口2-朝北",
+    "longitude": "118.16264"
+}, {
+    "latitude": "24.48741",
+    "count": 2,
+    "Id": "D00T003R20180627172027003154",
+    "type": 2,
+    "Name": "湖里区0506R-东渡路74号保安亭-朝南",
+    "longitude": "118.07507"
+}, {
+    "latitude": "24.48858",
+    "count": 0,
+    "Id": "D00T003R20180627172027003157",
+    "type": 2,
+    "Name": "湖里区0528R-海山路与金鼎路交界处2-朝南",
+    "longitude": "118.08429"
+}, {
+    "latitude": "24.51138",
+    "count": 0,
+    "Id": "D00T003R20180627172027003159",
+    "type": 2,
+    "Name": "湖里区0544R-金湖路凯悦新城东出口-朝西",
+    "longitude": "118.13877"
+}, {
+    "latitude": "24.49437",
+    "count": 0,
+    "Id": "D00T003R20180627172027003200",
+    "type": 2,
+    "Name": "湖里区0694R-吕岭路金岭大厦路口-朝西",
+    "longitude": "118.13601"
+}, {
+    "latitude": "24.53888",
+    "count": 0,
+    "Id": "D00T003R20180627172027003207",
+    "type": 2,
+    "Name": "湖里区0727R-嘉禾路进岛方向中埔车站-朝北",
+    "longitude": "118.11231"
+}, {
+    "latitude": "24.52289",
+    "count": 0,
+    "Id": "D00T003R20180627172027003210",
+    "type": 2,
+    "Name": "湖里区0771R-钟宅西三路钟智西一路路口-朝北",
+    "longitude": "118.15588"
+}, {
+    "latitude": "24.52226",
+    "count": 0,
+    "Id": "D00T003R20180627172027003220",
+    "type": 2,
+    "Name": "湖里区0839R-长虹路西侧寨上村口公交站-朝北",
+    "longitude": "118.09644"
+}, {
+    "latitude": "24.524214",
+    "count": 0,
+    "Id": "D00T003R20180627172027003223",
+    "type": 2,
+    "Name": "湖里区0840R-长浩路北侧台贸中心公交站-朝西",
+    "longitude": "118.10168"
+}, {
+    "latitude": "24.47927",
+    "count": 0,
+    "Id": "D00T003R20180627172027003225",
+    "type": 2,
+    "Name": "湖里区0876R-东渡路东侧狐尾山站2-朝南",
+    "longitude": "118.07821"
+}, {
+    "latitude": "24.504775",
+    "count": 0,
+    "Id": "D00T003R20180627172027003237",
+    "type": 2,
+    "Name": "湖里区0931R-仙岳路南侧湖边站-朝东",
+    "longitude": "118.16313"
+}, {
+    "latitude": "24",
+    "count": 0,
+    "Id": "D00T003R20180724111507003355",
+    "type": 2,
+    "Name": "石鼓路与集岑路交叉路口_1",
+    "longitude": "117"
+}, {
+    "latitude": "24.571899",
+    "count": 0,
+    "Id": "D00T003R20180704095557003285",
+    "type": 2,
+    "Name": "集美区航海学院东门＿3B",
+    "longitude": "118.091608"
+}, {
+    "latitude": "24.573181",
+    "count": 0,
+    "Id": "D00T003R20180704095557003290",
+    "type": 2,
+    "Name": "集美区杏林村中石油加油站_2",
+    "longitude": "118.053715"
+}, {
+    "latitude": "24.604439",
+    "count": 0,
+    "Id": "D00T003R20180704095557003294",
+    "type": 2,
+    "Name": "集美区景湖南路金龙路路口_7",
+    "longitude": "117.981108"
+}, {
+    "latitude": "24.528564",
+    "count": 0,
+    "Id": "D00T003R20180627172027003165",
+    "type": 2,
+    "Name": "湖里区0559R-金尚路林后西路路口人行天桥1-朝西",
+    "longitude": "118.134034"
+}, {
+    "latitude": "24.53434",
+    "count": 0,
+    "Id": "D00T003R20180627172027003170",
+    "type": 2,
+    "Name": "湖里区0586R-云顶北路县后社BRT东侧-朝东",
+    "longitude": "118.14791"
+}, {
+    "latitude": "24.53181",
+    "count": 0,
+    "Id": "D00T003R20180627172027003172",
+    "type": 2,
+    "Name": "湖里区0599R-环岛干道西侧钟宅人行天桥-朝西",
+    "longitude": "118.16448"
+}, {
+    "latitude": "24.48894",
+    "count": 0,
+    "Id": "D00T003R20180627172027003190",
+    "type": 2,
+    "Name": "湖里区0677R-云顶中路忠仑社路口-朝西",
+    "longitude": "118.14804"
+}, {
+    "latitude": "24.51037",
+    "count": 0,
+    "Id": "D00T003R20180627172027003195",
+    "type": 2,
+    "Name": "湖里区0683R-仙岳路金林路路口-朝西",
+    "longitude": "118.17492"
+}, {
+    "latitude": "24.50022",
+    "count": 0,
+    "Id": "D00T003R20180627172027003196",
+    "type": 2,
+    "Name": "湖里区0692R-金泰路坑西路口路口-朝东",
+    "longitude": "118.14932"
+}, {
+    "latitude": "24.494927",
+    "count": 0,
+    "Id": "D00T003R20180724151521003387",
+    "type": 2,
+    "Name": "湖里区0177R-江头西路7-28号人人便利店2",
+    "longitude": "118.124684"
+}, {
+    "latitude": "24.63478",
+    "count": 0,
+    "Id": "D00T003R20180906144401003518",
+    "type": 2,
+    "Name": "华夏职业学院北门1B",
+    "longitude": "118.080057"
+}, {
+    "latitude": "24.56582",
+    "count": 0,
+    "Id": "D00T003R20181012152312003785",
+    "type": 2,
+    "Name": "(金海湾)文达二里108号一楼",
+    "longitude": "118.052998"
+}, {
+    "latitude": "24.566264",
+    "count": 0,
+    "Id": "D00T003R20181012152312003803",
+    "type": 2,
+    "Name": "(金海湾)文达二里206号一楼",
+    "longitude": "118.055594"
+}, {
+    "latitude": "24.566011",
+    "count": 0,
+    "Id": "D00T003R20181012152312003805",
+    "type": 2,
+    "Name": "(金海湾)文达二里106号一楼",
+    "longitude": "118.052353"
+}, {
+    "latitude": "24.566899",
+    "count": 0,
+    "Id": "D00T003R20181012152312003819",
+    "type": 2,
+    "Name": "(金海湾)文达二里134号一楼",
+    "longitude": "118.053135"
+}, {
+    "latitude": "24.669684",
+    "count": 0,
+    "Id": "D00T003R20180725161940003391",
+    "type": 2,
+    "Name": "XA1626-内厝卫生院",
+    "longitude": "118.274613"
+}, {
+    "latitude": "24.56607",
+    "count": 0,
+    "Id": "D00T003R20181012152312003829",
+    "type": 2,
+    "Name": "(金海湾)文达二里77号一楼",
+    "longitude": "118.05255"
+}, {
+    "latitude": "24.566034",
+    "count": 0,
+    "Id": "D00T003R20181012152312003833",
+    "type": 2,
+    "Name": "(金海湾)文达二里126号一楼",
+    "longitude": "118.054576"
+}];

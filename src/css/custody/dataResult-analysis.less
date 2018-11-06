@@ -1,0 +1,184 @@
+div{
+    font-size: 14px;
+}
+.head-row{
+    width: 100%;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+.normal-tag{
+    padding: 5px 15px;
+    border-radius: 15px;
+    border: 1px solid rgb(199,199,199);
+    color: rgb(150,150,150);
+    cursor: pointer;
+    margin-right: 6px;
+    position: relative;
+}
+.check_region{
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    background: url("../../images/traffic/shape_check.png");
+    position: absolute;
+    left: 6px;
+    top: 6px;
+}
+.checked{
+    border: 1px solid rgb(48,156,237);
+    color: rgb(48,156,237);
+    padding-left: 27px;
+}
+.fold_btn{
+    background: url("../../images/custody/shape_up.png");
+    background-size: 30px 30px;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    position: relative;
+    top: 9px;
+    cursor: pointer;
+}
+.show_div{
+    width: 100%;
+    height: 100px;
+    border: 1px solid rgb(232,232,232);
+    box-sizing: border-box;
+}
+.time-div{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding-left: 70px;
+}
+.cut-off-line{
+    background: rgb(207,227,239);
+    float: left;
+    width: 100%;
+    height: 1px;
+}
+.body_main{
+    width: 100%;
+    min-height: 600px;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+th{
+    height: 50px;
+    background-color: rgb(219,235,245);
+}
+tr{
+    height: 190px;
+}
+.arrow-up{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-bottom: 8px solid rgb(156,188,207);
+    top: 16px;
+    left: 64px;
+    cursor: pointer;
+}
+.arrow-down{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid rgb(156,188,207);
+    top: 25px;
+    left: 64px;
+    cursor: pointer;
+}
+td{
+    height: 190px;
+    text-align: center;
+}
+.info-box{
+    height: 180px;
+    margin-top: 10px;
+}
+.pic-box{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(214,220,226);
+}
+.rows{
+    text-align: left;
+}
+.idcard_label{
+    margin-top: 1px;
+}
+.msg-tab{
+    margin: unset;
+    margin-top: 5px;
+}
+.capture-info{
+    width: 750px;
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.shape_left{
+    width: 17px;
+    height: 28px;
+    background: url("../../images/custody/shape_notshine.png");
+    transform: rotate(180deg);
+    position: absolute;
+    top: 60px;
+    left: 10px;
+    cursor: pointer;
+}
+.shape_right{
+    width: 17px;
+    height: 28px;
+    background: url("../../images/custody/shape_notshine.png");
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    cursor: pointer;
+}
+.row-pic{
+    width: 150px;
+    height: 100%;
+    padding: 25px 0px;
+    box-sizing: border-box;
+    float: left;
+}
+.text-box{
+    width: 95%;
+    height: 20px;
+    line-height: 20px;
+    text-align: left;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.row-pic .pic-box{
+    margin-left: 10px;
+}
+#stage{
+    height: 100%;
+    position: absolute;
+}
+.stage{
+    transition: left 1s;
+}
+.endstate{
+    cursor: not-allowed;
+}
+.page-div{
+    width: 100%;
+    height: 50px;
+    padding-top: 12px;
+    text-align: center;
+    background-color: rgb(230,241,248);
+}

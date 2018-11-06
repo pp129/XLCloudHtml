@@ -1,0 +1,279 @@
+/*********子元素由于浮动给父元素造成高度坍塌的解决方法********/
+.clearfix::before,
+.clearfix::after {
+    display: table;
+}
+
+.clearfix::after {
+    clear: both;
+}
+
+div {
+    font-size: 14px;
+}
+
+.capture_analysis-left {
+    width: 250px;
+    height: 910px;
+    float: left;
+    border: 1px solid rgb(232, 232, 232);
+    box-sizing: border-box;
+}
+
+.capture_analysis-right {
+    width: 1070px;
+    height: 910px;
+    float: left;
+}
+
+.capture-left-head {
+    height: 48px;
+    width: 100%;
+}
+
+.capture-head-tab {
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    float: left;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.select_show {
+    border-bottom: unset;
+}
+
+.drawPen {
+    width: 22px;
+    height: 19px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.drawPen-inactive {
+    background: url("../../../public/image/common_icon.png") no-repeat -193px -5px;
+}
+
+.drawPen-active {
+    background: url("../../../public/image/common_icon.png") no-repeat -220px -5px;
+}
+
+.map-grey {
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../images/traffic/shape_map1.png");
+}
+
+.map-light {
+    width: 21px;
+    height: 20px;
+    display: inline-block;
+    background: url("../../images/traffic/shape_map2.png");
+}
+
+.capture-left-main {
+    width: 100%;
+    height: 860px;
+    overflow: hidden;
+    position: relative;
+}
+
+.tree-show {
+    width: 100%;
+    height: 650px;
+}
+
+#stage {
+    width: 200%;
+    height: 650px;
+    position: absolute;
+}
+
+.show-content {
+    width: 50%;
+    height: 100%;
+    float: left;
+    overflow: auto;
+}
+
+.move-transform {
+    animation: changeLeft 0.5s forwards;
+}
+
+@keyframes changeLeft {
+    0% {
+        left: 0px
+    }
+    100% {
+        left: -248px
+    }
+}
+
+//.back-transform{
+//    animation: backLeft 1s forwards;
+//}
+//@keyframes backLeft {
+//    100%{left:0px}
+//}
+
+.search-head {
+    width: 100%;
+    height: 30px;
+    padding-top: 8px;
+}
+
+.search-head input {
+    width: 220px;
+    height: 100%;
+    padding-left: 5px;
+    margin-left: 5px;
+}
+
+.search_btn {
+    display: inline-block;
+    width: 19px;
+    height: 17px;
+    background: url("../../images/traffic/search_btn.png");
+    position: absolute;
+    top: 16px;
+    left: 205px;
+    cursor: pointer;
+}
+
+.tree-div {
+    width: 100%;
+    height: 630px;
+    margin-top: 5px;
+    overflow: auto;
+}
+
+.device-tag {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    color: white;
+    text-align: center;
+    line-height: 22px;
+    border-radius: 22px;
+}
+
+.device-tag-normal {
+    background-color: rgb(35, 133, 193);
+}
+
+.device-tag-bridge {
+    background-color: rgb(25, 164, 166);
+}
+
+.device-tag-tunnel {
+    background-color: rgb(240, 139, 19);
+}
+
+.device-tag-trestle {
+    background-color: rgb(85, 105, 206);
+}
+
+.time-div {
+    width: 100%;
+    height: 180px;
+}
+
+.el-range-editor.el-input__inner {
+    margin-top: 5px;
+    width: 240px;
+    margin-left: 5px;
+}
+
+.moment-div {
+    margin-left: 5px;
+}
+
+.moment-span {
+    margin-top: 10px;
+}
+
+.time_btn-div {
+    width: 100%;
+    margin-top: 30px;
+    margin-left: 25px;
+}
+
+.btn_time {
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    border-radius: 30px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.btn_blue {
+    background-color: rgb(48, 165, 237);
+}
+
+.btn_grey {
+    background-color: #b9b9b9;
+}
+
+.mychoose-row {
+    width: 100%;
+    height: 40px;
+    border-bottom: 1px solid rgb(232, 232, 232);
+    line-height: 40px;
+    position: relative;
+}
+
+.delete-mychoose {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("../../images/traffic/shape_delete.png");
+    margin-top: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.mychoose-tag {
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+
+.mychoose-text {
+    position: absolute;
+    left: 60px;
+}
+
+.show-content-box {
+    height: 670px;
+    width: 100%;
+    overflow: auto;
+}
+
+.capture-map {
+    width: 100%;
+    height: 100%;
+}
+
+.time-title {
+    margin-left: 5px;
+}
+
+.beginTime-div {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.endTime-div {
+    margin-left: 5px;
+    margin-top: 10px;
+}
+

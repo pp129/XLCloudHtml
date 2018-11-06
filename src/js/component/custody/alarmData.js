@@ -1,0 +1,123 @@
+let alarmData = [{
+    "latitude": "24.527002",
+    "count": 0,
+    "Id": "6c9dc164c6fe44f7bd6b0f453c22dc3b",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129117"
+}, {
+    "latitude": "24.526675",
+    "count": 0,
+    "Id": "73308f8960884f3a8010d9fc67d5f2a2",
+    "type": 1,
+    "Name": "安兜社",
+    "longitude": "118.129637"
+}, {
+    "latitude": "24.462407",
+    "count": 0,
+    "Id": "74a4317ab400474f9fb136b7cc2b8bb4",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174837"
+}, {
+    "latitude": "24.513709",
+    "count": 0,
+    "Id": "83baaeb4a3af4bf6aa49695615acd793",
+    "type": 1,
+    "Name": "书香佳缘",
+    "longitude": "118.150453"
+}, {
+    "latitude": "24.592771",
+    "count": 0,
+    "Id": "841b45f6e85e4c8e8d5296ad59aac891",
+    "type": 1,
+    "Name": "孙厝社区",
+    "longitude": "118.094685"
+}, {
+    "latitude": "24.602404",
+    "count": 0,
+    "Id": "897245b30a44486ea39ee9dd7db9fe33",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114372"
+}, {
+    "latitude": "24.463758",
+    "count": 0,
+    "Id": "8f383b214ef9413d94eee983d8ba12a2",
+    "type": 1,
+    "Name": "爱琴海",
+    "longitude": "118.174271"
+}, {
+    "latitude": "24.600605",
+    "count": 0,
+    "Id": "935c0fc1a46c48f1a3da951eb78f6688",
+    "type": 1,
+    "Name": "东安社区",
+    "longitude": "118.114295"
+}, {
+    "latitude": "24.471070",
+    "count": 0,
+    "Id": "a0bf227ca0ed45f096173b9d74102ef2",
+    "type": 1,
+    "Name": "前埔村",
+    "longitude": "118.169243"
+}, {
+    "latitude": "24.505134",
+    "count": 0,
+    "Id": "a752362ce94144f584ac2064eccdd2d1",
+    "type": 1,
+    "Name": "天成花园",
+    "longitude": "118.125558"
+}, {
+    "latitude": "24.4695",
+    "count": 0,
+    "Id": "D00T003R20170411203954000080",
+    "type": 2,
+    "Name": "厦门南站_南广场出站口2",
+    "longitude": "118.1114"
+}, {
+    "latitude": "24.4733",
+    "count": 0,
+    "Id": "D00T003R20170411203954000031",
+    "type": 2,
+    "Name": "思明区梧村汽车站进口4",
+    "longitude": "118.1110"
+}, {
+    "latitude": "24.5115",
+    "count": 3,
+    "Id": "D00T003R20170411203954000040",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口6",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5115",
+    "count": 0,
+    "Id": "D00T003R20170411203954000042",
+    "type": 2,
+    "Name": "湖里区枋湖汽车站进口8",
+    "longitude": "118.1334"
+}, {
+    "latitude": "24.5885",
+    "count": 5,
+    "Id": "D00T003R20170411203954000046",
+    "type": 2,
+    "Name": "集美区BRT集美大桥南站东侧入口",
+    "longitude": "118.1036"
+}, {
+    "latitude": "24.5485",
+    "count": 0,
+    "Id": "D00T003R20170713164248001048",
+    "type": 2,
+    "Name": "厦门高崎国际机场T4廊桥206",
+    "longitude": "118.1392"
+}, {
+    "latitude": "24.475941",
+    "count": 1,
+    "Id": "D00T003R20170725105939000461",
+    "type": 2,
+    "Name": "后埭溪与禾祥东路交叉路口人像识别北（农业发展银行）1",
+    "longitude": "118.112973"
+}];
+export {
+    alarmData
+}

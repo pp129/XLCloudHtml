@@ -1,0 +1,50 @@
+{
+    "successFlag": true,
+    "message": "调用成功",
+    "errorCode": 200,
+    "data": {
+        "total": 1,
+        "rows": [
+            {
+                "alarmType": "非机动车事故",
+                "type": "交通事故",
+                "alarmTime": "2018-10-30 00:00:00",
+                "address": "厦门市公安局",
+                "longitude": "118.0802",
+                "latitude": "24.4598",
+                "briefAlarm": "有非机动车刮擦",
+                "alarmId": "35020000001"
+            },
+            {
+                "alarmType": "其他事故",
+                "type": "交通事故",
+                "alarmTime": "2018-10-30 00:00:00",
+                "address": "仙岳高架",
+                "longitude": "118.12520799999999",
+                "latitude": "24.502819000000017",
+                "briefAlarm": "有非机动车刮擦",
+                "alarmId": "35020000002"
+            },
+            {
+                "alarmType": "其他事故",
+                "type": "交通事故",
+                "alarmTime": "2018-10-30 00:00:00",
+                "address": "仙岳高架",
+                "longitude": "118.12520799999989",
+                "latitude": "24.502819000000007",
+                "briefAlarm": "有非机动车刮擦",
+                "alarmId": "35020000004"
+            },
+            {
+                "alarmType": "亡人事故",
+                "type": "交通事故",
+                "alarmTime": "2018-10-30 00:00:00",
+                "address": "仙岳隧道",
+                "longitude": "118.099688",
+                "latitude": "24.500657",
+                "briefAlarm": "死了好多人",
+                "alarmId": "35020000003"
+            }
+        ]
+    }
+}

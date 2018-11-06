@@ -1,0 +1,122 @@
+@baseBg: rgba(13, 13, 61, 0.7);
+@dark-purple: rgba(5, 5, 45, 0.8);
+@text-color: #205e83;
+.content {
+    background: @baseBg;
+    width: 36px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    min-height: 36px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    .float-text {
+        display: inline-block;
+        position: absolute;
+        right: 45px;
+        top: 0;
+        color: @text-color;
+        font-size: 14px;
+        /* -webkit-text-stroke: 1px #fff;*/
+        line-height: 30px;
+        min-width: 75px;
+        text-align: right;
+    }
+    .main-text {
+        line-height: 38px;
+    }
+    .main {
+        position: absolute;
+        top: 3px;
+        left: 3px;
+        width: 30px;
+        height: 30px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        border-radius: 50%;
+        background: @dark-purple;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .list {
+        position: absolute;
+        top: 33px;
+        left: 3px;
+        .item {
+            position: relative;
+            margin-top: 10px;
+            height: 30px;
+            background: transparent;
+            .item-btn {
+                background: #fff;
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                cursor: pointer;
+            }
+        }
+    }
+}
+
+.icon-device {
+    display: block;
+    width: 16px;
+    height: 16px;
+    background: url("../images/public/icon-device.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.icon-road {
+    display: block;
+    width: 17px;
+    height: 19px;
+    background: url("../images/public/icon-road.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.icon-bridge {
+    display: block;
+    width: 23px;
+    height: 13px;
+    background: url("../images/public/icon-bridge.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.icon-tunnel {
+    display: block;
+    width: 17px;
+    height: 17px;
+    background: url("../images/public/icon-tunnel.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.icon-trestle {
+    display: block;
+    width: 20px;
+    height: 14px;
+    background: url("../images/public/icon-trestle.png") no-repeat center;
+    -webkit-background-size: 100%;
+    background-size: 100%;
+}
+
+.content-active {
+    height: 199px;
+    -webkit-border-radius: 18px;
+    -moz-border-radius: 18px;
+    border-radius: 18px;
+}
